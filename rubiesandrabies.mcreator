@@ -1,0 +1,486 @@
+{
+  "mod_elements": [
+    {
+      "name": "RabiesEffectExpires",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rabies_effect_expires",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/RabiesEffectExpiresProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "RabiesDamage",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rabies_damage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/damage_type/rabies_damage.json"
+        ]
+      }
+    },
+    {
+      "name": "RabiesOnEffectActiveTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rabies_on_effect_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/RabiesOnEffectActiveTickProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Rabies",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rabies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/potion/RabiesMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "BatWingPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bat_wing_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/BatWingPlayerFinishesUsingItemProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "BatWing",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bat_wing",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/items/bat_wing.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/BatWingItem.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/bat_wing.json"
+        ]
+      }
+    },
+    {
+      "name": "Ruby",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/item/RubyItem.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/ruby.json",
+          "src/main/resources/assets/rubiesandrabies/items/ruby.json"
+        ]
+      }
+    },
+    {
+      "name": "RubiesRabiesTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubies_rabies_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Racism",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "racism",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/world/features/treedecorators/RacismLeaveDecorator.java",
+          "src/main/resources/data/rubiesandrabies/worldgen/configured_feature/racism_tree.json",
+          "src/main/resources/data/rubiesandrabies/worldgen/biome/racism.json",
+          "src/main/java/net/mcreator/rubiesandrabies/world/features/treedecorators/RacismTrunkDecorator.java",
+          "src/main/resources/data/rubiesandrabies/worldgen/placed_feature/racism_tree.json",
+          "src/main/java/net/mcreator/rubiesandrabies/world/features/treedecorators/RacismFruitDecorator.java"
+        ]
+      }
+    },
+    {
+      "name": "VanillaMobDrops",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vanilla_mob_drops",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/VanillaMobDropsProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "RubyBricks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_bricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/ruby_bricks.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/ruby_bricks.json",
+          "src/main/resources/assets/rubiesandrabies/items/ruby_bricks.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/RubyBricksBlock.java",
+          "src/main/resources/assets/rubiesandrabies/models/block/ruby_bricks.json",
+          "src/main/resources/assets/rubiesandrabies/blockstates/ruby_bricks.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyBrickRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_brick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/ruby_brick_recipe.json",
+          "src/main/resources/data/rubiesandrabies/recipe/ruby_brick_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TheIncidentRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_incident_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/TheIncidentRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "TheIncident",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_incident",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/item/TheIncidentItem.java",
+          "src/main/resources/assets/rubiesandrabies/items/the_incident.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/the_incident.json"
+        ]
+      }
+    },
+    {
+      "name": "ThreeNetheriteIngots",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "three_netherite_ingots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/three_netherite_ingots.json",
+          "src/main/resources/data/rubiesandrabies/recipe/three_netherite_ingots.json"
+        ]
+      }
+    },
+    {
+      "name": "LifeIsRobloxMusicDisc",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "life_is_roblox_music_disc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/item/LifeIsRobloxMusicDiscItem.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/life_is_roblox_music_disc.json",
+          "src/main/resources/assets/rubiesandrabies/items/life_is_roblox_music_disc.json",
+          "src/main/resources/data/rubiesandrabies/jukebox_song/life_is_roblox_music_disc.json"
+        ]
+      },
+      "path": "~/MusicDiscs"
+    },
+    {
+      "name": "FemgramDrops",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femgram_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/loot_table/entities/femgram.json"
+        ]
+      },
+      "path": "~/MusicDiscs"
+    },
+    {
+      "name": "Femgram",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femgram",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/client/renderer/FemgramRenderer.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/femgram_spawn_egg.json",
+          "src/main/resources/assets/rubiesandrabies/items/femgram_spawn_egg.json",
+          "src/main/java/net/mcreator/rubiesandrabies/entity/FemgramEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "BlockOfFemgramOnBlockRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_femgram_on_block_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/BlockOfFemgramOnBlockRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "BlockOfFemgram",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_femgram",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/block/BlockOfFemgramBlock.java",
+          "src/main/resources/assets/rubiesandrabies/items/block_of_femgram.json",
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/block_of_femgram.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/block_of_femgram.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/block_of_femgram.json",
+          "src/main/resources/assets/rubiesandrabies/blockstates/block_of_femgram.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "racist_ambience",
+      "files": [
+        "racist_ambience"
+      ],
+      "category": "ambient",
+      "subtitle": "the sound of racism"
+    },
+    {
+      "name": "life_is_roblox",
+      "files": [
+        "lifeisroblox"
+      ],
+      "category": "record",
+      "subtitle": "by gp0"
+    }
+  ],
+  "tag_elements": {
+    "ITEMS:minecraft:meat": [
+      "~CUSTOM:BatWing"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft": [
+      "~CUSTOM:Racism"
+    ],
+    "BIOMES:minecraft:has_structure/stronghold": [
+      "~CUSTOM:Racism"
+    ],
+    "BIOMES:minecraft:has_structure/pillager_outpost": [
+      "~CUSTOM:Racism"
+    ],
+    "BIOMES:minecraft:has_structure/ruined_portal_ocean": [
+      "~CUSTOM:Racism"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:RubyBricks"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:RubyBricks"
+    ],
+    "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:LifeIsRobloxMusicDisc"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "death.attack.rabies_damage.player": "%1$s died of rabies whilst trying to escape %2$s",
+      "death.attack.rabies_damage": "%1$s died of rabies.",
+      "death.attack.rabies_damage.item": "%1$s was infected with rabies by %2$s using %3$s",
+      "effect.rubiesandrabies.rabies": "Rabies",
+      "item.rubiesandrabies.bat_wing.description_0": "do not eat it",
+      "item.rubiesandrabies.bat_wing": "Bat Wing",
+      "item.rubiesandrabies.ruby.description_0": "the mod",
+      "item.rubiesandrabies.ruby": "Ruby",
+      "item_group.rubiesandrabies.rubies_rabies_tab": "rubies and rabies",
+      "biome.rubiesandrabies.racism": "Racism",
+      "item.rubiesandrabies.ruby_bricks": "Ruby Bricks",
+      "item.rubiesandrabies.the_incident": "the incident",
+      "subtitles.life_is_roblox": "by gp0",
+      "item.rubiesandrabies.life_is_roblox_music_disc.desc": "\"In this exciting installment i construct audio\" - Gp0",
+      "item.rubiesandrabies.life_is_roblox_music_disc": "Life Is Roblox Music Disc",
+      "subtitles.racist_ambience": "the sound of racism",
+      "item.rubiesandrabies.femgram_spawn_egg": "Femgram Spawn Egg",
+      "entity.rubiesandrabies.femgram": "Femgram",
+      "item.rubiesandrabies.block_of_femgram": "Block Of Femgram"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModBiomes.java",
+      "src/main/java/net/mcreator/rubiesandrabies/mixin/NoiseGeneratorSettingsMixin.java",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModMobEffects.java",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModBlocks.java",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModItems.java",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModEntities.java",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModEntityRenderers.java",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModSounds.java",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModTabs.java",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/java/net/mcreator/rubiesandrabies/RubiesandrabiesMod.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/assets/rubiesandrabies/sounds.json",
+      "src/main/resources/rubiesandrabies.mixins.json",
+      "src/main/resources/pack.mcmeta"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "MusicDiscs",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "rubiesandrabies",
+    "modName": "Rubies and Rabies",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.8",
+    "modElementsPackage": "net.mcreator.rubiesandrabies"
+  },
+  "mcreatorVersion": 202500345720
+}

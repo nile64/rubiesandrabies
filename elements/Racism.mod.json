@@ -1,0 +1,125 @@
+{
+  "_fv": 79,
+  "_type": "biome",
+  "definition": {
+    "name": "Racism",
+    "groundBlock": {
+      "value": "Blocks.GRASS"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.DIRT#0"
+    },
+    "underwaterBlock": {
+      "value": "Blocks.GRAVEL"
+    },
+    "airColor": {
+      "value": -65536,
+      "falpha": 0.0
+    },
+    "fogColor": {
+      "value": -65536,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -16776961,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -16777216,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -16711936,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -65281,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": "CUSTOM:racist_ambience"
+    },
+    "additionsSound": {
+      "value": "ambient.cave"
+    },
+    "music": {
+      "value": "record.13"
+    },
+    "moodSound": {
+      "value": "entity.creeper.primed"
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "ASH"
+    },
+    "particlesProbability": 0.5,
+    "rainingPossibility": 0.0,
+    "temperature": 2.0,
+    "spawnBiome": true,
+    "spawnInCaves": false,
+    "spawnBiomeNether": true,
+    "genTemperature": {
+      "min": 0.0,
+      "max": 1.0
+    },
+    "genHumidity": {
+      "min": 0.5,
+      "max": 1.0
+    },
+    "genContinentalness": {
+      "min": 0.3,
+      "max": 1.0
+    },
+    "genErosion": {
+      "min": 0.5,
+      "max": 1.0
+    },
+    "genWeirdness": {
+      "min": -1.0,
+      "max": 1.0
+    },
+    "treesPerChunk": 10,
+    "vanillaTreeType": "Mega spruce trees",
+    "treeType": 1,
+    "minHeight": 32,
+    "treeStem": {
+      "value": "Blocks.OBSIDIAN"
+    },
+    "treeBranch": {
+      "value": "Blocks.SLIME_BLOCK"
+    },
+    "treeVines": {
+      "value": "Blocks.AIR"
+    },
+    "treeFruits": {
+      "value": "Blocks.STONE_BUTTON"
+    },
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "FrozenTopLayer"
+    ],
+    "spawnStronghold": true,
+    "spawnMineshaft": true,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": true,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "OCEAN",
+    "spawnEntries": []
+  }
+}

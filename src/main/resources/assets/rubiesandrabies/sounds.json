@@ -1,0 +1,20 @@
+{
+  "racist_ambience": {
+    "subtitle": "subtitles.racist_ambience",
+    "sounds": [
+      {
+        "name": "rubiesandrabies:racist_ambience",
+        "stream": false
+      }
+    ]
+  },
+  "life_is_roblox": {
+    "subtitle": "subtitles.life_is_roblox",
+    "sounds": [
+      {
+        "name": "rubiesandrabies:lifeisroblox",
+        "stream": true
+      }
+    ]
+  }
+}

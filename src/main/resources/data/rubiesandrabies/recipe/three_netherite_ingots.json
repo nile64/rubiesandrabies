@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:netherite_ingot",
+    "minecraft:netherite_ingot",
+    "minecraft:netherite_ingot"
+  ],
+  "result": {
+    "id": "rubiesandrabies:the_incident",
+    "count": 1
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "rubiesandrabies:ruby",
+  "result": {
+    "id": "rubiesandrabies:ruby_bricks",
+    "count": 8
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_fv": 79,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Rabies",
+    "icon": "rabies_effect",
+    "color": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "onAddedSound": {
+      "value": ""
+    },
+    "isInstant": false,
+    "mobEffectCategory": "HARMFUL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [
+      {
+        "attribute": {
+          "value": "ATTACK_DAMAGE"
+        },
+        "amount": 3.0,
+        "operation": "ADD_VALUE"
+      }
+    ],
+    "onActiveTick": {
+      "name": "RabiesOnEffectActiveTick"
+    },
+    "onExpired": {
+      "name": "RabiesEffectExpires"
+    }
+  }
+}

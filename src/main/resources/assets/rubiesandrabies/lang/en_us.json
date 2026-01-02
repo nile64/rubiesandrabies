@@ -1,0 +1,21 @@
+{
+  "death.attack.rabies_damage.player": "%1$s died of rabies whilst trying to escape %2$s",
+  "death.attack.rabies_damage": "%1$s died of rabies.",
+  "death.attack.rabies_damage.item": "%1$s was infected with rabies by %2$s using %3$s",
+  "effect.rubiesandrabies.rabies": "Rabies",
+  "item.rubiesandrabies.bat_wing.description_0": "do not eat it",
+  "item.rubiesandrabies.bat_wing": "Bat Wing",
+  "item.rubiesandrabies.ruby.description_0": "the mod",
+  "item.rubiesandrabies.ruby": "Ruby",
+  "item_group.rubiesandrabies.rubies_rabies_tab": "rubies and rabies",
+  "biome.rubiesandrabies.racism": "Racism",
+  "item.rubiesandrabies.ruby_bricks": "Ruby Bricks",
+  "item.rubiesandrabies.the_incident": "the incident",
+  "subtitles.life_is_roblox": "by gp0",
+  "item.rubiesandrabies.life_is_roblox_music_disc.desc": "\"In this exciting installment i construct audio\" - Gp0",
+  "item.rubiesandrabies.life_is_roblox_music_disc": "Life Is Roblox Music Disc",
+  "subtitles.racist_ambience": "the sound of racism",
+  "item.rubiesandrabies.femgram_spawn_egg": "Femgram Spawn Egg",
+  "entity.rubiesandrabies.femgram": "Femgram",
+  "item.rubiesandrabies.block_of_femgram": "Block Of Femgram"
+}

@@ -1,0 +1,70 @@
+{
+  "has_precipitation": false,
+  "temperature": 2,
+  "downfall": 0,
+  "effects": {
+    "ambient_sound": "rubiesandrabies:racist_ambience",
+    "mood_sound": {
+      "sound": "entity.creeper.primed",
+      "tick_delay": 6000,
+      "offset": 8,
+      "block_search_extent": 2
+    },
+    "additions_sound": {
+      "sound": "ambient.cave",
+      "tick_chance": 0.0111
+    },
+    "music": [
+      {
+        "weight": 1,
+        "data": {
+          "sound": "music_disc.13",
+          "min_delay": 12000,
+          "max_delay": 24000,
+          "replace_current_music": true
+        }
+      }
+    ],
+    "particle": {
+      "options": {
+        "type": "ash"
+      },
+      "probability": 0.005
+    },
+    "foliage_color": -16777216,
+    "grass_color": -16776961,
+    "sky_color": -65536,
+    "fog_color": -65536,
+    "water_color": -16711936,
+    "water_fog_color": -65281
+  },
+  "spawners": {
+    "monster": [],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": [],
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "rubiesandrabies:racism_tree"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ]
+}
