@@ -1,14 +1,15 @@
 modLoader="javafml"
 loaderVersion="[4,)"
-license="Not specified"
+license="MIT License"
 
 [[mods]]
 modId="rubiesandrabies"
 version="1.0.0"
 displayName="Rubies and Rabies"
 displayURL="https://mcreator.net"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
-authors="MCreator"
+credits="made with MCreator - https://mcreator.net/about, special thanks to nile, gp0, poqqers, and koolant"
+authors="Kreo"
+description="the mod"
 
 # Start of user code block mod configuration
 # End of user code block mod configuration
