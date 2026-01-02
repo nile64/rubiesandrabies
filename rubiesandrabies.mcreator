@@ -420,6 +420,44 @@
           "src/main/resources/data/rubiesandrabies/worldgen/structure_set/femgram_structure.json"
         ]
       }
+    },
+    {
+      "name": "TouchOfRabies",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "touch_of_rabies",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/enchantment/touch_of_rabies.json"
+        ]
+      }
+    },
+    {
+      "name": "InflictRabies",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inflict_rabies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "damagesource",
+            "type": "damagesource"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/InflictRabiesProcedure.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -475,6 +513,15 @@
     ],
     "BLOCKS:minecraft:slabs": [
       "~CUSTOM:RubyBricksSlab"
+    ],
+    "ENCHANTMENTS:minecraft:tradeable": [
+      "~CUSTOM:TouchOfRabies"
+    ],
+    "ENCHANTMENTS:minecraft:curse": [
+      "~CUSTOM:TouchOfRabies"
+    ],
+    "ENCHANTMENTS:minecraft:treasure": [
+      "~CUSTOM:TouchOfRabies"
     ]
   },
   "tab_element_order": {},
@@ -500,7 +547,8 @@
       "entity.rubiesandrabies.femgram": "Femgram",
       "item.rubiesandrabies.block_of_femgram": "Block Of Femgram",
       "item.rubiesandrabies.ruby_bricks_stairs": "Ruby Bricks Stairs",
-      "item.rubiesandrabies.ruby_bricks_slab": "Ruby Bricks Slab"
+      "item.rubiesandrabies.ruby_bricks_slab": "Ruby Bricks Slab",
+      "enchantment.rubiesandrabies.touch_of_rabies": "Touch Of Rabies"
     }
   },
   "metadata": {
@@ -512,14 +560,14 @@
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModItems.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModEntities.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModEntityRenderers.java",
-      "src/main/resources/pack.mcmeta",
-      "src/main/java/net/mcreator/rubiesandrabies/RubiesandrabiesMod.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModSounds.java",
-      "src/main/resources/assets/rubiesandrabies/sounds.json",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModTabs.java",
       "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/java/net/mcreator/rubiesandrabies/RubiesandrabiesMod.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/assets/rubiesandrabies/sounds.json",
       "src/main/resources/rubiesandrabies.mixins.json",
-      "src/main/resources/META-INF/neoforge.mods.toml"
+      "src/main/resources/pack.mcmeta"
     ]
   },
   "foldersRoot": {

@@ -1,0 +1,40 @@
+{
+  "_fv": 79,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Touch Of Rabies",
+    "supportedSlots": "any",
+    "weight": 10,
+    "anvilCost": 3,
+    "maxLevel": 5,
+    "damageModifier": 0,
+    "incompatibleEnchantments": [],
+    "supportedItems": [
+      {
+        "value": "Items.WOODEN_SWORD"
+      },
+      {
+        "value": "Items.STONE_SWORD"
+      },
+      {
+        "value": "Items.IRON_SWORD"
+      },
+      {
+        "value": "Items.GOLDEN_SWORD"
+      },
+      {
+        "value": "Items.DIAMOND_SWORD"
+      },
+      {
+        "value": "Items.NETHERITE_SWORD"
+      },
+      {
+        "value": "Blocks.DIRT#0"
+      }
+    ],
+    "isTreasureEnchantment": true,
+    "isCurse": true,
+    "canGenerateInLootTables": false,
+    "canVillagerTrade": true
+  }
+}
