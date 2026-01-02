@@ -368,18 +368,6 @@
           "src/main/resources/assets/rubiesandrabies/blockstates/block_of_femgram.json"
         ]
       }
-    },
-    {
-      "name": "Evukreucoe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "evukreucoe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/rubiesandrabies/recipe/evukreucoe.json"
-        ]
-      }
     }
   ],
   "variable_elements": [],
