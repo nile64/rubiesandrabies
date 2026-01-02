@@ -3,7 +3,7 @@
   "_type": "potioneffect",
   "definition": {
     "effectName": "Rabies",
-    "icon": "rabies_effect",
+    "icon": "rabies",
     "color": {
       "value": -1,
       "falpha": 0.0

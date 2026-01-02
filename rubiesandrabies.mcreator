@@ -195,12 +195,12 @@
       "registry_name": "ruby_bricks",
       "metadata": {
         "files": [
-          "src/main/resources/data/rubiesandrabies/loot_table/blocks/ruby_bricks.json",
           "src/main/resources/assets/rubiesandrabies/models/item/ruby_bricks.json",
           "src/main/resources/assets/rubiesandrabies/items/ruby_bricks.json",
+          "src/main/resources/assets/rubiesandrabies/blockstates/ruby_bricks.json",
           "src/main/java/net/mcreator/rubiesandrabies/block/RubyBricksBlock.java",
           "src/main/resources/assets/rubiesandrabies/models/block/ruby_bricks.json",
-          "src/main/resources/assets/rubiesandrabies/blockstates/ruby_bricks.json"
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/ruby_bricks.json"
         ]
       }
     },
@@ -368,6 +368,44 @@
           "src/main/resources/assets/rubiesandrabies/blockstates/block_of_femgram.json"
         ]
       }
+    },
+    {
+      "name": "RubyBricksStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_bricks_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/blockstates/ruby_bricks_stairs.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/ruby_bricks_stairs_inner.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/ruby_bricks_stairs_outer.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/ruby_bricks_stairs.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/ruby_bricks_stairs.json",
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/ruby_bricks_stairs.json",
+          "src/main/resources/assets/rubiesandrabies/items/ruby_bricks_stairs.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/RubyBricksStairsBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "RubyBricksSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_bricks_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/ruby_bricks_slab.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/ruby_bricks_slab.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/RubyBricksSlabBlock.java",
+          "src/main/resources/assets/rubiesandrabies/blockstates/ruby_bricks_slab.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/ruby_bricks_slab_full.json",
+          "src/main/resources/assets/rubiesandrabies/items/ruby_bricks_slab.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/ruby_bricks_slab_top.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/ruby_bricks_slab.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -406,13 +444,23 @@
       "~CUSTOM:Racism"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:RubyBricksSlab",
+      "~CUSTOM:RubyBricksStairs",
       "~CUSTOM:RubyBricks"
     ],
     "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:RubyBricksSlab",
+      "~CUSTOM:RubyBricksStairs",
       "~CUSTOM:RubyBricks"
     ],
     "ITEMS:minecraft:music_discs": [
       "~CUSTOM:LifeIsRobloxMusicDisc"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:RubyBricksStairs"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:RubyBricksSlab"
     ]
   },
   "tab_element_order": {},
@@ -436,7 +484,9 @@
       "subtitles.racist_ambience": "the sound of racism",
       "item.rubiesandrabies.femgram_spawn_egg": "Femgram Spawn Egg",
       "entity.rubiesandrabies.femgram": "Femgram",
-      "item.rubiesandrabies.block_of_femgram": "Block Of Femgram"
+      "item.rubiesandrabies.block_of_femgram": "Block Of Femgram",
+      "item.rubiesandrabies.ruby_bricks_stairs": "Ruby Bricks Stairs",
+      "item.rubiesandrabies.ruby_bricks_slab": "Ruby Bricks Slab"
     }
   },
   "metadata": {

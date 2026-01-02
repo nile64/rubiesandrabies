@@ -1,8 +1,6 @@
 {
   "replace": false,
   "values": [
-    "rubiesandrabies:ruby_bricks",
-    "rubiesandrabies:ruby_bricks_slab",
     "rubiesandrabies:ruby_bricks_stairs"
   ]
 }

@@ -29,6 +29,8 @@ public class RubiesandrabiesModTabs {
 				tabData.accept(RubiesandrabiesModItems.LIFE_IS_ROBLOX_MUSIC_DISC.get());
 				tabData.accept(RubiesandrabiesModItems.FEMGRAM_SPAWN_EGG.get());
 				tabData.accept(RubiesandrabiesModBlocks.BLOCK_OF_FEMGRAM.get().asItem());
+				tabData.accept(RubiesandrabiesModBlocks.RUBY_BRICKS_STAIRS.get().asItem());
+				tabData.accept(RubiesandrabiesModBlocks.RUBY_BRICKS_SLAB.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
