@@ -17,6 +17,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.core.registries.Registries;
 
+import net.mcreator.rubiesandrabies.entity.NowEntity;
 import net.mcreator.rubiesandrabies.entity.MeatballMooseEntity;
 import net.mcreator.rubiesandrabies.entity.FemgramEntity;
 import net.mcreator.rubiesandrabies.RubiesandrabiesMod;
@@ -28,6 +29,9 @@ public class RubiesandrabiesModEntities {
 			EntityType.Builder.<FemgramEntity>of(FemgramEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).fireImmune()
 
 					.sized(0.6f, 2f));
+	public static final DeferredHolder<EntityType<?>, EntityType<NowEntity>> NOW = register("now", EntityType.Builder.<NowEntity>of(NowEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+			.sized(2f, 2f));
 	public static final DeferredHolder<EntityType<?>, EntityType<MeatballMooseEntity>> MEATBALL_MOOSE = register("meatball_moose",
 			EntityType.Builder.<MeatballMooseEntity>of(MeatballMooseEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
@@ -42,12 +46,14 @@ public class RubiesandrabiesModEntities {
 	@SubscribeEvent
 	public static void init(RegisterSpawnPlacementsEvent event) {
 		FemgramEntity.init(event);
+		NowEntity.init(event);
 		MeatballMooseEntity.init(event);
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(FEMGRAM.get(), FemgramEntity.createAttributes().build());
+		event.put(NOW.get(), NowEntity.createAttributes().build());
 		event.put(MEATBALL_MOOSE.get(), MeatballMooseEntity.createAttributes().build());
 	}
 }

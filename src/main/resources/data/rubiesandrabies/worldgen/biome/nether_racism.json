@@ -35,7 +35,14 @@
     "water_fog_color": -65281
   },
   "spawners": {
-    "monster": [],
+    "monster": [
+      {
+        "type": "rubiesandrabies:now",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
     "creature": [],
     "ambient": [],
     "axolotls": [],

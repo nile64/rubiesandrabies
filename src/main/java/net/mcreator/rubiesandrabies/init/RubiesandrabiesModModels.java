@@ -9,6 +9,7 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.api.distmarker.Dist;
 
 import net.mcreator.rubiesandrabies.client.model.Modelmeatball_moose;
+import net.mcreator.rubiesandrabies.client.model.ModelNow;
 import net.mcreator.rubiesandrabies.client.model.ModelCustomModel;
 
 @EventBusSubscriber(Dist.CLIENT)
@@ -16,6 +17,7 @@ public class RubiesandrabiesModModels {
 	@SubscribeEvent
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
 		event.registerLayerDefinition(ModelCustomModel.LAYER_LOCATION, ModelCustomModel::createBodyLayer);
+		event.registerLayerDefinition(ModelNow.LAYER_LOCATION, ModelNow::createBodyLayer);
 		event.registerLayerDefinition(Modelmeatball_moose.LAYER_LOCATION, Modelmeatball_moose::createBodyLayer);
 	}
 }
