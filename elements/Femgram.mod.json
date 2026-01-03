@@ -4,7 +4,7 @@
   "definition": {
     "mobName": "Femgram",
     "mobLabel": "",
-    "mobModelName": "Biped",
+    "mobModelName": "ModelCustomModel",
     "mobModelTexture": "femgram_white.png",
     "transparentModelCondition": {
       "fixedValue": false
@@ -24,7 +24,7 @@
     "modelLayers": [],
     "animations": [],
     "modelWidth": 0.6,
-    "modelHeight": 1.8,
+    "modelHeight": 2.0,
     "modelShadowSize": 0.5,
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
@@ -138,7 +138,7 @@
     "rangedAttackInterval": 20,
     "rangedAttackRadius": 10.0,
     "spawnThisMob": false,
-    "doesDespawnWhenIdle": true,
+    "doesDespawnWhenIdle": false,
     "spawningProbability": 20,
     "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 4,

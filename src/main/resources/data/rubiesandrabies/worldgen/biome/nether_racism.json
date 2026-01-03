@@ -3,7 +3,7 @@
   "temperature": 2,
   "downfall": 0,
   "effects": {
-    "ambient_sound": "rubiesandrabies:racist_ambience",
+    "ambient_sound": "rubiesandrabies:evilracism",
     "mood_sound": {
       "sound": "rubiesandrabies:what_time_is_it",
       "tick_delay": 6000,
@@ -49,33 +49,17 @@
   "features": [
     [],
     [],
-    [],
-    [],
-    [],
-    [],
     [
-      "minecraft:ore_coal_upper",
-      "minecraft:ore_coal_lower",
-      "minecraft:ore_iron_upper",
-      "minecraft:ore_iron_middle",
-      "minecraft:ore_iron_small",
-      "minecraft:ore_gold",
-      "minecraft:ore_gold_lower",
-      "minecraft:ore_redstone",
-      "minecraft:ore_redstone_lower",
-      "minecraft:ore_diamond",
-      "minecraft:ore_diamond_medium",
-      "minecraft:ore_diamond_large",
-      "minecraft:ore_diamond_buried",
-      "minecraft:ore_lapis",
-      "minecraft:ore_lapis_buried",
-      "minecraft:ore_copper",
-      "minecraft:underwater_magma"
+      "minecraft:amethyst_geode"
     ],
     [],
     [],
+    [],
+    [],
+    [],
+    [],
     [
-      "rubiesandrabies:racism_tree"
+      "rubiesandrabies:nether_racism_tree"
     ],
     []
   ]

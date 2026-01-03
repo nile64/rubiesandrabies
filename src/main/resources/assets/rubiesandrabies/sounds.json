@@ -16,5 +16,32 @@
         "stream": true
       }
     ]
+  },
+  "what_time_is_it": {
+    "subtitle": "subtitles.what_time_is_it",
+    "sounds": [
+      {
+        "name": "rubiesandrabies:wahttime_is_it",
+        "stream": false
+      }
+    ]
+  },
+  "musthavebeenthewind": {
+    "subtitle": "subtitles.musthavebeenthewind",
+    "sounds": [
+      {
+        "name": "rubiesandrabies:mustabeenthewind",
+        "stream": false
+      }
+    ]
+  },
+  "evilracism": {
+    "subtitle": "subtitles.evilracism",
+    "sounds": [
+      {
+        "name": "rubiesandrabies:evilracism",
+        "stream": false
+      }
+    ]
   }
 }

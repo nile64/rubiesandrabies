@@ -36,6 +36,7 @@ public class FemgramEntity extends Monster {
 		super(type, world);
 		xpReward = 100;
 		setNoAi(false);
+		setPersistenceRequired();
 	}
 
 	@Override
@@ -54,8 +55,8 @@ public class FemgramEntity extends Monster {
 	}
 
 	@Override
-	public Vec3 getPassengerRidingPosition(Entity entity) {
-		return super.getPassengerRidingPosition(entity).add(0, -0.35F, 0);
+	public boolean removeWhenFarAway(double distanceToClosestPlayer) {
+		return false;
 	}
 
 	@Override

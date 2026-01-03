@@ -1,36 +1,33 @@
 package net.mcreator.rubiesandrabies.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.state.HumanoidRenderState;
-import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
-import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
+import net.minecraft.client.renderer.entity.state.LivingEntityRenderState;
+import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
-import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.HumanoidModel;
 
 import net.mcreator.rubiesandrabies.entity.FemgramEntity;
+import net.mcreator.rubiesandrabies.client.model.ModelCustomModel;
 
-public class FemgramRenderer extends HumanoidMobRenderer<FemgramEntity, HumanoidRenderState, HumanoidModel<HumanoidRenderState>> {
+public class FemgramRenderer extends MobRenderer<FemgramEntity, LivingEntityRenderState, ModelCustomModel> {
 	private FemgramEntity entity = null;
 
 	public FemgramRenderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel<HumanoidRenderState>(context.bakeLayer(ModelLayers.PLAYER)), 0.5f);
-		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getEquipmentRenderer()));
+		super(context, new ModelCustomModel(context.bakeLayer(ModelCustomModel.LAYER_LOCATION)), 0.5f);
 	}
 
 	@Override
-	public HumanoidRenderState createRenderState() {
-		return new HumanoidRenderState();
+	public LivingEntityRenderState createRenderState() {
+		return new LivingEntityRenderState();
 	}
 
 	@Override
-	public void extractRenderState(FemgramEntity entity, HumanoidRenderState state, float partialTicks) {
+	public void extractRenderState(FemgramEntity entity, LivingEntityRenderState state, float partialTicks) {
 		super.extractRenderState(entity, state, partialTicks);
 		this.entity = entity;
 	}
 
 	@Override
-	public ResourceLocation getTextureLocation(HumanoidRenderState state) {
+	public ResourceLocation getTextureLocation(LivingEntityRenderState state) {
 		return ResourceLocation.parse("rubiesandrabies:textures/entities/femgram_white.png");
 	}
 }

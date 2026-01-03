@@ -31,6 +31,7 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> BLOCK_OF_FEMGRAM;
 	public static final DeferredItem<Item> RUBY_BRICKS_STAIRS;
 	public static final DeferredItem<Item> RUBY_BRICKS_SLAB;
+	public static final DeferredItem<Item> EVIL_NYLIUM;
 	static {
 		BAT_WING = register("bat_wing", BatWingItem::new);
 		RUBY = register("ruby", RubyItem::new);
@@ -41,6 +42,7 @@ public class RubiesandrabiesModItems {
 		BLOCK_OF_FEMGRAM = block(RubiesandrabiesModBlocks.BLOCK_OF_FEMGRAM);
 		RUBY_BRICKS_STAIRS = block(RubiesandrabiesModBlocks.RUBY_BRICKS_STAIRS);
 		RUBY_BRICKS_SLAB = block(RubiesandrabiesModBlocks.RUBY_BRICKS_SLAB);
+		EVIL_NYLIUM = block(RubiesandrabiesModBlocks.EVIL_NYLIUM);
 	}
 
 	// Start of user code block custom items

@@ -2,15 +2,15 @@
   "_fv": 79,
   "_type": "biome",
   "definition": {
-    "name": "Racism",
+    "name": "Nether Racism",
     "groundBlock": {
-      "value": "Blocks.GRASS"
+      "value": "CUSTOM:EvilNylium"
     },
     "undergroundBlock": {
-      "value": "Blocks.DIRT#0"
+      "value": "Blocks.NETHERRACK"
     },
     "underwaterBlock": {
-      "value": "Blocks.GRAVEL"
+      "value": "Blocks.NETHERRACK"
     },
     "airColor": {
       "value": -65536,
@@ -37,7 +37,7 @@
       "falpha": 0.0
     },
     "ambientSound": {
-      "value": "CUSTOM:racist_ambience"
+      "value": "CUSTOM:evilracism"
     },
     "additionsSound": {
       "value": ""
@@ -56,27 +56,27 @@
     "particlesProbability": 1.0,
     "rainingPossibility": 0.0,
     "temperature": 2.0,
-    "spawnBiome": true,
+    "spawnBiome": false,
     "spawnInCaves": false,
-    "spawnBiomeNether": false,
+    "spawnBiomeNether": true,
     "genTemperature": {
-      "min": -0.5,
-      "max": 0.3
+      "min": 0.0,
+      "max": 1.0
     },
     "genHumidity": {
-      "min": -0.5,
-      "max": 0.4
+      "min": 0.4,
+      "max": 1.0
     },
     "genContinentalness": {
-      "min": 0.3,
+      "min": 0.4,
       "max": 1.0
     },
     "genErosion": {
-      "min": -0.4,
-      "max": 0.5
+      "min": 0.3,
+      "max": 1.0
     },
     "genWeirdness": {
-      "min": -1.0,
+      "min": -2.0,
       "max": 1.0
     },
     "treesPerChunk": 10,
@@ -96,9 +96,10 @@
       "value": "Blocks.POINTED_DRIPSTONE"
     },
     "defaultFeatures": [
-      "Ores"
+      "Ores",
+      "AmethystGeodes"
     ],
-    "spawnStronghold": false,
+    "spawnStronghold": true,
     "spawnMineshaft": false,
     "spawnMineshaftMesa": false,
     "spawnPillagerOutpost": false,
@@ -117,7 +118,7 @@
     "spawnNetherFossil": false,
     "spawnBastionRemnant": false,
     "spawnEndCity": false,
-    "spawnRuinedPortal": "NONE",
+    "spawnRuinedPortal": "OCEAN",
     "spawnEntries": []
   }
 }

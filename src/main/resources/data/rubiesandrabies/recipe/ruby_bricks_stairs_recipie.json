@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  a",
+    " aa",
+    "aaa"
+  ],
+  "key": {
+    "a": "rubiesandrabies:ruby_bricks"
+  },
+  "result": {
+    "id": "rubiesandrabies:ruby_bricks_stairs",
+    "count": 4
+  }
+}

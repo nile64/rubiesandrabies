@@ -24,7 +24,9 @@ import net.mcreator.rubiesandrabies.RubiesandrabiesMod;
 public class RubiesandrabiesModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(Registries.ENTITY_TYPE, RubiesandrabiesMod.MODID);
 	public static final DeferredHolder<EntityType<?>, EntityType<FemgramEntity>> FEMGRAM = register("femgram",
-			EntityType.Builder.<FemgramEntity>of(FemgramEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).fireImmune().ridingOffset(-0.6f).sized(0.6f, 1.8f));
+			EntityType.Builder.<FemgramEntity>of(FemgramEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).fireImmune()
+
+					.sized(0.6f, 2f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities

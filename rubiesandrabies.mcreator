@@ -144,12 +144,12 @@
       "registry_name": "racism",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/rubiesandrabies/world/features/treedecorators/RacismLeaveDecorator.java",
-          "src/main/resources/data/rubiesandrabies/worldgen/configured_feature/racism_tree.json",
           "src/main/resources/data/rubiesandrabies/worldgen/biome/racism.json",
+          "src/main/resources/data/rubiesandrabies/worldgen/configured_feature/racism_tree.json",
           "src/main/java/net/mcreator/rubiesandrabies/world/features/treedecorators/RacismTrunkDecorator.java",
-          "src/main/resources/data/rubiesandrabies/worldgen/placed_feature/racism_tree.json",
-          "src/main/java/net/mcreator/rubiesandrabies/world/features/treedecorators/RacismFruitDecorator.java"
+          "src/main/java/net/mcreator/rubiesandrabies/world/features/treedecorators/RacismFruitDecorator.java",
+          "src/main/java/net/mcreator/rubiesandrabies/world/features/treedecorators/RacismLeaveDecorator.java",
+          "src/main/resources/data/rubiesandrabies/worldgen/placed_feature/racism_tree.json"
         ]
       }
     },
@@ -286,10 +286,10 @@
       "registry_name": "life_is_roblox_music_disc",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/rubiesandrabies/item/LifeIsRobloxMusicDiscItem.java",
-          "src/main/resources/assets/rubiesandrabies/models/item/life_is_roblox_music_disc.json",
           "src/main/resources/assets/rubiesandrabies/items/life_is_roblox_music_disc.json",
-          "src/main/resources/data/rubiesandrabies/jukebox_song/life_is_roblox_music_disc.json"
+          "src/main/resources/data/rubiesandrabies/jukebox_song/life_is_roblox_music_disc.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/LifeIsRobloxMusicDiscItem.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/life_is_roblox_music_disc.json"
         ]
       },
       "path": "~/MusicDiscs"
@@ -316,9 +316,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/rubiesandrabies/client/renderer/FemgramRenderer.java",
-          "src/main/resources/assets/rubiesandrabies/models/item/femgram_spawn_egg.json",
+          "src/main/java/net/mcreator/rubiesandrabies/entity/FemgramEntity.java",
           "src/main/resources/assets/rubiesandrabies/items/femgram_spawn_egg.json",
-          "src/main/java/net/mcreator/rubiesandrabies/entity/FemgramEntity.java"
+          "src/main/resources/assets/rubiesandrabies/models/item/femgram_spawn_egg.json"
         ]
       }
     },
@@ -458,6 +458,90 @@
           "src/main/java/net/mcreator/rubiesandrabies/procedures/InflictRabiesProcedure.java"
         ]
       }
+    },
+    {
+      "name": "EvilNylium",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evil_nylium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/models/item/evil_nylium.json",
+          "src/main/resources/assets/rubiesandrabies/items/evil_nylium.json",
+          "src/main/resources/assets/rubiesandrabies/blockstates/evil_nylium.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/EvilNyliumBlock.java",
+          "src/main/resources/assets/rubiesandrabies/models/block/evil_nylium.json",
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/evil_nylium.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherRacism",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_racism",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/world/features/treedecorators/NetherRacismLeaveDecorator.java",
+          "src/main/java/net/mcreator/rubiesandrabies/world/features/treedecorators/NetherRacismTrunkDecorator.java",
+          "src/main/resources/data/rubiesandrabies/worldgen/biome/nether_racism.json",
+          "src/main/resources/data/rubiesandrabies/worldgen/placed_feature/nether_racism_tree.json",
+          "src/main/java/net/mcreator/rubiesandrabies/world/features/treedecorators/NetherRacismFruitDecorator.java",
+          "src/main/resources/data/rubiesandrabies/worldgen/configured_feature/nether_racism_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyBricksStairsRecipie",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_bricks_stairs_recipie",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/ruby_bricks_stairs_recipie.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyBricksSlabCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_bricks_slab_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/ruby_bricks_slab_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyBricksStairsRecipieStonecutter",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_bricks_stairs_recipie_stonecutter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/ruby_bricks_stairs_recipie_stonecutter.json",
+          "src/main/resources/data/rubiesandrabies/recipe/ruby_bricks_stairs_recipie_stonecutter.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyBricksSlabRecipieStonecutting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_bricks_slab_recipie_stonecutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/ruby_bricks_slab_recipie_stonecutting.json",
+          "src/main/resources/data/rubiesandrabies/recipe/ruby_bricks_slab_recipie_stonecutting.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -477,25 +561,44 @@
       ],
       "category": "record",
       "subtitle": "by gp0"
+    },
+    {
+      "name": "what_time_is_it",
+      "files": [
+        "wahttime_is_it"
+      ],
+      "category": "neutral",
+      "subtitle": "What?"
+    },
+    {
+      "name": "musthavebeenthewind",
+      "files": [
+        "mustabeenthewind"
+      ],
+      "category": "weather",
+      "subtitle": "Wind"
+    },
+    {
+      "name": "evilracism",
+      "files": [
+        "evilracism"
+      ],
+      "category": "neutral",
+      "subtitle": "Sound Pollution"
     }
   ],
   "tag_elements": {
     "ITEMS:minecraft:meat": [
       "~CUSTOM:BatWing"
     ],
-    "BIOMES:minecraft:has_structure/mineshaft": [
-      "~CUSTOM:Racism"
-    ],
     "BIOMES:minecraft:has_structure/stronghold": [
-      "~CUSTOM:Racism"
-    ],
-    "BIOMES:minecraft:has_structure/pillager_outpost": [
-      "~CUSTOM:Racism"
+      "~CUSTOM:NetherRacism"
     ],
     "BIOMES:minecraft:has_structure/ruined_portal_ocean": [
-      "~CUSTOM:Racism"
+      "~CUSTOM:NetherRacism"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:EvilNylium",
       "~CUSTOM:RubyBricksSlab",
       "~CUSTOM:RubyBricksStairs",
       "~CUSTOM:RubyBricks"
@@ -540,15 +643,22 @@
       "item.rubiesandrabies.ruby_bricks": "Ruby Bricks",
       "item.rubiesandrabies.the_incident": "the incident",
       "subtitles.life_is_roblox": "by gp0",
-      "item.rubiesandrabies.life_is_roblox_music_disc.desc": "\"In this exciting installment i construct audio\" - Gp0",
-      "item.rubiesandrabies.life_is_roblox_music_disc": "Life Is Roblox Music Disc",
+      "item.rubiesandrabies.life_is_roblox_music_disc.desc": "Gp0 - Life Is Roblox",
+      "item.rubiesandrabies.life_is_roblox_music_disc": "Music Disc",
       "subtitles.racist_ambience": "the sound of racism",
       "item.rubiesandrabies.femgram_spawn_egg": "Femgram Spawn Egg",
       "entity.rubiesandrabies.femgram": "Femgram",
       "item.rubiesandrabies.block_of_femgram": "Block Of Femgram",
       "item.rubiesandrabies.ruby_bricks_stairs": "Ruby Bricks Stairs",
       "item.rubiesandrabies.ruby_bricks_slab": "Ruby Bricks Slab",
-      "enchantment.rubiesandrabies.touch_of_rabies": "Touch Of Rabies"
+      "enchantment.rubiesandrabies.touch_of_rabies": "Touch Of Rabies",
+      "subtitles.whattimeisit": "What Time is it?",
+      "subtitles.windambience": "Wind",
+      "subtitles.what_time_is_it": "What?",
+      "subtitles.musthavebeenthewind": "Wind",
+      "item.rubiesandrabies.evil_nylium": "Evil Nylium",
+      "biome.rubiesandrabies.nether_racism": "Nether Racism",
+      "subtitles.evilracism": "Sound Pollution"
     }
   },
   "metadata": {
@@ -560,14 +670,15 @@
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModItems.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModEntities.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModEntityRenderers.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModModels.java",
+      "src/main/java/net/mcreator/rubiesandrabies/RubiesandrabiesMod.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModSounds.java",
+      "src/main/resources/assets/rubiesandrabies/sounds.json",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModTabs.java",
       "src/main/resources/META-INF/accesstransformer.cfg",
-      "src/main/java/net/mcreator/rubiesandrabies/RubiesandrabiesMod.java",
-      "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/resources/assets/rubiesandrabies/sounds.json",
       "src/main/resources/rubiesandrabies.mixins.json",
-      "src/main/resources/pack.mcmeta"
+      "src/main/resources/META-INF/neoforge.mods.toml"
     ]
   },
   "foldersRoot": {

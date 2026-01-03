@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/netherrack",
+    "up": "rubiesandrabies:block/racstnlyiumstoopylium",
+    "north": "rubiesandrabies:block/racismnylium",
+    "east": "rubiesandrabies:block/racismnylium",
+    "south": "rubiesandrabies:block/racismnylium",
+    "west": "rubiesandrabies:block/racismnylium",
+    "particle": "minecraft:block/netherrack"
+  },
+  "render_type": "solid"
+}

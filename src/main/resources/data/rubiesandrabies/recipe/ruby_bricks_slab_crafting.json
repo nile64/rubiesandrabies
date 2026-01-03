@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": "rubiesandrabies:ruby_bricks"
+  },
+  "result": {
+    "id": "rubiesandrabies:ruby_bricks_slab",
+    "count": 6
+  }
+}

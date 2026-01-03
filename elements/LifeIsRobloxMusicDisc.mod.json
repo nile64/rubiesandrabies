@@ -9,7 +9,7 @@
     "customProperties": {},
     "states": [],
     "animations": [],
-    "name": "Life Is Roblox Music Disc",
+    "name": "Music Disc",
     "rarity": "COMMON",
     "creativeTabs": [
       {
@@ -59,9 +59,9 @@
     "musicDiscMusic": {
       "value": "CUSTOM:life_is_roblox"
     },
-    "musicDiscDescription": "\"In this exciting installment i construct audio\" - Gp0",
+    "musicDiscDescription": "Gp0 - Life Is Roblox",
     "musicDiscLengthInTicks": 1540,
-    "musicDiscAnalogOutput": 0,
+    "musicDiscAnalogOutput": 7,
     "providedBannerPatterns": []
   }
 }
