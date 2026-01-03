@@ -31,6 +31,7 @@ public class RubiesandrabiesModTabs {
 				tabData.accept(RubiesandrabiesModBlocks.BLOCK_OF_FEMGRAM.get().asItem());
 				tabData.accept(RubiesandrabiesModBlocks.RUBY_BRICKS_STAIRS.get().asItem());
 				tabData.accept(RubiesandrabiesModBlocks.RUBY_BRICKS_SLAB.get().asItem());
+				tabData.accept(RubiesandrabiesModBlocks.NOWIUM_BLOCK.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

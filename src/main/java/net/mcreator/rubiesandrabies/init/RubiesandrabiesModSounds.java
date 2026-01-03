@@ -19,4 +19,7 @@ public class RubiesandrabiesModSounds {
 	public static final DeferredHolder<SoundEvent, SoundEvent> WHAT_TIME_IS_IT = REGISTRY.register("what_time_is_it", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("rubiesandrabies", "what_time_is_it")));
 	public static final DeferredHolder<SoundEvent, SoundEvent> MUSTHAVEBEENTHEWIND = REGISTRY.register("musthavebeenthewind", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("rubiesandrabies", "musthavebeenthewind")));
 	public static final DeferredHolder<SoundEvent, SoundEvent> EVILRACISM = REGISTRY.register("evilracism", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("rubiesandrabies", "evilracism")));
+	public static final DeferredHolder<SoundEvent, SoundEvent> YEAH = REGISTRY.register("yeah", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("rubiesandrabies", "yeah")));
+	public static final DeferredHolder<SoundEvent, SoundEvent> SMASH_HIT = REGISTRY.register("smash_hit", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("rubiesandrabies", "smash_hit")));
+	public static final DeferredHolder<SoundEvent, SoundEvent> JACKITUP = REGISTRY.register("jackitup", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("rubiesandrabies", "jackitup")));
 }

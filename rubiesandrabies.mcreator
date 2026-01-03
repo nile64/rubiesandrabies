@@ -144,12 +144,12 @@
       "registry_name": "racism",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/rubiesandrabies/world/features/treedecorators/RacismLeaveDecorator.java",
-          "src/main/resources/data/rubiesandrabies/worldgen/configured_feature/racism_tree.json",
           "src/main/resources/data/rubiesandrabies/worldgen/biome/racism.json",
+          "src/main/resources/data/rubiesandrabies/worldgen/configured_feature/racism_tree.json",
           "src/main/java/net/mcreator/rubiesandrabies/world/features/treedecorators/RacismTrunkDecorator.java",
-          "src/main/resources/data/rubiesandrabies/worldgen/placed_feature/racism_tree.json",
-          "src/main/java/net/mcreator/rubiesandrabies/world/features/treedecorators/RacismFruitDecorator.java"
+          "src/main/java/net/mcreator/rubiesandrabies/world/features/treedecorators/RacismFruitDecorator.java",
+          "src/main/java/net/mcreator/rubiesandrabies/world/features/treedecorators/RacismLeaveDecorator.java",
+          "src/main/resources/data/rubiesandrabies/worldgen/placed_feature/racism_tree.json"
         ]
       }
     },
@@ -542,6 +542,135 @@
           "src/main/resources/data/rubiesandrabies/recipe/ruby_bricks_slab_recipie_stonecutting.json"
         ]
       }
+    },
+    {
+      "name": "Now",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "now",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/client/renderer/NowRenderer.java",
+          "src/main/resources/assets/rubiesandrabies/items/now_spawn_egg.json",
+          "src/main/java/net/mcreator/rubiesandrabies/entity/NowEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "NowiumEssence",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nowium_essence",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/item/NowiumEssenceItem.java",
+          "src/main/resources/assets/rubiesandrabies/items/nowium_essence.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/nowium_essence.json"
+        ]
+      }
+    },
+    {
+      "name": "NowiumEssencePlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nowium_essence_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/NowiumEssencePlayerFinishesUsingItemProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Nowium",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nowium",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/loot_table/entities/now.json"
+        ]
+      }
+    },
+    {
+      "name": "NowiumBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nowium_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/models/block/nowium_block.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/NowiumBlockBlock.java",
+          "src/main/resources/assets/rubiesandrabies/blockstates/nowium_block.json",
+          "src/main/resources/assets/rubiesandrabies/items/nowium_block.json",
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/nowium_block.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/nowium_block.json"
+        ]
+      }
+    },
+    {
+      "name": "NowiumEssenceRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nowium_essence_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/NowiumEssenceRightclickedOnBlockProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "NowiumBlockCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nowium_block_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/nowium_block_craft.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -585,6 +714,30 @@
       ],
       "category": "neutral",
       "subtitle": "Sound Pollution"
+    },
+    {
+      "name": "yeah",
+      "files": [
+        "yeah"
+      ],
+      "category": "neutral",
+      "subtitle": "Yeah!"
+    },
+    {
+      "name": "smash_hit",
+      "files": [
+        "smashhit"
+      ],
+      "category": "neutral",
+      "subtitle": "It\u0027s a Smash Hit"
+    },
+    {
+      "name": "jackitup",
+      "files": [
+        "jackitup"
+      ],
+      "category": "neutral",
+      "subtitle": "Jack it Up!"
     }
   ],
   "tag_elements": {
@@ -598,12 +751,14 @@
       "~CUSTOM:NetherRacism"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:NowiumBlock",
       "~CUSTOM:EvilNylium",
       "~CUSTOM:RubyBricksSlab",
       "~CUSTOM:RubyBricksStairs",
       "~CUSTOM:RubyBricks"
     ],
     "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:NowiumBlock",
       "~CUSTOM:RubyBricksSlab",
       "~CUSTOM:RubyBricksStairs",
       "~CUSTOM:RubyBricks"
@@ -658,7 +813,13 @@
       "subtitles.musthavebeenthewind": "Wind",
       "item.rubiesandrabies.evil_nylium": "Evil Nylium",
       "biome.rubiesandrabies.nether_racism": "Nether Racism",
-      "subtitles.evilracism": "Sound Pollution"
+      "subtitles.evilracism": "Sound Pollution",
+      "entity.rubiesandrabies.now": "Now",
+      "item.rubiesandrabies.nowium_essence": "Nowium Essence",
+      "subtitles.yeah": "Yeah!",
+      "subtitles.smash_hit": "It\u0027s a Smash Hit",
+      "subtitles.jackitup": "Jack it Up!",
+      "item.rubiesandrabies.nowium_block": "Nowium Block"
     }
   },
   "metadata": {
@@ -670,15 +831,15 @@
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModItems.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModEntities.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModEntityRenderers.java",
+      "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModModels.java",
+      "src/main/java/net/mcreator/rubiesandrabies/RubiesandrabiesMod.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModSounds.java",
+      "src/main/resources/assets/rubiesandrabies/sounds.json",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModTabs.java",
       "src/main/resources/META-INF/accesstransformer.cfg",
-      "src/main/java/net/mcreator/rubiesandrabies/RubiesandrabiesMod.java",
-      "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/resources/assets/rubiesandrabies/sounds.json",
       "src/main/resources/rubiesandrabies.mixins.json",
-      "src/main/resources/pack.mcmeta"
+      "src/main/resources/META-INF/neoforge.mods.toml"
     ]
   },
   "foldersRoot": {

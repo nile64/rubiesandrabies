@@ -14,6 +14,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.rubiesandrabies.item.TheIncidentItem;
 import net.mcreator.rubiesandrabies.item.RubyItem;
+import net.mcreator.rubiesandrabies.item.NowiumEssenceItem;
 import net.mcreator.rubiesandrabies.item.LifeIsRobloxMusicDiscItem;
 import net.mcreator.rubiesandrabies.item.BatWingItem;
 import net.mcreator.rubiesandrabies.RubiesandrabiesMod;
@@ -32,6 +33,8 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> RUBY_BRICKS_STAIRS;
 	public static final DeferredItem<Item> RUBY_BRICKS_SLAB;
 	public static final DeferredItem<Item> EVIL_NYLIUM;
+	public static final DeferredItem<Item> NOWIUM_ESSENCE;
+	public static final DeferredItem<Item> NOWIUM_BLOCK;
 	static {
 		BAT_WING = register("bat_wing", BatWingItem::new);
 		RUBY = register("ruby", RubyItem::new);
@@ -43,6 +46,8 @@ public class RubiesandrabiesModItems {
 		RUBY_BRICKS_STAIRS = block(RubiesandrabiesModBlocks.RUBY_BRICKS_STAIRS);
 		RUBY_BRICKS_SLAB = block(RubiesandrabiesModBlocks.RUBY_BRICKS_SLAB);
 		EVIL_NYLIUM = block(RubiesandrabiesModBlocks.EVIL_NYLIUM);
+		NOWIUM_ESSENCE = register("nowium_essence", NowiumEssenceItem::new);
+		NOWIUM_BLOCK = block(RubiesandrabiesModBlocks.NOWIUM_BLOCK);
 	}
 
 	// Start of user code block custom items
