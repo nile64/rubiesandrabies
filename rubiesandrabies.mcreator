@@ -609,7 +609,8 @@
         "files": [
           "src/main/java/net/mcreator/rubiesandrabies/client/renderer/NowRenderer.java",
           "src/main/resources/assets/rubiesandrabies/items/now_spawn_egg.json",
-          "src/main/java/net/mcreator/rubiesandrabies/entity/NowEntity.java"
+          "src/main/java/net/mcreator/rubiesandrabies/entity/NowEntity.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/now_spawn_egg.json"
         ]
       }
     },
@@ -916,7 +917,8 @@
       "entity.rubiesandrabies.now": "Now",
       "subtitles.glassshatter": "",
       "subtitles.screaming": "",
-      "subtitles.thegrandscream": ""
+      "subtitles.thegrandscream": "",
+      "item.rubiesandrabies.now_spawn_egg": "Now Spawn Egg"
     }
   },
   "metadata": {

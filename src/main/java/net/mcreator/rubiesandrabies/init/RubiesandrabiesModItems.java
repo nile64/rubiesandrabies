@@ -34,6 +34,7 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> RUBY_BRICKS_SLAB;
 	public static final DeferredItem<Item> EVIL_NYLIUM;
 	public static final DeferredItem<Item> NOWIUM_ESSENCE;
+	public static final DeferredItem<Item> NOW_SPAWN_EGG;
 	public static final DeferredItem<Item> NOWIUM_BLOCK;
 	public static final DeferredItem<Item> MEATBALL_MOOSE_SPAWN_EGG;
 	static {
@@ -48,6 +49,7 @@ public class RubiesandrabiesModItems {
 		RUBY_BRICKS_SLAB = block(RubiesandrabiesModBlocks.RUBY_BRICKS_SLAB);
 		EVIL_NYLIUM = block(RubiesandrabiesModBlocks.EVIL_NYLIUM);
 		NOWIUM_ESSENCE = register("nowium_essence", NowiumEssenceItem::new);
+		NOW_SPAWN_EGG = register("now_spawn_egg", properties -> new SpawnEggItem(RubiesandrabiesModEntities.NOW.get(), properties));
 		NOWIUM_BLOCK = block(RubiesandrabiesModBlocks.NOWIUM_BLOCK);
 		MEATBALL_MOOSE_SPAWN_EGG = register("meatball_moose_spawn_egg", properties -> new SpawnEggItem(RubiesandrabiesModEntities.MEATBALL_MOOSE.get(), properties));
 	}
