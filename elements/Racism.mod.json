@@ -116,6 +116,16 @@
     "spawnBastionRemnant": false,
     "spawnEndCity": false,
     "spawnRuinedPortal": "NONE",
-    "spawnEntries": []
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "CUSTOM:MeatballMoose"
+        },
+        "minGroup": 2,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "creature"
+      }
+    ]
   }
 }

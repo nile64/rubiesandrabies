@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "deep_dark",
+    "rubiesandrabies:racism"
+  ],
+  "spawners": {
+    "type": "rubiesandrabies:meatball_moose",
+    "weight": 20,
+    "minCount": 2,
+    "maxCount": 4
+  }
+}

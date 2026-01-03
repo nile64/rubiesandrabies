@@ -35,6 +35,7 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> EVIL_NYLIUM;
 	public static final DeferredItem<Item> NOWIUM_ESSENCE;
 	public static final DeferredItem<Item> NOWIUM_BLOCK;
+	public static final DeferredItem<Item> MEATBALL_MOOSE_SPAWN_EGG;
 	static {
 		BAT_WING = register("bat_wing", BatWingItem::new);
 		RUBY = register("ruby", RubyItem::new);
@@ -48,6 +49,7 @@ public class RubiesandrabiesModItems {
 		EVIL_NYLIUM = block(RubiesandrabiesModBlocks.EVIL_NYLIUM);
 		NOWIUM_ESSENCE = register("nowium_essence", NowiumEssenceItem::new);
 		NOWIUM_BLOCK = block(RubiesandrabiesModBlocks.NOWIUM_BLOCK);
+		MEATBALL_MOOSE_SPAWN_EGG = register("meatball_moose_spawn_egg", properties -> new SpawnEggItem(RubiesandrabiesModEntities.MEATBALL_MOOSE.get(), properties));
 	}
 
 	// Start of user code block custom items

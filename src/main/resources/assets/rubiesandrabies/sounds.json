@@ -53,20 +53,20 @@
       }
     ]
   },
-  "smash_hit": {
-    "subtitle": "subtitles.smash_hit",
-    "sounds": [
-      {
-        "name": "rubiesandrabies:smashhit",
-        "stream": false
-      }
-    ]
-  },
   "jackitup": {
     "subtitle": "subtitles.jackitup",
     "sounds": [
       {
         "name": "rubiesandrabies:jackitup",
+        "stream": false
+      }
+    ]
+  },
+  "smash_hit": {
+    "subtitle": "subtitles.smash_hit",
+    "sounds": [
+      {
+        "name": "rubiesandrabies:smashhit",
         "stream": false
       }
     ]
