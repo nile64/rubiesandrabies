@@ -106,9 +106,9 @@
       "registry_name": "bat_wing",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rubiesandrabies/items/bat_wing.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/bat_wing.json",
           "src/main/java/net/mcreator/rubiesandrabies/item/BatWingItem.java",
-          "src/main/resources/assets/rubiesandrabies/models/item/bat_wing.json"
+          "src/main/resources/assets/rubiesandrabies/items/bat_wing.json"
         ]
       }
     },
@@ -144,12 +144,12 @@
       "registry_name": "racism",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/rubiesandrabies/world/features/treedecorators/RacismLeaveDecorator.java",
-          "src/main/resources/data/rubiesandrabies/worldgen/configured_feature/racism_tree.json",
           "src/main/resources/data/rubiesandrabies/worldgen/biome/racism.json",
+          "src/main/resources/data/rubiesandrabies/worldgen/configured_feature/racism_tree.json",
           "src/main/java/net/mcreator/rubiesandrabies/world/features/treedecorators/RacismTrunkDecorator.java",
-          "src/main/resources/data/rubiesandrabies/worldgen/placed_feature/racism_tree.json",
-          "src/main/java/net/mcreator/rubiesandrabies/world/features/treedecorators/RacismFruitDecorator.java"
+          "src/main/java/net/mcreator/rubiesandrabies/world/features/treedecorators/RacismFruitDecorator.java",
+          "src/main/java/net/mcreator/rubiesandrabies/world/features/treedecorators/RacismLeaveDecorator.java",
+          "src/main/resources/data/rubiesandrabies/worldgen/placed_feature/racism_tree.json"
         ]
       }
     },
@@ -212,8 +212,8 @@
       "registry_name": "ruby_brick_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/rubiesandrabies/advancement/recipes/ruby_brick_recipe.json",
-          "src/main/resources/data/rubiesandrabies/recipe/ruby_brick_recipe.json"
+          "src/main/resources/data/rubiesandrabies/recipe/ruby_brick_recipe.json",
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/ruby_brick_recipe.json"
         ]
       }
     },
@@ -259,9 +259,9 @@
       "registry_name": "the_incident",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/rubiesandrabies/item/TheIncidentItem.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/the_incident.json",
           "src/main/resources/assets/rubiesandrabies/items/the_incident.json",
-          "src/main/resources/assets/rubiesandrabies/models/item/the_incident.json"
+          "src/main/java/net/mcreator/rubiesandrabies/item/TheIncidentItem.java"
         ]
       }
     },
@@ -360,12 +360,12 @@
       "registry_name": "block_of_femgram",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/rubiesandrabies/block/BlockOfFemgramBlock.java",
-          "src/main/resources/assets/rubiesandrabies/items/block_of_femgram.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/block_of_femgram.json",
           "src/main/resources/data/rubiesandrabies/loot_table/blocks/block_of_femgram.json",
           "src/main/resources/assets/rubiesandrabies/models/block/block_of_femgram.json",
-          "src/main/resources/assets/rubiesandrabies/models/item/block_of_femgram.json",
-          "src/main/resources/assets/rubiesandrabies/blockstates/block_of_femgram.json"
+          "src/main/resources/assets/rubiesandrabies/items/block_of_femgram.json",
+          "src/main/resources/assets/rubiesandrabies/blockstates/block_of_femgram.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/BlockOfFemgramBlock.java"
         ]
       }
     },
@@ -546,7 +546,7 @@
     {
       "name": "NowiumEssenceRightclickedOnBlock",
       "type": "procedure",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "nowium_essence_rightclicked_on_block",
       "metadata": {
@@ -576,7 +576,7 @@
     {
       "name": "NowiumEssence",
       "type": "item",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "nowium_essence",
       "metadata": {
@@ -602,7 +602,7 @@
     {
       "name": "Now",
       "type": "livingentity",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "now",
       "metadata": {
@@ -616,7 +616,7 @@
     {
       "name": "NowiumEssencePlayerFinishesUsingItem",
       "type": "procedure",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "nowium_essence_player_finishes_using_item",
       "metadata": {
@@ -646,7 +646,7 @@
     {
       "name": "NowiumBlock",
       "type": "block",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "nowium_block",
       "metadata": {
@@ -675,7 +675,7 @@
     {
       "name": "MeatballMoose",
       "type": "livingentity",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "meatball_moose",
       "metadata": {
@@ -835,7 +835,9 @@
       "subtitles.yeah": "Yeah!",
       "entity.rubiesandrabies.meatball_moose": "Meatball Moose",
       "item.rubiesandrabies.meatball_moose_spawn_egg": "Meatball Moose Spawn Egg",
-      "item.rubiesandrabies.nowium_block": "Nowium Block"
+      "item.rubiesandrabies.nowium_block": "Nowium Block",
+      "item.rubiesandrabies.nowium_essence": "Nowium Essence",
+      "entity.rubiesandrabies.now": "Now"
     }
   },
   "metadata": {
