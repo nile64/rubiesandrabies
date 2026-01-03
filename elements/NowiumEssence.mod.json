@@ -35,9 +35,6 @@
     },
     "inventorySize": 9,
     "inventoryStackSize": 99,
-    "onRightClickedOnBlock": {
-      "name": "NowiumEssenceRightclickedOnBlock"
-    },
     "onFinishUsingItem": {
       "name": "NowiumEssencePlayerFinishesUsingItem"
     },
