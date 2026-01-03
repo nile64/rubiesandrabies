@@ -26,6 +26,8 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.rubiesandrabies.procedures.GlassshatteringProcedure;
+
 public class NowEntity extends Monster {
 	public NowEntity(EntityType<NowEntity> type, Level world) {
 		super(type, world);
@@ -77,6 +79,12 @@ public class NowEntity extends Monster {
 	@Override
 	public boolean causeFallDamage(double l, float d, DamageSource source) {
 		return false;
+	}
+
+	@Override
+	public void die(DamageSource source) {
+		super.die(source);
+		GlassshatteringProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ());
 	}
 
 	@Override

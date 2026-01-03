@@ -35,5 +35,8 @@
   "item.rubiesandrabies.meatball_moose_spawn_egg": "Meatball Moose Spawn Egg",
   "item.rubiesandrabies.nowium_block": "Nowium Block",
   "item.rubiesandrabies.nowium_essence": "Nowium Essence",
-  "entity.rubiesandrabies.now": "Now"
+  "entity.rubiesandrabies.now": "Now",
+  "subtitles.glassshatter": "",
+  "subtitles.screaming": "",
+  "subtitles.thegrandscream": ""
 }

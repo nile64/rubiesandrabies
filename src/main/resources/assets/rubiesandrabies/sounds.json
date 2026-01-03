@@ -70,5 +70,21 @@
         "stream": false
       }
     ]
+  },
+  "glassshatter": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:glass",
+        "stream": false
+      }
+    ]
+  },
+  "thegrandscream": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:screaming",
+        "stream": false
+      }
+    ]
   }
 }

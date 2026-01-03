@@ -687,6 +687,66 @@
           "src/main/resources/data/rubiesandrabies/neoforge/biome_modifier/meatball_moose_biome_modifier.json"
         ]
       }
+    },
+    {
+      "name": "Glassshattering",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glassshattering",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/GlassshatteringProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "AHHH",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ahhh",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/AHHHProcedure.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -754,6 +814,22 @@
       ],
       "category": "neutral",
       "subtitle": "It\u0027s a Smash Hit"
+    },
+    {
+      "name": "glassshatter",
+      "files": [
+        "glass"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "thegrandscream",
+      "files": [
+        "screaming"
+      ],
+      "category": "block",
+      "subtitle": ""
     }
   ],
   "tag_elements": {
@@ -837,7 +913,10 @@
       "item.rubiesandrabies.meatball_moose_spawn_egg": "Meatball Moose Spawn Egg",
       "item.rubiesandrabies.nowium_block": "Nowium Block",
       "item.rubiesandrabies.nowium_essence": "Nowium Essence",
-      "entity.rubiesandrabies.now": "Now"
+      "entity.rubiesandrabies.now": "Now",
+      "subtitles.glassshatter": "",
+      "subtitles.screaming": "",
+      "subtitles.thegrandscream": ""
     }
   },
   "metadata": {

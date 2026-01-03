@@ -142,6 +142,9 @@
     "onRightClicked": {
       "name": "NowiumEssenceRightclickedOnBlock"
     },
+    "onDestroyedByPlayer": {
+      "name": "AHHH"
+    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
