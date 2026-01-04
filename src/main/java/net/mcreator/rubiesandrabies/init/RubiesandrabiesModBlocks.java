@@ -22,7 +22,6 @@ public class RubiesandrabiesModBlocks {
 	public static final DeferredBlock<Block> RUBY_BRICKS_SLAB;
 	public static final DeferredBlock<Block> EVIL_NYLIUM;
 	public static final DeferredBlock<Block> NOWIUM_BLOCK;
-	public static final DeferredBlock<Block> NETHERTHING;
 	static {
 		RUBY_BRICKS = register("ruby_bricks", RubyBricksBlock::new);
 		BLOCK_OF_FEMGRAM = register("block_of_femgram", BlockOfFemgramBlock::new);
@@ -30,7 +29,6 @@ public class RubiesandrabiesModBlocks {
 		RUBY_BRICKS_SLAB = register("ruby_bricks_slab", RubyBricksSlabBlock::new);
 		EVIL_NYLIUM = register("evil_nylium", EvilNyliumBlock::new);
 		NOWIUM_BLOCK = register("nowium_block", NowiumBlockBlock::new);
-		NETHERTHING = register("netherthing", NetherthingBlock::new);
 	}
 
 	// Start of user code block custom blocks
