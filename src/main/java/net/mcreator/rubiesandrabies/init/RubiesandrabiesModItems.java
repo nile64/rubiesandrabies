@@ -33,9 +33,9 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> NOW_SPAWN_EGG;
 	public static final DeferredItem<Item> NOWIUM_BLOCK;
 	public static final DeferredItem<Item> MEATBALL_MOOSE_SPAWN_EGG;
+	public static final DeferredItem<Item> NETHERTHING;
 	public static final DeferredItem<Item> GORILLA_SPAWN_EGG;
 	public static final DeferredItem<Item> BANANA;
-	public static final DeferredItem<Item> NETHERTHING;
 	static {
 		BAT_WING = register("bat_wing", BatWingItem::new);
 		RUBY = register("ruby", RubyItem::new);
@@ -51,9 +51,9 @@ public class RubiesandrabiesModItems {
 		NOW_SPAWN_EGG = register("now_spawn_egg", properties -> new SpawnEggItem(RubiesandrabiesModEntities.NOW.get(), properties));
 		NOWIUM_BLOCK = block(RubiesandrabiesModBlocks.NOWIUM_BLOCK);
 		MEATBALL_MOOSE_SPAWN_EGG = register("meatball_moose_spawn_egg", properties -> new SpawnEggItem(RubiesandrabiesModEntities.MEATBALL_MOOSE.get(), properties));
+		NETHERTHING = block(RubiesandrabiesModBlocks.NETHERTHING);
 		GORILLA_SPAWN_EGG = register("gorilla_spawn_egg", properties -> new SpawnEggItem(RubiesandrabiesModEntities.GORILLA.get(), properties));
 		BANANA = register("banana", BananaItem::new);
-		NETHERTHING = block(RubiesandrabiesModBlocks.NETHERTHING);
 	}
 
 	// Start of user code block custom items
