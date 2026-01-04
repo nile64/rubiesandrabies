@@ -43,5 +43,7 @@
   "entity.rubiesandrabies.gorilla": "Gorilla",
   "item.rubiesandrabies.netherthing": "Nether",
   "item.rubiesandrabies.banana": "Banana",
-  "item.rubiesandrabies.gorilla_spawn_egg": "Gorilla Spawn Egg"
+  "item.rubiesandrabies.gorilla_spawn_egg": "Gorilla Spawn Egg",
+  "subtitles.glasshit": "",
+  "subtitles.glassidle": ""
 }

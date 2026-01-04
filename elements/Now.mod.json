@@ -106,10 +106,10 @@
       "value": ""
     },
     "livingSound": {
-      "value": ""
+      "value": "CUSTOM:glassidle"
     },
     "hurtSound": {
-      "value": "CUSTOM:ding"
+      "value": "CUSTOM:glasshit"
     },
     "deathSound": {
       "value": "entity.generic.death"

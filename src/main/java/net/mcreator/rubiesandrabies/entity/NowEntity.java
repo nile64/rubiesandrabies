@@ -69,8 +69,13 @@ public class NowEntity extends Monster {
 	}
 
 	@Override
+	public SoundEvent getAmbientSound() {
+		return BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("rubiesandrabies:glassidle"));
+	}
+
+	@Override
 	public SoundEvent getHurtSound(DamageSource ds) {
-		return BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("rubiesandrabies:ding"));
+		return BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("rubiesandrabies:glasshit"));
 	}
 
 	@Override
