@@ -40,9 +40,8 @@
   "subtitles.screaming": "",
   "subtitles.thegrandscream": "",
   "item.rubiesandrabies.now_spawn_egg": "Now Spawn Egg",
-  "subtitles.ding": "Then",
-  "item.rubiesandrabies.netherthing": "Nether",
   "entity.rubiesandrabies.gorilla": "Gorilla",
-  "item.rubiesandrabies.gorilla_spawn_egg": "Gorilla Spawn Egg",
-  "item.rubiesandrabies.banana": "Banana"
+  "item.rubiesandrabies.netherthing": "Nether",
+  "item.rubiesandrabies.banana": "Banana",
+  "item.rubiesandrabies.gorilla_spawn_egg": "Gorilla Spawn Egg"
 }
