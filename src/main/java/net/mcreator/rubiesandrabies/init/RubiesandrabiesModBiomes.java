@@ -49,9 +49,9 @@ public class RubiesandrabiesModBiomes {
 				// Inject biomes to biome source
 				if (chunkGenerator.getBiomeSource() instanceof MultiNoiseBiomeSource noiseSource) {
 					List<Pair<Climate.ParameterPoint, Holder<Biome>>> parameters = new ArrayList<>(noiseSource.parameters().values());
-					addParameterPoint(parameters, new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.5f, 0.3f), Climate.Parameter.span(-0.5f, 0.4f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(-0.4f, 0.5f),
+					addParameterPoint(parameters, new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.3f, 0.3f), Climate.Parameter.span(-0.4f, 0.4f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(-0.3f, 0.5f),
 							Climate.Parameter.point(0.0f), Climate.Parameter.span(-1f, 1f), 0), biomeRegistry.getOrThrow(ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath("rubiesandrabies", "racism")))));
-					addParameterPoint(parameters, new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.5f, 0.3f), Climate.Parameter.span(-0.5f, 0.4f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(-0.4f, 0.5f),
+					addParameterPoint(parameters, new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.3f, 0.3f), Climate.Parameter.span(-0.4f, 0.4f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(-0.3f, 0.5f),
 							Climate.Parameter.point(1.0f), Climate.Parameter.span(-1f, 1f), 0), biomeRegistry.getOrThrow(ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath("rubiesandrabies", "racism")))));
 					chunkGenerator.biomeSource = MultiNoiseBiomeSource.createFromList(new Climate.ParameterList<>(parameters));
 					chunkGenerator.featuresPerStep = Suppliers
