@@ -386,7 +386,8 @@
           "src/main/resources/assets/rubiesandrabies/items/ruby_bricks_stairs.json",
           "src/main/java/net/mcreator/rubiesandrabies/block/RubyBricksStairsBlock.java"
         ]
-      }
+      },
+      "path": "~/idk"
     },
     {
       "name": "RubyBricksSlab",
@@ -405,7 +406,8 @@
           "src/main/resources/assets/rubiesandrabies/models/block/ruby_bricks_slab_top.json",
           "src/main/resources/assets/rubiesandrabies/models/item/ruby_bricks_slab.json"
         ]
-      }
+      },
+      "path": "~/idk"
     },
     {
       "name": "FemgramStructure",
@@ -474,7 +476,8 @@
           "src/main/resources/assets/rubiesandrabies/models/block/evil_nylium.json",
           "src/main/resources/data/rubiesandrabies/loot_table/blocks/evil_nylium.json"
         ]
-      }
+      },
+      "path": "~/idk"
     },
     {
       "name": "NetherRacism",
@@ -491,7 +494,8 @@
           "src/main/java/net/mcreator/rubiesandrabies/world/features/treedecorators/NetherRacismFruitDecorator.java",
           "src/main/resources/data/rubiesandrabies/worldgen/configured_feature/nether_racism_tree.json"
         ]
-      }
+      },
+      "path": "~/idk"
     },
     {
       "name": "RubyBricksStairsRecipie",
@@ -503,7 +507,8 @@
         "files": [
           "src/main/resources/data/rubiesandrabies/recipe/ruby_bricks_stairs_recipie.json"
         ]
-      }
+      },
+      "path": "~/idk"
     },
     {
       "name": "RubyBricksSlabCrafting",
@@ -515,7 +520,8 @@
         "files": [
           "src/main/resources/data/rubiesandrabies/recipe/ruby_bricks_slab_crafting.json"
         ]
-      }
+      },
+      "path": "~/idk"
     },
     {
       "name": "RubyBricksStairsRecipieStonecutter",
@@ -528,7 +534,8 @@
           "src/main/resources/data/rubiesandrabies/advancement/recipes/ruby_bricks_stairs_recipie_stonecutter.json",
           "src/main/resources/data/rubiesandrabies/recipe/ruby_bricks_stairs_recipie_stonecutter.json"
         ]
-      }
+      },
+      "path": "~/idk"
     },
     {
       "name": "RubyBricksSlabRecipieStonecutting",
@@ -541,7 +548,8 @@
           "src/main/resources/data/rubiesandrabies/advancement/recipes/ruby_bricks_slab_recipie_stonecutting.json",
           "src/main/resources/data/rubiesandrabies/recipe/ruby_bricks_slab_recipie_stonecutting.json"
         ]
-      }
+      },
+      "path": "~/idk"
     },
     {
       "name": "NowiumEssenceRightclickedOnBlock",
@@ -571,7 +579,8 @@
         "files": [
           "src/main/java/net/mcreator/rubiesandrabies/procedures/NowiumEssenceRightclickedOnBlockProcedure.java"
         ]
-      }
+      },
+      "path": "~/idk"
     },
     {
       "name": "NowiumEssence",
@@ -585,7 +594,8 @@
           "src/main/resources/assets/rubiesandrabies/items/nowium_essence.json",
           "src/main/resources/assets/rubiesandrabies/models/item/nowium_essence.json"
         ]
-      }
+      },
+      "path": "~/idk"
     },
     {
       "name": "Nowium",
@@ -597,7 +607,8 @@
         "files": [
           "src/main/resources/data/rubiesandrabies/loot_table/entities/now.json"
         ]
-      }
+      },
+      "path": "~/idk"
     },
     {
       "name": "Now",
@@ -612,7 +623,8 @@
           "src/main/java/net/mcreator/rubiesandrabies/entity/NowEntity.java",
           "src/main/resources/assets/rubiesandrabies/models/item/now_spawn_egg.json"
         ]
-      }
+      },
+      "path": "~/idk"
     },
     {
       "name": "NowiumEssencePlayerFinishesUsingItem",
@@ -642,7 +654,8 @@
         "files": [
           "src/main/java/net/mcreator/rubiesandrabies/procedures/NowiumEssencePlayerFinishesUsingItemProcedure.java"
         ]
-      }
+      },
+      "path": "~/idk"
     },
     {
       "name": "NowiumBlock",
@@ -659,7 +672,8 @@
           "src/main/resources/data/rubiesandrabies/loot_table/blocks/nowium_block.json",
           "src/main/resources/assets/rubiesandrabies/models/item/nowium_block.json"
         ]
-      }
+      },
+      "path": "~/idk"
     },
     {
       "name": "NowiumBlockCraft",
@@ -671,7 +685,8 @@
         "files": [
           "src/main/resources/data/rubiesandrabies/recipe/nowium_block_craft.json"
         ]
-      }
+      },
+      "path": "~/idk"
     },
     {
       "name": "MeatballMoose",
@@ -717,7 +732,8 @@
         "files": [
           "src/main/java/net/mcreator/rubiesandrabies/procedures/GlassshatteringProcedure.java"
         ]
-      }
+      },
+      "path": "~/idk"
     },
     {
       "name": "AHHH",
@@ -747,7 +763,41 @@
         "files": [
           "src/main/java/net/mcreator/rubiesandrabies/procedures/AHHHProcedure.java"
         ]
-      }
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "Netherthing",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherthing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/netherthing.json",
+          "src/main/resources/assets/rubiesandrabies/blockstates/netherthing.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/NetherthingBlock.java",
+          "src/main/resources/assets/rubiesandrabies/items/netherthing.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/entity/NetherthingBlockEntity.java",
+          "src/main/java/net/mcreator/rubiesandrabies/client/renderer/block/NetherthingRenderer.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/netherthing.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/netherthing.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "Nethersdf",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nethersdf",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/nethersdf.json"
+        ]
+      },
+      "path": "~/idk"
     }
   ],
   "variable_elements": [],
@@ -918,7 +968,8 @@
       "subtitles.glassshatter": "",
       "subtitles.screaming": "",
       "subtitles.thegrandscream": "",
-      "item.rubiesandrabies.now_spawn_egg": "Now Spawn Egg"
+      "item.rubiesandrabies.now_spawn_egg": "Now Spawn Egg",
+      "item.rubiesandrabies.netherthing": "Nether"
     }
   },
   "metadata": {
@@ -928,6 +979,7 @@
       "src/main/resources/data/neoforge/data_maps/entity_type/monster_room_mobs.json",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModMobEffects.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModBlocks.java",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModBlockEntities.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModItems.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModEntities.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModEntityRenderers.java",
@@ -947,6 +999,10 @@
     "children": [
       {
         "name": "MusicDiscs",
+        "children": []
+      },
+      {
+        "name": "idk",
         "children": []
       }
     ]
