@@ -39,5 +39,9 @@
   "subtitles.glassshatter": "",
   "subtitles.screaming": "",
   "subtitles.thegrandscream": "",
-  "item.rubiesandrabies.now_spawn_egg": "Now Spawn Egg"
+  "item.rubiesandrabies.now_spawn_egg": "Now Spawn Egg",
+  "item.rubiesandrabies.netherthing": "Nether",
+  "entity.rubiesandrabies.gorilla": "Gorilla",
+  "item.rubiesandrabies.gorilla_spawn_egg": "Gorilla Spawn Egg",
+  "item.rubiesandrabies.banana": "Banana"
 }
