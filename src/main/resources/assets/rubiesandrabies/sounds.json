@@ -86,5 +86,14 @@
         "stream": false
       }
     ]
+  },
+  "ding": {
+    "subtitle": "subtitles.ding",
+    "sounds": [
+      {
+        "name": "rubiesandrabies:wha",
+        "stream": false
+      }
+    ]
   }
 }
