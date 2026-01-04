@@ -1,0 +1,14 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "jungle",
+    "sparse_jungle",
+    "bamboo_jungle"
+  ],
+  "spawners": {
+    "type": "rubiesandrabies:gorilla",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 5
+  }
+}

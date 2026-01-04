@@ -19,6 +19,7 @@ import net.minecraft.core.registries.Registries;
 
 import net.mcreator.rubiesandrabies.entity.NowEntity;
 import net.mcreator.rubiesandrabies.entity.MeatballMooseEntity;
+import net.mcreator.rubiesandrabies.entity.GorillaEntity;
 import net.mcreator.rubiesandrabies.entity.FemgramEntity;
 import net.mcreator.rubiesandrabies.RubiesandrabiesMod;
 
@@ -37,6 +38,10 @@ public class RubiesandrabiesModEntities {
 			EntityType.Builder.<MeatballMooseEntity>of(MeatballMooseEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(1f, 2f));
+	public static final DeferredHolder<EntityType<?>, EntityType<GorillaEntity>> GORILLA = register("gorilla",
+			EntityType.Builder.<GorillaEntity>of(GorillaEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+					.sized(2f, 2f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -49,6 +54,7 @@ public class RubiesandrabiesModEntities {
 		FemgramEntity.init(event);
 		NowEntity.init(event);
 		MeatballMooseEntity.init(event);
+		GorillaEntity.init(event);
 	}
 
 	@SubscribeEvent
@@ -56,5 +62,6 @@ public class RubiesandrabiesModEntities {
 		event.put(FEMGRAM.get(), FemgramEntity.createAttributes().build());
 		event.put(NOW.get(), NowEntity.createAttributes().build());
 		event.put(MEATBALL_MOOSE.get(), MeatballMooseEntity.createAttributes().build());
+		event.put(GORILLA.get(), GorillaEntity.createAttributes().build());
 	}
 }
