@@ -10,6 +10,9 @@
     "absolute": 0
   },
   "project_start_to_heightmap": "WORLD_SURFACE_WG",
-  "biomes": "stony_peaks",
+  "biomes": [
+    "dark_forest",
+    "desert"
+  ],
   "use_expansion_hack": false
 }
