@@ -47,7 +47,6 @@ public class RubiesandrabiesMod {
 		modEventBus.addListener(this::registerNetworking);
 		RubiesandrabiesModSounds.REGISTRY.register(modEventBus);
 		RubiesandrabiesModBlocks.REGISTRY.register(modEventBus);
-		RubiesandrabiesModBlockEntities.REGISTRY.register(modEventBus);
 		RubiesandrabiesModItems.REGISTRY.register(modEventBus);
 		RubiesandrabiesModEntities.REGISTRY.register(modEventBus);
 		RubiesandrabiesModTabs.REGISTRY.register(modEventBus);

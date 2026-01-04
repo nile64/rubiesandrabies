@@ -29,10 +29,9 @@ public class RubiesandrabiesModEntities {
 			EntityType.Builder.<FemgramEntity>of(FemgramEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).fireImmune()
 
 					.sized(0.6f, 2f));
-	public static final DeferredHolder<EntityType<?>, EntityType<NowEntity>> NOW = register("now",
-			EntityType.Builder.<NowEntity>of(NowEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).fireImmune()
+	public static final DeferredHolder<EntityType<?>, EntityType<NowEntity>> NOW = register("now", EntityType.Builder.<NowEntity>of(NowEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
-					.sized(2f, 2f));
+			.sized(2f, 2f));
 	public static final DeferredHolder<EntityType<?>, EntityType<MeatballMooseEntity>> MEATBALL_MOOSE = register("meatball_moose",
 			EntityType.Builder.<MeatballMooseEntity>of(MeatballMooseEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
