@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": "minecraft:netherrack"
+  },
+  "result": {
+    "id": "rubiesandrabies:netherthing",
+    "count": 6
+  }
+}

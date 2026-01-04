@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "rubiesandrabies:block/netherthing"
+    },
+    "facing=east": {
+      "model": "rubiesandrabies:block/netherthing",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "rubiesandrabies:block/netherthing",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "rubiesandrabies:block/netherthing",
+      "y": 270
+    }
+  }
+}
