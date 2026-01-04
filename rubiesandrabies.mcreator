@@ -777,6 +777,39 @@
           "src/main/resources/assets/rubiesandrabies/models/item/banana.json"
         ]
       }
+    },
+    {
+      "name": "Netherthing",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherthing",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/blockstates/netherthing.json",
+          "src/main/java/net/mcreator/rubiesandrabies/client/renderer/block/NetherthingRenderer.java",
+          "src/main/java/net/mcreator/rubiesandrabies/block/entity/NetherthingBlockEntity.java",
+          "src/main/resources/assets/rubiesandrabies/models/block/netherthing.json",
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/netherthing.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/NetherthingBlock.java",
+          "src/main/resources/assets/rubiesandrabies/items/netherthing.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/netherthing.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "Nethersdf",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nethersdf",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/nethersdf.json"
+        ]
+      },
+      "path": "~/idk"
     }
   ],
   "variable_elements": [],
@@ -947,30 +980,28 @@
       "subtitles.glassshatter": "",
       "subtitles.screaming": "",
       "subtitles.thegrandscream": "",
-      "entity.rubiesandrabies.gorilla": "Gorilla",
-      "item.rubiesandrabies.gorilla_spawn_egg": "Gorilla Spawn Egg",
-      "item.rubiesandrabies.banana": "Banana"
+      "item.rubiesandrabies.now_spawn_egg": "Now Spawn Egg"
     }
   },
   "metadata": {
     "files": [
-      "src/main/java/net/mcreator/rubiesandrabies/mixin/NoiseGeneratorSettingsMixin.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModBiomes.java",
+      "src/main/java/net/mcreator/rubiesandrabies/mixin/NoiseGeneratorSettingsMixin.java",
       "src/main/resources/data/neoforge/data_maps/entity_type/monster_room_mobs.json",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModMobEffects.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModBlocks.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModItems.java",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModEntityRenderers.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModEntities.java",
-      "src/main/resources/assets/rubiesandrabies/sounds.json",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModModels.java",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModTabs.java",
-      "src/main/resources/rubiesandrabies.mixins.json",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModEntityRenderers.java",
       "src/main/resources/pack.mcmeta",
-      "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModSounds.java",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModModels.java",
       "src/main/java/net/mcreator/rubiesandrabies/RubiesandrabiesMod.java",
-      "src/main/resources/META-INF/accesstransformer.cfg"
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModSounds.java",
+      "src/main/resources/assets/rubiesandrabies/sounds.json",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModTabs.java",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/resources/rubiesandrabies.mixins.json",
+      "src/main/resources/META-INF/neoforge.mods.toml"
     ]
   },
   "foldersRoot": {
@@ -978,6 +1009,10 @@
     "children": [
       {
         "name": "MusicDiscs",
+        "children": []
+      },
+      {
+        "name": "idk",
         "children": []
       }
     ]

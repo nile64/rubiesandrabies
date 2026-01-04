@@ -9,11 +9,14 @@
         "value": "Blocks.STRUCTURE_BLOCK"
       }
     ],
-    "spacing": 2,
-    "separation": 1,
+    "spacing": 15,
+    "separation": 6,
     "restrictionBiomes": [
       {
-        "value": "stony_peaks"
+        "value": "roofed_forest"
+      },
+      {
+        "value": "desert"
       }
     ],
     "terrainAdaptation": "none",
