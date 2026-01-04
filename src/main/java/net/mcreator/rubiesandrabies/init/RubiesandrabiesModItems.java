@@ -12,11 +12,7 @@ import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
-import net.mcreator.rubiesandrabies.item.TheIncidentItem;
-import net.mcreator.rubiesandrabies.item.RubyItem;
-import net.mcreator.rubiesandrabies.item.NowiumEssenceItem;
-import net.mcreator.rubiesandrabies.item.LifeIsRobloxMusicDiscItem;
-import net.mcreator.rubiesandrabies.item.BatWingItem;
+import net.mcreator.rubiesandrabies.item.*;
 import net.mcreator.rubiesandrabies.RubiesandrabiesMod;
 
 import java.util.function.Function;
@@ -36,6 +32,8 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> NOWIUM_ESSENCE;
 	public static final DeferredItem<Item> NOWIUM_BLOCK;
 	public static final DeferredItem<Item> MEATBALL_MOOSE_SPAWN_EGG;
+	public static final DeferredItem<Item> GORILLA_SPAWN_EGG;
+	public static final DeferredItem<Item> BANANA;
 	static {
 		BAT_WING = register("bat_wing", BatWingItem::new);
 		RUBY = register("ruby", RubyItem::new);
@@ -50,6 +48,8 @@ public class RubiesandrabiesModItems {
 		NOWIUM_ESSENCE = register("nowium_essence", NowiumEssenceItem::new);
 		NOWIUM_BLOCK = block(RubiesandrabiesModBlocks.NOWIUM_BLOCK);
 		MEATBALL_MOOSE_SPAWN_EGG = register("meatball_moose_spawn_egg", properties -> new SpawnEggItem(RubiesandrabiesModEntities.MEATBALL_MOOSE.get(), properties));
+		GORILLA_SPAWN_EGG = register("gorilla_spawn_egg", properties -> new SpawnEggItem(RubiesandrabiesModEntities.GORILLA.get(), properties));
+		BANANA = register("banana", BananaItem::new);
 	}
 
 	// Start of user code block custom items

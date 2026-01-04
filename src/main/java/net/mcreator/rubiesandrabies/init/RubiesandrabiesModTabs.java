@@ -33,6 +33,8 @@ public class RubiesandrabiesModTabs {
 				tabData.accept(RubiesandrabiesModBlocks.RUBY_BRICKS_SLAB.get().asItem());
 				tabData.accept(RubiesandrabiesModBlocks.NOWIUM_BLOCK.get().asItem());
 				tabData.accept(RubiesandrabiesModItems.MEATBALL_MOOSE_SPAWN_EGG.get());
+				tabData.accept(RubiesandrabiesModItems.GORILLA_SPAWN_EGG.get());
+				tabData.accept(RubiesandrabiesModItems.BANANA.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
@@ -40,6 +42,9 @@ public class RubiesandrabiesModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(RubiesandrabiesModItems.FEMGRAM_SPAWN_EGG.get());
 			tabData.accept(RubiesandrabiesModItems.MEATBALL_MOOSE_SPAWN_EGG.get());
+			tabData.accept(RubiesandrabiesModItems.GORILLA_SPAWN_EGG.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
+			tabData.accept(RubiesandrabiesModItems.BANANA.get());
 		}
 	}
 }
