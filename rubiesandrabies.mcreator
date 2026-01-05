@@ -859,6 +859,207 @@
           "src/main/java/net/mcreator/rubiesandrabies/item/BananaItem.java"
         ]
       }
+    },
+    {
+      "name": "TheniumEssence",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thenium_essence",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/item/TheniumEssenceItem.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/thenium_essence.json",
+          "src/main/resources/assets/rubiesandrabies/items/thenium_essence.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "TheniumEssencePlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thenium_essence_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/TheniumEssencePlayerFinishesUsingItemProcedure.java"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "TheniumEssenceBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thenium_essence_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/models/block/thenium_essence_block.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/thenium_essence_block.json",
+          "src/main/resources/assets/rubiesandrabies/blockstates/thenium_essence_block.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/TheniumEssenceBlockBlock.java",
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/thenium_essence_block.json",
+          "src/main/resources/assets/rubiesandrabies/items/thenium_essence_block.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "TheniumEssenceBlockOnBlockRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thenium_essence_block_on_block_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/TheniumEssenceBlockOnBlockRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "NowiumFromBlock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nowium_from_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/nowium_from_block.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "TheniumFromBlock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thenium_from_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/thenium_from_block.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "TheniumEssenceToBlock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thenium_essence_to_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/thenium_essence_to_block.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "Theniumsword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "theniumsword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/item/TheniumswordItem.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/theniumsword.json",
+          "src/main/resources/assets/rubiesandrabies/items/theniumsword.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "NowEntityIsHurtevil",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "now_entity_is_hurtevil",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "damagesource",
+            "type": "damagesource"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/NowEntityIsHurtevilProcedure.java"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "BaneOfNowMake",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bane_of_now_make",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/bane_of_now_make.json"
+        ]
+      },
+      "path": "~/idk"
     }
   ],
   "variable_elements": [],
@@ -969,6 +1170,14 @@
       ],
       "category": "hostile",
       "subtitle": ""
+    },
+    {
+      "name": "impaled",
+      "files": [
+        "uaaaaaaaa"
+      ],
+      "category": "hostile",
+      "subtitle": ""
     }
   ],
   "tag_elements": {
@@ -982,6 +1191,7 @@
       "~CUSTOM:NetherRacism"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:TheniumEssenceBlock",
       "~CUSTOM:NowiumBlock",
       "~CUSTOM:EvilNylium",
       "~CUSTOM:RubyBricksSlab",
@@ -1011,6 +1221,15 @@
     ],
     "ENCHANTMENTS:minecraft:treasure": [
       "~CUSTOM:TouchOfRabies"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:TheniumEssenceBlock"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:Theniumsword"
+    ],
+    "ITEMS:rubiesandrabies:theniumsword_repair_items": [
+      "~CUSTOM:TheniumEssenceBlock"
     ]
   },
   "tab_element_order": {},
@@ -1050,7 +1269,7 @@
       "subtitles.yeah": "Yeah!",
       "entity.rubiesandrabies.meatball_moose": "Meatball Moose",
       "item.rubiesandrabies.meatball_moose_spawn_egg": "Meatball Moose Spawn Egg",
-      "item.rubiesandrabies.nowium_block": "Nowium Block",
+      "item.rubiesandrabies.nowium_block": "Block of Nowium",
       "item.rubiesandrabies.nowium_essence": "Nowium Essence",
       "entity.rubiesandrabies.now": "Now",
       "subtitles.glassshatter": "",
@@ -1062,7 +1281,11 @@
       "item.rubiesandrabies.banana": "Banana",
       "item.rubiesandrabies.gorilla_spawn_egg": "Gorilla Spawn Egg",
       "subtitles.glasshit": "",
-      "subtitles.glassidle": ""
+      "subtitles.glassidle": "",
+      "item.rubiesandrabies.thenium_essence": "Thenium Essence",
+      "item.rubiesandrabies.thenium_essence_block": "Block of Thenium",
+      "item.rubiesandrabies.theniumsword": "Bane Of Now",
+      "subtitles.impaled": ""
     }
   },
   "metadata": {

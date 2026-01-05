@@ -36,6 +36,7 @@ public class RubiesandrabiesModTabs {
 				tabData.accept(RubiesandrabiesModItems.MEATBALL_MOOSE_SPAWN_EGG.get());
 				tabData.accept(RubiesandrabiesModItems.GORILLA_SPAWN_EGG.get());
 				tabData.accept(RubiesandrabiesModItems.BANANA.get());
+				tabData.accept(RubiesandrabiesModItems.THENIUMSWORD.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

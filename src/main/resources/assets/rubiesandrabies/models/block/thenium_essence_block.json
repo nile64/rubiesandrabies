@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "rubiesandrabies:block/then",
+    "particle": "rubiesandrabies:block/then"
+  },
+  "render_type": "solid"
+}

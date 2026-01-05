@@ -33,7 +33,7 @@
   "subtitles.yeah": "Yeah!",
   "entity.rubiesandrabies.meatball_moose": "Meatball Moose",
   "item.rubiesandrabies.meatball_moose_spawn_egg": "Meatball Moose Spawn Egg",
-  "item.rubiesandrabies.nowium_block": "Nowium Block",
+  "item.rubiesandrabies.nowium_block": "Block of Nowium",
   "item.rubiesandrabies.nowium_essence": "Nowium Essence",
   "entity.rubiesandrabies.now": "Now",
   "subtitles.glassshatter": "",
@@ -45,5 +45,9 @@
   "item.rubiesandrabies.banana": "Banana",
   "item.rubiesandrabies.gorilla_spawn_egg": "Gorilla Spawn Egg",
   "subtitles.glasshit": "",
-  "subtitles.glassidle": ""
+  "subtitles.glassidle": "",
+  "item.rubiesandrabies.thenium_essence": "Thenium Essence",
+  "item.rubiesandrabies.thenium_essence_block": "Block of Thenium",
+  "item.rubiesandrabies.theniumsword": "Bane Of Now",
+  "subtitles.impaled": ""
 }

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "rubiesandrabies:thenium_essence_block"
+  ],
+  "result": {
+    "id": "rubiesandrabies:thenium_essence",
+    "count": 9
+  }
+}

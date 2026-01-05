@@ -36,6 +36,9 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> NETHERTHING;
 	public static final DeferredItem<Item> GORILLA_SPAWN_EGG;
 	public static final DeferredItem<Item> BANANA;
+	public static final DeferredItem<Item> THENIUM_ESSENCE;
+	public static final DeferredItem<Item> THENIUM_ESSENCE_BLOCK;
+	public static final DeferredItem<Item> THENIUMSWORD;
 	static {
 		BAT_WING = register("bat_wing", BatWingItem::new);
 		RUBY = register("ruby", RubyItem::new);
@@ -54,6 +57,9 @@ public class RubiesandrabiesModItems {
 		NETHERTHING = block(RubiesandrabiesModBlocks.NETHERTHING);
 		GORILLA_SPAWN_EGG = register("gorilla_spawn_egg", properties -> new SpawnEggItem(RubiesandrabiesModEntities.GORILLA.get(), properties));
 		BANANA = register("banana", BananaItem::new);
+		THENIUM_ESSENCE = register("thenium_essence", TheniumEssenceItem::new);
+		THENIUM_ESSENCE_BLOCK = block(RubiesandrabiesModBlocks.THENIUM_ESSENCE_BLOCK);
+		THENIUMSWORD = register("theniumsword", TheniumswordItem::new);
 	}
 
 	// Start of user code block custom items

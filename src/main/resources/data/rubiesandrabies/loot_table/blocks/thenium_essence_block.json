@@ -1,6 +1,6 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "rubiesandrabies:blocks/nowium_block",
+  "random_sequence": "rubiesandrabies:blocks/thenium_essence_block",
   "pools": [
     {
       "rolls": 1.0,

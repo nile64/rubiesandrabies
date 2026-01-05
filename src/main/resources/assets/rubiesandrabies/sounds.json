@@ -123,5 +123,13 @@
         "stream": false
       }
     ]
+  },
+  "impaled": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:uaaaaaaaa",
+        "stream": false
+      }
+    ]
   }
 }

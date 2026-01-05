@@ -2,7 +2,7 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "now",
+    "texture": "then",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -39,7 +39,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Block of Nowium",
+    "name": "Block of Thenium",
     "specialInformation": {
       "fixedValue": []
     },
@@ -51,14 +51,10 @@
     "maxStackSize": 64,
     "rarity": "COMMON",
     "immuneToFire": false,
-    "creativeTabs": [
-      {
-        "value": "CUSTOM:RubiesRabiesTab"
-      }
-    ],
+    "creativeTabs": [],
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:TheniumEssenceBlock"
+      "value": ""
     },
     "dropAmount": 1,
     "xpAmountMin": 0,
@@ -114,9 +110,9 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 3,
+    "luminance": 0,
     "unbreakable": false,
-    "vanillaToolTier": "IRON",
+    "vanillaToolTier": "STONE",
     "isBonemealable": false,
     "sensitiveToVibration": false,
     "vibrationalEvents": [],
@@ -140,10 +136,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onRightClicked": {
-      "name": "NowiumEssenceRightclickedOnBlock"
-    },
-    "onDestroyedByPlayer": {
-      "name": "AHHH"
+      "name": "TheniumEssenceBlockOnBlockRightclicked"
     },
     "generateFeature": false,
     "restrictionBiomes": [],

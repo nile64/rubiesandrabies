@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "rubiesandrabies:nowium_block"
+  ],
+  "result": {
+    "id": "rubiesandrabies:nowium_essence",
+    "count": 9
+  }
+}
