@@ -1060,6 +1060,121 @@
         ]
       },
       "path": "~/idk"
+    },
+    {
+      "name": "SkyfactoryOnBlockRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skyfactory_on_block_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/SkyfactoryOnBlockRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/skyfactory"
+    },
+    {
+      "name": "Skyfactory",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skyfactory",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/skyfactory.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/skyfactory.json",
+          "src/main/resources/assets/rubiesandrabies/items/skyfactory.json",
+          "src/main/resources/assets/rubiesandrabies/blockstates/skyfactory.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/skyfactory.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/SkyfactoryBlock.java"
+        ]
+      },
+      "path": "~/skyfactory"
+    },
+    {
+      "name": "SkyfactoryGui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skyfactory_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/network/SkyfactoryGuiButtonMessage.java",
+          "src/main/java/net/mcreator/rubiesandrabies/world/inventory/SkyfactoryGuiMenu.java",
+          "src/main/java/net/mcreator/rubiesandrabies/client/gui/SkyfactoryGuiScreen.java"
+        ]
+      },
+      "path": "~/skyfactory"
+    },
+    {
+      "name": "SkyfactoryDirtToUranium",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skyfactory_dirt_to_uranium",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/SkyfactoryDirtToUraniumProcedure.java"
+        ]
+      },
+      "path": "~/skyfactory"
+    },
+    {
+      "name": "Skyfactoryrecipie",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skyfactoryrecipie",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/skyfactoryrecipie.json"
+        ]
+      },
+      "path": "~/skyfactory"
+    },
+    {
+      "name": "Uranium",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/item/UraniumItem.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/uranium.json",
+          "src/main/resources/assets/rubiesandrabies/items/uranium.json"
+        ]
+      },
+      "path": "~/skyfactory"
     }
   ],
   "variable_elements": [],
@@ -1191,6 +1306,7 @@
       "~CUSTOM:NetherRacism"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Skyfactory",
       "~CUSTOM:TheniumEssenceBlock",
       "~CUSTOM:NowiumBlock",
       "~CUSTOM:EvilNylium",
@@ -1230,6 +1346,9 @@
     ],
     "ITEMS:rubiesandrabies:theniumsword_repair_items": [
       "~CUSTOM:TheniumEssenceBlock"
+    ],
+    "ITEMS:minecraft:piglin_loved": [
+      "~CUSTOM:Uranium"
     ]
   },
   "tab_element_order": {},
@@ -1285,13 +1404,20 @@
       "item.rubiesandrabies.thenium_essence": "Thenium Essence",
       "item.rubiesandrabies.thenium_essence_block": "Block of Thenium",
       "item.rubiesandrabies.theniumsword": "Bane Of Now",
-      "subtitles.impaled": ""
+      "subtitles.impaled": "",
+      "item.rubiesandrabies.skyfactory": "Skyfactory",
+      "gui.rubiesandrabies.skyfactory_gui.label_skyfactory": "Skyfactory",
+      "gui.rubiesandrabies.skyfactory_gui.button_commence_the_construction": "Commence the Construction",
+      "item.rubiesandrabies.uranium": "Uranium"
     }
   },
   "metadata": {
     "files": [
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModBiomes.java",
       "src/main/java/net/mcreator/rubiesandrabies/mixin/NoiseGeneratorSettingsMixin.java",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModBiomes.java",
+      "src/main/java/net/mcreator/rubiesandrabies/network/MenuStateUpdateMessage.java",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModMenus.java",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModScreens.java",
       "src/main/resources/data/neoforge/data_maps/entity_type/monster_room_mobs.json",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModMobEffects.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModBlocks.java",
@@ -1300,13 +1426,13 @@
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModEntities.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModEntityRenderers.java",
       "src/main/resources/pack.mcmeta",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModModels.java",
-      "src/main/java/net/mcreator/rubiesandrabies/RubiesandrabiesMod.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModSounds.java",
+      "src/main/resources/rubiesandrabies.mixins.json",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModModels.java",
       "src/main/resources/assets/rubiesandrabies/sounds.json",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModTabs.java",
-      "src/main/resources/META-INF/accesstransformer.cfg",
-      "src/main/resources/rubiesandrabies.mixins.json",
+      "src/main/java/net/mcreator/rubiesandrabies/RubiesandrabiesMod.java",
       "src/main/resources/META-INF/neoforge.mods.toml"
     ]
   },
@@ -1319,6 +1445,10 @@
       },
       {
         "name": "idk",
+        "children": []
+      },
+      {
+        "name": "skyfactory",
         "children": []
       }
     ]

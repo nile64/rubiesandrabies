@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "aaa",
+    "bcd",
+    "eee"
+  ],
+  "key": {
+    "a": "minecraft:iron_ingot",
+    "b": "#minecraft:leaves",
+    "c": "#minecraft:logs",
+    "d": "minecraft:diamond",
+    "e": "minecraft:smooth_stone"
+  },
+  "result": {
+    "id": "rubiesandrabies:skyfactory",
+    "count": 1
+  }
+}
