@@ -106,9 +106,9 @@
       "registry_name": "bat_wing",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rubiesandrabies/models/item/bat_wing.json",
+          "src/main/resources/assets/rubiesandrabies/items/bat_wing.json",
           "src/main/java/net/mcreator/rubiesandrabies/item/BatWingItem.java",
-          "src/main/resources/assets/rubiesandrabies/items/bat_wing.json"
+          "src/main/resources/assets/rubiesandrabies/models/item/bat_wing.json"
         ]
       }
     },
@@ -144,12 +144,12 @@
       "registry_name": "racism",
       "metadata": {
         "files": [
-          "src/main/resources/data/rubiesandrabies/worldgen/biome/racism.json",
-          "src/main/resources/data/rubiesandrabies/worldgen/configured_feature/racism_tree.json",
-          "src/main/java/net/mcreator/rubiesandrabies/world/features/treedecorators/RacismTrunkDecorator.java",
-          "src/main/java/net/mcreator/rubiesandrabies/world/features/treedecorators/RacismFruitDecorator.java",
           "src/main/java/net/mcreator/rubiesandrabies/world/features/treedecorators/RacismLeaveDecorator.java",
-          "src/main/resources/data/rubiesandrabies/worldgen/placed_feature/racism_tree.json"
+          "src/main/resources/data/rubiesandrabies/worldgen/configured_feature/racism_tree.json",
+          "src/main/resources/data/rubiesandrabies/worldgen/biome/racism.json",
+          "src/main/java/net/mcreator/rubiesandrabies/world/features/treedecorators/RacismTrunkDecorator.java",
+          "src/main/resources/data/rubiesandrabies/worldgen/placed_feature/racism_tree.json",
+          "src/main/java/net/mcreator/rubiesandrabies/world/features/treedecorators/RacismFruitDecorator.java"
         ]
       }
     },
@@ -195,12 +195,12 @@
       "registry_name": "ruby_bricks",
       "metadata": {
         "files": [
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/ruby_bricks.json",
           "src/main/resources/assets/rubiesandrabies/models/item/ruby_bricks.json",
           "src/main/resources/assets/rubiesandrabies/items/ruby_bricks.json",
-          "src/main/resources/assets/rubiesandrabies/blockstates/ruby_bricks.json",
           "src/main/java/net/mcreator/rubiesandrabies/block/RubyBricksBlock.java",
           "src/main/resources/assets/rubiesandrabies/models/block/ruby_bricks.json",
-          "src/main/resources/data/rubiesandrabies/loot_table/blocks/ruby_bricks.json"
+          "src/main/resources/assets/rubiesandrabies/blockstates/ruby_bricks.json"
         ]
       }
     },
@@ -212,8 +212,8 @@
       "registry_name": "ruby_brick_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/rubiesandrabies/recipe/ruby_brick_recipe.json",
-          "src/main/resources/data/rubiesandrabies/advancement/recipes/ruby_brick_recipe.json"
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/ruby_brick_recipe.json",
+          "src/main/resources/data/rubiesandrabies/recipe/ruby_brick_recipe.json"
         ]
       }
     },
@@ -259,9 +259,9 @@
       "registry_name": "the_incident",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rubiesandrabies/models/item/the_incident.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/TheIncidentItem.java",
           "src/main/resources/assets/rubiesandrabies/items/the_incident.json",
-          "src/main/java/net/mcreator/rubiesandrabies/item/TheIncidentItem.java"
+          "src/main/resources/assets/rubiesandrabies/models/item/the_incident.json"
         ]
       }
     },
@@ -286,10 +286,10 @@
       "registry_name": "life_is_roblox_music_disc",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rubiesandrabies/items/life_is_roblox_music_disc.json",
-          "src/main/resources/data/rubiesandrabies/jukebox_song/life_is_roblox_music_disc.json",
           "src/main/java/net/mcreator/rubiesandrabies/item/LifeIsRobloxMusicDiscItem.java",
-          "src/main/resources/assets/rubiesandrabies/models/item/life_is_roblox_music_disc.json"
+          "src/main/resources/assets/rubiesandrabies/models/item/life_is_roblox_music_disc.json",
+          "src/main/resources/assets/rubiesandrabies/items/life_is_roblox_music_disc.json",
+          "src/main/resources/data/rubiesandrabies/jukebox_song/life_is_roblox_music_disc.json"
         ]
       },
       "path": "~/MusicDiscs"
@@ -316,9 +316,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/rubiesandrabies/client/renderer/FemgramRenderer.java",
-          "src/main/java/net/mcreator/rubiesandrabies/entity/FemgramEntity.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/femgram_spawn_egg.json",
           "src/main/resources/assets/rubiesandrabies/items/femgram_spawn_egg.json",
-          "src/main/resources/assets/rubiesandrabies/models/item/femgram_spawn_egg.json"
+          "src/main/java/net/mcreator/rubiesandrabies/entity/FemgramEntity.java"
         ]
       }
     },
@@ -360,12 +360,12 @@
       "registry_name": "block_of_femgram",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rubiesandrabies/models/item/block_of_femgram.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/BlockOfFemgramBlock.java",
+          "src/main/resources/assets/rubiesandrabies/items/block_of_femgram.json",
           "src/main/resources/data/rubiesandrabies/loot_table/blocks/block_of_femgram.json",
           "src/main/resources/assets/rubiesandrabies/models/block/block_of_femgram.json",
-          "src/main/resources/assets/rubiesandrabies/items/block_of_femgram.json",
-          "src/main/resources/assets/rubiesandrabies/blockstates/block_of_femgram.json",
-          "src/main/java/net/mcreator/rubiesandrabies/block/BlockOfFemgramBlock.java"
+          "src/main/resources/assets/rubiesandrabies/models/item/block_of_femgram.json",
+          "src/main/resources/assets/rubiesandrabies/blockstates/block_of_femgram.json"
         ]
       }
     },
@@ -378,13 +378,13 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/rubiesandrabies/blockstates/ruby_bricks_stairs.json",
-          "src/main/resources/assets/rubiesandrabies/models/block/ruby_bricks_stairs_inner.json",
           "src/main/resources/assets/rubiesandrabies/models/block/ruby_bricks_stairs_outer.json",
-          "src/main/resources/assets/rubiesandrabies/models/item/ruby_bricks_stairs.json",
-          "src/main/resources/assets/rubiesandrabies/models/block/ruby_bricks_stairs.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/ruby_bricks_stairs_inner.json",
           "src/main/resources/data/rubiesandrabies/loot_table/blocks/ruby_bricks_stairs.json",
-          "src/main/resources/assets/rubiesandrabies/items/ruby_bricks_stairs.json",
-          "src/main/java/net/mcreator/rubiesandrabies/block/RubyBricksStairsBlock.java"
+          "src/main/resources/assets/rubiesandrabies/models/block/ruby_bricks_stairs.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/RubyBricksStairsBlock.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/ruby_bricks_stairs.json",
+          "src/main/resources/assets/rubiesandrabies/items/ruby_bricks_stairs.json"
         ]
       },
       "path": "~/idk"
@@ -398,13 +398,13 @@
       "metadata": {
         "files": [
           "src/main/resources/data/rubiesandrabies/loot_table/blocks/ruby_bricks_slab.json",
-          "src/main/resources/assets/rubiesandrabies/models/block/ruby_bricks_slab.json",
-          "src/main/java/net/mcreator/rubiesandrabies/block/RubyBricksSlabBlock.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/ruby_bricks_slab.json",
           "src/main/resources/assets/rubiesandrabies/blockstates/ruby_bricks_slab.json",
-          "src/main/resources/assets/rubiesandrabies/models/block/ruby_bricks_slab_full.json",
           "src/main/resources/assets/rubiesandrabies/items/ruby_bricks_slab.json",
-          "src/main/resources/assets/rubiesandrabies/models/block/ruby_bricks_slab_top.json",
-          "src/main/resources/assets/rubiesandrabies/models/item/ruby_bricks_slab.json"
+          "src/main/resources/assets/rubiesandrabies/models/block/ruby_bricks_slab.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/ruby_bricks_slab_full.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/RubyBricksSlabBlock.java",
+          "src/main/resources/assets/rubiesandrabies/models/block/ruby_bricks_slab_top.json"
         ]
       },
       "path": "~/idk"
@@ -417,8 +417,8 @@
       "registry_name": "femgram_structure",
       "metadata": {
         "files": [
-          "src/main/resources/data/rubiesandrabies/worldgen/template_pool/femgram_structure.json",
           "src/main/resources/data/rubiesandrabies/worldgen/structure/femgram_structure.json",
+          "src/main/resources/data/rubiesandrabies/worldgen/template_pool/femgram_structure.json",
           "src/main/resources/data/rubiesandrabies/worldgen/structure_set/femgram_structure.json"
         ]
       }
@@ -469,12 +469,12 @@
       "registry_name": "evil_nylium",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rubiesandrabies/models/item/evil_nylium.json",
-          "src/main/resources/assets/rubiesandrabies/items/evil_nylium.json",
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/evil_nylium.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/evil_nylium.json",
           "src/main/resources/assets/rubiesandrabies/blockstates/evil_nylium.json",
           "src/main/java/net/mcreator/rubiesandrabies/block/EvilNyliumBlock.java",
-          "src/main/resources/assets/rubiesandrabies/models/block/evil_nylium.json",
-          "src/main/resources/data/rubiesandrabies/loot_table/blocks/evil_nylium.json"
+          "src/main/resources/assets/rubiesandrabies/models/item/evil_nylium.json",
+          "src/main/resources/assets/rubiesandrabies/items/evil_nylium.json"
         ]
       },
       "path": "~/idk"
@@ -487,12 +487,12 @@
       "registry_name": "nether_racism",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/rubiesandrabies/world/features/treedecorators/NetherRacismLeaveDecorator.java",
-          "src/main/java/net/mcreator/rubiesandrabies/world/features/treedecorators/NetherRacismTrunkDecorator.java",
           "src/main/resources/data/rubiesandrabies/worldgen/biome/nether_racism.json",
-          "src/main/resources/data/rubiesandrabies/worldgen/placed_feature/nether_racism_tree.json",
+          "src/main/java/net/mcreator/rubiesandrabies/world/features/treedecorators/NetherRacismTrunkDecorator.java",
+          "src/main/resources/data/rubiesandrabies/worldgen/configured_feature/nether_racism_tree.json",
           "src/main/java/net/mcreator/rubiesandrabies/world/features/treedecorators/NetherRacismFruitDecorator.java",
-          "src/main/resources/data/rubiesandrabies/worldgen/configured_feature/nether_racism_tree.json"
+          "src/main/resources/data/rubiesandrabies/worldgen/placed_feature/nether_racism_tree.json",
+          "src/main/java/net/mcreator/rubiesandrabies/world/features/treedecorators/NetherRacismLeaveDecorator.java"
         ]
       },
       "path": "~/idk"
@@ -531,8 +531,8 @@
       "registry_name": "ruby_bricks_stairs_recipie_stonecutter",
       "metadata": {
         "files": [
-          "src/main/resources/data/rubiesandrabies/advancement/recipes/ruby_bricks_stairs_recipie_stonecutter.json",
-          "src/main/resources/data/rubiesandrabies/recipe/ruby_bricks_stairs_recipie_stonecutter.json"
+          "src/main/resources/data/rubiesandrabies/recipe/ruby_bricks_stairs_recipie_stonecutter.json",
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/ruby_bricks_stairs_recipie_stonecutter.json"
         ]
       },
       "path": "~/idk"
@@ -591,8 +591,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/rubiesandrabies/item/NowiumEssenceItem.java",
-          "src/main/resources/assets/rubiesandrabies/items/nowium_essence.json",
-          "src/main/resources/assets/rubiesandrabies/models/item/nowium_essence.json"
+          "src/main/resources/assets/rubiesandrabies/models/item/nowium_essence.json",
+          "src/main/resources/assets/rubiesandrabies/items/nowium_essence.json"
         ]
       },
       "path": "~/idk"
@@ -618,10 +618,10 @@
       "registry_name": "now",
       "metadata": {
         "files": [
+          "src/main/resources/assets/rubiesandrabies/models/item/now_spawn_egg.json",
           "src/main/java/net/mcreator/rubiesandrabies/client/renderer/NowRenderer.java",
           "src/main/resources/assets/rubiesandrabies/items/now_spawn_egg.json",
-          "src/main/java/net/mcreator/rubiesandrabies/entity/NowEntity.java",
-          "src/main/resources/assets/rubiesandrabies/models/item/now_spawn_egg.json"
+          "src/main/java/net/mcreator/rubiesandrabies/entity/NowEntity.java"
         ]
       },
       "path": "~/idk"
@@ -665,12 +665,12 @@
       "registry_name": "nowium_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rubiesandrabies/models/block/nowium_block.json",
           "src/main/java/net/mcreator/rubiesandrabies/block/NowiumBlockBlock.java",
-          "src/main/resources/assets/rubiesandrabies/blockstates/nowium_block.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/nowium_block.json",
           "src/main/resources/assets/rubiesandrabies/items/nowium_block.json",
+          "src/main/resources/assets/rubiesandrabies/blockstates/nowium_block.json",
           "src/main/resources/data/rubiesandrabies/loot_table/blocks/nowium_block.json",
-          "src/main/resources/assets/rubiesandrabies/models/item/nowium_block.json"
+          "src/main/resources/assets/rubiesandrabies/models/block/nowium_block.json"
         ]
       },
       "path": "~/idk"
@@ -697,10 +697,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/rubiesandrabies/models/item/meatball_moose_spawn_egg.json",
-          "src/main/resources/assets/rubiesandrabies/items/meatball_moose_spawn_egg.json",
-          "src/main/java/net/mcreator/rubiesandrabies/client/renderer/MeatballMooseRenderer.java",
           "src/main/java/net/mcreator/rubiesandrabies/entity/MeatballMooseEntity.java",
-          "src/main/resources/data/rubiesandrabies/neoforge/biome_modifier/meatball_moose_biome_modifier.json"
+          "src/main/resources/data/rubiesandrabies/neoforge/biome_modifier/meatball_moose_biome_modifier.json",
+          "src/main/java/net/mcreator/rubiesandrabies/client/renderer/MeatballMooseRenderer.java",
+          "src/main/resources/assets/rubiesandrabies/items/meatball_moose_spawn_egg.json"
         ]
       }
     },
@@ -774,14 +774,14 @@
       "registry_name": "netherthing",
       "metadata": {
         "files": [
-          "src/main/resources/data/rubiesandrabies/loot_table/blocks/netherthing.json",
-          "src/main/resources/assets/rubiesandrabies/blockstates/netherthing.json",
-          "src/main/java/net/mcreator/rubiesandrabies/block/NetherthingBlock.java",
-          "src/main/resources/assets/rubiesandrabies/items/netherthing.json",
-          "src/main/java/net/mcreator/rubiesandrabies/block/entity/NetherthingBlockEntity.java",
-          "src/main/java/net/mcreator/rubiesandrabies/client/renderer/block/NetherthingRenderer.java",
           "src/main/resources/assets/rubiesandrabies/models/item/netherthing.json",
-          "src/main/resources/assets/rubiesandrabies/models/block/netherthing.json"
+          "src/main/resources/assets/rubiesandrabies/models/block/netherthing.json",
+          "src/main/java/net/mcreator/rubiesandrabies/client/renderer/block/NetherthingRenderer.java",
+          "src/main/java/net/mcreator/rubiesandrabies/block/NetherthingBlock.java",
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/netherthing.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/entity/NetherthingBlockEntity.java",
+          "src/main/resources/assets/rubiesandrabies/items/netherthing.json",
+          "src/main/resources/assets/rubiesandrabies/blockstates/netherthing.json"
         ]
       },
       "path": "~/idk"
@@ -839,10 +839,10 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/rubiesandrabies/client/renderer/GorillaRenderer.java",
+          "src/main/resources/assets/rubiesandrabies/items/gorilla_spawn_egg.json",
           "src/main/resources/assets/rubiesandrabies/models/item/gorilla_spawn_egg.json",
           "src/main/java/net/mcreator/rubiesandrabies/entity/GorillaEntity.java",
-          "src/main/resources/data/rubiesandrabies/neoforge/biome_modifier/gorilla_biome_modifier.json",
-          "src/main/resources/assets/rubiesandrabies/items/gorilla_spawn_egg.json"
+          "src/main/resources/data/rubiesandrabies/neoforge/biome_modifier/gorilla_biome_modifier.json"
         ]
       }
     },
@@ -854,8 +854,8 @@
       "registry_name": "banana",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rubiesandrabies/models/item/banana.json",
           "src/main/resources/assets/rubiesandrabies/items/banana.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/banana.json",
           "src/main/java/net/mcreator/rubiesandrabies/item/BananaItem.java"
         ]
       }
@@ -914,12 +914,12 @@
       "registry_name": "thenium_essence_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rubiesandrabies/models/block/thenium_essence_block.json",
-          "src/main/resources/assets/rubiesandrabies/models/item/thenium_essence_block.json",
-          "src/main/resources/assets/rubiesandrabies/blockstates/thenium_essence_block.json",
           "src/main/java/net/mcreator/rubiesandrabies/block/TheniumEssenceBlockBlock.java",
-          "src/main/resources/data/rubiesandrabies/loot_table/blocks/thenium_essence_block.json",
-          "src/main/resources/assets/rubiesandrabies/items/thenium_essence_block.json"
+          "src/main/resources/assets/rubiesandrabies/blockstates/thenium_essence_block.json",
+          "src/main/resources/assets/rubiesandrabies/items/thenium_essence_block.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/thenium_essence_block.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/thenium_essence_block.json",
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/thenium_essence_block.json"
         ]
       },
       "path": "~/idk"
@@ -1104,11 +1104,11 @@
       "registry_name": "skyfactory",
       "metadata": {
         "files": [
+          "src/main/resources/assets/rubiesandrabies/models/block/skyfactory.json",
+          "src/main/resources/assets/rubiesandrabies/blockstates/skyfactory.json",
+          "src/main/resources/assets/rubiesandrabies/items/skyfactory.json",
           "src/main/resources/data/rubiesandrabies/loot_table/blocks/skyfactory.json",
           "src/main/resources/assets/rubiesandrabies/models/item/skyfactory.json",
-          "src/main/resources/assets/rubiesandrabies/items/skyfactory.json",
-          "src/main/resources/assets/rubiesandrabies/blockstates/skyfactory.json",
-          "src/main/resources/assets/rubiesandrabies/models/block/skyfactory.json",
           "src/main/java/net/mcreator/rubiesandrabies/block/SkyfactoryBlock.java"
         ]
       },
@@ -1122,9 +1122,9 @@
       "registry_name": "skyfactory_gui",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/client/gui/SkyfactoryGuiScreen.java",
           "src/main/java/net/mcreator/rubiesandrabies/network/SkyfactoryGuiButtonMessage.java",
-          "src/main/java/net/mcreator/rubiesandrabies/world/inventory/SkyfactoryGuiMenu.java",
-          "src/main/java/net/mcreator/rubiesandrabies/client/gui/SkyfactoryGuiScreen.java"
+          "src/main/java/net/mcreator/rubiesandrabies/world/inventory/SkyfactoryGuiMenu.java"
         ]
       },
       "path": "~/skyfactory"
@@ -1169,9 +1169,9 @@
       "registry_name": "uranium",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/rubiesandrabies/item/UraniumItem.java",
           "src/main/resources/assets/rubiesandrabies/models/item/uranium.json",
-          "src/main/resources/assets/rubiesandrabies/items/uranium.json"
+          "src/main/resources/assets/rubiesandrabies/items/uranium.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/UraniumItem.java"
         ]
       },
       "path": "~/skyfactory"
@@ -1464,32 +1464,38 @@
       "item.rubiesandrabies.skyfactory": "Skyfactory",
       "gui.rubiesandrabies.skyfactory_gui.label_skyfactory": "Skyfactory",
       "gui.rubiesandrabies.skyfactory_gui.button_commence_the_construction": "Commence the Construction",
-      "item.rubiesandrabies.uranium": "Uranium"
+      "item.rubiesandrabies.uranium": "Uranium",
+      "painting.rubiesandrabies.evil_painting_2.title": "Evil Painting 2",
+      "painting.rubiesandrabies.evil_painting_2.author": "the now",
+      "painting.rubiesandrabies.evil_painting.title": "Evil Painting",
+      "painting.rubiesandrabies.evil_painting.author": "by gp0 and more",
+      "item.rubiesandrabies.sugarcane_pickaxe": "Sugarcane Pickaxe"
     }
   },
   "metadata": {
     "files": [
-      "src/main/java/net/mcreator/rubiesandrabies/mixin/NoiseGeneratorSettingsMixin.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModBiomes.java",
-      "src/main/java/net/mcreator/rubiesandrabies/network/MenuStateUpdateMessage.java",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModMenus.java",
+      "src/main/java/net/mcreator/rubiesandrabies/mixin/NoiseGeneratorSettingsMixin.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModScreens.java",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModMenus.java",
+      "src/main/java/net/mcreator/rubiesandrabies/network/MenuStateUpdateMessage.java",
       "src/main/resources/data/neoforge/data_maps/entity_type/monster_room_mobs.json",
+      "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModMobEffects.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModBlocks.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModBlockEntities.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModItems.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModEntities.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModEntityRenderers.java",
-      "src/main/resources/pack.mcmeta",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModSounds.java",
-      "src/main/resources/rubiesandrabies.mixins.json",
-      "src/main/resources/META-INF/accesstransformer.cfg",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModModels.java",
-      "src/main/resources/assets/rubiesandrabies/sounds.json",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModSounds.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModTabs.java",
+      "src/main/resources/META-INF/accesstransformer.cfg",
       "src/main/java/net/mcreator/rubiesandrabies/RubiesandrabiesMod.java",
-      "src/main/resources/META-INF/neoforge.mods.toml"
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/assets/rubiesandrabies/sounds.json",
+      "src/main/resources/rubiesandrabies.mixins.json",
+      "src/main/resources/pack.mcmeta"
     ]
   },
   "foldersRoot": {
