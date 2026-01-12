@@ -49,6 +49,8 @@ public class RubiesandrabiesModTabs {
 			tabData.accept(RubiesandrabiesModItems.GORILLA_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(RubiesandrabiesModItems.BANANA.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+			tabData.accept(RubiesandrabiesModItems.SUGARCANE_PICKAXE.get());
 		}
 	}
 }

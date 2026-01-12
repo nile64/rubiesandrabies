@@ -1177,6 +1177,18 @@
       "path": "~/skyfactory"
     },
     {
+      "name": "EvilPainting2",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evil_painting_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/painting_variant/evil_painting_2.json"
+        ]
+      }
+    },
+    {
       "name": "EvilPainting",
       "type": "painting",
       "compiles": true,
@@ -1189,14 +1201,28 @@
       }
     },
     {
-      "name": "EvilPainting2",
-      "type": "painting",
+      "name": "SugarcanePickaxe",
+      "type": "tool",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "evil_painting_2",
+      "registry_name": "sugarcane_pickaxe",
       "metadata": {
         "files": [
-          "src/main/resources/data/rubiesandrabies/painting_variant/evil_painting_2.json"
+          "src/main/resources/assets/rubiesandrabies/items/sugarcane_pickaxe.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/sugarcane_pickaxe.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/SugarcanePickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SugarcanePickaxeRecipie",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sugarcane_pickaxe_recipie",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/sugarcane_pickaxe_recipie.json"
         ]
       }
     }
@@ -1373,6 +1399,12 @@
     ],
     "ITEMS:minecraft:piglin_loved": [
       "~CUSTOM:Uranium"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:SugarcanePickaxe"
+    ],
+    "ITEMS:rubiesandrabies:sugarcane_pickaxe_repair_items": [
+      "~Blocks.REEDS"
     ]
   },
   "tab_element_order": {},
@@ -1432,37 +1464,32 @@
       "item.rubiesandrabies.skyfactory": "Skyfactory",
       "gui.rubiesandrabies.skyfactory_gui.label_skyfactory": "Skyfactory",
       "gui.rubiesandrabies.skyfactory_gui.button_commence_the_construction": "Commence the Construction",
-      "item.rubiesandrabies.uranium": "Uranium",
-      "painting.rubiesandrabies.evil_painting.title": "Evil Painting",
-      "painting.rubiesandrabies.evil_painting.author": "by gp0 and more",
-      "painting.rubiesandrabies.evil_painting_2.title": "Evil Painting 2",
-      "painting.rubiesandrabies.evil_painting_2.author": "the now"
+      "item.rubiesandrabies.uranium": "Uranium"
     }
   },
   "metadata": {
     "files": [
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModBiomes.java",
       "src/main/java/net/mcreator/rubiesandrabies/mixin/NoiseGeneratorSettingsMixin.java",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModScreens.java",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModMenus.java",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModBiomes.java",
       "src/main/java/net/mcreator/rubiesandrabies/network/MenuStateUpdateMessage.java",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModMenus.java",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModScreens.java",
       "src/main/resources/data/neoforge/data_maps/entity_type/monster_room_mobs.json",
-      "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModMobEffects.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModBlocks.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModBlockEntities.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModItems.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModEntities.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModEntityRenderers.java",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModModels.java",
+      "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModSounds.java",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModTabs.java",
-      "src/main/resources/META-INF/accesstransformer.cfg",
-      "src/main/java/net/mcreator/rubiesandrabies/RubiesandrabiesMod.java",
-      "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/resources/assets/rubiesandrabies/sounds.json",
       "src/main/resources/rubiesandrabies.mixins.json",
-      "src/main/resources/pack.mcmeta"
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModModels.java",
+      "src/main/resources/assets/rubiesandrabies/sounds.json",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModTabs.java",
+      "src/main/java/net/mcreator/rubiesandrabies/RubiesandrabiesMod.java",
+      "src/main/resources/META-INF/neoforge.mods.toml"
     ]
   },
   "foldersRoot": {
@@ -1473,11 +1500,11 @@
         "children": []
       },
       {
-        "name": "idk",
+        "name": "skyfactory",
         "children": []
       },
       {
-        "name": "skyfactory",
+        "name": "idk",
         "children": []
       }
     ]
