@@ -41,6 +41,7 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> THENIUMSWORD;
 	public static final DeferredItem<Item> SKYFACTORY;
 	public static final DeferredItem<Item> URANIUM;
+	public static final DeferredItem<Item> SUGARCANE_PICKAXE;
 	static {
 		BAT_WING = register("bat_wing", BatWingItem::new);
 		RUBY = register("ruby", RubyItem::new);
@@ -64,6 +65,7 @@ public class RubiesandrabiesModItems {
 		THENIUMSWORD = register("theniumsword", TheniumswordItem::new);
 		SKYFACTORY = block(RubiesandrabiesModBlocks.SKYFACTORY);
 		URANIUM = register("uranium", UraniumItem::new);
+		SUGARCANE_PICKAXE = register("sugarcane_pickaxe", SugarcanePickaxeItem::new);
 	}
 
 	// Start of user code block custom items

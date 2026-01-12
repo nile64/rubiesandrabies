@@ -1175,6 +1175,32 @@
         ]
       },
       "path": "~/skyfactory"
+    },
+    {
+      "name": "SugarcanePickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sugarcane_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/models/item/sugarcane_pickaxe.json",
+          "src/main/resources/assets/rubiesandrabies/items/sugarcane_pickaxe.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/SugarcanePickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SugarcanePickaxeRecipie",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sugarcane_pickaxe_recipie",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/sugarcane_pickaxe_recipie.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1349,6 +1375,12 @@
     ],
     "ITEMS:minecraft:piglin_loved": [
       "~CUSTOM:Uranium"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:SugarcanePickaxe"
+    ],
+    "ITEMS:rubiesandrabies:sugarcane_pickaxe_repair_items": [
+      "~Blocks.REEDS"
     ]
   },
   "tab_element_order": {},
@@ -1408,7 +1440,8 @@
       "item.rubiesandrabies.skyfactory": "Skyfactory",
       "gui.rubiesandrabies.skyfactory_gui.label_skyfactory": "Skyfactory",
       "gui.rubiesandrabies.skyfactory_gui.button_commence_the_construction": "Commence the Construction",
-      "item.rubiesandrabies.uranium": "Uranium"
+      "item.rubiesandrabies.uranium": "Uranium",
+      "item.rubiesandrabies.sugarcane_pickaxe": "Sugarcane Pickaxe"
     }
   },
   "metadata": {
