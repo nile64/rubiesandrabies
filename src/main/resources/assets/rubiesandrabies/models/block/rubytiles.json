@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rubiesandrabies:block/ruby_tiles",
+    "up": "rubiesandrabies:block/ruby_tiles",
+    "north": "rubiesandrabies:block/ruby_tiles",
+    "east": "rubiesandrabies:block/ruby_tiles",
+    "south": "rubiesandrabies:block/ruby_tiles",
+    "west": "rubiesandrabies:block/ruby_tiles",
+    "particle": "rubiesandrabies:block/ruby_tiles"
+  },
+  "render_type": "translucent"
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "bdb",
+    "cba"
+  ],
+  "key": {
+    "a": "minecraft:echo_shard",
+    "b": "minecraft:diamond",
+    "c": "minecraft:netherite_ingot",
+    "d": "minecraft:ender_eye"
+  },
+  "result": {
+    "id": "rubiesandrabies:xrayblock",
+    "count": 1
+  }
+}

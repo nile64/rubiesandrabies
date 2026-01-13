@@ -3,7 +3,7 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Stone cutting",
-    "recipeRetstackSize": 1,
+    "recipeRetstackSize": 2,
     "group": "",
     "unlockingItems": [
       {

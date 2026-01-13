@@ -43,5 +43,14 @@
   "item.rubiesandrabies.netherthing": "Nether",
   "entity.rubiesandrabies.gorilla": "Gorilla",
   "item.rubiesandrabies.gorilla_spawn_egg": "Gorilla Spawn Egg",
-  "item.rubiesandrabies.banana": "Banana"
+  "item.rubiesandrabies.banana": "Banana",
+  "item.rubiesandrabies.ruby_block": "Ruby Block",
+  "item.rubiesandrabies.artificialrubyblock": "Ruby Block",
+  "item.rubiesandrabies.rubytetrahexahedronbricks": "Ruby Tetrahexahedron Bricks",
+  "item.rubiesandrabies.rubytiles": "Ruby Tiles",
+  "item.rubiesandrabies.ruby_tetrahexahedron_stairs": "Ruby Tetrahexahedron Brick Stairs",
+  "item.rubiesandrabies.ruby_tile_stairs": "Ruby Tile Stairs",
+  "item.rubiesandrabies.rubytetrahexahedronbrickslab": "Ruby Tetrahexahedron Brick Slab",
+  "item.rubiesandrabies.rubytileslab": "Ruby Tile Slab",
+  "item.rubiesandrabies.xrayblock": "Xray Block"
 }

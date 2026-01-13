@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": "rubiesandrabies:rubytetrahexahedronbricks"
+  },
+  "result": {
+    "id": "rubiesandrabies:rubytetrahexahedronbrickslab",
+    "count": 6
+  }
+}

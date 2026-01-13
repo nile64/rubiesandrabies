@@ -9,6 +9,7 @@ import net.neoforged.neoforge.registries.DeferredHolder;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.SpawnEggItem;
+import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
@@ -36,6 +37,15 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> NETHERTHING;
 	public static final DeferredItem<Item> GORILLA_SPAWN_EGG;
 	public static final DeferredItem<Item> BANANA;
+	public static final DeferredItem<Item> RUBY_BLOCK;
+	public static final DeferredItem<Item> ARTIFICIALRUBYBLOCK;
+	public static final DeferredItem<Item> RUBYTETRAHEXAHEDRONBRICKS;
+	public static final DeferredItem<Item> RUBYTILES;
+	public static final DeferredItem<Item> RUBY_TETRAHEXAHEDRON_STAIRS;
+	public static final DeferredItem<Item> RUBY_TILE_STAIRS;
+	public static final DeferredItem<Item> RUBYTETRAHEXAHEDRONBRICKSLAB;
+	public static final DeferredItem<Item> RUBYTILESLAB;
+	public static final DeferredItem<Item> XRAYBLOCK;
 	static {
 		BAT_WING = register("bat_wing", BatWingItem::new);
 		RUBY = register("ruby", RubyItem::new);
@@ -54,6 +64,15 @@ public class RubiesandrabiesModItems {
 		NETHERTHING = block(RubiesandrabiesModBlocks.NETHERTHING);
 		GORILLA_SPAWN_EGG = register("gorilla_spawn_egg", properties -> new SpawnEggItem(RubiesandrabiesModEntities.GORILLA.get(), properties));
 		BANANA = register("banana", BananaItem::new);
+		RUBY_BLOCK = block(RubiesandrabiesModBlocks.RUBY_BLOCK);
+		ARTIFICIALRUBYBLOCK = block(RubiesandrabiesModBlocks.ARTIFICIALRUBYBLOCK);
+		RUBYTETRAHEXAHEDRONBRICKS = block(RubiesandrabiesModBlocks.RUBYTETRAHEXAHEDRONBRICKS);
+		RUBYTILES = block(RubiesandrabiesModBlocks.RUBYTILES);
+		RUBY_TETRAHEXAHEDRON_STAIRS = block(RubiesandrabiesModBlocks.RUBY_TETRAHEXAHEDRON_STAIRS);
+		RUBY_TILE_STAIRS = block(RubiesandrabiesModBlocks.RUBY_TILE_STAIRS);
+		RUBYTETRAHEXAHEDRONBRICKSLAB = block(RubiesandrabiesModBlocks.RUBYTETRAHEXAHEDRONBRICKSLAB);
+		RUBYTILESLAB = block(RubiesandrabiesModBlocks.RUBYTILESLAB);
+		XRAYBLOCK = block(RubiesandrabiesModBlocks.XRAYBLOCK, new Item.Properties().rarity(Rarity.EPIC));
 	}
 
 	// Start of user code block custom items

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rubiesandrabies:block/ruby_tetrahexahedron_bricks",
+    "up": "rubiesandrabies:block/ruby_tetrahexahedron_bricks",
+    "north": "rubiesandrabies:block/ruby_tetrahexahedron_bricks",
+    "east": "rubiesandrabies:block/ruby_tetrahexahedron_bricks",
+    "south": "rubiesandrabies:block/ruby_tetrahexahedron_bricks",
+    "west": "rubiesandrabies:block/ruby_tetrahexahedron_bricks",
+    "particle": "rubiesandrabies:block/ruby_tetrahexahedron_bricks"
+  },
+  "render_type": "translucent"
+}

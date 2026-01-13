@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "rubiesandrabies:ruby_bricks_slab"
+    "rubiesandrabies:rubytileslab",
+    "rubiesandrabies:ruby_bricks_slab",
+    "rubiesandrabies:rubytetrahexahedronbrickslab"
   ]
 }

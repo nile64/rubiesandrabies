@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "rubiesandrabies:block/ruby_tiles",
+    "bottom": "rubiesandrabies:block/ruby_tiles",
+    "top": "rubiesandrabies:block/ruby_tiles",
+    "side": "rubiesandrabies:block/ruby_tiles"
+  },
+  "render_type": "translucent"
+}

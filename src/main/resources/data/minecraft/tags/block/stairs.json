@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "rubiesandrabies:ruby_tile_stairs",
+    "rubiesandrabies:ruby_tetrahexahedron_stairs",
     "rubiesandrabies:ruby_bricks_stairs"
   ]
 }

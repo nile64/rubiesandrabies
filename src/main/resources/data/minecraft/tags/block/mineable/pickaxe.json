@@ -1,10 +1,18 @@
 {
   "replace": false,
   "values": [
-    "rubiesandrabies:ruby_bricks",
+    "rubiesandrabies:artificialrubyblock",
+    "rubiesandrabies:rubytetrahexahedronbricks",
+    "rubiesandrabies:ruby_tile_stairs",
     "rubiesandrabies:ruby_bricks_slab",
-    "rubiesandrabies:evil_nylium",
     "rubiesandrabies:ruby_bricks_stairs",
-    "rubiesandrabies:nowium_block"
+    "rubiesandrabies:nowium_block",
+    "rubiesandrabies:rubytileslab",
+    "rubiesandrabies:ruby_bricks",
+    "rubiesandrabies:rubytiles",
+    "rubiesandrabies:ruby_tetrahexahedron_stairs",
+    "rubiesandrabies:evil_nylium",
+    "rubiesandrabies:ruby_block",
+    "rubiesandrabies:rubytetrahexahedronbrickslab"
   ]
 }

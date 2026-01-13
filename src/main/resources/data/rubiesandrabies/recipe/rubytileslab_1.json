@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": "rubiesandrabies:rubytiles"
+  },
+  "result": {
+    "id": "rubiesandrabies:rubytileslab",
+    "count": 6
+  }
+}
