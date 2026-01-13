@@ -8,16 +8,12 @@ import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.api.distmarker.Dist;
 
-import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.level.BlockAndTintGetter;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.core.BlockPos;
 import net.minecraft.client.renderer.fog.environment.FogEnvironment;
 import net.minecraft.client.renderer.fog.FogData;
 import net.minecraft.client.multiplayer.ClientLevel;
-import net.minecraft.client.Minecraft;
 import net.minecraft.client.Camera;
 
 import net.mcreator.rubiesandrabies.init.RubiesandrabiesModFluidTypes;
@@ -55,16 +51,6 @@ public class Gp0LiquidFluidExtension {
 				Level world = entity.level();
 				fogData.environmentalStart = 0f;
 				fogData.environmentalEnd = 1f;
-			}
-
-			@Override
-			public int getTintColor() {
-				return -16448205;
-			}
-
-			@Override
-			public int getTintColor(FluidState state, BlockAndTintGetter world, BlockPos pos) {
-				return Minecraft.getInstance().level.getBiome(pos).value().getWaterFogColor() | 0xFF000000;
 			}
 		}, RubiesandrabiesModFluidTypes.GP_0_LIQUID_TYPE.get());
 	}
