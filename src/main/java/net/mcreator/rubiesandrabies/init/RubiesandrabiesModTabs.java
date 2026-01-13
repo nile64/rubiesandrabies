@@ -47,6 +47,7 @@ public class RubiesandrabiesModTabs {
 				tabData.accept(RubiesandrabiesModBlocks.XRAYBLOCK.get().asItem());
 				tabData.accept(RubiesandrabiesModBlocks.RUBYTETRAHEXAHEDRONBRICKS.get().asItem());
 				tabData.accept(RubiesandrabiesModBlocks.RUBY_BLOCK.get().asItem());
+				tabData.accept(RubiesandrabiesModItems.GP_0_LIQUID_BUCKET.get());
 			}).withSearchBar().build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> SPACE = REGISTRY.register("space",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.rubiesandrabies.space")).icon(() -> new ItemStack(RubiesandrabiesModItems.URANIUM.get())).displayItems((parameters, tabData) -> {

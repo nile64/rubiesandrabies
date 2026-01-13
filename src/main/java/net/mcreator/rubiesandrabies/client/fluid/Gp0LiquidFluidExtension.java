@@ -1,12 +1,12 @@
 package net.mcreator.rubiesandrabies.client.fluid;
 
 @EventBusSubscriber(Dist.CLIENT)
-public class NonNewtonianFluidFluidExtension {
+public class Gp0LiquidFluidExtension {
 	@SubscribeEvent
 	public static void registerFluidTypeExtensions(RegisterClientExtensionsEvent event) {
 		event.registerFluidType(new IClientFluidTypeExtensions() {
-			private static final ResourceLocation STILL_TEXTURE = ResourceLocation.parse("rubiesandrabies:block/non_newtonian_fluid");
-			private static final ResourceLocation FLOWING_TEXTURE = ResourceLocation.parse("rubiesandrabies:block/non_newtonian_fluid");
+			private static final ResourceLocation STILL_TEXTURE = ResourceLocation.parse("rubiesandrabies:block/minecraft-cow-head-1024x1024-3108380750");
+			private static final ResourceLocation FLOWING_TEXTURE = ResourceLocation.parse("rubiesandrabies:block/minecraft-cow-head-1024x1024-3108380750");
 
 			@Override
 			public ResourceLocation getStillTexture() {
@@ -20,7 +20,7 @@ public class NonNewtonianFluidFluidExtension {
 
 			@Override
 			public Vector4f modifyFogColor(Camera camera, float partialTick, ClientLevel level, int renderDistance, float darkenWorldAmount, Vector4f fluidFogColor) {
-				return new Vector4f(1f, 1f, 1f, fluidFogColor.w);
+				return new Vector4f(1f, 0f, 0f, fluidFogColor.w);
 			}
 
 			@Override
@@ -30,8 +30,18 @@ public class NonNewtonianFluidFluidExtension {
 				Entity entity = camera.getEntity();
 				Level world = entity.level();
 				fogData.environmentalStart = 0f;
-				fogData.environmentalEnd = Math.min(48f, renderDistance);
+				fogData.environmentalEnd = 1f;
 			}
-		}, RubiesandrabiesModFluidTypes.NON_NEWTONIAN_FLUID_TYPE.get());
+
+			@Override
+			public int getTintColor() {
+				return -16448205;
+			}
+
+			@Override
+			public int getTintColor(FluidState state, BlockAndTintGetter world, BlockPos pos) {
+				return Minecraft.getInstance().level.getBiome(pos).value().getWaterFogColor() | 0xFF000000;
+			}
+		}, RubiesandrabiesModFluidTypes.GP_0_LIQUID_TYPE.get());
 	}
 }

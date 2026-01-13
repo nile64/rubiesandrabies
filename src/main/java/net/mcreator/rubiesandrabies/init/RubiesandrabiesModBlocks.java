@@ -38,6 +38,7 @@ public class RubiesandrabiesModBlocks {
 	public static final DeferredBlock<Block> ARTIFICIALRUBYBLOCK;
 	public static final DeferredBlock<Block> RUBY_BLOCK;
 	public static final DeferredBlock<Block> SPACESHIP;
+	public static final DeferredBlock<Block> GP_0_LIQUID;
 	static {
 		RUBY_BRICKS = register("ruby_bricks", RubyBricksBlock::new);
 		BLOCK_OF_FEMGRAM = register("block_of_femgram", BlockOfFemgramBlock::new);
@@ -61,6 +62,7 @@ public class RubiesandrabiesModBlocks {
 		ARTIFICIALRUBYBLOCK = register("artificialrubyblock", ArtificialrubyblockBlock::new);
 		RUBY_BLOCK = register("ruby_block", RubyBlockBlock::new);
 		SPACESHIP = register("spaceship", SpaceshipBlock::new);
+		GP_0_LIQUID = register("gp_0_liquid", Gp0LiquidBlock::new);
 	}
 
 	// Start of user code block custom blocks

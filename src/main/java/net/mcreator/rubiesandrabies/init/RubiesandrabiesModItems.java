@@ -63,6 +63,7 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> ARTIFICIALRUBYBLOCK;
 	public static final DeferredItem<Item> RUBY_BLOCK;
 	public static final DeferredItem<Item> SPACESHIP;
+	public static final DeferredItem<Item> GP_0_LIQUID_BUCKET;
 	static {
 		BAT_WING = register("bat_wing", BatWingItem::new);
 		RUBY = register("ruby", RubyItem::new);
@@ -103,6 +104,7 @@ public class RubiesandrabiesModItems {
 		ARTIFICIALRUBYBLOCK = block(RubiesandrabiesModBlocks.ARTIFICIALRUBYBLOCK);
 		RUBY_BLOCK = block(RubiesandrabiesModBlocks.RUBY_BLOCK);
 		SPACESHIP = block(RubiesandrabiesModBlocks.SPACESHIP, new Item.Properties().stacksTo(63));
+		GP_0_LIQUID_BUCKET = register("gp_0_liquid_bucket", Gp0LiquidItem::new);
 	}
 
 	// Start of user code block custom items
@@ -122,5 +124,6 @@ public class RubiesandrabiesModItems {
 	@SubscribeEvent
 	public static void registerCapabilities(RegisterCapabilitiesEvent event) {
 		event.registerItem(Capabilities.FluidHandler.ITEM, (stack, context) -> new FluidBucketWrapper(stack), NON_NEWTONIAN_FLUID_BUCKET.get());
+		event.registerItem(Capabilities.FluidHandler.ITEM, (stack, context) -> new FluidBucketWrapper(stack), GP_0_LIQUID_BUCKET.get());
 	}
 }
