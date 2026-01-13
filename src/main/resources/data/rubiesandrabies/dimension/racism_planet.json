@@ -33,7 +33,7 @@
           }
         },
         {
-          "biome": "rubiesandrabies:deleted_mod_element",
+          "biome": "rubiesandrabies:racism_planet_biome",
           "parameters": {
             "temperature": [
               -0.5,
@@ -500,7 +500,7 @@
             "if_true": {
               "type": "minecraft:biome",
               "biome_is": [
-                "rubiesandrabies:deleted_mod_element"
+                "rubiesandrabies:racism_planet_biome"
               ]
             },
             "then_run": {

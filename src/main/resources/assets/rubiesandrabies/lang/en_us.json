@@ -70,5 +70,21 @@
   "item.rubiesandrabies.sugarcane_pickaxe": "Sugarcane Pickaxe",
   "item.rubiesandrabies.thenium_essence_block": "Block of Thenium",
   "item.rubiesandrabies.thenium_essence": "Thenium Essence",
-  "item.rubiesandrabies.ruby_shelf": "Ruby Shelf"
+  "item.rubiesandrabies.ruby_shelf": "Ruby Shelf",
+  "item_group.rubiesandrabies.space": "Space",
+  "item.rubiesandrabies.enter_planet_test_item": "Enter Planet Test Item",
+  "biome.rubiesandrabies.racism_planet_biome": "Racism Planet Biome",
+  "item.rubiesandrabies.spaceship": "Spaceship",
+  "item.rubiesandrabies.racist_ingot": "Racist Ingot",
+  "item.rubiesandrabies.r_hmob_spawn_egg": "RHmob Spawn Egg",
+  "entity.rubiesandrabies.r_hmob": "RHmob",
+  "item.rubiesandrabies.racist_ore": "Racist Ore",
+  "block.rubiesandrabies.gp_0_liquid": "Gp0 Liquid",
+  "fluid.rubiesandrabies.gp_0_liquid": "Gp0 Liquid",
+  "item.rubiesandrabies.gp_0_liquid_bucket": "Gp0 Bucket",
+  "fluid_type.rubiesandrabies.gp_0_liquid": "Gp0 Liquid",
+  "gui.rubiesandrabies.space_menu.button_racist_planet": "Racist Planet",
+  "gui.rubiesandrabies.space_menu.button_overworld": "Overworld",
+  "item.rubiesandrabies.exit_planet_item_test": "Exit Planet Item Test",
+  "entity.villager.rubiesandrabies.ruby_trader": "Ruby Trader"
 }

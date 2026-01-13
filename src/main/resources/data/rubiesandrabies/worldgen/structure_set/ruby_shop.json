@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "rubiesandrabies:ruby_shop",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 60,
+    "separation": 4,
+    "salt": 2057615976
+  }
+}
