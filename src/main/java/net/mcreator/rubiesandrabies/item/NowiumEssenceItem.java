@@ -1,13 +1,5 @@
 package net.mcreator.rubiesandrabies.item;
 
-import net.minecraft.world.level.Level;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.food.FoodProperties;
-import net.minecraft.world.entity.LivingEntity;
-
-import net.mcreator.rubiesandrabies.procedures.NowiumEssencePlayerFinishesUsingItemProcedure;
-
 public class NowiumEssenceItem extends Item {
 	public NowiumEssenceItem(Item.Properties properties) {
 		super(properties.food((new FoodProperties.Builder()).nutrition(1).saturationModifier(0f).alwaysEdible().build()));

@@ -49,6 +49,13 @@ public class RubiesandrabiesModTabs {
 				tabData.accept(RubiesandrabiesModItems.URANIUM.get());
 				tabData.accept(RubiesandrabiesModItems.GP_0_LIQUID_BUCKET.get());
 			}).withSearchBar().build());
+	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> SPACE = REGISTRY.register("space",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.rubiesandrabies.space")).icon(() -> new ItemStack(RubiesandrabiesModItems.URANIUM.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(RubiesandrabiesModBlocks.RACIST_ORE.get().asItem());
+				tabData.accept(RubiesandrabiesModItems.ENTER_PLANET_TEST_ITEM.get());
+				tabData.accept(RubiesandrabiesModItems.EXIT_PLANET_ITEM_TEST.get());
+				tabData.accept(RubiesandrabiesModItems.RACIST_INGOT.get());
+			}).withTabsBefore(RUBIES_RABIES_TAB.getId()).build());
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {

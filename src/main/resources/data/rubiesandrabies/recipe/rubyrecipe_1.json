@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "rubiesandrabies:artificialrubyblock"
+    "rubiesandrabies:deleted_mod_element"
   ],
   "result": {
     "id": "rubiesandrabies:ruby",

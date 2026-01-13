@@ -59,6 +59,10 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> THENIUM_ESSENCE_BLOCK;
 	public static final DeferredItem<Item> THENIUM_ESSENCE;
 	public static final DeferredItem<Item> GP_0_LIQUID_BUCKET;
+	public static final DeferredItem<Item> RACIST_ORE;
+	public static final DeferredItem<Item> ENTER_PLANET_TEST_ITEM;
+	public static final DeferredItem<Item> EXIT_PLANET_ITEM_TEST;
+	public static final DeferredItem<Item> RACIST_INGOT;
 	static {
 		BAT_WING = register("bat_wing", BatWingItem::new);
 		RUBY = register("ruby", RubyItem::new);
@@ -95,6 +99,10 @@ public class RubiesandrabiesModItems {
 		THENIUM_ESSENCE_BLOCK = block(RubiesandrabiesModBlocks.THENIUM_ESSENCE_BLOCK);
 		THENIUM_ESSENCE = register("thenium_essence", TheniumEssenceItem::new);
 		GP_0_LIQUID_BUCKET = register("gp_0_liquid_bucket", Gp0LiquidItem::new);
+		RACIST_ORE = block(RubiesandrabiesModBlocks.RACIST_ORE, new Item.Properties().stacksTo(1).rarity(Rarity.EPIC).fireResistant());
+		ENTER_PLANET_TEST_ITEM = register("enter_planet_test_item", EnterPlanetTestItemItem::new);
+		EXIT_PLANET_ITEM_TEST = register("exit_planet_item_test", ExitPlanetItemTestItem::new);
+		RACIST_INGOT = register("racist_ingot", RacistIngotItem::new);
 	}
 
 	// Start of user code block custom items

@@ -355,7 +355,7 @@
     {
       "name": "BlockOfFemgram",
       "type": "block",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "block_of_femgram",
       "metadata": {
@@ -464,7 +464,7 @@
     {
       "name": "EvilNylium",
       "type": "block",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "evil_nylium",
       "metadata": {
@@ -769,7 +769,7 @@
     {
       "name": "Netherthing",
       "type": "block",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "netherthing",
       "metadata": {
@@ -1093,7 +1093,7 @@
     {
       "name": "Artificialrubyblock",
       "type": "block",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "artificialrubyblock",
       "metadata": {
@@ -1136,8 +1136,8 @@
       "registry_name": "rubytetrahexahedronbricksrecipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/rubiesandrabies/advancement/recipes/rubytetrahexahedronbricksrecipe.json",
-          "src/main/resources/data/rubiesandrabies/recipe/rubytetrahexahedronbricksrecipe.json"
+          "src/main/resources/data/rubiesandrabies/recipe/rubytetrahexahedronbricksrecipe.json",
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/rubytetrahexahedronbricksrecipe.json"
         ]
       },
       "path": "~/ruby blocks"
@@ -1367,7 +1367,7 @@
     {
       "name": "NonNewtonianFluid",
       "type": "fluid",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "non_newtonian_fluid",
       "metadata": {
@@ -1463,7 +1463,7 @@
     {
       "name": "NonNewtonianFluidBlock",
       "type": "block",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "non_newtonian_fluid_block",
       "metadata": {
@@ -1734,6 +1734,212 @@
           "src/main/java/net/mcreator/rubiesandrabies/fluid/types/Gp0LiquidFluidType.java"
         ]
       }
+    },
+    {
+      "name": "Space",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/SpaceThingy"
+    },
+    {
+      "name": "RacistOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "racist_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/models/block/racist_ore.json",
+          "src/main/resources/data/rubiesandrabies/worldgen/placed_feature/racist_ore.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/racist_ore.json",
+          "src/main/resources/assets/rubiesandrabies/blockstates/racist_ore.json",
+          "src/main/resources/assets/rubiesandrabies/items/racist_ore.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/RacistOreBlock.java",
+          "src/main/resources/data/rubiesandrabies/worldgen/configured_feature/racist_ore.json",
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/racist_ore.json",
+          "src/main/resources/data/rubiesandrabies/neoforge/biome_modifier/racist_ore_biome_modifier.json"
+        ]
+      },
+      "path": "~/SpaceThingy"
+    },
+    {
+      "name": "EnterPlanetTestItem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enter_planet_test_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/item/EnterPlanetTestItemItem.java",
+          "src/main/resources/assets/rubiesandrabies/items/enter_planet_test_item.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/enter_planet_test_item.json"
+        ]
+      },
+      "path": "~/SpaceThingy"
+    },
+    {
+      "name": "RacismPlanetBiome",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "racism_planet_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/world/features/treedecorators/RacismPlanetBiomeTrunkDecorator.java",
+          "src/main/resources/data/rubiesandrabies/worldgen/biome/racism_planet_biome.json",
+          "src/main/java/net/mcreator/rubiesandrabies/world/features/treedecorators/RacismPlanetBiomeFruitDecorator.java",
+          "src/main/resources/data/rubiesandrabies/worldgen/placed_feature/racism_planet_biome_tree.json",
+          "src/main/resources/data/rubiesandrabies/worldgen/configured_feature/racism_planet_biome_tree.json",
+          "src/main/java/net/mcreator/rubiesandrabies/world/features/treedecorators/RacismPlanetBiomeLeaveDecorator.java"
+        ]
+      },
+      "path": "~/SpaceThingy"
+    },
+    {
+      "name": "RacismPlanetDmg",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "racism_planet_dmg",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/RacismPlanetDmgProcedure.java"
+        ]
+      },
+      "path": "~/SpaceThingy"
+    },
+    {
+      "name": "ExitPlanetItemTestRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exit_planet_item_test_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/ExitPlanetItemTestRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/SpaceThingy"
+    },
+    {
+      "name": "ExitPlanetItemTest",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exit_planet_item_test",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/items/exit_planet_item_test.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/ExitPlanetItemTestItem.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/exit_planet_item_test.json"
+        ]
+      },
+      "path": "~/SpaceThingy"
+    },
+    {
+      "name": "EnterPlanetTestItemRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enter_planet_test_item_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/EnterPlanetTestItemRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/SpaceThingy"
+    },
+    {
+      "name": "RacistIngotPlayeraftereating",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "racist_ingot_playeraftereating",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/RacistIngotPlayeraftereatingProcedure.java"
+        ]
+      },
+      "path": "~/SpaceThingy"
+    },
+    {
+      "name": "RacistIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "racist_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/item/RacistIngotItem.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/racist_ingot.json",
+          "src/main/resources/assets/rubiesandrabies/items/racist_ingot.json"
+        ]
+      },
+      "path": "~/SpaceThingy"
+    },
+    {
+      "name": "RacismPlanet",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "racism_planet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/dimension/racism_planet.json",
+          "src/main/java/net/mcreator/rubiesandrabies/world/dimension/RacismPlanetDimension.java",
+          "src/main/resources/data/rubiesandrabies/dimension_type/racism_planet.json"
+        ]
+      },
+      "path": "~/SpaceThingy"
     }
   ],
   "variable_elements": [],
@@ -1856,6 +2062,7 @@
   ],
   "tag_elements": {
     "ITEMS:minecraft:meat": [
+      "~CUSTOM:RacistIngot",
       "~CUSTOM:BatWing"
     ],
     "BIOMES:minecraft:has_structure/stronghold": [
@@ -1924,6 +2131,7 @@
       "~CUSTOM:TheniumEssenceBlock"
     ],
     "ITEMS:minecraft:piglin_loved": [
+      "~CUSTOM:RacistIngot",
       "~CUSTOM:Uranium"
     ],
     "ITEMS:minecraft:pickaxes": [
@@ -1934,6 +2142,15 @@
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
       "~CUSTOM:TheniumEssenceBlock"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft": [
+      "~CUSTOM:RacismPlanetBiome"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:NowiumBlock",
+      "~Blocks.DIRT#0",
+      "~Blocks.GRASS",
+      "~CUSTOM:RubyBricks"
     ]
   },
   "tab_element_order": {},
@@ -2018,30 +2235,30 @@
   },
   "metadata": {
     "files": [
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModBiomes.java",
       "src/main/java/net/mcreator/rubiesandrabies/mixin/NoiseGeneratorSettingsMixin.java",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModFluidTypes.java",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModBiomes.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModFluids.java",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModFluidTypes.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModScreens.java",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModMenus.java",
       "src/main/java/net/mcreator/rubiesandrabies/network/MenuStateUpdateMessage.java",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModMenus.java",
       "src/main/resources/data/neoforge/data_maps/entity_type/monster_room_mobs.json",
       "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModMobEffects.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModBlocks.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModBlockEntities.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModItems.java",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModEntities.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModEntityRenderers.java",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModModels.java",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModSounds.java",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModTabs.java",
-      "src/main/resources/META-INF/accesstransformer.cfg",
-      "src/main/java/net/mcreator/rubiesandrabies/RubiesandrabiesMod.java",
-      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModEntities.java",
       "src/main/resources/assets/rubiesandrabies/sounds.json",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModModels.java",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModTabs.java",
       "src/main/resources/rubiesandrabies.mixins.json",
-      "src/main/resources/pack.mcmeta"
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModSounds.java",
+      "src/main/java/net/mcreator/rubiesandrabies/RubiesandrabiesMod.java",
+      "src/main/resources/META-INF/accesstransformer.cfg"
     ]
   },
   "foldersRoot": {
@@ -2070,6 +2287,10 @@
       },
       {
         "name": "idk",
+        "children": []
+      },
+      {
+        "name": "SpaceThingy",
         "children": []
       }
     ]
