@@ -18,7 +18,7 @@
     "fogEndDistance": {
       "fixedValue": 1.0
     },
-    "tintType": "Water fog",
+    "tintType": "No tint",
     "canMultiply": true,
     "flowRate": 1,
     "levelDecrease": 1,
