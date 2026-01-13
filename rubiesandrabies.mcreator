@@ -2171,19 +2171,19 @@
       "registry_name": "rubydoor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rubiesandrabies/models/block/rubydoor_top_right_open.json",
           "src/main/resources/assets/rubiesandrabies/models/item/rubydoor.json",
+          "src/main/resources/assets/rubiesandrabies/blockstates/rubydoor.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/rubydoor_top_right.json",
           "src/main/resources/assets/rubiesandrabies/models/block/rubydoor_bottom_left.json",
-          "src/main/resources/assets/rubiesandrabies/models/block/rubydoor_bottom_left_open.json",
-          "src/main/resources/assets/rubiesandrabies/items/rubydoor.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/RubydoorBlock.java",
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/rubydoor.json",
           "src/main/resources/assets/rubiesandrabies/models/block/rubydoor_bottom_right.json",
           "src/main/resources/assets/rubiesandrabies/models/block/rubydoor_top_left_open.json",
-          "src/main/java/net/mcreator/rubiesandrabies/block/RubydoorBlock.java",
-          "src/main/resources/assets/rubiesandrabies/models/block/rubydoor_top_right.json",
-          "src/main/resources/data/rubiesandrabies/loot_table/blocks/rubydoor.json",
-          "src/main/resources/assets/rubiesandrabies/blockstates/rubydoor.json",
+          "src/main/resources/assets/rubiesandrabies/items/rubydoor.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/rubydoor_bottom_left_open.json",
           "src/main/resources/assets/rubiesandrabies/models/block/rubydoor_top_left.json",
-          "src/main/resources/assets/rubiesandrabies/models/block/rubydoor_bottom_right_open.json"
+          "src/main/resources/assets/rubiesandrabies/models/block/rubydoor_bottom_right_open.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/rubydoor_top_right_open.json"
         ]
       },
       "path": "~/ruby blocks"
@@ -2508,13 +2508,13 @@
   },
   "metadata": {
     "files": [
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModBiomes.java",
       "src/main/java/net/mcreator/rubiesandrabies/mixin/NoiseGeneratorSettingsMixin.java",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModFluidTypes.java",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModBiomes.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModFluids.java",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModFluidTypes.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModScreens.java",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModMenus.java",
       "src/main/java/net/mcreator/rubiesandrabies/network/MenuStateUpdateMessage.java",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModMenus.java",
       "src/main/resources/data/neoforge/data_maps/entity_type/monster_room_mobs.json",
       "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModMobEffects.java",
@@ -2524,17 +2524,17 @@
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModBlocks.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModBlockEntities.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModItems.java",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModEntities.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModEntityRenderers.java",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModModels.java",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModSounds.java",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModTabs.java",
-      "src/main/resources/META-INF/accesstransformer.cfg",
-      "src/main/java/net/mcreator/rubiesandrabies/RubiesandrabiesMod.java",
-      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModEntities.java",
       "src/main/resources/assets/rubiesandrabies/sounds.json",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModModels.java",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModTabs.java",
       "src/main/resources/rubiesandrabies.mixins.json",
-      "src/main/resources/pack.mcmeta"
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModSounds.java",
+      "src/main/java/net/mcreator/rubiesandrabies/RubiesandrabiesMod.java",
+      "src/main/resources/META-INF/accesstransformer.cfg"
     ]
   },
   "foldersRoot": {

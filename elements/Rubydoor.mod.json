@@ -2,8 +2,8 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "ruby_door",
-    "textureTop": "ruby_door",
+    "texture": "ruby_door_bottom",
+    "textureTop": "ruby_door_top",
     "textureLeft": "",
     "textureFront": "ruby_door",
     "textureRight": "",
@@ -26,7 +26,7 @@
     "isItemTinted": false,
     "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "SOLID",
+    "transparencyType": "TRANSLUCENT",
     "disableOffset": false,
     "boundingBoxes": [
       {
