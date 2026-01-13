@@ -1,0 +1,49 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:NowiumEssence"
+      },
+      {
+        "value": "CUSTOM:TheniumEssenceBlock"
+      },
+      {
+        "value": "CUSTOM:NowiumEssence"
+      },
+      {
+        "value": "CUSTOM:TheniumEssenceBlock"
+      },
+      {
+        "value": "Items.NETHERITE_SWORD"
+      },
+      {
+        "value": "CUSTOM:TheniumEssenceBlock"
+      },
+      {
+        "value": "CUSTOM:NowiumEssence"
+      },
+      {
+        "value": "CUSTOM:TheniumEssenceBlock"
+      },
+      {
+        "value": "CUSTOM:NowiumEssence"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Theniumsword"
+    },
+    "name": "bane_of_now_make",
+    "namespace": "mod"
+  }
+}

@@ -95,5 +95,41 @@
         "stream": false
       }
     ]
+  },
+  "impaled": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:uaaaaaaaa",
+        "stream": false
+      }
+    ]
+  },
+  "glassidle": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:glassidle",
+        "stream": false
+      }
+    ]
+  },
+  "glasshit": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:wha",
+        "stream": false
+      },
+      {
+        "name": "rubiesandrabies:glass4",
+        "stream": false
+      },
+      {
+        "name": "rubiesandrabies:glass3",
+        "stream": false
+      },
+      {
+        "name": "rubiesandrabies:glass2",
+        "stream": false
+      }
+    ]
   }
 }

@@ -25,4 +25,7 @@ public class RubiesandrabiesModSounds {
 	public static final DeferredHolder<SoundEvent, SoundEvent> GLASSSHATTER = REGISTRY.register("glassshatter", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("rubiesandrabies", "glassshatter")));
 	public static final DeferredHolder<SoundEvent, SoundEvent> THEGRANDSCREAM = REGISTRY.register("thegrandscream", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("rubiesandrabies", "thegrandscream")));
 	public static final DeferredHolder<SoundEvent, SoundEvent> DING = REGISTRY.register("ding", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("rubiesandrabies", "ding")));
+	public static final DeferredHolder<SoundEvent, SoundEvent> IMPALED = REGISTRY.register("impaled", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("rubiesandrabies", "impaled")));
+	public static final DeferredHolder<SoundEvent, SoundEvent> GLASSIDLE = REGISTRY.register("glassidle", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("rubiesandrabies", "glassidle")));
+	public static final DeferredHolder<SoundEvent, SoundEvent> GLASSHIT = REGISTRY.register("glasshit", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("rubiesandrabies", "glasshit")));
 }

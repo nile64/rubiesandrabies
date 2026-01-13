@@ -23,15 +23,19 @@ public class RubiesandrabiesModBlocks {
 	public static final DeferredBlock<Block> EVIL_NYLIUM;
 	public static final DeferredBlock<Block> NOWIUM_BLOCK;
 	public static final DeferredBlock<Block> NETHERTHING;
-	public static final DeferredBlock<Block> RUBY_BLOCK;
-	public static final DeferredBlock<Block> ARTIFICIALRUBYBLOCK;
-	public static final DeferredBlock<Block> RUBYTETRAHEXAHEDRONBRICKS;
-	public static final DeferredBlock<Block> RUBYTILES;
 	public static final DeferredBlock<Block> RUBY_TETRAHEXAHEDRON_STAIRS;
+	public static final DeferredBlock<Block> XRAYBLOCK;
 	public static final DeferredBlock<Block> RUBY_TILE_STAIRS;
 	public static final DeferredBlock<Block> RUBYTETRAHEXAHEDRONBRICKSLAB;
+	public static final DeferredBlock<Block> RUBYTETRAHEXAHEDRONBRICKS;
 	public static final DeferredBlock<Block> RUBYTILESLAB;
-	public static final DeferredBlock<Block> XRAYBLOCK;
+	public static final DeferredBlock<Block> RUBYTILES;
+	public static final DeferredBlock<Block> ARTIFICIALRUBYBLOCK;
+	public static final DeferredBlock<Block> RUBY_BLOCK;
+	public static final DeferredBlock<Block> NON_NEWTONIAN_FLUID;
+	public static final DeferredBlock<Block> SKYFACTORY;
+	public static final DeferredBlock<Block> NON_NEWTONIAN_FLUID_BLOCK;
+	public static final DeferredBlock<Block> THENIUM_ESSENCE_BLOCK;
 	static {
 		RUBY_BRICKS = register("ruby_bricks", RubyBricksBlock::new);
 		BLOCK_OF_FEMGRAM = register("block_of_femgram", BlockOfFemgramBlock::new);
@@ -40,15 +44,19 @@ public class RubiesandrabiesModBlocks {
 		EVIL_NYLIUM = register("evil_nylium", EvilNyliumBlock::new);
 		NOWIUM_BLOCK = register("nowium_block", NowiumBlockBlock::new);
 		NETHERTHING = register("netherthing", NetherthingBlock::new);
-		RUBY_BLOCK = register("ruby_block", RubyBlockBlock::new);
-		ARTIFICIALRUBYBLOCK = register("artificialrubyblock", ArtificialrubyblockBlock::new);
-		RUBYTETRAHEXAHEDRONBRICKS = register("rubytetrahexahedronbricks", RubytetrahexahedronbricksBlock::new);
-		RUBYTILES = register("rubytiles", RubytilesBlock::new);
 		RUBY_TETRAHEXAHEDRON_STAIRS = register("ruby_tetrahexahedron_stairs", RubyTetrahexahedronStairsBlock::new);
+		XRAYBLOCK = register("xrayblock", XrayblockBlock::new);
 		RUBY_TILE_STAIRS = register("ruby_tile_stairs", RubyTileStairsBlock::new);
 		RUBYTETRAHEXAHEDRONBRICKSLAB = register("rubytetrahexahedronbrickslab", RubytetrahexahedronbrickslabBlock::new);
+		RUBYTETRAHEXAHEDRONBRICKS = register("rubytetrahexahedronbricks", RubytetrahexahedronbricksBlock::new);
 		RUBYTILESLAB = register("rubytileslab", RubytileslabBlock::new);
-		XRAYBLOCK = register("xrayblock", XrayblockBlock::new);
+		RUBYTILES = register("rubytiles", RubytilesBlock::new);
+		ARTIFICIALRUBYBLOCK = register("artificialrubyblock", ArtificialrubyblockBlock::new);
+		RUBY_BLOCK = register("ruby_block", RubyBlockBlock::new);
+		NON_NEWTONIAN_FLUID = register("non_newtonian_fluid", NonNewtonianFluidBlock::new);
+		SKYFACTORY = register("skyfactory", SkyfactoryBlock::new);
+		NON_NEWTONIAN_FLUID_BLOCK = register("non_newtonian_fluid_block", NonNewtonianFluidBlockBlock::new);
+		THENIUM_ESSENCE_BLOCK = register("thenium_essence_block", TheniumEssenceBlockBlock::new);
 	}
 
 	// Start of user code block custom blocks

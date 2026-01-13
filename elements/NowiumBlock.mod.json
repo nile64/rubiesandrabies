@@ -39,7 +39,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Nowium Block",
+    "name": "Block of Nowium",
     "specialInformation": {
       "fixedValue": []
     },
@@ -58,7 +58,7 @@
     ],
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:TheniumEssenceBlock"
     },
     "dropAmount": 1,
     "xpAmountMin": 0,

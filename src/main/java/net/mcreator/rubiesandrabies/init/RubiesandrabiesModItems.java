@@ -6,6 +6,10 @@ package net.mcreator.rubiesandrabies.init;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredHolder;
+import net.neoforged.neoforge.fluids.capability.wrappers.FluidBucketWrapper;
+import net.neoforged.neoforge.capabilities.RegisterCapabilitiesEvent;
+import net.neoforged.neoforge.capabilities.Capabilities;
+import net.neoforged.bus.api.SubscribeEvent;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.SpawnEggItem;
@@ -37,15 +41,23 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> NETHERTHING;
 	public static final DeferredItem<Item> GORILLA_SPAWN_EGG;
 	public static final DeferredItem<Item> BANANA;
-	public static final DeferredItem<Item> RUBY_BLOCK;
-	public static final DeferredItem<Item> ARTIFICIALRUBYBLOCK;
-	public static final DeferredItem<Item> RUBYTETRAHEXAHEDRONBRICKS;
-	public static final DeferredItem<Item> RUBYTILES;
 	public static final DeferredItem<Item> RUBY_TETRAHEXAHEDRON_STAIRS;
+	public static final DeferredItem<Item> XRAYBLOCK;
 	public static final DeferredItem<Item> RUBY_TILE_STAIRS;
 	public static final DeferredItem<Item> RUBYTETRAHEXAHEDRONBRICKSLAB;
+	public static final DeferredItem<Item> RUBYTETRAHEXAHEDRONBRICKS;
 	public static final DeferredItem<Item> RUBYTILESLAB;
-	public static final DeferredItem<Item> XRAYBLOCK;
+	public static final DeferredItem<Item> RUBYTILES;
+	public static final DeferredItem<Item> ARTIFICIALRUBYBLOCK;
+	public static final DeferredItem<Item> RUBY_BLOCK;
+	public static final DeferredItem<Item> NON_NEWTONIAN_FLUID_BUCKET;
+	public static final DeferredItem<Item> SKYFACTORY;
+	public static final DeferredItem<Item> THENIUMSWORD;
+	public static final DeferredItem<Item> NON_NEWTONIAN_FLUID_BLOCK;
+	public static final DeferredItem<Item> URANIUM;
+	public static final DeferredItem<Item> SUGARCANE_PICKAXE;
+	public static final DeferredItem<Item> THENIUM_ESSENCE_BLOCK;
+	public static final DeferredItem<Item> THENIUM_ESSENCE;
 	static {
 		BAT_WING = register("bat_wing", BatWingItem::new);
 		RUBY = register("ruby", RubyItem::new);
@@ -64,15 +76,23 @@ public class RubiesandrabiesModItems {
 		NETHERTHING = block(RubiesandrabiesModBlocks.NETHERTHING);
 		GORILLA_SPAWN_EGG = register("gorilla_spawn_egg", properties -> new SpawnEggItem(RubiesandrabiesModEntities.GORILLA.get(), properties));
 		BANANA = register("banana", BananaItem::new);
-		RUBY_BLOCK = block(RubiesandrabiesModBlocks.RUBY_BLOCK);
-		ARTIFICIALRUBYBLOCK = block(RubiesandrabiesModBlocks.ARTIFICIALRUBYBLOCK);
-		RUBYTETRAHEXAHEDRONBRICKS = block(RubiesandrabiesModBlocks.RUBYTETRAHEXAHEDRONBRICKS);
-		RUBYTILES = block(RubiesandrabiesModBlocks.RUBYTILES);
 		RUBY_TETRAHEXAHEDRON_STAIRS = block(RubiesandrabiesModBlocks.RUBY_TETRAHEXAHEDRON_STAIRS);
+		XRAYBLOCK = block(RubiesandrabiesModBlocks.XRAYBLOCK, new Item.Properties().rarity(Rarity.EPIC));
 		RUBY_TILE_STAIRS = block(RubiesandrabiesModBlocks.RUBY_TILE_STAIRS);
 		RUBYTETRAHEXAHEDRONBRICKSLAB = block(RubiesandrabiesModBlocks.RUBYTETRAHEXAHEDRONBRICKSLAB);
+		RUBYTETRAHEXAHEDRONBRICKS = block(RubiesandrabiesModBlocks.RUBYTETRAHEXAHEDRONBRICKS);
 		RUBYTILESLAB = block(RubiesandrabiesModBlocks.RUBYTILESLAB);
-		XRAYBLOCK = block(RubiesandrabiesModBlocks.XRAYBLOCK, new Item.Properties().rarity(Rarity.EPIC));
+		RUBYTILES = block(RubiesandrabiesModBlocks.RUBYTILES);
+		ARTIFICIALRUBYBLOCK = block(RubiesandrabiesModBlocks.ARTIFICIALRUBYBLOCK);
+		RUBY_BLOCK = block(RubiesandrabiesModBlocks.RUBY_BLOCK);
+		NON_NEWTONIAN_FLUID_BUCKET = register("non_newtonian_fluid_bucket", NonNewtonianFluidItem::new);
+		SKYFACTORY = block(RubiesandrabiesModBlocks.SKYFACTORY);
+		THENIUMSWORD = register("theniumsword", TheniumswordItem::new);
+		NON_NEWTONIAN_FLUID_BLOCK = block(RubiesandrabiesModBlocks.NON_NEWTONIAN_FLUID_BLOCK);
+		URANIUM = register("uranium", UraniumItem::new);
+		SUGARCANE_PICKAXE = register("sugarcane_pickaxe", SugarcanePickaxeItem::new);
+		THENIUM_ESSENCE_BLOCK = block(RubiesandrabiesModBlocks.THENIUM_ESSENCE_BLOCK);
+		THENIUM_ESSENCE = register("thenium_essence", TheniumEssenceItem::new);
 	}
 
 	// Start of user code block custom items
@@ -87,5 +107,10 @@ public class RubiesandrabiesModItems {
 
 	private static DeferredItem<Item> block(DeferredHolder<Block, Block> block, Item.Properties properties) {
 		return REGISTRY.registerItem(block.getId().getPath(), prop -> new BlockItem(block.get(), prop), properties);
+	}
+
+	@SubscribeEvent
+	public static void registerCapabilities(RegisterCapabilitiesEvent event) {
+		event.registerItem(Capabilities.FluidHandler.ITEM, (stack, context) -> new FluidBucketWrapper(stack), NON_NEWTONIAN_FLUID_BUCKET.get());
 	}
 }

@@ -1,0 +1,11 @@
+{
+  "_fv": 79,
+  "_type": "painting",
+  "definition": {
+    "texture": "newevil2",
+    "width": 256,
+    "height": 256,
+    "title": "Evil Painting 2",
+    "author": "michael code"
+  }
+}

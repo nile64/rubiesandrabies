@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "rubiesandrabies:deleted_mod_element"
+  ],
+  "result": {
+    "id": "rubiesandrabies:deleted_mod_element",
+    "count": 9
+  }
+}

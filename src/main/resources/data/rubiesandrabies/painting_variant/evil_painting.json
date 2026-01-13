@@ -1,0 +1,11 @@
+{
+  "asset_id": "rubiesandrabies:evil_painting",
+  "height": 7,
+  "width": 7,
+  "title": {
+    "translate": "painting.rubiesandrabies.evil_painting.title"
+  },
+  "author": {
+    "translate": "painting.rubiesandrabies.evil_painting.author"
+  }
+}

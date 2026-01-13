@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rubiesandrabies:block/skyfactorytop",
+    "up": "rubiesandrabies:block/skyfactorytop",
+    "north": "rubiesandrabies:block/skyfactory",
+    "east": "rubiesandrabies:block/skyfactory",
+    "south": "rubiesandrabies:block/skyfactory",
+    "west": "rubiesandrabies:block/skyfactory",
+    "particle": "rubiesandrabies:block/skyfactorytop"
+  },
+  "render_type": "solid"
+}

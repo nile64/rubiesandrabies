@@ -120,8 +120,8 @@
       "registry_name": "ruby",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rubiesandrabies/models/item/ruby.json",
           "src/main/java/net/mcreator/rubiesandrabies/item/RubyItem.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/ruby.json",
           "src/main/resources/assets/rubiesandrabies/items/ruby.json"
         ]
       }
@@ -202,8 +202,7 @@
           "src/main/resources/assets/rubiesandrabies/models/item/ruby_bricks.json",
           "src/main/java/net/mcreator/rubiesandrabies/block/RubyBricksBlock.java"
         ]
-      },
-      "path": "~/ruby blocks"
+      }
     },
     {
       "name": "RubyBrickRecipe",
@@ -216,8 +215,7 @@
           "src/main/resources/data/rubiesandrabies/recipe/ruby_brick_recipe.json",
           "src/main/resources/data/rubiesandrabies/advancement/recipes/ruby_brick_recipe.json"
         ]
-      },
-      "path": "~/ruby blocks"
+      }
     },
     {
       "name": "TheIncidentRightclicked",
@@ -275,8 +273,8 @@
       "registry_name": "three_netherite_ingots",
       "metadata": {
         "files": [
-          "src/main/resources/data/rubiesandrabies/recipe/three_netherite_ingots.json",
-          "src/main/resources/data/rubiesandrabies/advancement/recipes/three_netherite_ingots.json"
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/three_netherite_ingots.json",
+          "src/main/resources/data/rubiesandrabies/recipe/three_netherite_ingots.json"
         ]
       }
     },
@@ -389,7 +387,7 @@
           "src/main/resources/assets/rubiesandrabies/models/item/ruby_bricks_stairs.json"
         ]
       },
-      "path": "~/ruby blocks/stairs"
+      "path": "~/idk"
     },
     {
       "name": "RubyBricksSlab",
@@ -409,7 +407,7 @@
           "src/main/resources/assets/rubiesandrabies/models/item/ruby_bricks_slab.json"
         ]
       },
-      "path": "~/ruby blocks/slabs"
+      "path": "~/idk"
     },
     {
       "name": "FemgramStructure",
@@ -510,7 +508,7 @@
           "src/main/resources/data/rubiesandrabies/recipe/ruby_bricks_stairs_recipie.json"
         ]
       },
-      "path": "~/ruby blocks/stairs"
+      "path": "~/idk"
     },
     {
       "name": "RubyBricksSlabCrafting",
@@ -523,7 +521,7 @@
           "src/main/resources/data/rubiesandrabies/recipe/ruby_bricks_slab_crafting.json"
         ]
       },
-      "path": "~/ruby blocks/slabs"
+      "path": "~/idk"
     },
     {
       "name": "RubyBricksStairsRecipieStonecutter",
@@ -537,7 +535,7 @@
           "src/main/resources/data/rubiesandrabies/advancement/recipes/ruby_bricks_stairs_recipie_stonecutter.json"
         ]
       },
-      "path": "~/ruby blocks/stairs"
+      "path": "~/idk"
     },
     {
       "name": "RubyBricksSlabRecipieStonecutting",
@@ -547,11 +545,11 @@
       "registry_name": "ruby_bricks_slab_recipie_stonecutting",
       "metadata": {
         "files": [
-          "src/main/resources/data/rubiesandrabies/recipe/ruby_bricks_slab_recipie_stonecutting.json",
-          "src/main/resources/data/rubiesandrabies/advancement/recipes/ruby_bricks_slab_recipie_stonecutting.json"
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/ruby_bricks_slab_recipie_stonecutting.json",
+          "src/main/resources/data/rubiesandrabies/recipe/ruby_bricks_slab_recipie_stonecutting.json"
         ]
       },
-      "path": "~/ruby blocks/slabs"
+      "path": "~/idk"
     },
     {
       "name": "NowiumEssenceRightclickedOnBlock",
@@ -804,7 +802,7 @@
     {
       "name": "Gorilla",
       "type": "livingentity",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "gorilla",
       "metadata": {
@@ -863,6 +861,171 @@
       "path": "~/idk"
     },
     {
+      "name": "RubyTetrahexahedronStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_tetrahexahedron_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/ruby_tetrahexahedron_stairs.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/ruby_tetrahexahedron_stairs.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/ruby_tetrahexahedron_stairs.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/ruby_tetrahexahedron_stairs_inner.json",
+          "src/main/resources/assets/rubiesandrabies/blockstates/ruby_tetrahexahedron_stairs.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/RubyTetrahexahedronStairsBlock.java",
+          "src/main/resources/assets/rubiesandrabies/models/block/ruby_tetrahexahedron_stairs_outer.json",
+          "src/main/resources/assets/rubiesandrabies/items/ruby_tetrahexahedron_stairs.json"
+        ]
+      },
+      "path": "~/ruby blocks/stairs"
+    },
+    {
+      "name": "Xrayblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xrayblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/models/item/xrayblock.json",
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/xrayblock.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/xrayblock.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/XrayblockBlock.java",
+          "src/main/resources/assets/rubiesandrabies/items/xrayblock.json",
+          "src/main/resources/assets/rubiesandrabies/blockstates/xrayblock.json"
+        ]
+      }
+    },
+    {
+      "name": "ArtificialRubyBlockrecipie",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "artificial_ruby_blockrecipie",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/artificial_ruby_blockrecipie.json",
+          "src/main/resources/data/rubiesandrabies/recipe/artificial_ruby_blockrecipie.json"
+        ]
+      },
+      "path": "~/ruby blocks"
+    },
+    {
+      "name": "Rubytetrahexahedronslab1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubytetrahexahedronslab_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/rubytetrahexahedronslab_1.json",
+          "src/main/resources/data/rubiesandrabies/recipe/rubytetrahexahedronslab_1.json"
+        ]
+      },
+      "path": "~/ruby blocks/slabs"
+    },
+    {
+      "name": "RubyTilesRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_tiles_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/ruby_tiles_recipe.json",
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/ruby_tiles_recipe.json"
+        ]
+      },
+      "path": "~/ruby blocks"
+    },
+    {
+      "name": "RubyTileStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_tile_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/models/item/ruby_tile_stairs.json",
+          "src/main/resources/assets/rubiesandrabies/blockstates/ruby_tile_stairs.json",
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/ruby_tile_stairs.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/ruby_tile_stairs_outer.json",
+          "src/main/resources/assets/rubiesandrabies/items/ruby_tile_stairs.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/ruby_tile_stairs_inner.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/RubyTileStairsBlock.java",
+          "src/main/resources/assets/rubiesandrabies/models/block/ruby_tile_stairs.json"
+        ]
+      },
+      "path": "~/ruby blocks/stairs"
+    },
+    {
+      "name": "Rubytetrahexahedronbrickslab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubytetrahexahedronbrickslab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/models/block/rubytetrahexahedronbrickslab.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/RubytetrahexahedronbrickslabBlock.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/rubytetrahexahedronbrickslab.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/rubytetrahexahedronbrickslab_top.json",
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/rubytetrahexahedronbrickslab.json",
+          "src/main/resources/assets/rubiesandrabies/items/rubytetrahexahedronbrickslab.json",
+          "src/main/resources/assets/rubiesandrabies/blockstates/rubytetrahexahedronbrickslab.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/rubytetrahexahedronbrickslab_full.json"
+        ]
+      },
+      "path": "~/ruby blocks/slabs"
+    },
+    {
+      "name": "Rubytileslab1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubytileslab_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/rubytileslab_1.json",
+          "src/main/resources/data/rubiesandrabies/recipe/rubytileslab_1.json"
+        ]
+      },
+      "path": "~/ruby blocks/slabs"
+    },
+    {
+      "name": "Rubytetrahexahedronstairsrecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubytetrahexahedronstairsrecipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/rubytetrahexahedronstairsrecipe_2.json",
+          "src/main/resources/data/rubiesandrabies/recipe/rubytetrahexahedronstairsrecipe_2.json"
+        ]
+      },
+      "path": "~/ruby blocks/stairs"
+    },
+    {
+      "name": "Rubytetrahexahedronbricks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubytetrahexahedronbricks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/block/RubytetrahexahedronbricksBlock.java",
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/rubytetrahexahedronbricks.json",
+          "src/main/resources/assets/rubiesandrabies/blockstates/rubytetrahexahedronbricks.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/rubytetrahexahedronbricks.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/rubytetrahexahedronbricks.json",
+          "src/main/resources/assets/rubiesandrabies/items/rubytetrahexahedronbricks.json"
+        ]
+      },
+      "path": "~/ruby blocks"
+    },
+    {
       "name": "Rubyblockloottable",
       "type": "loottable",
       "compiles": true,
@@ -871,6 +1034,179 @@
       "metadata": {
         "files": [
           "src/main/resources/data/rubiesandrabies/loot_table/blocks/ruby_block.json"
+        ]
+      },
+      "path": "~/ruby blocks"
+    },
+    {
+      "name": "Rubytileslab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubytileslab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/blockstates/rubytileslab.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/rubytileslab_top.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/RubytileslabBlock.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/rubytileslab.json",
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/rubytileslab.json",
+          "src/main/resources/assets/rubiesandrabies/items/rubytileslab.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/rubytileslab.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/rubytileslab_full.json"
+        ]
+      },
+      "path": "~/ruby blocks/slabs"
+    },
+    {
+      "name": "Rubytiles",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubytiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/items/rubytiles.json",
+          "src/main/resources/assets/rubiesandrabies/blockstates/rubytiles.json",
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/rubytiles.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/RubytilesBlock.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/rubytiles.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/rubytiles.json"
+        ]
+      },
+      "path": "~/ruby blocks"
+    },
+    {
+      "name": "RubyTilesStairs1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_tiles_stairs_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/ruby_tiles_stairs_1.json",
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/ruby_tiles_stairs_1.json"
+        ]
+      },
+      "path": "~/ruby blocks/stairs"
+    },
+    {
+      "name": "Artificialrubyblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "artificialrubyblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/items/artificialrubyblock.json",
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/artificialrubyblock.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/ArtificialrubyblockBlock.java",
+          "src/main/resources/assets/rubiesandrabies/models/block/artificialrubyblock.json",
+          "src/main/resources/assets/rubiesandrabies/blockstates/artificialrubyblock.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/artificialrubyblock.json"
+        ]
+      },
+      "path": "~/ruby blocks"
+    },
+    {
+      "name": "RubyBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/items/ruby_block.json",
+          "src/main/resources/data/rubiesandrabies/worldgen/placed_feature/ruby_block.json",
+          "src/main/resources/data/rubiesandrabies/worldgen/configured_feature/ruby_block.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/RubyBlockBlock.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/ruby_block.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/ruby_block.json",
+          "src/main/resources/data/rubiesandrabies/neoforge/biome_modifier/ruby_block_biome_modifier.json",
+          "src/main/resources/assets/rubiesandrabies/blockstates/ruby_block.json"
+        ]
+      },
+      "path": "~/ruby blocks"
+    },
+    {
+      "name": "Rubytetrahexahedronbricksrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubytetrahexahedronbricksrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/rubytetrahexahedronbricksrecipe.json",
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/rubytetrahexahedronbricksrecipe.json"
+        ]
+      },
+      "path": "~/ruby blocks"
+    },
+    {
+      "name": "Rubytiles2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubytiles_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/rubytiles_2.json",
+          "src/main/resources/data/rubiesandrabies/recipe/rubytiles_2.json"
+        ]
+      },
+      "path": "~/ruby blocks/stairs"
+    },
+    {
+      "name": "RubyTetrahexahedronStairsRecipe1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_tetrahexahedron_stairs_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/ruby_tetrahexahedron_stairs_recipe_1.json",
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/ruby_tetrahexahedron_stairs_recipe_1.json"
+        ]
+      },
+      "path": "~/ruby blocks/stairs"
+    },
+    {
+      "name": "Rubytileslab2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubytileslab_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/rubytileslab_2.json",
+          "src/main/resources/data/rubiesandrabies/recipe/rubytileslab_2.json"
+        ]
+      },
+      "path": "~/ruby blocks/slabs"
+    },
+    {
+      "name": "Rubytetrahexahedronslab2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubytetrahexahedronslab_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/rubytetrahexahedronslab_2.json",
+          "src/main/resources/data/rubiesandrabies/recipe/rubytetrahexahedronslab_2.json"
+        ]
+      },
+      "path": "~/ruby blocks/slabs"
+    },
+    {
+      "name": "Rubyrecipe1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyrecipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/rubyrecipe_1.json"
         ]
       },
       "path": "~/ruby blocks"
@@ -907,344 +1243,6 @@
       "path": "~/ruby blocks"
     },
     {
-      "name": "RubyBlock",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ruby_block",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/rubiesandrabies/items/ruby_block.json",
-          "src/main/resources/data/rubiesandrabies/worldgen/placed_feature/ruby_block.json",
-          "src/main/resources/data/rubiesandrabies/worldgen/configured_feature/ruby_block.json",
-          "src/main/java/net/mcreator/rubiesandrabies/block/RubyBlockBlock.java",
-          "src/main/resources/assets/rubiesandrabies/models/item/ruby_block.json",
-          "src/main/resources/assets/rubiesandrabies/models/block/ruby_block.json",
-          "src/main/resources/data/rubiesandrabies/neoforge/biome_modifier/ruby_block_biome_modifier.json",
-          "src/main/resources/assets/rubiesandrabies/blockstates/ruby_block.json"
-        ]
-      },
-      "path": "~/ruby blocks"
-    },
-    {
-      "name": "Artificialrubyblock",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "artificialrubyblock",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/rubiesandrabies/items/artificialrubyblock.json",
-          "src/main/resources/data/rubiesandrabies/loot_table/blocks/artificialrubyblock.json",
-          "src/main/java/net/mcreator/rubiesandrabies/block/ArtificialrubyblockBlock.java",
-          "src/main/resources/assets/rubiesandrabies/models/block/artificialrubyblock.json",
-          "src/main/resources/assets/rubiesandrabies/blockstates/artificialrubyblock.json",
-          "src/main/resources/assets/rubiesandrabies/models/item/artificialrubyblock.json"
-        ]
-      },
-      "path": "~/ruby blocks"
-    },
-    {
-      "name": "ArtificialRubyBlockrecipie",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "artificial_ruby_blockrecipie",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/rubiesandrabies/advancement/recipes/artificial_ruby_blockrecipie.json",
-          "src/main/resources/data/rubiesandrabies/recipe/artificial_ruby_blockrecipie.json"
-        ]
-      },
-      "path": "~/ruby blocks"
-    },
-    {
-      "name": "Rubyrecipe1",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rubyrecipe_1",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/rubiesandrabies/recipe/rubyrecipe_1.json"
-        ]
-      },
-      "path": "~/ruby blocks"
-    },
-    {
-      "name": "Rubytetrahexahedronbricks",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rubytetrahexahedronbricks",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/rubiesandrabies/block/RubytetrahexahedronbricksBlock.java",
-          "src/main/resources/data/rubiesandrabies/loot_table/blocks/rubytetrahexahedronbricks.json",
-          "src/main/resources/assets/rubiesandrabies/blockstates/rubytetrahexahedronbricks.json",
-          "src/main/resources/assets/rubiesandrabies/models/block/rubytetrahexahedronbricks.json",
-          "src/main/resources/assets/rubiesandrabies/models/item/rubytetrahexahedronbricks.json",
-          "src/main/resources/assets/rubiesandrabies/items/rubytetrahexahedronbricks.json"
-        ]
-      },
-      "path": "~/ruby blocks"
-    },
-    {
-      "name": "Rubytetrahexahedronbricksrecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rubytetrahexahedronbricksrecipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/rubiesandrabies/recipe/rubytetrahexahedronbricksrecipe.json",
-          "src/main/resources/data/rubiesandrabies/advancement/recipes/rubytetrahexahedronbricksrecipe.json"
-        ]
-      },
-      "path": "~/ruby blocks"
-    },
-    {
-      "name": "Rubytiles",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rubytiles",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/rubiesandrabies/items/rubytiles.json",
-          "src/main/resources/assets/rubiesandrabies/blockstates/rubytiles.json",
-          "src/main/resources/data/rubiesandrabies/loot_table/blocks/rubytiles.json",
-          "src/main/java/net/mcreator/rubiesandrabies/block/RubytilesBlock.java",
-          "src/main/resources/assets/rubiesandrabies/models/item/rubytiles.json",
-          "src/main/resources/assets/rubiesandrabies/models/block/rubytiles.json"
-        ]
-      },
-      "path": "~/ruby blocks"
-    },
-    {
-      "name": "RubyTilesRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ruby_tiles_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/rubiesandrabies/recipe/ruby_tiles_recipe.json",
-          "src/main/resources/data/rubiesandrabies/advancement/recipes/ruby_tiles_recipe.json"
-        ]
-      },
-      "path": "~/ruby blocks"
-    },
-    {
-      "name": "RubyTetrahexahedronStairs",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ruby_tetrahexahedron_stairs",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/rubiesandrabies/loot_table/blocks/ruby_tetrahexahedron_stairs.json",
-          "src/main/resources/assets/rubiesandrabies/models/block/ruby_tetrahexahedron_stairs.json",
-          "src/main/resources/assets/rubiesandrabies/models/item/ruby_tetrahexahedron_stairs.json",
-          "src/main/resources/assets/rubiesandrabies/models/block/ruby_tetrahexahedron_stairs_inner.json",
-          "src/main/resources/assets/rubiesandrabies/blockstates/ruby_tetrahexahedron_stairs.json",
-          "src/main/java/net/mcreator/rubiesandrabies/block/RubyTetrahexahedronStairsBlock.java",
-          "src/main/resources/assets/rubiesandrabies/models/block/ruby_tetrahexahedron_stairs_outer.json",
-          "src/main/resources/assets/rubiesandrabies/items/ruby_tetrahexahedron_stairs.json"
-        ]
-      },
-      "path": "~/ruby blocks/stairs"
-    },
-    {
-      "name": "RubyTetrahexahedronStairsRecipe1",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ruby_tetrahexahedron_stairs_recipe_1",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/rubiesandrabies/recipe/ruby_tetrahexahedron_stairs_recipe_1.json",
-          "src/main/resources/data/rubiesandrabies/advancement/recipes/ruby_tetrahexahedron_stairs_recipe_1.json"
-        ]
-      },
-      "path": "~/ruby blocks/stairs"
-    },
-    {
-      "name": "Rubytetrahexahedronstairsrecipe2",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rubytetrahexahedronstairsrecipe_2",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/rubiesandrabies/advancement/recipes/rubytetrahexahedronstairsrecipe_2.json",
-          "src/main/resources/data/rubiesandrabies/recipe/rubytetrahexahedronstairsrecipe_2.json"
-        ]
-      },
-      "path": "~/ruby blocks/stairs"
-    },
-    {
-      "name": "RubyTileStairs",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ruby_tile_stairs",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/rubiesandrabies/models/item/ruby_tile_stairs.json",
-          "src/main/resources/assets/rubiesandrabies/blockstates/ruby_tile_stairs.json",
-          "src/main/resources/data/rubiesandrabies/loot_table/blocks/ruby_tile_stairs.json",
-          "src/main/resources/assets/rubiesandrabies/models/block/ruby_tile_stairs_outer.json",
-          "src/main/resources/assets/rubiesandrabies/items/ruby_tile_stairs.json",
-          "src/main/resources/assets/rubiesandrabies/models/block/ruby_tile_stairs_inner.json",
-          "src/main/java/net/mcreator/rubiesandrabies/block/RubyTileStairsBlock.java",
-          "src/main/resources/assets/rubiesandrabies/models/block/ruby_tile_stairs.json"
-        ]
-      },
-      "path": "~/ruby blocks/stairs"
-    },
-    {
-      "name": "RubyTilesStairs1",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ruby_tiles_stairs_1",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/rubiesandrabies/recipe/ruby_tiles_stairs_1.json",
-          "src/main/resources/data/rubiesandrabies/advancement/recipes/ruby_tiles_stairs_1.json"
-        ]
-      },
-      "path": "~/ruby blocks/stairs"
-    },
-    {
-      "name": "Rubytiles2",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rubytiles_2",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/rubiesandrabies/advancement/recipes/rubytiles_2.json",
-          "src/main/resources/data/rubiesandrabies/recipe/rubytiles_2.json"
-        ]
-      },
-      "path": "~/ruby blocks/stairs"
-    },
-    {
-      "name": "Rubytetrahexahedronbrickslab",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rubytetrahexahedronbrickslab",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/rubiesandrabies/models/block/rubytetrahexahedronbrickslab.json",
-          "src/main/java/net/mcreator/rubiesandrabies/block/RubytetrahexahedronbrickslabBlock.java",
-          "src/main/resources/assets/rubiesandrabies/models/item/rubytetrahexahedronbrickslab.json",
-          "src/main/resources/assets/rubiesandrabies/models/block/rubytetrahexahedronbrickslab_top.json",
-          "src/main/resources/data/rubiesandrabies/loot_table/blocks/rubytetrahexahedronbrickslab.json",
-          "src/main/resources/assets/rubiesandrabies/items/rubytetrahexahedronbrickslab.json",
-          "src/main/resources/assets/rubiesandrabies/blockstates/rubytetrahexahedronbrickslab.json",
-          "src/main/resources/assets/rubiesandrabies/models/block/rubytetrahexahedronbrickslab_full.json"
-        ]
-      },
-      "path": "~/ruby blocks/slabs"
-    },
-    {
-      "name": "Rubytileslab",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rubytileslab",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/rubiesandrabies/blockstates/rubytileslab.json",
-          "src/main/resources/assets/rubiesandrabies/models/block/rubytileslab_top.json",
-          "src/main/java/net/mcreator/rubiesandrabies/block/RubytileslabBlock.java",
-          "src/main/resources/assets/rubiesandrabies/models/item/rubytileslab.json",
-          "src/main/resources/data/rubiesandrabies/loot_table/blocks/rubytileslab.json",
-          "src/main/resources/assets/rubiesandrabies/items/rubytileslab.json",
-          "src/main/resources/assets/rubiesandrabies/models/block/rubytileslab.json",
-          "src/main/resources/assets/rubiesandrabies/models/block/rubytileslab_full.json"
-        ]
-      },
-      "path": "~/ruby blocks/slabs"
-    },
-    {
-      "name": "Rubytileslab1",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rubytileslab_1",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/rubiesandrabies/advancement/recipes/rubytileslab_1.json",
-          "src/main/resources/data/rubiesandrabies/recipe/rubytileslab_1.json"
-        ]
-      },
-      "path": "~/ruby blocks/slabs"
-    },
-    {
-      "name": "Rubytileslab2",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rubytileslab_2",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/rubiesandrabies/advancement/recipes/rubytileslab_2.json",
-          "src/main/resources/data/rubiesandrabies/recipe/rubytileslab_2.json"
-        ]
-      },
-      "path": "~/ruby blocks/slabs"
-    },
-    {
-      "name": "Rubytetrahexahedronslab1",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rubytetrahexahedronslab_1",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/rubiesandrabies/advancement/recipes/rubytetrahexahedronslab_1.json",
-          "src/main/resources/data/rubiesandrabies/recipe/rubytetrahexahedronslab_1.json"
-        ]
-      },
-      "path": "~/ruby blocks/slabs"
-    },
-    {
-      "name": "Rubytetrahexahedronslab2",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rubytetrahexahedronslab_2",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/rubiesandrabies/advancement/recipes/rubytetrahexahedronslab_2.json",
-          "src/main/resources/data/rubiesandrabies/recipe/rubytetrahexahedronslab_2.json"
-        ]
-      },
-      "path": "~/ruby blocks/slabs"
-    },
-    {
-      "name": "Xrayblock",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "xrayblock",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/rubiesandrabies/models/item/xrayblock.json",
-          "src/main/resources/data/rubiesandrabies/loot_table/blocks/xrayblock.json",
-          "src/main/resources/assets/rubiesandrabies/models/block/xrayblock.json",
-          "src/main/java/net/mcreator/rubiesandrabies/block/XrayblockBlock.java",
-          "src/main/resources/assets/rubiesandrabies/items/xrayblock.json",
-          "src/main/resources/assets/rubiesandrabies/blockstates/xrayblock.json"
-        ]
-      }
-    },
-    {
       "name": "Xrayblockrecipe",
       "type": "recipe",
       "compiles": true,
@@ -1255,6 +1253,468 @@
           "src/main/resources/data/rubiesandrabies/recipe/xrayblockrecipe.json"
         ]
       }
+    },
+    {
+      "name": "NowiumFromBlock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nowium_from_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/nowium_from_block.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "NowEntityIsHurtevil",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "now_entity_is_hurtevil",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "damagesource",
+            "type": "damagesource"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/NowEntityIsHurtevilProcedure.java"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "MakeNonNewtonianFluidLiquid",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_non_newtonian_fluid_liquid",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/MakeNonNewtonianFluidLiquidProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "TheniumFromBlock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thenium_from_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/thenium_from_block.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "SkyfactoryGui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skyfactory_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/world/inventory/SkyfactoryGuiMenu.java",
+          "src/main/java/net/mcreator/rubiesandrabies/client/gui/SkyfactoryGuiScreen.java",
+          "src/main/java/net/mcreator/rubiesandrabies/network/SkyfactoryGuiButtonMessage.java"
+        ]
+      },
+      "path": "~/skyfactory"
+    },
+    {
+      "name": "NonNewtonianFluid",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "non_newtonian_fluid",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/client/fluid/NonNewtonianFluidFluidExtension.java",
+          "src/main/resources/assets/rubiesandrabies/models/block/non_newtonian_fluid.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/NonNewtonianFluidItem.java",
+          "src/main/resources/assets/rubiesandrabies/blockstates/non_newtonian_fluid.json",
+          "src/main/resources/assets/rubiesandrabies/items/non_newtonian_fluid_bucket.json",
+          "src/main/java/net/mcreator/rubiesandrabies/fluid/NonNewtonianFluidFluid.java",
+          "src/main/java/net/mcreator/rubiesandrabies/block/NonNewtonianFluidBlock.java",
+          "src/main/java/net/mcreator/rubiesandrabies/fluid/types/NonNewtonianFluidFluidType.java"
+        ]
+      }
+    },
+    {
+      "name": "Skyfactory",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skyfactory",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/blockstates/skyfactory.json",
+          "src/main/resources/assets/rubiesandrabies/items/skyfactory.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/skyfactory.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/skyfactory.json",
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/skyfactory.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/SkyfactoryBlock.java"
+        ]
+      },
+      "path": "~/skyfactory"
+    },
+    {
+      "name": "Theniumsword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "theniumsword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/items/theniumsword.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/theniumsword.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/TheniumswordItem.java"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "SkyfactoryDirtToUranium",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skyfactory_dirt_to_uranium",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/SkyfactoryDirtToUraniumProcedure.java"
+        ]
+      },
+      "path": "~/skyfactory"
+    },
+    {
+      "name": "TheniumEssenceToBlock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thenium_essence_to_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/thenium_essence_to_block.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "EvilPainting",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evil_painting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/painting_variant/evil_painting.json"
+        ]
+      }
+    },
+    {
+      "name": "NonNewtonianFluidBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "non_newtonian_fluid_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/blockstates/non_newtonian_fluid_block.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/non_newtonian_fluid_block.json",
+          "src/main/resources/assets/rubiesandrabies/items/non_newtonian_fluid_block.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/NonNewtonianFluidBlockBlock.java",
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/non_newtonian_fluid_block.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/non_newtonian_fluid_block.json"
+        ]
+      }
+    },
+    {
+      "name": "Skyfactoryrecipie",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skyfactoryrecipie",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/skyfactoryrecipie.json"
+        ]
+      },
+      "path": "~/skyfactory"
+    },
+    {
+      "name": "EvilPainting2",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evil_painting_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/painting_variant/evil_painting_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Uranium",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/models/item/uranium.json",
+          "src/main/resources/assets/rubiesandrabies/items/uranium.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/UraniumItem.java"
+        ]
+      },
+      "path": "~/skyfactory"
+    },
+    {
+      "name": "SugarcanePickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sugarcane_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/items/sugarcane_pickaxe.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/SugarcanePickaxeItem.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/sugarcane_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "TheniumEssenceBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thenium_essence_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/models/block/thenium_essence_block.json",
+          "src/main/resources/assets/rubiesandrabies/items/thenium_essence_block.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/TheniumEssenceBlockBlock.java",
+          "src/main/resources/assets/rubiesandrabies/blockstates/thenium_essence_block.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/thenium_essence_block.json",
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/thenium_essence_block.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "SugarcanePickaxeRecipie",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sugarcane_pickaxe_recipie",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/sugarcane_pickaxe_recipie.json"
+        ]
+      }
+    },
+    {
+      "name": "TheniumEssencePlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thenium_essence_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/TheniumEssencePlayerFinishesUsingItemProcedure.java"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "MakeNonNewtonianFluidSolid",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_non_newtonian_fluid_solid",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/MakeNonNewtonianFluidSolidProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "TheniumEssenceBlockOnBlockRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thenium_essence_block_on_block_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/TheniumEssenceBlockOnBlockRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "BaneOfNowMake",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bane_of_now_make",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/bane_of_now_make.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "SkyfactoryOnBlockRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skyfactory_on_block_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/SkyfactoryOnBlockRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/skyfactory"
+    },
+    {
+      "name": "TheniumEssence",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thenium_essence",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/item/TheniumEssenceItem.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/thenium_essence.json",
+          "src/main/resources/assets/rubiesandrabies/items/thenium_essence.json"
+        ]
+      },
+      "path": "~/idk"
     }
   ],
   "variable_elements": [],
@@ -1346,6 +1806,33 @@
       ],
       "category": "hostile",
       "subtitle": "Then"
+    },
+    {
+      "name": "impaled",
+      "files": [
+        "uaaaaaaaa"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "glassidle",
+      "files": [
+        "glassidle"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "glasshit",
+      "files": [
+        "wha",
+        "glass4",
+        "glass3",
+        "glass2"
+      ],
+      "category": "hostile",
+      "subtitle": ""
     }
   ],
   "tag_elements": {
@@ -1359,14 +1846,16 @@
       "~CUSTOM:NetherRacism"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:TheniumEssenceBlock",
+      "~CUSTOM:Skyfactory",
+      "~CUSTOM:RubyBlock",
+      "~CUSTOM:Artificialrubyblock",
+      "~CUSTOM:Rubytiles",
       "~CUSTOM:Rubytileslab",
+      "~CUSTOM:Rubytetrahexahedronbricks",
       "~CUSTOM:Rubytetrahexahedronbrickslab",
       "~CUSTOM:RubyTileStairs",
       "~CUSTOM:RubyTetrahexahedronStairs",
-      "~CUSTOM:Rubytiles",
-      "~CUSTOM:Rubytetrahexahedronbricks",
-      "~CUSTOM:Artificialrubyblock",
-      "~CUSTOM:RubyBlock",
       "~CUSTOM:NowiumBlock",
       "~CUSTOM:EvilNylium",
       "~CUSTOM:RubyBricksSlab",
@@ -1402,8 +1891,29 @@
       "~CUSTOM:TouchOfRabies"
     ],
     "BLOCKS:minecraft:needs_diamond_tool": [
-      "~CUSTOM:Artificialrubyblock",
-      "~CUSTOM:RubyBlock"
+      "~CUSTOM:RubyBlock",
+      "~CUSTOM:Artificialrubyblock"
+    ],
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:NonNewtonianFluid"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:Theniumsword"
+    ],
+    "ITEMS:rubiesandrabies:theniumsword_repair_items": [
+      "~CUSTOM:TheniumEssenceBlock"
+    ],
+    "ITEMS:minecraft:piglin_loved": [
+      "~CUSTOM:Uranium"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:SugarcanePickaxe"
+    ],
+    "ITEMS:rubiesandrabies:sugarcane_pickaxe_repair_items": [
+      "~Blocks.REEDS"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:TheniumEssenceBlock"
     ]
   },
   "tab_element_order": {},
@@ -1467,37 +1977,29 @@
   },
   "metadata": {
     "files": [
-      "src/main/java/net/mcreator/rubiesandrabies/mixin/NoiseGeneratorSettingsMixin.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModBiomes.java",
+      "src/main/java/net/mcreator/rubiesandrabies/mixin/NoiseGeneratorSettingsMixin.java",
       "src/main/resources/data/neoforge/data_maps/entity_type/monster_room_mobs.json",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModMobEffects.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModBlocks.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModBlockEntities.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModItems.java",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModEntityRenderers.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModEntities.java",
-      "src/main/resources/assets/rubiesandrabies/sounds.json",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModModels.java",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModTabs.java",
-      "src/main/resources/rubiesandrabies.mixins.json",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModEntityRenderers.java",
       "src/main/resources/pack.mcmeta",
-      "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModSounds.java",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModModels.java",
       "src/main/java/net/mcreator/rubiesandrabies/RubiesandrabiesMod.java",
-      "src/main/resources/META-INF/accesstransformer.cfg"
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModSounds.java",
+      "src/main/resources/assets/rubiesandrabies/sounds.json",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModTabs.java",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/resources/rubiesandrabies.mixins.json",
+      "src/main/resources/META-INF/neoforge.mods.toml"
     ]
   },
   "foldersRoot": {
     "name": "~",
     "children": [
-      {
-        "name": "MusicDiscs",
-        "children": []
-      },
-      {
-        "name": "idk",
-        "children": []
-      },
       {
         "name": "ruby blocks",
         "children": [
@@ -1510,6 +2012,18 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "MusicDiscs",
+        "children": []
+      },
+      {
+        "name": "skyfactory",
+        "children": []
+      },
+      {
+        "name": "idk",
+        "children": []
       }
     ]
   },

@@ -36,14 +36,17 @@ public class RubiesandrabiesModTabs {
 				tabData.accept(RubiesandrabiesModItems.MEATBALL_MOOSE_SPAWN_EGG.get());
 				tabData.accept(RubiesandrabiesModItems.GORILLA_SPAWN_EGG.get());
 				tabData.accept(RubiesandrabiesModItems.BANANA.get());
-				tabData.accept(RubiesandrabiesModBlocks.RUBY_BLOCK.get().asItem());
-				tabData.accept(RubiesandrabiesModBlocks.RUBYTETRAHEXAHEDRONBRICKS.get().asItem());
-				tabData.accept(RubiesandrabiesModBlocks.RUBYTILES.get().asItem());
 				tabData.accept(RubiesandrabiesModBlocks.RUBY_TETRAHEXAHEDRON_STAIRS.get().asItem());
+				tabData.accept(RubiesandrabiesModBlocks.XRAYBLOCK.get().asItem());
 				tabData.accept(RubiesandrabiesModBlocks.RUBY_TILE_STAIRS.get().asItem());
 				tabData.accept(RubiesandrabiesModBlocks.RUBYTETRAHEXAHEDRONBRICKSLAB.get().asItem());
+				tabData.accept(RubiesandrabiesModBlocks.RUBYTETRAHEXAHEDRONBRICKS.get().asItem());
 				tabData.accept(RubiesandrabiesModBlocks.RUBYTILESLAB.get().asItem());
-				tabData.accept(RubiesandrabiesModBlocks.XRAYBLOCK.get().asItem());
+				tabData.accept(RubiesandrabiesModBlocks.RUBYTILES.get().asItem());
+				tabData.accept(RubiesandrabiesModBlocks.RUBY_BLOCK.get().asItem());
+				tabData.accept(RubiesandrabiesModBlocks.SKYFACTORY.get().asItem());
+				tabData.accept(RubiesandrabiesModItems.THENIUMSWORD.get());
+				tabData.accept(RubiesandrabiesModItems.URANIUM.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
@@ -55,13 +58,15 @@ public class RubiesandrabiesModTabs {
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(RubiesandrabiesModItems.BANANA.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-			tabData.accept(RubiesandrabiesModBlocks.RUBY_BLOCK.get().asItem());
-			tabData.accept(RubiesandrabiesModBlocks.RUBYTETRAHEXAHEDRONBRICKS.get().asItem());
-			tabData.accept(RubiesandrabiesModBlocks.RUBYTILES.get().asItem());
 			tabData.accept(RubiesandrabiesModBlocks.RUBY_TETRAHEXAHEDRON_STAIRS.get().asItem());
 			tabData.accept(RubiesandrabiesModBlocks.RUBY_TILE_STAIRS.get().asItem());
 			tabData.accept(RubiesandrabiesModBlocks.RUBYTETRAHEXAHEDRONBRICKSLAB.get().asItem());
+			tabData.accept(RubiesandrabiesModBlocks.RUBYTETRAHEXAHEDRONBRICKS.get().asItem());
 			tabData.accept(RubiesandrabiesModBlocks.RUBYTILESLAB.get().asItem());
+			tabData.accept(RubiesandrabiesModBlocks.RUBYTILES.get().asItem());
+			tabData.accept(RubiesandrabiesModBlocks.RUBY_BLOCK.get().asItem());
+		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+			tabData.accept(RubiesandrabiesModItems.SUGARCANE_PICKAXE.get());
 		}
 	}
 }
