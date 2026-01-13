@@ -86,5 +86,13 @@
   "gui.rubiesandrabies.space_menu.button_racist_planet": "Racist Planet",
   "gui.rubiesandrabies.space_menu.button_overworld": "Overworld",
   "item.rubiesandrabies.exit_planet_item_test": "Exit Planet Item Test",
-  "entity.villager.rubiesandrabies.ruby_trader": "Ruby Trader"
+  "entity.villager.rubiesandrabies.ruby_trader": "Ruby Trader",
+  "item.rubiesandrabies.unpurified_zorpinium_gem": "Unpurified Zorpinium Gem",
+  "item.rubiesandrabies.zorpinium_ore": "Zorpinium Ore",
+  "item.rubiesandrabies.zorpinium_mold": "Zorpinium Purifier",
+  "item.rubiesandrabies.molded_zorpinium": "Molded Zorpinium",
+  "item.rubiesandrabies.purified_zorpinium": "Purified Zorpinium",
+  "advancements.infinite_power.descr": "You got access to a god-like material",
+  "advancements.infinite_power.title": "Infinite Power!",
+  "item.rubiesandrabies.zorpinium_saber": "Zorpinium Saber"
 }

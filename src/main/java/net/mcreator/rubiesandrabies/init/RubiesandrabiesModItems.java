@@ -66,6 +66,12 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> RACIST_ORE;
 	public static final DeferredItem<Item> GP_0_LIQUID_BUCKET;
 	public static final DeferredItem<Item> EXIT_PLANET_ITEM_TEST;
+	public static final DeferredItem<Item> UNPURIFIED_ZORPINIUM_GEM;
+	public static final DeferredItem<Item> ZORPINIUM_ORE;
+	public static final DeferredItem<Item> ZORPINIUM_MOLD;
+	public static final DeferredItem<Item> MOLDED_ZORPINIUM;
+	public static final DeferredItem<Item> PURIFIED_ZORPINIUM;
+	public static final DeferredItem<Item> ZORPINIUM_SABER;
 	static {
 		BAT_WING = register("bat_wing", BatWingItem::new);
 		RUBY = register("ruby", RubyItem::new);
@@ -109,6 +115,12 @@ public class RubiesandrabiesModItems {
 		RACIST_ORE = block(RubiesandrabiesModBlocks.RACIST_ORE, new Item.Properties().stacksTo(1).rarity(Rarity.EPIC).fireResistant());
 		GP_0_LIQUID_BUCKET = register("gp_0_liquid_bucket", Gp0LiquidItem::new);
 		EXIT_PLANET_ITEM_TEST = register("exit_planet_item_test", ExitPlanetItemTestItem::new);
+		UNPURIFIED_ZORPINIUM_GEM = register("unpurified_zorpinium_gem", UnpurifiedZorpiniumGemItem::new);
+		ZORPINIUM_ORE = block(RubiesandrabiesModBlocks.ZORPINIUM_ORE, new Item.Properties().rarity(Rarity.EPIC));
+		ZORPINIUM_MOLD = register("zorpinium_mold", ZorpiniumPurifierItem::new);
+		MOLDED_ZORPINIUM = register("molded_zorpinium", MoldedZorpiniumItem::new);
+		PURIFIED_ZORPINIUM = register("purified_zorpinium", PurifiedZorpiniumItem::new);
+		ZORPINIUM_SABER = register("zorpinium_saber", ZorpiniumSaberItem::new);
 	}
 
 	// Start of user code block custom items

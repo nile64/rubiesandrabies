@@ -77,6 +77,7 @@ public class RubiesandrabiesModTabs {
 			tabData.accept(RubiesandrabiesModBlocks.RUBY_BLOCK.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(RubiesandrabiesModItems.SUGARCANE_PICKAXE.get());
+			tabData.accept(RubiesandrabiesModItems.ZORPINIUM_SABER.get());
 		}
 	}
 }
