@@ -8,22 +8,29 @@ import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.material.Fluid;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.LiquidBlock;
+import net.minecraft.core.particles.ParticleTypes;
+import net.minecraft.core.particles.ParticleOptions;
 
 import net.mcreator.rubiesandrabies.init.RubiesandrabiesModItems;
 import net.mcreator.rubiesandrabies.init.RubiesandrabiesModFluids;
 import net.mcreator.rubiesandrabies.init.RubiesandrabiesModFluidTypes;
 import net.mcreator.rubiesandrabies.init.RubiesandrabiesModBlocks;
 
-public abstract class NonNewtonianFluidFluid extends BaseFlowingFluid {
-	public static final BaseFlowingFluid.Properties PROPERTIES = new BaseFlowingFluid.Properties(() -> RubiesandrabiesModFluidTypes.NON_NEWTONIAN_FLUID_TYPE.get(), () -> RubiesandrabiesModFluids.NON_NEWTONIAN_FLUID.get(),
-			() -> RubiesandrabiesModFluids.FLOWING_NON_NEWTONIAN_FLUID.get()).explosionResistance(100f).levelDecreasePerBlock(2).slopeFindDistance(1).bucket(() -> RubiesandrabiesModItems.NON_NEWTONIAN_FLUID_BUCKET.get())
-			.block(() -> (LiquidBlock) RubiesandrabiesModBlocks.NON_NEWTONIAN_FLUID.get());
+public abstract class Gp0LiquidFluid extends BaseFlowingFluid {
+	public static final BaseFlowingFluid.Properties PROPERTIES = new BaseFlowingFluid.Properties(() -> RubiesandrabiesModFluidTypes.GP_0_LIQUID_TYPE.get(), () -> RubiesandrabiesModFluids.GP_0_LIQUID.get(),
+			() -> RubiesandrabiesModFluids.FLOWING_GP_0_LIQUID.get()).explosionResistance(100f).tickRate(1).slopeFindDistance(1).bucket(() -> RubiesandrabiesModItems.GP_0_LIQUID_BUCKET.get())
+			.block(() -> (LiquidBlock) RubiesandrabiesModBlocks.GP_0_LIQUID.get());
 
-	private NonNewtonianFluidFluid() {
+	private Gp0LiquidFluid() {
 		super(PROPERTIES);
 	}
 
-	public static class Source extends NonNewtonianFluidFluid {
+	@Override
+	public ParticleOptions getDripParticle() {
+		return ParticleTypes.DRIPPING_OBSIDIAN_TEAR;
+	}
+
+	public static class Source extends Gp0LiquidFluid {
 		public int getAmount(FluidState state) {
 			return 8;
 		}
@@ -33,7 +40,7 @@ public abstract class NonNewtonianFluidFluid extends BaseFlowingFluid {
 		}
 	}
 
-	public static class Flowing extends NonNewtonianFluidFluid {
+	public static class Flowing extends Gp0LiquidFluid {
 		protected void createFluidStateDefinition(StateDefinition.Builder<Fluid, FluidState> builder) {
 			super.createFluidStateDefinition(builder);
 			builder.add(LEVEL);

@@ -8,12 +8,16 @@ import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.api.distmarker.Dist;
 
+import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.level.BlockAndTintGetter;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.core.BlockPos;
 import net.minecraft.client.renderer.fog.environment.FogEnvironment;
 import net.minecraft.client.renderer.fog.FogData;
 import net.minecraft.client.multiplayer.ClientLevel;
+import net.minecraft.client.Minecraft;
 import net.minecraft.client.Camera;
 
 import net.mcreator.rubiesandrabies.init.RubiesandrabiesModFluidTypes;
@@ -21,12 +25,12 @@ import net.mcreator.rubiesandrabies.init.RubiesandrabiesModFluidTypes;
 import javax.annotation.Nullable;
 
 @EventBusSubscriber(Dist.CLIENT)
-public class NonNewtonianFluidFluidExtension {
+public class Gp0LiquidFluidExtension {
 	@SubscribeEvent
 	public static void registerFluidTypeExtensions(RegisterClientExtensionsEvent event) {
 		event.registerFluidType(new IClientFluidTypeExtensions() {
-			private static final ResourceLocation STILL_TEXTURE = ResourceLocation.parse("rubiesandrabies:block/non_newtonian_fluid");
-			private static final ResourceLocation FLOWING_TEXTURE = ResourceLocation.parse("rubiesandrabies:block/non_newtonian_fluid");
+			private static final ResourceLocation STILL_TEXTURE = ResourceLocation.parse("rubiesandrabies:block/minecraft-cow-head-1024x1024-3108380750");
+			private static final ResourceLocation FLOWING_TEXTURE = ResourceLocation.parse("rubiesandrabies:block/minecraft-cow-head-1024x1024-3108380750");
 
 			@Override
 			public ResourceLocation getStillTexture() {
@@ -40,7 +44,7 @@ public class NonNewtonianFluidFluidExtension {
 
 			@Override
 			public Vector4f modifyFogColor(Camera camera, float partialTick, ClientLevel level, int renderDistance, float darkenWorldAmount, Vector4f fluidFogColor) {
-				return new Vector4f(1f, 1f, 1f, fluidFogColor.w);
+				return new Vector4f(1f, 0f, 0f, fluidFogColor.w);
 			}
 
 			@Override
@@ -50,8 +54,18 @@ public class NonNewtonianFluidFluidExtension {
 				Entity entity = camera.getEntity();
 				Level world = entity.level();
 				fogData.environmentalStart = 0f;
-				fogData.environmentalEnd = Math.min(48f, renderDistance);
+				fogData.environmentalEnd = 1f;
 			}
-		}, RubiesandrabiesModFluidTypes.NON_NEWTONIAN_FLUID_TYPE.get());
+
+			@Override
+			public int getTintColor() {
+				return -16448205;
+			}
+
+			@Override
+			public int getTintColor(FluidState state, BlockAndTintGetter world, BlockPos pos) {
+				return Minecraft.getInstance().level.getBiome(pos).value().getWaterFogColor() | 0xFF000000;
+			}
+		}, RubiesandrabiesModFluidTypes.GP_0_LIQUID_TYPE.get());
 	}
 }

@@ -47,6 +47,7 @@ public class RubiesandrabiesModTabs {
 				tabData.accept(RubiesandrabiesModBlocks.SKYFACTORY.get().asItem());
 				tabData.accept(RubiesandrabiesModItems.THENIUMSWORD.get());
 				tabData.accept(RubiesandrabiesModItems.URANIUM.get());
+				tabData.accept(RubiesandrabiesModItems.GP_0_LIQUID_BUCKET.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

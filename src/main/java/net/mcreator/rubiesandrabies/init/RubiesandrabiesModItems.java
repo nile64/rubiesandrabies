@@ -58,6 +58,7 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> SUGARCANE_PICKAXE;
 	public static final DeferredItem<Item> THENIUM_ESSENCE_BLOCK;
 	public static final DeferredItem<Item> THENIUM_ESSENCE;
+	public static final DeferredItem<Item> GP_0_LIQUID_BUCKET;
 	static {
 		BAT_WING = register("bat_wing", BatWingItem::new);
 		RUBY = register("ruby", RubyItem::new);
@@ -93,6 +94,7 @@ public class RubiesandrabiesModItems {
 		SUGARCANE_PICKAXE = register("sugarcane_pickaxe", SugarcanePickaxeItem::new);
 		THENIUM_ESSENCE_BLOCK = block(RubiesandrabiesModBlocks.THENIUM_ESSENCE_BLOCK);
 		THENIUM_ESSENCE = register("thenium_essence", TheniumEssenceItem::new);
+		GP_0_LIQUID_BUCKET = register("gp_0_liquid_bucket", Gp0LiquidItem::new);
 	}
 
 	// Start of user code block custom items
@@ -112,5 +114,6 @@ public class RubiesandrabiesModItems {
 	@SubscribeEvent
 	public static void registerCapabilities(RegisterCapabilitiesEvent event) {
 		event.registerItem(Capabilities.FluidHandler.ITEM, (stack, context) -> new FluidBucketWrapper(stack), NON_NEWTONIAN_FLUID_BUCKET.get());
+		event.registerItem(Capabilities.FluidHandler.ITEM, (stack, context) -> new FluidBucketWrapper(stack), GP_0_LIQUID_BUCKET.get());
 	}
 }
