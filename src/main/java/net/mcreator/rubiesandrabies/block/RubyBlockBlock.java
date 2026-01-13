@@ -23,7 +23,7 @@ import net.mcreator.rubiesandrabies.procedures.RubyBlockPlayerStartsToDestroyPro
 
 public class RubyBlockBlock extends Block {
 	public RubyBlockBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.GLASS).strength(4f, 40f).lightLevel(s -> 1).requiresCorrectToolForDrops().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+		super(properties.sound(SoundType.GLASS).strength(25f, 40f).lightLevel(s -> 1).requiresCorrectToolForDrops().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override

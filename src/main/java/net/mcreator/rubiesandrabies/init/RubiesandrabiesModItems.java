@@ -63,6 +63,7 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> ENTER_PLANET_TEST_ITEM;
 	public static final DeferredItem<Item> EXIT_PLANET_ITEM_TEST;
 	public static final DeferredItem<Item> RACIST_INGOT;
+	public static final DeferredItem<Item> R_HMOB_SPAWN_EGG;
 	static {
 		BAT_WING = register("bat_wing", BatWingItem::new);
 		RUBY = register("ruby", RubyItem::new);
@@ -103,6 +104,7 @@ public class RubiesandrabiesModItems {
 		ENTER_PLANET_TEST_ITEM = register("enter_planet_test_item", EnterPlanetTestItemItem::new);
 		EXIT_PLANET_ITEM_TEST = register("exit_planet_item_test", ExitPlanetItemTestItem::new);
 		RACIST_INGOT = register("racist_ingot", RacistIngotItem::new);
+		R_HMOB_SPAWN_EGG = register("r_hmob_spawn_egg", properties -> new SpawnEggItem(RubiesandrabiesModEntities.R_HMOB.get(), properties));
 	}
 
 	// Start of user code block custom items
