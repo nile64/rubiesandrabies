@@ -26,6 +26,17 @@ public class RubiesandrabiesModBlocks {
 	public static final DeferredBlock<Block> THENIUM_ESSENCE_BLOCK;
 	public static final DeferredBlock<Block> SKYFACTORY;
 	public static final DeferredBlock<Block> RACIST_ORE;
+	public static final DeferredBlock<Block> RUBY_TETRAHEXAHEDRON_STAIRS;
+	public static final DeferredBlock<Block> RUBY_TILE_STAIRS;
+	public static final DeferredBlock<Block> RUBYTETRAHEXAHEDRONBRICKSLAB;
+	public static final DeferredBlock<Block> NON_NEWTONIAN_FLUID;
+	public static final DeferredBlock<Block> RUBYTILESLAB;
+	public static final DeferredBlock<Block> RUBYTILES;
+	public static final DeferredBlock<Block> XRAYBLOCK;
+	public static final DeferredBlock<Block> RUBYTETRAHEXAHEDRONBRICKS;
+	public static final DeferredBlock<Block> NON_NEWTONIAN_FLUID_BLOCK;
+	public static final DeferredBlock<Block> ARTIFICIALRUBYBLOCK;
+	public static final DeferredBlock<Block> RUBY_BLOCK;
 	static {
 		RUBY_BRICKS = register("ruby_bricks", RubyBricksBlock::new);
 		BLOCK_OF_FEMGRAM = register("block_of_femgram", BlockOfFemgramBlock::new);
@@ -37,6 +48,17 @@ public class RubiesandrabiesModBlocks {
 		THENIUM_ESSENCE_BLOCK = register("thenium_essence_block", TheniumEssenceBlockBlock::new);
 		SKYFACTORY = register("skyfactory", SkyfactoryBlock::new);
 		RACIST_ORE = register("racist_ore", RacistOreBlock::new);
+		RUBY_TETRAHEXAHEDRON_STAIRS = register("ruby_tetrahexahedron_stairs", RubyTetrahexahedronStairsBlock::new);
+		RUBY_TILE_STAIRS = register("ruby_tile_stairs", RubyTileStairsBlock::new);
+		RUBYTETRAHEXAHEDRONBRICKSLAB = register("rubytetrahexahedronbrickslab", RubytetrahexahedronbrickslabBlock::new);
+		NON_NEWTONIAN_FLUID = register("non_newtonian_fluid", NonNewtonianFluidBlock::new);
+		RUBYTILESLAB = register("rubytileslab", RubytileslabBlock::new);
+		RUBYTILES = register("rubytiles", RubytilesBlock::new);
+		XRAYBLOCK = register("xrayblock", XrayblockBlock::new);
+		RUBYTETRAHEXAHEDRONBRICKS = register("rubytetrahexahedronbricks", RubytetrahexahedronbricksBlock::new);
+		NON_NEWTONIAN_FLUID_BLOCK = register("non_newtonian_fluid_block", NonNewtonianFluidBlockBlock::new);
+		ARTIFICIALRUBYBLOCK = register("artificialrubyblock", ArtificialrubyblockBlock::new);
+		RUBY_BLOCK = register("ruby_block", RubyBlockBlock::new);
 	}
 
 	// Start of user code block custom blocks

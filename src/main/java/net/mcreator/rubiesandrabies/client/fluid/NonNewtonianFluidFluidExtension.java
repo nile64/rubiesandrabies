@@ -1,0 +1,37 @@
+package net.mcreator.rubiesandrabies.client.fluid;
+
+@EventBusSubscriber(Dist.CLIENT)
+public class NonNewtonianFluidFluidExtension {
+	@SubscribeEvent
+	public static void registerFluidTypeExtensions(RegisterClientExtensionsEvent event) {
+		event.registerFluidType(new IClientFluidTypeExtensions() {
+			private static final ResourceLocation STILL_TEXTURE = ResourceLocation.parse("rubiesandrabies:block/non_newtonian_fluid");
+			private static final ResourceLocation FLOWING_TEXTURE = ResourceLocation.parse("rubiesandrabies:block/non_newtonian_fluid");
+
+			@Override
+			public ResourceLocation getStillTexture() {
+				return STILL_TEXTURE;
+			}
+
+			@Override
+			public ResourceLocation getFlowingTexture() {
+				return FLOWING_TEXTURE;
+			}
+
+			@Override
+			public Vector4f modifyFogColor(Camera camera, float partialTick, ClientLevel level, int renderDistance, float darkenWorldAmount, Vector4f fluidFogColor) {
+				return new Vector4f(1f, 1f, 1f, fluidFogColor.w);
+			}
+
+			@Override
+			public void modifyFogRender(Camera camera, @Nullable FogEnvironment environment, float renderDistance, float partialTick, FogData fogData) {
+				float nearDistance = fogData.environmentalStart;
+				float farDistance = fogData.environmentalEnd;
+				Entity entity = camera.getEntity();
+				Level world = entity.level();
+				fogData.environmentalStart = 0f;
+				fogData.environmentalEnd = Math.min(48f, renderDistance);
+			}
+		}, RubiesandrabiesModFluidTypes.NON_NEWTONIAN_FLUID_TYPE.get());
+	}
+}

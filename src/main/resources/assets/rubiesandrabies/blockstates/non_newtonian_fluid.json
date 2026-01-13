@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "rubiesandrabies:block/non_newtonian_fluid"
+    }
+  }
+}

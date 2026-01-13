@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "rubiesandrabies:block/rubytetrahexahedronbrickslab"
+    },
+    "type=top": {
+      "model": "rubiesandrabies:block/rubytetrahexahedronbrickslab_top"
+    },
+    "type=double": {
+      "model": "rubiesandrabies:block/rubytetrahexahedronbrickslab_full"
+    }
+  }
+}

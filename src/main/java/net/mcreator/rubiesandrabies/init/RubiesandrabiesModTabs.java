@@ -39,13 +39,21 @@ public class RubiesandrabiesModTabs {
 				tabData.accept(RubiesandrabiesModItems.THENIUMSWORD.get());
 				tabData.accept(RubiesandrabiesModBlocks.SKYFACTORY.get().asItem());
 				tabData.accept(RubiesandrabiesModItems.URANIUM.get());
+				tabData.accept(RubiesandrabiesModBlocks.RUBY_TETRAHEXAHEDRON_STAIRS.get().asItem());
+				tabData.accept(RubiesandrabiesModBlocks.RUBY_TILE_STAIRS.get().asItem());
+				tabData.accept(RubiesandrabiesModBlocks.RUBYTETRAHEXAHEDRONBRICKSLAB.get().asItem());
+				tabData.accept(RubiesandrabiesModBlocks.RUBYTILESLAB.get().asItem());
+				tabData.accept(RubiesandrabiesModBlocks.RUBYTILES.get().asItem());
+				tabData.accept(RubiesandrabiesModBlocks.XRAYBLOCK.get().asItem());
+				tabData.accept(RubiesandrabiesModBlocks.RUBYTETRAHEXAHEDRONBRICKS.get().asItem());
+				tabData.accept(RubiesandrabiesModBlocks.RUBY_BLOCK.get().asItem());
 			}).withSearchBar().build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> SPACE = REGISTRY.register("space",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.rubiesandrabies.space")).icon(() -> new ItemStack(RubiesandrabiesModItems.URANIUM.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(RubiesandrabiesModItems.RACIST_INGOT.get());
 				tabData.accept(RubiesandrabiesModBlocks.RACIST_ORE.get().asItem());
 				tabData.accept(RubiesandrabiesModItems.ENTER_PLANET_TEST_ITEM.get());
 				tabData.accept(RubiesandrabiesModItems.EXIT_PLANET_ITEM_TEST.get());
+				tabData.accept(RubiesandrabiesModItems.RACIST_INGOT.get());
 			}).withTabsBefore(RUBIES_RABIES_TAB.getId()).build());
 
 	@SubscribeEvent
@@ -58,6 +66,14 @@ public class RubiesandrabiesModTabs {
 			tabData.accept(RubiesandrabiesModItems.BANANA.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(RubiesandrabiesModItems.SUGARCANE_PICKAXE.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+			tabData.accept(RubiesandrabiesModBlocks.RUBY_TETRAHEXAHEDRON_STAIRS.get().asItem());
+			tabData.accept(RubiesandrabiesModBlocks.RUBY_TILE_STAIRS.get().asItem());
+			tabData.accept(RubiesandrabiesModBlocks.RUBYTETRAHEXAHEDRONBRICKSLAB.get().asItem());
+			tabData.accept(RubiesandrabiesModBlocks.RUBYTILESLAB.get().asItem());
+			tabData.accept(RubiesandrabiesModBlocks.RUBYTILES.get().asItem());
+			tabData.accept(RubiesandrabiesModBlocks.RUBYTETRAHEXAHEDRONBRICKS.get().asItem());
+			tabData.accept(RubiesandrabiesModBlocks.RUBY_BLOCK.get().asItem());
 		}
 	}
 }

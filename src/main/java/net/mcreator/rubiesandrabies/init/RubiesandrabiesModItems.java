@@ -6,6 +6,10 @@ package net.mcreator.rubiesandrabies.init;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredHolder;
+import net.neoforged.neoforge.fluids.capability.wrappers.FluidBucketWrapper;
+import net.neoforged.neoforge.capabilities.RegisterCapabilitiesEvent;
+import net.neoforged.neoforge.capabilities.Capabilities;
+import net.neoforged.bus.api.SubscribeEvent;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.SpawnEggItem;
@@ -43,10 +47,21 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> SKYFACTORY;
 	public static final DeferredItem<Item> URANIUM;
 	public static final DeferredItem<Item> SUGARCANE_PICKAXE;
-	public static final DeferredItem<Item> RACIST_INGOT;
 	public static final DeferredItem<Item> RACIST_ORE;
 	public static final DeferredItem<Item> ENTER_PLANET_TEST_ITEM;
 	public static final DeferredItem<Item> EXIT_PLANET_ITEM_TEST;
+	public static final DeferredItem<Item> RACIST_INGOT;
+	public static final DeferredItem<Item> RUBY_TETRAHEXAHEDRON_STAIRS;
+	public static final DeferredItem<Item> RUBY_TILE_STAIRS;
+	public static final DeferredItem<Item> RUBYTETRAHEXAHEDRONBRICKSLAB;
+	public static final DeferredItem<Item> NON_NEWTONIAN_FLUID_BUCKET;
+	public static final DeferredItem<Item> RUBYTILESLAB;
+	public static final DeferredItem<Item> RUBYTILES;
+	public static final DeferredItem<Item> XRAYBLOCK;
+	public static final DeferredItem<Item> RUBYTETRAHEXAHEDRONBRICKS;
+	public static final DeferredItem<Item> NON_NEWTONIAN_FLUID_BLOCK;
+	public static final DeferredItem<Item> ARTIFICIALRUBYBLOCK;
+	public static final DeferredItem<Item> RUBY_BLOCK;
 	static {
 		BAT_WING = register("bat_wing", BatWingItem::new);
 		RUBY = register("ruby", RubyItem::new);
@@ -71,10 +86,21 @@ public class RubiesandrabiesModItems {
 		SKYFACTORY = block(RubiesandrabiesModBlocks.SKYFACTORY);
 		URANIUM = register("uranium", UraniumItem::new);
 		SUGARCANE_PICKAXE = register("sugarcane_pickaxe", SugarcanePickaxeItem::new);
-		RACIST_INGOT = register("racist_ingot", RacistIngotItem::new);
 		RACIST_ORE = block(RubiesandrabiesModBlocks.RACIST_ORE, new Item.Properties().stacksTo(1).rarity(Rarity.EPIC).fireResistant());
 		ENTER_PLANET_TEST_ITEM = register("enter_planet_test_item", EnterPlanetTestItemItem::new);
 		EXIT_PLANET_ITEM_TEST = register("exit_planet_item_test", ExitPlanetItemTestItem::new);
+		RACIST_INGOT = register("racist_ingot", RacistIngotItem::new);
+		RUBY_TETRAHEXAHEDRON_STAIRS = block(RubiesandrabiesModBlocks.RUBY_TETRAHEXAHEDRON_STAIRS);
+		RUBY_TILE_STAIRS = block(RubiesandrabiesModBlocks.RUBY_TILE_STAIRS);
+		RUBYTETRAHEXAHEDRONBRICKSLAB = block(RubiesandrabiesModBlocks.RUBYTETRAHEXAHEDRONBRICKSLAB);
+		NON_NEWTONIAN_FLUID_BUCKET = register("non_newtonian_fluid_bucket", NonNewtonianFluidItem::new);
+		RUBYTILESLAB = block(RubiesandrabiesModBlocks.RUBYTILESLAB);
+		RUBYTILES = block(RubiesandrabiesModBlocks.RUBYTILES);
+		XRAYBLOCK = block(RubiesandrabiesModBlocks.XRAYBLOCK, new Item.Properties().rarity(Rarity.EPIC));
+		RUBYTETRAHEXAHEDRONBRICKS = block(RubiesandrabiesModBlocks.RUBYTETRAHEXAHEDRONBRICKS);
+		NON_NEWTONIAN_FLUID_BLOCK = block(RubiesandrabiesModBlocks.NON_NEWTONIAN_FLUID_BLOCK);
+		ARTIFICIALRUBYBLOCK = block(RubiesandrabiesModBlocks.ARTIFICIALRUBYBLOCK);
+		RUBY_BLOCK = block(RubiesandrabiesModBlocks.RUBY_BLOCK);
 	}
 
 	// Start of user code block custom items
@@ -89,5 +115,10 @@ public class RubiesandrabiesModItems {
 
 	private static DeferredItem<Item> block(DeferredHolder<Block, Block> block, Item.Properties properties) {
 		return REGISTRY.registerItem(block.getId().getPath(), prop -> new BlockItem(block.get(), prop), properties);
+	}
+
+	@SubscribeEvent
+	public static void registerCapabilities(RegisterCapabilitiesEvent event) {
+		event.registerItem(Capabilities.FluidHandler.ITEM, (stack, context) -> new FluidBucketWrapper(stack), NON_NEWTONIAN_FLUID_BUCKET.get());
 	}
 }

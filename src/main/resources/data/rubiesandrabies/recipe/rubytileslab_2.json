@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "rubiesandrabies:rubytiles",
+  "result": {
+    "id": "rubiesandrabies:rubytileslab",
+    "count": 2
+  }
+}

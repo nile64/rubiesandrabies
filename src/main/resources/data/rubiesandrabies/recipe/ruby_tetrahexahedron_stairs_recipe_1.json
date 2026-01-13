@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "  a",
+    " aa",
+    "aaa"
+  ],
+  "key": {
+    "a": "rubiesandrabies:rubytetrahexahedronbricks"
+  },
+  "result": {
+    "id": "rubiesandrabies:ruby_tetrahexahedron_stairs",
+    "count": 4
+  }
+}

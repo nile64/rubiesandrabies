@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "rubiesandrabies:block/rubytileslab"
+    },
+    "type=top": {
+      "model": "rubiesandrabies:block/rubytileslab_top"
+    },
+    "type=double": {
+      "model": "rubiesandrabies:block/rubytileslab_full"
+    }
+  }
+}

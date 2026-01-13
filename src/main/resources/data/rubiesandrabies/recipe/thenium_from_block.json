@@ -2,10 +2,10 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "rubiesandrabies:thenium_essence_block"
+    "rubiesandrabies:deleted_mod_element"
   ],
   "result": {
-    "id": "rubiesandrabies:thenium_essence",
+    "id": "rubiesandrabies:deleted_mod_element",
     "count": 9
   }
 }

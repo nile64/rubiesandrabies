@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "rubiesandrabies:rubytiles",
+  "result": {
+    "id": "rubiesandrabies:ruby_tile_stairs",
+    "count": 2
+  }
+}

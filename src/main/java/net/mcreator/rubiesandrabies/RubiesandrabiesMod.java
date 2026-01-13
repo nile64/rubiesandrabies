@@ -53,6 +53,8 @@ public class RubiesandrabiesMod {
 		RubiesandrabiesModTabs.REGISTRY.register(modEventBus);
 		RubiesandrabiesModMobEffects.REGISTRY.register(modEventBus);
 		RubiesandrabiesModMenus.REGISTRY.register(modEventBus);
+		RubiesandrabiesModFluids.REGISTRY.register(modEventBus);
+		RubiesandrabiesModFluidTypes.REGISTRY.register(modEventBus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}

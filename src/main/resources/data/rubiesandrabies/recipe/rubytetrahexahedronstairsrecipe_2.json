@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "rubiesandrabies:deleted_mod_element",
+  "result": {
+    "id": "rubiesandrabies:ruby_tetrahexahedron_stairs",
+    "count": 2
+  }
+}

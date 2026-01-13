@@ -1,11 +1,6 @@
 package net.mcreator.rubiesandrabies.procedures;
 
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.world.damagesource.DamageTypes;
-import net.minecraft.world.damagesource.DamageSource;
-
-import net.mcreator.rubiesandrabies.RubiesandrabiesMod;
+import net.neoforged.bus.api.Event;
 
 public class RacismPlanetDmgProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
