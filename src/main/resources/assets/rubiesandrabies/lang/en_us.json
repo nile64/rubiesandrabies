@@ -58,5 +58,10 @@
   "painting.rubiesandrabies.evil_painting.author": "by gp0 and more",
   "item.rubiesandrabies.sugarcane_pickaxe": "Sugarcane Pickaxe",
   "painting.rubiesandrabies.evil_painting_2.title": "Evil Painting 2",
-  "painting.rubiesandrabies.evil_painting_2.author": "michael code"
+  "painting.rubiesandrabies.evil_painting_2.author": "michael code",
+  "block.rubiesandrabies.non_newtonian_fluid": "Non Newtonian Fluid",
+  "item.rubiesandrabies.non_newtonian_fluid_bucket": "Non Newtonian Fluid Bucket",
+  "fluid.rubiesandrabies.non_newtonian_fluid": "Non Newtonian Fluid",
+  "fluid_type.rubiesandrabies.non_newtonian_fluid": "Non Newtonian Fluid",
+  "item.rubiesandrabies.non_newtonian_fluid_block": "Non Newtonian Fluid Block"
 }

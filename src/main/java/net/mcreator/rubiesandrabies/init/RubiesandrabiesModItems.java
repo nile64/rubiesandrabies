@@ -6,6 +6,10 @@ package net.mcreator.rubiesandrabies.init;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredHolder;
+import net.neoforged.neoforge.fluids.capability.wrappers.FluidBucketWrapper;
+import net.neoforged.neoforge.capabilities.RegisterCapabilitiesEvent;
+import net.neoforged.neoforge.capabilities.Capabilities;
+import net.neoforged.bus.api.SubscribeEvent;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.SpawnEggItem;
@@ -42,6 +46,8 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> SKYFACTORY;
 	public static final DeferredItem<Item> URANIUM;
 	public static final DeferredItem<Item> SUGARCANE_PICKAXE;
+	public static final DeferredItem<Item> NON_NEWTONIAN_FLUID_BUCKET;
+	public static final DeferredItem<Item> NON_NEWTONIAN_FLUID_BLOCK;
 	static {
 		BAT_WING = register("bat_wing", BatWingItem::new);
 		RUBY = register("ruby", RubyItem::new);
@@ -66,6 +72,8 @@ public class RubiesandrabiesModItems {
 		SKYFACTORY = block(RubiesandrabiesModBlocks.SKYFACTORY);
 		URANIUM = register("uranium", UraniumItem::new);
 		SUGARCANE_PICKAXE = register("sugarcane_pickaxe", SugarcanePickaxeItem::new);
+		NON_NEWTONIAN_FLUID_BUCKET = register("non_newtonian_fluid_bucket", NonNewtonianFluidItem::new);
+		NON_NEWTONIAN_FLUID_BLOCK = block(RubiesandrabiesModBlocks.NON_NEWTONIAN_FLUID_BLOCK);
 	}
 
 	// Start of user code block custom items
@@ -80,5 +88,10 @@ public class RubiesandrabiesModItems {
 
 	private static DeferredItem<Item> block(DeferredHolder<Block, Block> block, Item.Properties properties) {
 		return REGISTRY.registerItem(block.getId().getPath(), prop -> new BlockItem(block.get(), prop), properties);
+	}
+
+	@SubscribeEvent
+	public static void registerCapabilities(RegisterCapabilitiesEvent event) {
+		event.registerItem(Capabilities.FluidHandler.ITEM, (stack, context) -> new FluidBucketWrapper(stack), NON_NEWTONIAN_FLUID_BUCKET.get());
 	}
 }

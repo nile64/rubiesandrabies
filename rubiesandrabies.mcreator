@@ -1225,6 +1225,102 @@
           "src/main/resources/data/rubiesandrabies/painting_variant/evil_painting_2.json"
         ]
       }
+    },
+    {
+      "name": "NonNewtonianFluid",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "non_newtonian_fluid",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/fluid/types/NonNewtonianFluidFluidType.java",
+          "src/main/java/net/mcreator/rubiesandrabies/client/fluid/NonNewtonianFluidFluidExtension.java",
+          "src/main/java/net/mcreator/rubiesandrabies/item/NonNewtonianFluidItem.java",
+          "src/main/resources/assets/rubiesandrabies/items/non_newtonian_fluid_bucket.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/NonNewtonianFluidBlock.java",
+          "src/main/resources/assets/rubiesandrabies/blockstates/non_newtonian_fluid.json",
+          "src/main/java/net/mcreator/rubiesandrabies/fluid/NonNewtonianFluidFluid.java",
+          "src/main/resources/assets/rubiesandrabies/models/block/non_newtonian_fluid.json"
+        ]
+      }
+    },
+    {
+      "name": "NonNewtonianFluidBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "non_newtonian_fluid_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/blockstates/non_newtonian_fluid_block.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/NonNewtonianFluidBlockBlock.java",
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/non_newtonian_fluid_block.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/non_newtonian_fluid_block.json",
+          "src/main/resources/assets/rubiesandrabies/items/non_newtonian_fluid_block.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/non_newtonian_fluid_block.json"
+        ]
+      }
+    },
+    {
+      "name": "MakeNonNewtonianFluidLiquid",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_non_newtonian_fluid_liquid",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/MakeNonNewtonianFluidLiquidProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "MakeNonNewtonianFluidSolid",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_non_newtonian_fluid_solid",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/MakeNonNewtonianFluidSolidProcedure.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1405,6 +1501,9 @@
     ],
     "ITEMS:rubiesandrabies:sugarcane_pickaxe_repair_items": [
       "~Blocks.REEDS"
+    ],
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:NonNewtonianFluid"
     ]
   },
   "tab_element_order": {},
@@ -1469,13 +1568,20 @@
       "painting.rubiesandrabies.evil_painting.author": "by gp0 and more",
       "item.rubiesandrabies.sugarcane_pickaxe": "Sugarcane Pickaxe",
       "painting.rubiesandrabies.evil_painting_2.title": "Evil Painting 2",
-      "painting.rubiesandrabies.evil_painting_2.author": "michael code"
+      "painting.rubiesandrabies.evil_painting_2.author": "michael code",
+      "block.rubiesandrabies.non_newtonian_fluid": "Non Newtonian Fluid",
+      "item.rubiesandrabies.non_newtonian_fluid_bucket": "Non Newtonian Fluid Bucket",
+      "fluid.rubiesandrabies.non_newtonian_fluid": "Non Newtonian Fluid",
+      "fluid_type.rubiesandrabies.non_newtonian_fluid": "Non Newtonian Fluid",
+      "item.rubiesandrabies.non_newtonian_fluid_block": "Non Newtonian Fluid Block"
     }
   },
   "metadata": {
     "files": [
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModBiomes.java",
       "src/main/java/net/mcreator/rubiesandrabies/mixin/NoiseGeneratorSettingsMixin.java",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModFluidTypes.java",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModFluids.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModScreens.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModMenus.java",
       "src/main/java/net/mcreator/rubiesandrabies/network/MenuStateUpdateMessage.java",

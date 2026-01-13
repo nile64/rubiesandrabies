@@ -1,0 +1,11 @@
+{
+  "model": {
+    "type": "neoforge:fluid_container",
+    "fluid": "rubiesandrabies:non_newtonian_fluid",
+    "textures": {
+      "base": "item/bucket",
+      "fluid": "neoforge:item/mask/bucket_fluid",
+      "cover": "neoforge:item/mask/bucket_fluid_cover"
+    }
+  }
+}
