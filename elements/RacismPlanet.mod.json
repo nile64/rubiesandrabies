@@ -15,9 +15,9 @@
       "value": "CUSTOM:RubyBricks"
     },
     "fluidBlock": {
-      "value": "Blocks.WATER"
+      "value": "CUSTOM:NonNewtonianFluid"
     },
-    "seaLevel": -1,
+    "seaLevel": 64,
     "generateOreVeins": true,
     "generateAquifers": true,
     "horizontalNoiseSize": 2,
@@ -26,10 +26,14 @@
     "useCustomEffects": true,
     "hasClouds": true,
     "cloudHeight": 64,
-    "skyType": "NONE",
+    "skyType": "NORMAL",
+    "airColor": {
+      "value": -13369549,
+      "falpha": 0.0
+    },
     "sunHeightAffectsFog": false,
     "canRespawnHere": false,
-    "hasFog": false,
+    "hasFog": true,
     "ambientLight": 0.0,
     "doesWaterVaporize": true,
     "hasFixedTime": true,

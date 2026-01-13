@@ -63,7 +63,7 @@
     },
     "settings": {
       "name": "rubiesandrabies:racism_planet",
-      "sea_level": -1,
+      "sea_level": 64,
       "legacy_random_source": false,
       "disable_mob_generation": false,
       "aquifers_enabled": true,
@@ -72,7 +72,7 @@
         "Name": "rubiesandrabies:ruby_bricks"
       },
       "default_fluid": {
-        "Name": "minecraft:water",
+        "Name": "rubiesandrabies:non_newtonian_fluid",
         "Properties": {
           "level": "0"
         }
