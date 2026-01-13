@@ -78,5 +78,9 @@
   "item.rubiesandrabies.ruby_block": "Ruby Block",
   "gui.rubiesandrabies.space_menu.button_racist_planet": "Racist Planet",
   "gui.rubiesandrabies.space_menu.button_overworld": "Overworld",
-  "item.rubiesandrabies.spaceship": "Spaceship"
+  "item.rubiesandrabies.spaceship": "Spaceship",
+  "block.rubiesandrabies.gp_0_liquid": "Gp0 Liquid",
+  "fluid.rubiesandrabies.gp_0_liquid": "Gp0 Liquid",
+  "item.rubiesandrabies.gp_0_liquid_bucket": "Gp0 Bucket",
+  "fluid_type.rubiesandrabies.gp_0_liquid": "Gp0 Liquid"
 }

@@ -1,5 +1,21 @@
 package net.mcreator.rubiesandrabies.client.gui;
 
+import net.neoforged.neoforge.client.network.ClientPacketDistributor;
+
+import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.player.Inventory;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.chat.Component;
+import net.minecraft.client.renderer.RenderPipelines;
+import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
+import net.minecraft.client.gui.components.Button;
+import net.minecraft.client.gui.GuiGraphics;
+
+import net.mcreator.rubiesandrabies.world.inventory.SpaceMenuMenu;
+import net.mcreator.rubiesandrabies.network.SpaceMenuButtonMessage;
+import net.mcreator.rubiesandrabies.init.RubiesandrabiesModScreens;
+
 public class SpaceMenuScreen extends AbstractContainerScreen<SpaceMenuMenu> implements RubiesandrabiesModScreens.ScreenAccessor {
 	private final Level world;
 	private final int x, y, z;
@@ -55,6 +71,12 @@ public class SpaceMenuScreen extends AbstractContainerScreen<SpaceMenuMenu> impl
 	public void init() {
 		super.init();
 		button_racist_planet = Button.builder(Component.translatable("gui.rubiesandrabies.space_menu.button_racist_planet"), e -> {
+			int x = SpaceMenuScreen.this.x;
+			int y = SpaceMenuScreen.this.y;
+			if (true) {
+				ClientPacketDistributor.sendToServer(new SpaceMenuButtonMessage(0, x, y, z));
+				SpaceMenuButtonMessage.handleButtonAction(entity, 0, x, y, z);
+			}
 		}).bounds(this.leftPos + 10, this.topPos + 10, 93, 20).build();
 		this.addRenderableWidget(button_racist_planet);
 		button_overworld = Button.builder(Component.translatable("gui.rubiesandrabies.space_menu.button_overworld"), e -> {
