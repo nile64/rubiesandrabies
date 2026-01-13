@@ -54,6 +54,7 @@ public class RubiesandrabiesModTabs {
 				tabData.accept(RubiesandrabiesModItems.ENTER_PLANET_TEST_ITEM.get());
 				tabData.accept(RubiesandrabiesModItems.EXIT_PLANET_ITEM_TEST.get());
 				tabData.accept(RubiesandrabiesModItems.RACIST_INGOT.get());
+				tabData.accept(RubiesandrabiesModBlocks.SPACESHIP.get().asItem());
 			}).withTabsBefore(RUBIES_RABIES_TAB.getId()).build());
 
 	@SubscribeEvent

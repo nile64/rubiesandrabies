@@ -1,5 +1,21 @@
 package net.mcreator.rubiesandrabies.client.gui;
 
+import net.neoforged.neoforge.client.network.ClientPacketDistributor;
+
+import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.player.Inventory;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.chat.Component;
+import net.minecraft.client.renderer.RenderPipelines;
+import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
+import net.minecraft.client.gui.components.Button;
+import net.minecraft.client.gui.GuiGraphics;
+
+import net.mcreator.rubiesandrabies.world.inventory.SkyfactoryGuiMenu;
+import net.mcreator.rubiesandrabies.network.SkyfactoryGuiButtonMessage;
+import net.mcreator.rubiesandrabies.init.RubiesandrabiesModScreens;
+
 public class SkyfactoryGuiScreen extends AbstractContainerScreen<SkyfactoryGuiMenu> implements RubiesandrabiesModScreens.ScreenAccessor {
 	private final Level world;
 	private final int x, y, z;
@@ -56,6 +72,12 @@ public class SkyfactoryGuiScreen extends AbstractContainerScreen<SkyfactoryGuiMe
 	public void init() {
 		super.init();
 		button_commence_the_construction = Button.builder(Component.translatable("gui.rubiesandrabies.skyfactory_gui.button_commence_the_construction"), e -> {
+			int x = SkyfactoryGuiScreen.this.x;
+			int y = SkyfactoryGuiScreen.this.y;
+			if (true) {
+				ClientPacketDistributor.sendToServer(new SkyfactoryGuiButtonMessage(0, x, y, z));
+				SkyfactoryGuiButtonMessage.handleButtonAction(entity, 0, x, y, z);
+			}
 		}).bounds(this.leftPos + 9, this.topPos + 55, 155, 20).build();
 		this.addRenderableWidget(button_commence_the_construction);
 	}

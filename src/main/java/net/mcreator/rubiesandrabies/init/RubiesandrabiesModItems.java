@@ -62,6 +62,7 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> NON_NEWTONIAN_FLUID_BLOCK;
 	public static final DeferredItem<Item> ARTIFICIALRUBYBLOCK;
 	public static final DeferredItem<Item> RUBY_BLOCK;
+	public static final DeferredItem<Item> SPACESHIP;
 	static {
 		BAT_WING = register("bat_wing", BatWingItem::new);
 		RUBY = register("ruby", RubyItem::new);
@@ -101,6 +102,7 @@ public class RubiesandrabiesModItems {
 		NON_NEWTONIAN_FLUID_BLOCK = block(RubiesandrabiesModBlocks.NON_NEWTONIAN_FLUID_BLOCK);
 		ARTIFICIALRUBYBLOCK = block(RubiesandrabiesModBlocks.ARTIFICIALRUBYBLOCK);
 		RUBY_BLOCK = block(RubiesandrabiesModBlocks.RUBY_BLOCK);
+		SPACESHIP = block(RubiesandrabiesModBlocks.SPACESHIP, new Item.Properties().stacksTo(63));
 	}
 
 	// Start of user code block custom items

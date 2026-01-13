@@ -15,9 +15,9 @@
       "value": "CUSTOM:RubyBricks"
     },
     "fluidBlock": {
-      "value": "Blocks.WATER"
+      "value": "CUSTOM:NonNewtonianFluid"
     },
-    "seaLevel": -1,
+    "seaLevel": 64,
     "generateOreVeins": true,
     "generateAquifers": true,
     "horizontalNoiseSize": 2,

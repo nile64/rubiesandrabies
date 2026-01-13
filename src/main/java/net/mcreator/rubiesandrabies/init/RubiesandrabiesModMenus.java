@@ -16,6 +16,7 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.client.Minecraft;
 
+import net.mcreator.rubiesandrabies.world.inventory.SpaceMenuMenu;
 import net.mcreator.rubiesandrabies.world.inventory.SkyfactoryGuiMenu;
 import net.mcreator.rubiesandrabies.network.MenuStateUpdateMessage;
 import net.mcreator.rubiesandrabies.RubiesandrabiesMod;
@@ -25,6 +26,7 @@ import java.util.Map;
 public class RubiesandrabiesModMenus {
 	public static final DeferredRegister<MenuType<?>> REGISTRY = DeferredRegister.create(Registries.MENU, RubiesandrabiesMod.MODID);
 	public static final DeferredHolder<MenuType<?>, MenuType<SkyfactoryGuiMenu>> SKYFACTORY_GUI = REGISTRY.register("skyfactory_gui", () -> IMenuTypeExtension.create(SkyfactoryGuiMenu::new));
+	public static final DeferredHolder<MenuType<?>, MenuType<SpaceMenuMenu>> SPACE_MENU = REGISTRY.register("space_menu", () -> IMenuTypeExtension.create(SpaceMenuMenu::new));
 
 	public interface MenuAccessor {
 		Map<String, Object> getMenuState();
