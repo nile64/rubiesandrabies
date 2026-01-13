@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "rubiesandrabies:ruby_bricks",
+    "minecraft:grass_block",
+    "minecraft:dirt",
+    "rubiesandrabies:nowium_block"
+  ]
+}

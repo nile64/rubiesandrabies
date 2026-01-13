@@ -9,6 +9,7 @@ import net.neoforged.neoforge.registries.DeferredHolder;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.SpawnEggItem;
+import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
@@ -42,6 +43,10 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> SKYFACTORY;
 	public static final DeferredItem<Item> URANIUM;
 	public static final DeferredItem<Item> SUGARCANE_PICKAXE;
+	public static final DeferredItem<Item> RACIST_INGOT;
+	public static final DeferredItem<Item> RACIST_ORE;
+	public static final DeferredItem<Item> ENTER_PLANET_TEST_ITEM;
+	public static final DeferredItem<Item> EXIT_PLANET_ITEM_TEST;
 	static {
 		BAT_WING = register("bat_wing", BatWingItem::new);
 		RUBY = register("ruby", RubyItem::new);
@@ -66,6 +71,10 @@ public class RubiesandrabiesModItems {
 		SKYFACTORY = block(RubiesandrabiesModBlocks.SKYFACTORY);
 		URANIUM = register("uranium", UraniumItem::new);
 		SUGARCANE_PICKAXE = register("sugarcane_pickaxe", SugarcanePickaxeItem::new);
+		RACIST_INGOT = register("racist_ingot", RacistIngotItem::new);
+		RACIST_ORE = block(RubiesandrabiesModBlocks.RACIST_ORE, new Item.Properties().stacksTo(1).rarity(Rarity.EPIC).fireResistant());
+		ENTER_PLANET_TEST_ITEM = register("enter_planet_test_item", EnterPlanetTestItemItem::new);
+		EXIT_PLANET_ITEM_TEST = register("exit_planet_item_test", ExitPlanetItemTestItem::new);
 	}
 
 	// Start of user code block custom items
