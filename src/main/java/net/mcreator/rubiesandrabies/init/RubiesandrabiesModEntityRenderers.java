@@ -8,6 +8,7 @@ import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.api.distmarker.Dist;
 
+import net.mcreator.rubiesandrabies.client.renderer.RHmobRenderer;
 import net.mcreator.rubiesandrabies.client.renderer.NowRenderer;
 import net.mcreator.rubiesandrabies.client.renderer.MeatballMooseRenderer;
 import net.mcreator.rubiesandrabies.client.renderer.GorillaRenderer;
@@ -21,5 +22,6 @@ public class RubiesandrabiesModEntityRenderers {
 		event.registerEntityRenderer(RubiesandrabiesModEntities.NOW.get(), NowRenderer::new);
 		event.registerEntityRenderer(RubiesandrabiesModEntities.MEATBALL_MOOSE.get(), MeatballMooseRenderer::new);
 		event.registerEntityRenderer(RubiesandrabiesModEntities.GORILLA.get(), GorillaRenderer::new);
+		event.registerEntityRenderer(RubiesandrabiesModEntities.R_HMOB.get(), RHmobRenderer::new);
 	}
 }

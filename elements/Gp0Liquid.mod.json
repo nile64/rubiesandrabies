@@ -1,0 +1,60 @@
+{
+  "_fv": 79,
+  "_type": "fluid",
+  "definition": {
+    "name": "Gp0 Liquid",
+    "bucketName": "Gp0 Bucket",
+    "textureStill": "minecraft-cow-head-1024x1024-3108380750",
+    "textureFlowing": "minecraft-cow-head-1024x1024-3108380750",
+    "textureRenderOverlay": "",
+    "hasFog": true,
+    "fogColor": {
+      "value": -65536,
+      "falpha": 0.0
+    },
+    "fogStartDistance": {
+      "fixedValue": 0.0
+    },
+    "fogEndDistance": {
+      "fixedValue": 1.0
+    },
+    "tintType": "Water fog",
+    "canMultiply": true,
+    "flowRate": 1,
+    "levelDecrease": 1,
+    "slopeFindDistance": 1,
+    "spawnParticles": true,
+    "dripParticle": {
+      "value": "DRIPPING_OBSIDIAN_TEAR"
+    },
+    "flowStrength": -25.0,
+    "luminosity": 0,
+    "density": 1000,
+    "viscosity": 1000,
+    "temperature": 300,
+    "type": "WATER",
+    "generateBucket": true,
+    "textureBucket": "",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:RubiesRabiesTab"
+      }
+    ],
+    "emptySound": {
+      "value": ""
+    },
+    "rarity": "EPIC",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "resistance": 100.0,
+    "luminance": 15,
+    "lightOpacity": 1,
+    "emissiveRendering": true,
+    "tickRate": 0,
+    "ignitedByLava": false,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "colorOnMap": "PODZOL"
+  }
+}
