@@ -86,5 +86,6 @@
   "gui.rubiesandrabies.space_menu.button_racist_planet": "Racist Planet",
   "gui.rubiesandrabies.space_menu.button_overworld": "Overworld",
   "item.rubiesandrabies.exit_planet_item_test": "Exit Planet Item Test",
-  "entity.villager.rubiesandrabies.ruby_trader": "Ruby Trader"
+  "entity.villager.rubiesandrabies.ruby_trader": "Ruby Trader",
+  "item.rubiesandrabies.rubydoor": "Rubydoor"
 }

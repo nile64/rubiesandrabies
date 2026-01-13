@@ -15,6 +15,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.rubiesandrabies.item.*;
@@ -66,6 +67,7 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> RACIST_ORE;
 	public static final DeferredItem<Item> GP_0_LIQUID_BUCKET;
 	public static final DeferredItem<Item> EXIT_PLANET_ITEM_TEST;
+	public static final DeferredItem<Item> RUBYDOOR;
 	static {
 		BAT_WING = register("bat_wing", BatWingItem::new);
 		RUBY = register("ruby", RubyItem::new);
@@ -109,6 +111,7 @@ public class RubiesandrabiesModItems {
 		RACIST_ORE = block(RubiesandrabiesModBlocks.RACIST_ORE, new Item.Properties().stacksTo(1).rarity(Rarity.EPIC).fireResistant());
 		GP_0_LIQUID_BUCKET = register("gp_0_liquid_bucket", Gp0LiquidItem::new);
 		EXIT_PLANET_ITEM_TEST = register("exit_planet_item_test", ExitPlanetItemTestItem::new);
+		RUBYDOOR = doubleBlock(RubiesandrabiesModBlocks.RUBYDOOR);
 	}
 
 	// Start of user code block custom items
@@ -123,6 +126,14 @@ public class RubiesandrabiesModItems {
 
 	private static DeferredItem<Item> block(DeferredHolder<Block, Block> block, Item.Properties properties) {
 		return REGISTRY.registerItem(block.getId().getPath(), prop -> new BlockItem(block.get(), prop), properties);
+	}
+
+	private static DeferredItem<Item> doubleBlock(DeferredHolder<Block, Block> block) {
+		return doubleBlock(block, new Item.Properties());
+	}
+
+	private static DeferredItem<Item> doubleBlock(DeferredHolder<Block, Block> block, Item.Properties properties) {
+		return REGISTRY.registerItem(block.getId().getPath(), prop -> new DoubleHighBlockItem(block.get(), prop), properties);
 	}
 
 	@SubscribeEvent

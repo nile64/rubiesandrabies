@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_bottom_right",
+  "textures": {
+    "particle": "rubiesandrabies:block/ruby_door",
+    "bottom": "rubiesandrabies:block/ruby_door",
+    "top": "rubiesandrabies:block/ruby_door"
+  },
+  "render_type": "solid"
+}
