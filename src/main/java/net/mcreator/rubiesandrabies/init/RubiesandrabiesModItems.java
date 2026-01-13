@@ -58,6 +58,7 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> SUGARCANE_PICKAXE;
 	public static final DeferredItem<Item> THENIUM_ESSENCE_BLOCK;
 	public static final DeferredItem<Item> THENIUM_ESSENCE;
+	public static final DeferredItem<Item> RUBY_SHELF;
 	static {
 		BAT_WING = register("bat_wing", BatWingItem::new);
 		RUBY = register("ruby", RubyItem::new);
@@ -93,6 +94,7 @@ public class RubiesandrabiesModItems {
 		SUGARCANE_PICKAXE = register("sugarcane_pickaxe", SugarcanePickaxeItem::new);
 		THENIUM_ESSENCE_BLOCK = block(RubiesandrabiesModBlocks.THENIUM_ESSENCE_BLOCK);
 		THENIUM_ESSENCE = register("thenium_essence", TheniumEssenceItem::new);
+		RUBY_SHELF = block(RubiesandrabiesModBlocks.RUBY_SHELF);
 	}
 
 	// Start of user code block custom items

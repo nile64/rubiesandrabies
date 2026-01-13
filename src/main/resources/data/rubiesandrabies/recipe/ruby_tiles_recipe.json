@@ -2,7 +2,7 @@
   "type": "minecraft:stonecutting",
   "ingredient": "rubiesandrabies:ruby",
   "result": {
-    "id": "rubiesandrabies:deleted_mod_element",
+    "id": "rubiesandrabies:rubytiles",
     "count": 8
   }
 }
