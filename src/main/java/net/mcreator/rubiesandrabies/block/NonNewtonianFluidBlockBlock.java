@@ -1,6 +1,12 @@
 package net.mcreator.rubiesandrabies.block;
 
-import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.Level;
+import net.minecraft.core.BlockPos;
+
+import net.mcreator.rubiesandrabies.procedures.MakeNonNewtonianFluidLiquidProcedure;
 
 public class NonNewtonianFluidBlockBlock extends Block {
 	public NonNewtonianFluidBlockBlock(BlockBehaviour.Properties properties) {

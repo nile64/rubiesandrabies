@@ -1,6 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "rubiesandrabies:deleted_mod_element",
+  "ingredient": "rubiesandrabies:rubytetrahexahedronbricks",
   "result": {
     "id": "rubiesandrabies:rubytetrahexahedronbrickslab",
     "count": 2

@@ -4,6 +4,9 @@
     "rubiesandrabies:ruby_bricks",
     "minecraft:grass_block",
     "minecraft:dirt",
+    "minecraft:tuff",
+    "minecraft:netherrack",
+    "rubiesandrabies:evil_nylium",
     "rubiesandrabies:nowium_block"
   ]
 }
