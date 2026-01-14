@@ -5,16 +5,23 @@ import net.minecraft.world.entity.ai.attributes.AttributeModifier;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.effect.MobEffectCategory;
 import net.minecraft.world.effect.MobEffect;
+import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.rubiesandrabies.procedures.RabiesOnEffectActiveTickProcedure;
+import net.mcreator.rubiesandrabies.procedures.OverwriteAIWithRabiesAIProcedure;
 import net.mcreator.rubiesandrabies.RubiesandrabiesMod;
 
 public class RabiesMobEffect extends MobEffect {
 	public RabiesMobEffect() {
 		super(MobEffectCategory.HARMFUL, -1);
 		this.addAttributeModifier(Attributes.ATTACK_DAMAGE, ResourceLocation.fromNamespaceAndPath(RubiesandrabiesMod.MODID, "effect.rabies_0"), 3, AttributeModifier.Operation.ADD_VALUE);
+	}
+
+	@Override
+	public void onEffectStarted(LivingEntity entity, int amplifier) {
+		OverwriteAIWithRabiesAIProcedure.execute(entity);
 	}
 
 	@Override
@@ -26,5 +33,10 @@ public class RabiesMobEffect extends MobEffect {
 	public boolean applyEffectTick(ServerLevel level, LivingEntity entity, int amplifier) {
 		RabiesOnEffectActiveTickProcedure.execute(level, entity.getX(), entity.getY(), entity.getZ(), entity);
 		return super.applyEffectTick(level, entity, amplifier);
+	}
+
+	@Override
+	public void onMobHurt(ServerLevel level, LivingEntity entity, int amplifier, DamageSource damagesource, float damage) {
+		OverwriteAIWithRabiesAIProcedure.execute(entity);
 	}
 }

@@ -47,7 +47,17 @@ public class RubiesandrabiesModTabs {
 				tabData.accept(RubiesandrabiesModBlocks.SKYFACTORY.get().asItem());
 				tabData.accept(RubiesandrabiesModItems.THENIUMSWORD.get());
 				tabData.accept(RubiesandrabiesModItems.URANIUM.get());
+				tabData.accept(RubiesandrabiesModItems.GP_0_LIQUID_BUCKET.get());
+				tabData.accept(RubiesandrabiesModItems.ARCHFIEND_DICE.get());
 			}).withSearchBar().build());
+	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> SPACE = REGISTRY.register("space",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.rubiesandrabies.space")).icon(() -> new ItemStack(RubiesandrabiesModItems.URANIUM.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(RubiesandrabiesModBlocks.SPACESHIP.get().asItem());
+				tabData.accept(RubiesandrabiesModBlocks.RACIST_ORE.get().asItem());
+				tabData.accept(RubiesandrabiesModItems.ENTER_PLANET_TEST_ITEM.get());
+				tabData.accept(RubiesandrabiesModItems.RACIST_INGOT.get());
+				tabData.accept(RubiesandrabiesModItems.EXIT_PLANET_ITEM_TEST.get());
+			}).withTabsBefore(RUBIES_RABIES_TAB.getId()).build());
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
@@ -55,6 +65,7 @@ public class RubiesandrabiesModTabs {
 			tabData.accept(RubiesandrabiesModItems.FEMGRAM_SPAWN_EGG.get());
 			tabData.accept(RubiesandrabiesModItems.MEATBALL_MOOSE_SPAWN_EGG.get());
 			tabData.accept(RubiesandrabiesModItems.GORILLA_SPAWN_EGG.get());
+			tabData.accept(RubiesandrabiesModItems.R_HMOB_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(RubiesandrabiesModItems.BANANA.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {

@@ -1,0 +1,16 @@
+{
+  "_fv": 79,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Ruby Trader",
+    "pointOfInterest": {
+      "value": "CUSTOM:RubyShelf"
+    },
+    "actionSound": {
+      "value": "block.anvil.break"
+    },
+    "hat": "None",
+    "professionTextureFile": "rubyvillagerproffesiontexture.png",
+    "zombifiedProfessionTextureFile": "rubyvillagerproffesiontexture.png"
+  }
+}

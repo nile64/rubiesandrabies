@@ -15,6 +15,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.rubiesandrabies.item.*;
@@ -58,6 +59,16 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> SUGARCANE_PICKAXE;
 	public static final DeferredItem<Item> THENIUM_ESSENCE_BLOCK;
 	public static final DeferredItem<Item> THENIUM_ESSENCE;
+	public static final DeferredItem<Item> RUBYDOOR;
+	public static final DeferredItem<Item> SPACESHIP;
+	public static final DeferredItem<Item> RACIST_ORE;
+	public static final DeferredItem<Item> ENTER_PLANET_TEST_ITEM;
+	public static final DeferredItem<Item> RUBY_SHELF;
+	public static final DeferredItem<Item> RACIST_INGOT;
+	public static final DeferredItem<Item> R_HMOB_SPAWN_EGG;
+	public static final DeferredItem<Item> GP_0_LIQUID_BUCKET;
+	public static final DeferredItem<Item> EXIT_PLANET_ITEM_TEST;
+	public static final DeferredItem<Item> ARCHFIEND_DICE;
 	static {
 		BAT_WING = register("bat_wing", BatWingItem::new);
 		RUBY = register("ruby", RubyItem::new);
@@ -93,6 +104,16 @@ public class RubiesandrabiesModItems {
 		SUGARCANE_PICKAXE = register("sugarcane_pickaxe", SugarcanePickaxeItem::new);
 		THENIUM_ESSENCE_BLOCK = block(RubiesandrabiesModBlocks.THENIUM_ESSENCE_BLOCK);
 		THENIUM_ESSENCE = register("thenium_essence", TheniumEssenceItem::new);
+		RUBYDOOR = doubleBlock(RubiesandrabiesModBlocks.RUBYDOOR);
+		SPACESHIP = block(RubiesandrabiesModBlocks.SPACESHIP, new Item.Properties().stacksTo(63));
+		RACIST_ORE = block(RubiesandrabiesModBlocks.RACIST_ORE, new Item.Properties().stacksTo(1).rarity(Rarity.EPIC).fireResistant());
+		ENTER_PLANET_TEST_ITEM = register("enter_planet_test_item", EnterPlanetTestItemItem::new);
+		RUBY_SHELF = block(RubiesandrabiesModBlocks.RUBY_SHELF);
+		RACIST_INGOT = register("racist_ingot", RacistIngotItem::new);
+		R_HMOB_SPAWN_EGG = register("r_hmob_spawn_egg", properties -> new SpawnEggItem(RubiesandrabiesModEntities.R_HMOB.get(), properties));
+		GP_0_LIQUID_BUCKET = register("gp_0_liquid_bucket", Gp0LiquidItem::new);
+		EXIT_PLANET_ITEM_TEST = register("exit_planet_item_test", ExitPlanetItemTestItem::new);
+		ARCHFIEND_DICE = register("archfiend_dice", ArchfiendDiceItem::new);
 	}
 
 	// Start of user code block custom items
@@ -109,8 +130,17 @@ public class RubiesandrabiesModItems {
 		return REGISTRY.registerItem(block.getId().getPath(), prop -> new BlockItem(block.get(), prop), properties);
 	}
 
+	private static DeferredItem<Item> doubleBlock(DeferredHolder<Block, Block> block) {
+		return doubleBlock(block, new Item.Properties());
+	}
+
+	private static DeferredItem<Item> doubleBlock(DeferredHolder<Block, Block> block, Item.Properties properties) {
+		return REGISTRY.registerItem(block.getId().getPath(), prop -> new DoubleHighBlockItem(block.get(), prop), properties);
+	}
+
 	@SubscribeEvent
 	public static void registerCapabilities(RegisterCapabilitiesEvent event) {
 		event.registerItem(Capabilities.FluidHandler.ITEM, (stack, context) -> new FluidBucketWrapper(stack), NON_NEWTONIAN_FLUID_BUCKET.get());
+		event.registerItem(Capabilities.FluidHandler.ITEM, (stack, context) -> new FluidBucketWrapper(stack), GP_0_LIQUID_BUCKET.get());
 	}
 }

@@ -1,0 +1,24 @@
+{
+  "ultrawarm": false,
+  "natural": false,
+  "piglin_safe": false,
+  "respawn_anchor_works": false,
+  "bed_works": false,
+  "has_raids": true,
+  "has_skylight": false,
+  "has_ceiling": false,
+  "coordinate_scale": 1000,
+  "ambient_light": 0,
+  "infiniburn": "#minecraft:infiniburn_altlocation",
+  "min_y": 0,
+  "height": 256,
+  "logical_height": 256,
+  "cloud_height": 16,
+  "monster_spawn_light_level": {
+    "type": "minecraft:uniform",
+    "min_inclusive": 0,
+    "max_inclusive": 7
+  },
+  "monster_spawn_block_light_limit": 15,
+  "effects": "rubiesandrabies:the_alternate_location"
+}

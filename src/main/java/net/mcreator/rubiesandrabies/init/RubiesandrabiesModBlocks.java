@@ -36,6 +36,11 @@ public class RubiesandrabiesModBlocks {
 	public static final DeferredBlock<Block> SKYFACTORY;
 	public static final DeferredBlock<Block> NON_NEWTONIAN_FLUID_BLOCK;
 	public static final DeferredBlock<Block> THENIUM_ESSENCE_BLOCK;
+	public static final DeferredBlock<Block> RUBYDOOR;
+	public static final DeferredBlock<Block> SPACESHIP;
+	public static final DeferredBlock<Block> RACIST_ORE;
+	public static final DeferredBlock<Block> RUBY_SHELF;
+	public static final DeferredBlock<Block> GP_0_LIQUID;
 	static {
 		RUBY_BRICKS = register("ruby_bricks", RubyBricksBlock::new);
 		BLOCK_OF_FEMGRAM = register("block_of_femgram", BlockOfFemgramBlock::new);
@@ -57,6 +62,11 @@ public class RubiesandrabiesModBlocks {
 		SKYFACTORY = register("skyfactory", SkyfactoryBlock::new);
 		NON_NEWTONIAN_FLUID_BLOCK = register("non_newtonian_fluid_block", NonNewtonianFluidBlockBlock::new);
 		THENIUM_ESSENCE_BLOCK = register("thenium_essence_block", TheniumEssenceBlockBlock::new);
+		RUBYDOOR = register("rubydoor", RubydoorBlock::new);
+		SPACESHIP = register("spaceship", SpaceshipBlock::new);
+		RACIST_ORE = register("racist_ore", RacistOreBlock::new);
+		RUBY_SHELF = register("ruby_shelf", RubyShelfBlock::new);
+		GP_0_LIQUID = register("gp_0_liquid", Gp0LiquidBlock::new);
 	}
 
 	// Start of user code block custom blocks
