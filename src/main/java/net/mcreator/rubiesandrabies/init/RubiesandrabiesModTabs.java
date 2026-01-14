@@ -69,11 +69,13 @@ public class RubiesandrabiesModTabs {
 				tabData.accept(RubiesandrabiesModItems.RACIST_INGOT.get());
 				tabData.accept(RubiesandrabiesModBlocks.RACIST_ORE.get().asItem());
 				tabData.accept(RubiesandrabiesModItems.EXIT_PLANET_ITEM_TEST.get());
-				tabData.accept(RubiesandrabiesModItems.THE_DEPOSITORY_ABYSS.get());
 				tabData.accept(RubiesandrabiesModItems.RACIST_HELMET.get());
 				tabData.accept(RubiesandrabiesModItems.RACIST_CHESTPLATE.get());
 				tabData.accept(RubiesandrabiesModItems.RACIST_LEGGINGS.get());
 				tabData.accept(RubiesandrabiesModItems.RACIST_BOOTS.get());
+				tabData.accept(RubiesandrabiesModItems.LEAVEEVIL.get());
+				tabData.accept(RubiesandrabiesModBlocks.ABYSSALL_GRASS.get().asItem());
+				tabData.accept(RubiesandrabiesModItems.TESTICALS.get());
 			}).withTabsBefore(RUBIES_RABIES_TAB.getId()).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> ZORPINIUM_OBLIVION = REGISTRY.register("zorpinium_oblivion",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.rubiesandrabies.zorpinium_oblivion")).icon(() -> new ItemStack(RubiesandrabiesModBlocks.ZORPINIUM_ORE.get())).displayItems((parameters, tabData) -> {

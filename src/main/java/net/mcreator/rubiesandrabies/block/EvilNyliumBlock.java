@@ -1,9 +1,6 @@
 package net.mcreator.rubiesandrabies.block;
 
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
 
 public class EvilNyliumBlock extends Block {
 	public EvilNyliumBlock(BlockBehaviour.Properties properties) {
@@ -13,5 +10,10 @@ public class EvilNyliumBlock extends Block {
 	@Override
 	public int getLightBlock(BlockState state) {
 		return 15;
+	}
+
+	@Override
+	public TriState canSustainPlant(BlockState state, BlockGetter world, BlockPos pos, Direction direction, BlockState plant) {
+		return TriState.TRUE;
 	}
 }

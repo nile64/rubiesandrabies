@@ -80,9 +80,9 @@
       "max": 1.0
     },
     "treesPerChunk": 10,
-    "vanillaTreeType": "Mega spruce trees",
+    "vanillaTreeType": "Big trees",
     "treeType": 1,
-    "minHeight": 32,
+    "minHeight": 8,
     "treeStem": {
       "value": "Blocks.OBSIDIAN"
     },
@@ -93,7 +93,7 @@
       "value": "Blocks.AIR"
     },
     "treeFruits": {
-      "value": "Blocks.POINTED_DRIPSTONE"
+      "value": "Blocks.AIR"
     },
     "defaultFeatures": [
       "Ores",

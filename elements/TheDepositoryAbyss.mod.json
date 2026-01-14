@@ -31,11 +31,11 @@
     "sunHeightAffectsFog": false,
     "canRespawnHere": false,
     "hasFog": true,
-    "ambientLight": 0.0,
+    "ambientLight": 0.01,
     "doesWaterVaporize": false,
-    "hasFixedTime": false,
+    "hasFixedTime": true,
     "fixedTimeValue": 0,
-    "coordinateScale": 1.0,
+    "coordinateScale": 256.0,
     "infiniburnTag": "minecraft:infiniburn_overworld",
     "bedWorks": true,
     "hasSkyLight": false,
@@ -68,6 +68,6 @@
     ],
     "texture": "chromakopia",
     "portalTexture": "r35u2h71glof1",
-    "enablePortal": true
+    "enablePortal": false
   }
 }

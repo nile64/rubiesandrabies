@@ -4,13 +4,13 @@
   "definition": {
     "name": "Abyss",
     "groundBlock": {
-      "value": "Blocks.GRASS"
+      "value": "CUSTOM:AbyssallGrass"
     },
     "undergroundBlock": {
-      "value": "Blocks.DIRT#0"
+      "value": "CUSTOM:Abyssallmatter"
     },
     "underwaterBlock": {
-      "value": "Blocks.GRAVEL"
+      "value": ""
     },
     "airColor": {
       "value": -13421773,
@@ -93,10 +93,11 @@
       "value": "Blocks.AIR"
     },
     "treeFruits": {
-      "value": "Blocks.VOID_AIR"
+      "value": "Blocks.AIR"
     },
     "defaultFeatures": [
-      "Ores"
+      "Ores",
+      "Caves"
     ],
     "spawnStronghold": false,
     "spawnMineshaft": false,

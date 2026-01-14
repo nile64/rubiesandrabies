@@ -9,5 +9,5 @@
     "west": "minecraft:block/carrots_stage3",
     "particle": "minecraft:block/carrots_stage3"
   },
-  "render_type": "solid"
+  "render_type": "translucent"
 }
