@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bbb",
+    "aaa"
+  ],
+  "key": {
+    "a": "rubiesandrabies:deleted_mod_element",
+    "b": "rubiesandrabies:deleted_mod_element"
+  },
+  "result": {
+    "id": "rubiesandrabies:zorpinium_core",
+    "count": 1
+  }
+}

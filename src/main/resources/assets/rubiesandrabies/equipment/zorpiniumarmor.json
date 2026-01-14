@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "rubiesandrabies:zorpiniumarmor"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "rubiesandrabies:zorpiniumarmor"
+      }
+    ]
+  }
+}

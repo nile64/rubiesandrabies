@@ -56,6 +56,11 @@ public class RubiesandrabiesModTabs {
 				tabData.accept(RubiesandrabiesModBlocks.GREGTECH.get().asItem());
 				tabData.accept(RubiesandrabiesModItems.SKY_ESSENCE.get());
 				tabData.accept(RubiesandrabiesModItems.MODIUM_ESSENCE.get());
+				tabData.accept(RubiesandrabiesModItems.COMPRESSED_COMPRESSED_RUBY.get());
+				tabData.accept(RubiesandrabiesModItems.COMPRESSED_RUBY.get());
+				tabData.accept(RubiesandrabiesModItems.COMPRESSED_COMPRESSED_COMPRESSED_RUBY.get());
+				tabData.accept(RubiesandrabiesModItems.COMPRESSED_COMPRESSED_COMPRESSED_COMPRESSED_COMPRESSED_RUBY.get());
+				tabData.accept(RubiesandrabiesModItems.COMPRESSED_COMPRESSED_COMPRESSED_COMPRESSED_RUBY.get());
 			}).withSearchBar().build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> SPACE = REGISTRY.register("space",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.rubiesandrabies.space")).icon(() -> new ItemStack(RubiesandrabiesModItems.URANIUM.get())).displayItems((parameters, tabData) -> {
@@ -69,9 +74,27 @@ public class RubiesandrabiesModTabs {
 				tabData.accept(RubiesandrabiesModItems.RACIST_LEGGINGS.get());
 				tabData.accept(RubiesandrabiesModItems.RACIST_BOOTS.get());
 				tabData.accept(RubiesandrabiesModItems.LEAVEEVIL.get());
-				tabData.accept(RubiesandrabiesModItems.TESTICALS.get());
 				tabData.accept(RubiesandrabiesModBlocks.ABYSSALL_GRASS.get().asItem());
+				tabData.accept(RubiesandrabiesModItems.TESTICALS.get());
 			}).withTabsBefore(RUBIES_RABIES_TAB.getId()).build());
+	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> ZORPINIUM_OBLIVION = REGISTRY.register("zorpinium_oblivion",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.rubiesandrabies.zorpinium_oblivion")).icon(() -> new ItemStack(RubiesandrabiesModBlocks.ZORPINIUM_ORE.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(RubiesandrabiesModItems.MOLDED_ZORPINIUM.get());
+				tabData.accept(RubiesandrabiesModBlocks.ZORPINIUM_ORE.get().asItem());
+				tabData.accept(RubiesandrabiesModItems.UNPURIFIED_ZORPINIUM_GEM.get());
+				tabData.accept(RubiesandrabiesModItems.ZORPINIUM_MOLD.get());
+				tabData.accept(RubiesandrabiesModItems.ZORPINIUM_CORE.get());
+				tabData.accept(RubiesandrabiesModItems.ZORPINIUMARMOR_HELMET.get());
+				tabData.accept(RubiesandrabiesModItems.ZORPINIUMARMOR_CHESTPLATE.get());
+				tabData.accept(RubiesandrabiesModItems.ZORPINIUMARMOR_LEGGINGS.get());
+				tabData.accept(RubiesandrabiesModItems.ZORPINIUMARMOR_BOOTS.get());
+				tabData.accept(RubiesandrabiesModItems.IRON_PLATE.get());
+				tabData.accept(RubiesandrabiesModItems.ZORPINIUM_ROD.get());
+				tabData.accept(RubiesandrabiesModBlocks.HIS_GREATNESS.get().asItem());
+				tabData.accept(RubiesandrabiesModItems.ZORPINIUM_PICKAXE.get());
+				tabData.accept(RubiesandrabiesModItems.PURIFIED_ZORPINIUM.get());
+				tabData.accept(RubiesandrabiesModItems.ZORPINIUM_SABER.get());
+			}).withSearchBar().withTabsBefore(SPACE.getId()).build());
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {

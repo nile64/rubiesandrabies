@@ -80,8 +80,29 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> RACIST_LEGGINGS;
 	public static final DeferredItem<Item> RACIST_BOOTS;
 	public static final DeferredItem<Item> LEAVEEVIL;
-	public static final DeferredItem<Item> TESTICALS;
 	public static final DeferredItem<Item> ABYSSALL_GRASS;
+	public static final DeferredItem<Item> TESTICALS;
+	public static final DeferredItem<Item> MOLDED_ZORPINIUM;
+	public static final DeferredItem<Item> ZORPINIUM_ORE;
+	public static final DeferredItem<Item> COMPRESSED_COMPRESSED_RUBY;
+	public static final DeferredItem<Item> UNPURIFIED_ZORPINIUM_GEM;
+	public static final DeferredItem<Item> ZORPINIUM_MOLD;
+	public static final DeferredItem<Item> COMPRESSED_RUBY;
+	public static final DeferredItem<Item> COMPRESSED_COMPRESSED_COMPRESSED_RUBY;
+	public static final DeferredItem<Item> ZORPINIUM_CORE;
+	public static final DeferredItem<Item> ZORPINIUMARMOR_HELMET;
+	public static final DeferredItem<Item> ZORPINIUMARMOR_CHESTPLATE;
+	public static final DeferredItem<Item> ZORPINIUMARMOR_LEGGINGS;
+	public static final DeferredItem<Item> ZORPINIUMARMOR_BOOTS;
+	public static final DeferredItem<Item> ZORPINIUM_REACTOR;
+	public static final DeferredItem<Item> COMPRESSED_COMPRESSED_COMPRESSED_COMPRESSED_COMPRESSED_RUBY;
+	public static final DeferredItem<Item> IRON_PLATE;
+	public static final DeferredItem<Item> ZORPINIUM_ROD;
+	public static final DeferredItem<Item> HIS_GREATNESS;
+	public static final DeferredItem<Item> ZORPINIUM_PICKAXE;
+	public static final DeferredItem<Item> COMPRESSED_COMPRESSED_COMPRESSED_COMPRESSED_RUBY;
+	public static final DeferredItem<Item> PURIFIED_ZORPINIUM;
+	public static final DeferredItem<Item> ZORPINIUM_SABER;
 	static {
 		BAT_WING = register("bat_wing", BatWingItem::new);
 		RUBY = register("ruby", RubyItem::new);
@@ -137,8 +158,29 @@ public class RubiesandrabiesModItems {
 		RACIST_LEGGINGS = register("racist_leggings", RacistItem.Leggings::new);
 		RACIST_BOOTS = register("racist_boots", RacistItem.Boots::new);
 		LEAVEEVIL = register("leaveevil", LeaveevilItem::new);
-		TESTICALS = register("testicals", TesticalsItem::new);
 		ABYSSALL_GRASS = register("abyssall_grass", AbyssallGrassBlock.Item::new);
+		TESTICALS = register("testicals", TesticalsItem::new);
+		MOLDED_ZORPINIUM = register("molded_zorpinium", MoldedZorpiniumItem::new);
+		ZORPINIUM_ORE = block(RubiesandrabiesModBlocks.ZORPINIUM_ORE, new Item.Properties().rarity(Rarity.EPIC).fireResistant());
+		COMPRESSED_COMPRESSED_RUBY = register("compressed_compressed_ruby", CompressedCompressedRubyItem::new);
+		UNPURIFIED_ZORPINIUM_GEM = register("unpurified_zorpinium_gem", UnpurifiedZorpiniumGemItem::new);
+		ZORPINIUM_MOLD = register("zorpinium_mold", ZorpiniumPurifierItem::new);
+		COMPRESSED_RUBY = register("compressed_ruby", CompressedRubyItem::new);
+		COMPRESSED_COMPRESSED_COMPRESSED_RUBY = register("compressed_compressed_compressed_ruby", CompressedCompressedCompressedRubyItem::new);
+		ZORPINIUM_CORE = register("zorpinium_core", ZorpiniumCoreItem::new);
+		ZORPINIUMARMOR_HELMET = register("zorpiniumarmor_helmet", ZorpiniumItem.Helmet::new);
+		ZORPINIUMARMOR_CHESTPLATE = register("zorpiniumarmor_chestplate", ZorpiniumItem.Chestplate::new);
+		ZORPINIUMARMOR_LEGGINGS = register("zorpiniumarmor_leggings", ZorpiniumItem.Leggings::new);
+		ZORPINIUMARMOR_BOOTS = register("zorpiniumarmor_boots", ZorpiniumItem.Boots::new);
+		ZORPINIUM_REACTOR = register("zorpinium_reactor", ZorpiniumReactorItem::new);
+		COMPRESSED_COMPRESSED_COMPRESSED_COMPRESSED_COMPRESSED_RUBY = register("compressed_compressed_compressed_compressed_compressed_ruby", CompressedCompressedCompressedCompressedCompressedRubyItem::new);
+		IRON_PLATE = register("iron_plate", IronPlateItem::new);
+		ZORPINIUM_ROD = register("zorpinium_rod", ZorpiniumRodItem::new);
+		HIS_GREATNESS = block(RubiesandrabiesModBlocks.HIS_GREATNESS, new Item.Properties().rarity(Rarity.EPIC));
+		ZORPINIUM_PICKAXE = register("zorpinium_pickaxe", ZorpiniumPickaxeItem::new);
+		COMPRESSED_COMPRESSED_COMPRESSED_COMPRESSED_RUBY = register("compressed_compressed_compressed_compressed_ruby", CompressedCompressedCompressedCompressedRubyItem::new);
+		PURIFIED_ZORPINIUM = register("purified_zorpinium", PurifiedZorpiniumItem::new);
+		ZORPINIUM_SABER = register("zorpinium_saber", ZorpiniumSaberItem::new);
 	}
 
 	// Start of user code block custom items

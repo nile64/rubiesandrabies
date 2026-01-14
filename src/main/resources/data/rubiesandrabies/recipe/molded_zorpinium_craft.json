@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": "rubiesandrabies:unpurified_zorpinium_gem",
+    "b": "rubiesandrabies:zorpinium_mold"
+  },
+  "result": {
+    "id": "rubiesandrabies:molded_zorpinium",
+    "count": 1
+  }
+}

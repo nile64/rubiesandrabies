@@ -1,0 +1,49 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CompressedCompressedCompressedCompressedRuby"
+      },
+      {
+        "value": "CUSTOM:CompressedCompressedCompressedCompressedRuby"
+      },
+      {
+        "value": "CUSTOM:CompressedCompressedCompressedCompressedRuby"
+      },
+      {
+        "value": "CUSTOM:CompressedCompressedCompressedCompressedRuby"
+      },
+      {
+        "value": "CUSTOM:CompressedCompressedCompressedCompressedRuby"
+      },
+      {
+        "value": "CUSTOM:CompressedCompressedCompressedCompressedRuby"
+      },
+      {
+        "value": "CUSTOM:CompressedCompressedCompressedCompressedRuby"
+      },
+      {
+        "value": "CUSTOM:CompressedCompressedCompressedCompressedRuby"
+      },
+      {
+        "value": "CUSTOM:CompressedCompressedCompressedCompressedRuby"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CompressedCompressedCompressedCompressedCompressedRuby"
+    },
+    "name": "compressed_compressed_compressed_compressed_compressed_ruby_recipe",
+    "namespace": "mod"
+  }
+}

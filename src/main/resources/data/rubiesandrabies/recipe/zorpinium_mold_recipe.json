@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": "minecraft:coal_block",
+    "b": "minecraft:diamond",
+    "c": "rubiesandrabies:iron_plate"
+  },
+  "result": {
+    "id": "rubiesandrabies:zorpinium_mold",
+    "count": 1
+  }
+}
