@@ -2,12 +2,12 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "minecraft-cow-head-1024x1024-3108380750",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
+    "texture": "abysallmatter",
+    "textureTop": "abyssalgrasstop",
+    "textureLeft": "abyssalgrassside",
+    "textureFront": "abyssalgrassside",
+    "textureRight": "abyssalgrassside",
+    "textureBack": "abyssalgrassside",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -39,9 +39,11 @@
       }
     ],
     "customProperties": [],
-    "name": "Ger",
+    "name": "Abyssal Grass",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "gras"
+      ]
     },
     "hardness": 1.0,
     "resistance": 10.0,
@@ -51,8 +53,12 @@
     "maxStackSize": 64,
     "rarity": "COMMON",
     "immuneToFire": false,
-    "creativeTabs": [],
-    "destroyTool": "Not specified",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Space"
+      }
+    ],
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
     },
@@ -60,9 +66,9 @@
     "xpAmountMin": 0,
     "xpAmountMax": 0,
     "useLootTableForDrops": false,
-    "requiresCorrectTool": false,
+    "requiresCorrectTool": true,
     "enchantPowerBonus": 0.0,
-    "plantsGrowOn": false,
+    "plantsGrowOn": true,
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "tickRate": 0,
@@ -112,7 +118,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "vanillaToolTier": "NONE",
+    "vanillaToolTier": "STONE",
     "isBonemealable": false,
     "sensitiveToVibration": false,
     "vibrationalEvents": [],

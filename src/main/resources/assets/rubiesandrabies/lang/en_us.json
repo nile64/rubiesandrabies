@@ -100,10 +100,12 @@
   "subtitles.thegrandabyssambience": "?",
   "biome.rubiesandrabies.abyss_biome": "Abyss",
   "item.rubiesandrabies.abyssallmatter": "Abyssallmatter",
-  "item.rubiesandrabies.the_depository_abyss": "The Depository Abyss Portal Igniter",
-  "item.rubiesandrabies.ger": "Ger",
   "item.rubiesandrabies.racist_leggings": "Racist Leggings",
   "item.rubiesandrabies.racist_boots": "Racist Boots",
   "item.rubiesandrabies.racist_helmet": "Racist Helmet",
-  "item.rubiesandrabies.racist_chestplate": "Racist Chestplate"
+  "item.rubiesandrabies.racist_chestplate": "Racist Chestplate",
+  "item.rubiesandrabies.leaveevil": "Leaveevil",
+  "item.rubiesandrabies.testicals": "Testicals",
+  "item.rubiesandrabies.abyssall_grass": "Abyssal Grass",
+  "block.rubiesandrabies.abyssall_grass.description_0": "gras"
 }

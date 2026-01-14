@@ -1,5 +1,13 @@
 package net.mcreator.rubiesandrabies.item;
 
+import net.minecraft.world.level.Level;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.InteractionResult;
+import net.minecraft.world.InteractionHand;
+
+import net.mcreator.rubiesandrabies.procedures.ArchfiendDiceRightclickedProcedure;
+
 public class ArchfiendDiceItem extends Item {
 	public ArchfiendDiceItem(Item.Properties properties) {
 		super(properties);

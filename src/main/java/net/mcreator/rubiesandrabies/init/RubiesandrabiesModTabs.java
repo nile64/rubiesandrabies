@@ -64,11 +64,13 @@ public class RubiesandrabiesModTabs {
 				tabData.accept(RubiesandrabiesModItems.ENTER_PLANET_TEST_ITEM.get());
 				tabData.accept(RubiesandrabiesModItems.RACIST_INGOT.get());
 				tabData.accept(RubiesandrabiesModItems.EXIT_PLANET_ITEM_TEST.get());
-				tabData.accept(RubiesandrabiesModItems.THE_DEPOSITORY_ABYSS.get());
 				tabData.accept(RubiesandrabiesModItems.RACIST_HELMET.get());
 				tabData.accept(RubiesandrabiesModItems.RACIST_CHESTPLATE.get());
 				tabData.accept(RubiesandrabiesModItems.RACIST_LEGGINGS.get());
 				tabData.accept(RubiesandrabiesModItems.RACIST_BOOTS.get());
+				tabData.accept(RubiesandrabiesModItems.LEAVEEVIL.get());
+				tabData.accept(RubiesandrabiesModItems.TESTICALS.get());
+				tabData.accept(RubiesandrabiesModBlocks.ABYSSALL_GRASS.get().asItem());
 			}).withTabsBefore(RUBIES_RABIES_TAB.getId()).build());
 
 	@SubscribeEvent

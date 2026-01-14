@@ -19,6 +19,7 @@ import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.rubiesandrabies.item.*;
+import net.mcreator.rubiesandrabies.block.AbyssallGrassBlock;
 import net.mcreator.rubiesandrabies.RubiesandrabiesMod;
 
 import java.util.function.Function;
@@ -70,16 +71,17 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> EXIT_PLANET_ITEM_TEST;
 	public static final DeferredItem<Item> ARCHFIEND_DICE;
 	public static final DeferredItem<Item> GHAST_COW_SPAWN_EGG;
-	public static final DeferredItem<Item> GER;
 	public static final DeferredItem<Item> GREGTECH;
 	public static final DeferredItem<Item> SKY_ESSENCE;
 	public static final DeferredItem<Item> MODIUM_ESSENCE;
-	public static final DeferredItem<Item> THE_DEPOSITORY_ABYSS;
 	public static final DeferredItem<Item> ABYSSALLMATTER;
 	public static final DeferredItem<Item> RACIST_HELMET;
 	public static final DeferredItem<Item> RACIST_CHESTPLATE;
 	public static final DeferredItem<Item> RACIST_LEGGINGS;
 	public static final DeferredItem<Item> RACIST_BOOTS;
+	public static final DeferredItem<Item> LEAVEEVIL;
+	public static final DeferredItem<Item> TESTICALS;
+	public static final DeferredItem<Item> ABYSSALL_GRASS;
 	static {
 		BAT_WING = register("bat_wing", BatWingItem::new);
 		RUBY = register("ruby", RubyItem::new);
@@ -126,16 +128,17 @@ public class RubiesandrabiesModItems {
 		EXIT_PLANET_ITEM_TEST = register("exit_planet_item_test", ExitPlanetItemTestItem::new);
 		ARCHFIEND_DICE = register("archfiend_dice", ArchfiendDiceItem::new);
 		GHAST_COW_SPAWN_EGG = register("ghast_cow_spawn_egg", properties -> new SpawnEggItem(RubiesandrabiesModEntities.GHAST_COW.get(), properties));
-		GER = block(RubiesandrabiesModBlocks.GER);
 		GREGTECH = block(RubiesandrabiesModBlocks.GREGTECH);
 		SKY_ESSENCE = register("sky_essence", SkyEssenceItem::new);
 		MODIUM_ESSENCE = register("modium_essence", ModiumEssenceItem::new);
-		THE_DEPOSITORY_ABYSS = register("the_depository_abyss", TheDepositoryAbyssItem::new);
 		ABYSSALLMATTER = block(RubiesandrabiesModBlocks.ABYSSALLMATTER);
 		RACIST_HELMET = register("racist_helmet", RacistItem.Helmet::new);
 		RACIST_CHESTPLATE = register("racist_chestplate", RacistItem.Chestplate::new);
 		RACIST_LEGGINGS = register("racist_leggings", RacistItem.Leggings::new);
 		RACIST_BOOTS = register("racist_boots", RacistItem.Boots::new);
+		LEAVEEVIL = register("leaveevil", LeaveevilItem::new);
+		TESTICALS = register("testicals", TesticalsItem::new);
+		ABYSSALL_GRASS = register("abyssall_grass", AbyssallGrassBlock.Item::new);
 	}
 
 	// Start of user code block custom items

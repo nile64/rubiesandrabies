@@ -1,6 +1,6 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "rubiesandrabies:blocks/ger",
+  "random_sequence": "rubiesandrabies:blocks/abyssall_grass",
   "pools": [
     {
       "rolls": 1.0,
@@ -12,7 +12,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "rubiesandrabies:ger"
+          "name": "rubiesandrabies:abyssall_grass"
         }
       ]
     }
