@@ -106,8 +106,8 @@
       "registry_name": "bat_wing",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rubiesandrabies/models/item/bat_wing.json",
           "src/main/resources/assets/rubiesandrabies/items/bat_wing.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/bat_wing.json",
           "src/main/java/net/mcreator/rubiesandrabies/item/BatWingItem.java"
         ]
       }
@@ -121,8 +121,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/rubiesandrabies/item/RubyItem.java",
-          "src/main/resources/assets/rubiesandrabies/items/ruby.json",
-          "src/main/resources/assets/rubiesandrabies/models/item/ruby.json"
+          "src/main/resources/assets/rubiesandrabies/models/item/ruby.json",
+          "src/main/resources/assets/rubiesandrabies/items/ruby.json"
         ]
       }
     },
@@ -618,10 +618,10 @@
       "registry_name": "now",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rubiesandrabies/models/item/now_spawn_egg.json",
+          "src/main/java/net/mcreator/rubiesandrabies/entity/NowEntity.java",
           "src/main/java/net/mcreator/rubiesandrabies/client/renderer/NowRenderer.java",
-          "src/main/resources/assets/rubiesandrabies/items/now_spawn_egg.json",
-          "src/main/java/net/mcreator/rubiesandrabies/entity/NowEntity.java"
+          "src/main/resources/assets/rubiesandrabies/models/item/now_spawn_egg.json",
+          "src/main/resources/assets/rubiesandrabies/items/now_spawn_egg.json"
         ]
       },
       "path": "~/idk"
@@ -696,11 +696,11 @@
       "registry_name": "meatball_moose",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/rubiesandrabies/entity/MeatballMooseEntity.java",
           "src/main/java/net/mcreator/rubiesandrabies/client/renderer/MeatballMooseRenderer.java",
           "src/main/resources/assets/rubiesandrabies/models/item/meatball_moose_spawn_egg.json",
-          "src/main/resources/assets/rubiesandrabies/items/meatball_moose_spawn_egg.json",
-          "src/main/resources/data/rubiesandrabies/neoforge/biome_modifier/meatball_moose_biome_modifier.json"
+          "src/main/resources/data/rubiesandrabies/neoforge/biome_modifier/meatball_moose_biome_modifier.json",
+          "src/main/java/net/mcreator/rubiesandrabies/entity/MeatballMooseEntity.java",
+          "src/main/resources/assets/rubiesandrabies/items/meatball_moose_spawn_egg.json"
         ]
       }
     },
@@ -1763,9 +1763,9 @@
       "registry_name": "the_alternate_location",
       "metadata": {
         "files": [
-          "src/main/resources/data/rubiesandrabies/dimension_type/the_alternate_location.json",
           "src/main/resources/data/rubiesandrabies/dimension/the_alternate_location.json",
-          "src/main/java/net/mcreator/rubiesandrabies/world/dimension/TheAlternateLocationDimension.java"
+          "src/main/java/net/mcreator/rubiesandrabies/world/dimension/TheAlternateLocationDimension.java",
+          "src/main/resources/data/rubiesandrabies/dimension_type/the_alternate_location.json"
         ]
       }
     },
@@ -2230,9 +2230,9 @@
       "registry_name": "unpurified_zorpinium_gem",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/rubiesandrabies/item/UnpurifiedZorpiniumGemItem.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/unpurified_zorpinium_gem.json",
           "src/main/resources/assets/rubiesandrabies/items/unpurified_zorpinium_gem.json",
-          "src/main/resources/assets/rubiesandrabies/models/item/unpurified_zorpinium_gem.json"
+          "src/main/java/net/mcreator/rubiesandrabies/item/UnpurifiedZorpiniumGemItem.java"
         ]
       },
       "path": "~/ZorpiniumOblivion"
@@ -2286,8 +2286,8 @@
       "registry_name": "zorpinium_pickaxe_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/rubiesandrabies/recipe/zorpinium_pickaxe_recipe.json",
-          "src/main/resources/data/rubiesandrabies/advancement/recipes/zorpinium_pickaxe_recipe.json"
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/zorpinium_pickaxe_recipe.json",
+          "src/main/resources/data/rubiesandrabies/recipe/zorpinium_pickaxe_recipe.json"
         ]
       },
       "path": "~/ZorpiniumOblivion"
@@ -2493,8 +2493,8 @@
       "registry_name": "zorpinium_pickaxe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rubiesandrabies/items/zorpinium_pickaxe.json",
           "src/main/java/net/mcreator/rubiesandrabies/item/ZorpiniumPickaxeItem.java",
+          "src/main/resources/assets/rubiesandrabies/items/zorpinium_pickaxe.json",
           "src/main/resources/assets/rubiesandrabies/models/item/zorpinium_pickaxe.json"
         ]
       },
@@ -2575,9 +2575,9 @@
       "registry_name": "compressed_compressed_ruby",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/rubiesandrabies/item/CompressedCompressedRubyItem.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/compressed_compressed_ruby.json",
           "src/main/resources/assets/rubiesandrabies/items/compressed_compressed_ruby.json",
-          "src/main/resources/assets/rubiesandrabies/models/item/compressed_compressed_ruby.json"
+          "src/main/java/net/mcreator/rubiesandrabies/item/CompressedCompressedRubyItem.java"
         ]
       },
       "path": "~/rubies"
@@ -2615,8 +2615,8 @@
       "registry_name": "compressed_compressed_compressed_compressed_ruby_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/rubiesandrabies/advancement/recipes/compressed_compressed_compressed_compressed_ruby_recipe.json",
-          "src/main/resources/data/rubiesandrabies/recipe/compressed_compressed_compressed_compressed_ruby_recipe.json"
+          "src/main/resources/data/rubiesandrabies/recipe/compressed_compressed_compressed_compressed_ruby_recipe.json",
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/compressed_compressed_compressed_compressed_ruby_recipe.json"
         ]
       },
       "path": "~/rubies"
@@ -2766,17 +2766,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/rubiesandrabies/dimension/the_depository_abyss.json",
-          "src/main/resources/assets/rubiesandrabies/models/block/the_depository_abyss_portal_ew.json",
-          "src/main/java/net/mcreator/rubiesandrabies/world/teleporter/TheDepositoryAbyssTeleporter.java",
-          "src/main/resources/assets/rubiesandrabies/blockstates/the_depository_abyss_portal.json",
-          "src/main/java/net/mcreator/rubiesandrabies/world/teleporter/TheDepositoryAbyssPortalShape.java",
-          "src/main/java/net/mcreator/rubiesandrabies/item/TheDepositoryAbyssItem.java",
           "src/main/resources/data/rubiesandrabies/dimension_type/the_depository_abyss.json",
-          "src/main/resources/assets/rubiesandrabies/models/item/the_depository_abyss.json",
-          "src/main/resources/assets/rubiesandrabies/items/the_depository_abyss.json",
-          "src/main/java/net/mcreator/rubiesandrabies/world/dimension/TheDepositoryAbyssDimension.java",
-          "src/main/java/net/mcreator/rubiesandrabies/block/TheDepositoryAbyssPortalBlock.java",
-          "src/main/resources/assets/rubiesandrabies/models/block/the_depository_abyss_portal_ns.json"
+          "src/main/java/net/mcreator/rubiesandrabies/world/dimension/TheDepositoryAbyssDimension.java"
         ]
       },
       "path": "~/idk"
@@ -2894,8 +2885,8 @@
       "registry_name": "sky_essence",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/rubiesandrabies/item/SkyEssenceItem.java",
           "src/main/resources/assets/rubiesandrabies/models/item/sky_essence.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/SkyEssenceItem.java",
           "src/main/resources/assets/rubiesandrabies/items/sky_essence.json"
         ]
       },
@@ -2981,24 +2972,6 @@
           "src/main/resources/assets/rubiesandrabies/items/abyssallmatter.json",
           "src/main/resources/assets/rubiesandrabies/models/item/abyssallmatter.json",
           "src/main/resources/assets/rubiesandrabies/blockstates/abyssallmatter.json"
-        ]
-      },
-      "path": "~/idk"
-    },
-    {
-      "name": "Ger",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ger",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/rubiesandrabies/items/ger.json",
-          "src/main/java/net/mcreator/rubiesandrabies/block/GerBlock.java",
-          "src/main/resources/assets/rubiesandrabies/blockstates/ger.json",
-          "src/main/resources/assets/rubiesandrabies/models/block/ger.json",
-          "src/main/resources/data/rubiesandrabies/loot_table/blocks/ger.json",
-          "src/main/resources/assets/rubiesandrabies/models/item/ger.json"
         ]
       },
       "path": "~/idk"
@@ -3457,6 +3430,8 @@
       "~CUSTOM:RubyShelf"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:AbyssallGrass",
+      "~CUSTOM:Abyssallmatter",
       "~CUSTOM:RubyBricks",
       "~CUSTOM:NowiumBlock",
       "~CUSTOM:EvilNylium",
@@ -3588,7 +3563,6 @@
       "subtitles.areyoubeingintentionallydense": "",
       "subtitles.thegrandabyssambience": "?",
       "subtitles.cowambient": "",
-      "item.rubiesandrabies.the_depository_abyss": "The Depository Abyss Portal Igniter",
       "subtitles.johnevilthethird": "",
       "item.rubiesandrabies.molded_zorpinium": "Molded Zorpinium",
       "item.rubiesandrabies.zorpinium_ore": "Zorpinium Ore",
@@ -3627,7 +3601,11 @@
       "item.rubiesandrabies.abyssallmatter": "Abyssallmatter",
       "item.rubiesandrabies.ger": "Ger",
       "item.rubiesandrabies.gregtech": "Greg\u0027s Tech",
-      "item.rubiesandrabies.archfiend_dice": "Archfiend Dice"
+      "item.rubiesandrabies.archfiend_dice": "Archfiend Dice",
+      "item.rubiesandrabies.leaveevil": "Leaveevil",
+      "block.rubiesandrabies.abyssall_grass.description_0": "gras",
+      "item.rubiesandrabies.abyssall_grass": "Abyssal Grass",
+      "item.rubiesandrabies.testicals": "Testicals"
     }
   },
   "metadata": {
@@ -3636,9 +3614,9 @@
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModBiomes.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModFluids.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModFluidTypes.java",
-      "src/main/java/net/mcreator/rubiesandrabies/network/MenuStateUpdateMessage.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModMenus.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModScreens.java",
+      "src/main/java/net/mcreator/rubiesandrabies/network/MenuStateUpdateMessage.java",
       "src/main/resources/data/neoforge/data_maps/entity_type/monster_room_mobs.json",
       "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModMobEffects.java",
@@ -3650,15 +3628,15 @@
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModItems.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModEntities.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModEntityRenderers.java",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModTabs.java",
       "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModModels.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModSounds.java",
       "src/main/resources/rubiesandrabies.mixins.json",
-      "src/main/resources/META-INF/accesstransformer.cfg",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModModels.java",
-      "src/main/resources/assets/rubiesandrabies/sounds.json",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModTabs.java",
       "src/main/java/net/mcreator/rubiesandrabies/RubiesandrabiesMod.java",
-      "src/main/resources/META-INF/neoforge.mods.toml"
+      "src/main/resources/assets/rubiesandrabies/sounds.json"
     ]
   },
   "foldersRoot": {
