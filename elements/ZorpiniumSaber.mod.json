@@ -5,7 +5,7 @@
     "toolType": "Sword",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "new_project31",
+    "texture": "new_project2941",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "guiTexture": "",
@@ -15,13 +15,13 @@
     },
     "creativeTabs": [
       {
-        "value": "TOOLS"
+        "value": "CUSTOM:ZorpiniumOblivion"
       }
     ],
     "efficiency": 4.0,
     "attackSpeed": 2.0,
     "enchantability": 2,
-    "damageVsEntity": 30.0,
+    "damageVsEntity": 50.0,
     "usageCount": 10000,
     "glowCondition": {
       "fixedValue": false

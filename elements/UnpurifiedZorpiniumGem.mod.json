@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "new_project29",
+    "texture": "new_project295",
     "customModelName": "Normal",
     "guiTexture": "",
     "customProperties": {},
@@ -11,7 +11,11 @@
     "animations": [],
     "name": "Unpurified Zorpinium Gem",
     "rarity": "RARE",
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:ZorpiniumOblivion"
+      }
+    ],
     "stackSize": 65,
     "enchantability": 0,
     "useDuration": 0,

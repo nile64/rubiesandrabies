@@ -2175,7 +2175,8 @@
           "src/main/resources/assets/rubiesandrabies/items/unpurified_zorpinium_gem.json",
           "src/main/resources/assets/rubiesandrabies/models/item/unpurified_zorpinium_gem.json"
         ]
-      }
+      },
+      "path": "~/ZorpiniumOblivion"
     },
     {
       "name": "ZorpiniumOre",
@@ -2195,7 +2196,8 @@
           "src/main/resources/data/rubiesandrabies/worldgen/placed_feature/zorpinium_ore.json",
           "src/main/resources/data/rubiesandrabies/loot_table/blocks/zorpinium_ore.json"
         ]
-      }
+      },
+      "path": "~/ZorpiniumOblivion"
     },
     {
       "name": "ZorpiniumPurifier",
@@ -2209,7 +2211,8 @@
           "src/main/java/net/mcreator/rubiesandrabies/item/ZorpiniumPurifierItem.java",
           "src/main/resources/assets/rubiesandrabies/items/zorpinium_mold.json"
         ]
-      }
+      },
+      "path": "~/ZorpiniumOblivion"
     },
     {
       "name": "MoldedZorpinium",
@@ -2223,7 +2226,8 @@
           "src/main/resources/assets/rubiesandrabies/models/item/molded_zorpinium.json",
           "src/main/resources/assets/rubiesandrabies/items/molded_zorpinium.json"
         ]
-      }
+      },
+      "path": "~/ZorpiniumOblivion"
     },
     {
       "name": "MoldedZorpiniumCraft",
@@ -2235,7 +2239,8 @@
         "files": [
           "src/main/resources/data/rubiesandrabies/recipe/molded_zorpinium_craft.json"
         ]
-      }
+      },
+      "path": "~/ZorpiniumOblivion"
     },
     {
       "name": "PurifiedZorpinium",
@@ -2249,7 +2254,8 @@
           "src/main/java/net/mcreator/rubiesandrabies/item/PurifiedZorpiniumItem.java",
           "src/main/resources/assets/rubiesandrabies/items/purified_zorpinium.json"
         ]
-      }
+      },
+      "path": "~/ZorpiniumOblivion"
     },
     {
       "name": "PureZorpinium",
@@ -2262,7 +2268,8 @@
           "src/main/resources/data/rubiesandrabies/advancement/recipes/pure_zorpinium.json",
           "src/main/resources/data/rubiesandrabies/recipe/pure_zorpinium.json"
         ]
-      }
+      },
+      "path": "~/ZorpiniumOblivion"
     },
     {
       "name": "InfinitePower",
@@ -2274,7 +2281,8 @@
         "files": [
           "src/main/resources/data/rubiesandrabies/advancement/infinite_power.json"
         ]
-      }
+      },
+      "path": "~/ZorpiniumOblivion"
     },
     {
       "name": "ZorpiniumSaber",
@@ -2288,7 +2296,8 @@
           "src/main/resources/assets/rubiesandrabies/models/item/zorpinium_saber.json",
           "src/main/resources/assets/rubiesandrabies/items/zorpinium_saber.json"
         ]
-      }
+      },
+      "path": "~/ZorpiniumOblivion"
     },
     {
       "name": "ZorpSaber",
@@ -2300,7 +2309,266 @@
         "files": [
           "src/main/resources/data/rubiesandrabies/recipe/zorp_saber.json"
         ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "ZorpiniumRod",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zorpinium_rod",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/items/zorpinium_rod.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/ZorpiniumRodItem.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/zorpinium_rod.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "ZorpiniumRodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zorpinium_rod_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/zorpinium_rod_recipe.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "IronPlate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/models/item/iron_plate.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/IronPlateItem.java",
+          "src/main/resources/assets/rubiesandrabies/items/iron_plate.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "IronPlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/iron_plate_recipe.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "ZorpiniumCore",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zorpinium_core",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/items/zorpinium_core.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/ZorpiniumCoreItem.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/zorpinium_core.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "ZorpiniumCoreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zorpinium_core_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/zorpinium_core_recipe.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "ZorpiniumPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zorpinium_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/items/zorpinium_pickaxe.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/ZorpiniumPickaxeItem.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/zorpinium_pickaxe.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "ZorpiniumPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zorpinium_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/zorpinium_pickaxe_recipe.json",
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/zorpinium_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "ZorpiniumOblivion",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zorpinium_oblivion",
+      "metadata": {
+        "files": []
       }
+    },
+    {
+      "name": "Zorpinium",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zorpiniumarmor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/models/item/zorpiniumarmor_helmet.json",
+          "src/main/resources/assets/rubiesandrabies/equipment/zorpiniumarmor.json",
+          "src/main/resources/assets/rubiesandrabies/items/zorpiniumarmor_helmet.json",
+          "src/main/resources/assets/rubiesandrabies/items/zorpiniumarmor_leggings.json",
+          "src/main/java/net/mcreator/rubiesandrabies/client/renderer/item/ZorpiniumArmor.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/zorpiniumarmor_boots.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/ZorpiniumItem.java",
+          "src/main/resources/assets/rubiesandrabies/items/zorpiniumarmor_boots.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/zorpiniumarmor_chestplate.json",
+          "src/main/resources/assets/rubiesandrabies/items/zorpiniumarmor_chestplate.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/zorpiniumarmor_leggings.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "ZorpiniumHelmet",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zorpinium_helmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/zorpinium_helmet.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "ZorpiniumChestplate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zorpinium_chestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/zorpinium_chestplate.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "ZorpiniumLeggings",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zorpinium_leggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/zorpinium_leggings.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "ZorpiniumBoots",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zorpinium_boots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/zorpinium_boots.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "ZorpiniumMoldRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zorpinium_mold_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/zorpinium_mold_recipe.json",
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/zorpinium_mold_recipe.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "ZorpiniumReactor",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zorpinium_reactor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/item/ZorpiniumReactorItem.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/zorpinium_reactor.json",
+          "src/main/resources/assets/rubiesandrabies/items/zorpinium_reactor.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "ZorpiniumReactorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zorpinium_reactor_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/zorpinium_reactor_recipe.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "HisGreatness",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "his_greatness",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/his_greatness.json",
+          "src/main/resources/assets/rubiesandrabies/blockstates/his_greatness.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/his_greatness.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/his_greatness.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/HisGreatnessBlock.java",
+          "src/main/resources/assets/rubiesandrabies/items/his_greatness.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
     }
   ],
   "variable_elements": [],
@@ -2433,6 +2701,8 @@
       "~CUSTOM:NetherRacism"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:HisGreatness",
+      "~CUSTOM:ZorpiniumOre",
       "~CUSTOM:TheniumEssenceBlock",
       "~CUSTOM:Skyfactory",
       "~CUSTOM:RubyBlock",
@@ -2497,12 +2767,14 @@
       "~CUSTOM:Uranium"
     ],
     "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:ZorpiniumPickaxe",
       "~CUSTOM:SugarcanePickaxe"
     ],
     "ITEMS:rubiesandrabies:sugarcane_pickaxe_repair_items": [
       "~Blocks.REEDS"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:HisGreatness",
       "~CUSTOM:TheniumEssenceBlock"
     ],
     "BLOCKS:minecraft:mineable/axe": [
@@ -2519,6 +2791,18 @@
     ],
     "BIOMES:minecraft:has_structure/mineshaft": [
       "~CUSTOM:RacismPlanetBiome"
+    ],
+    "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:Zorpinium.helmet"
+    ],
+    "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:Zorpinium.body"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:Zorpinium.legs"
+    ],
+    "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:Zorpinium.boots"
     ]
   },
   "tab_element_order": {},
@@ -2619,7 +2903,18 @@
       "item.rubiesandrabies.purified_zorpinium": "Purified Zorpinium",
       "advancements.infinite_power.descr": "You got access to a god-like material",
       "advancements.infinite_power.title": "Infinite Power!",
-      "item.rubiesandrabies.zorpinium_saber": "Zorpinium Saber"
+      "item.rubiesandrabies.zorpinium_saber": "Zorpinium Saber",
+      "item.rubiesandrabies.zorpinium_rod": "Zorpinium Rod",
+      "item.rubiesandrabies.iron_plate": "Iron Plate",
+      "item.rubiesandrabies.zorpinium_core": "Zorpinium Core",
+      "item.rubiesandrabies.zorpinium_pickaxe": "Zorpinium Pickaxe",
+      "item_group.rubiesandrabies.zorpinium_oblivion": "Zorpinium Oblivion",
+      "item.rubiesandrabies.zorpiniumarmor_chestplate": "Zorpinium Chestplate",
+      "item.rubiesandrabies.zorpiniumarmor_helmet": "Zorpinium Helmet",
+      "item.rubiesandrabies.zorpiniumarmor_leggings": "Zorpinium Leggings",
+      "item.rubiesandrabies.zorpiniumarmor_boots": "Zorpinium Boots",
+      "item.rubiesandrabies.zorpinium_reactor": "Zorpinium Reactor",
+      "item.rubiesandrabies.his_greatness": "His Greatness"
     }
   },
   "metadata": {
@@ -2687,6 +2982,10 @@
       },
       {
         "name": "Ruby trader",
+        "children": []
+      },
+      {
+        "name": "ZorpiniumOblivion",
         "children": []
       }
     ]

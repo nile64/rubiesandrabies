@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bbb",
+    "aaa"
+  ],
+  "key": {
+    "a": "rubiesandrabies:iron_plate",
+    "b": "rubiesandrabies:purified_zorpinium"
+  },
+  "result": {
+    "id": "rubiesandrabies:zorpinium_core",
+    "count": 1
+  }
+}

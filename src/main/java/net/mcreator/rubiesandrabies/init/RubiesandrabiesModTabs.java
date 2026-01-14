@@ -57,6 +57,24 @@ public class RubiesandrabiesModTabs {
 				tabData.accept(RubiesandrabiesModBlocks.RACIST_ORE.get().asItem());
 				tabData.accept(RubiesandrabiesModItems.EXIT_PLANET_ITEM_TEST.get());
 			}).withTabsBefore(RUBIES_RABIES_TAB.getId()).build());
+	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> ZORPINIUM_OBLIVION = REGISTRY.register("zorpinium_oblivion",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.rubiesandrabies.zorpinium_oblivion")).icon(() -> new ItemStack(RubiesandrabiesModBlocks.ZORPINIUM_ORE.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(RubiesandrabiesModItems.UNPURIFIED_ZORPINIUM_GEM.get());
+				tabData.accept(RubiesandrabiesModBlocks.ZORPINIUM_ORE.get().asItem());
+				tabData.accept(RubiesandrabiesModItems.ZORPINIUM_MOLD.get());
+				tabData.accept(RubiesandrabiesModItems.MOLDED_ZORPINIUM.get());
+				tabData.accept(RubiesandrabiesModItems.PURIFIED_ZORPINIUM.get());
+				tabData.accept(RubiesandrabiesModItems.ZORPINIUM_SABER.get());
+				tabData.accept(RubiesandrabiesModItems.ZORPINIUM_ROD.get());
+				tabData.accept(RubiesandrabiesModItems.IRON_PLATE.get());
+				tabData.accept(RubiesandrabiesModItems.ZORPINIUM_CORE.get());
+				tabData.accept(RubiesandrabiesModItems.ZORPINIUM_PICKAXE.get());
+				tabData.accept(RubiesandrabiesModItems.ZORPINIUMARMOR_HELMET.get());
+				tabData.accept(RubiesandrabiesModItems.ZORPINIUMARMOR_CHESTPLATE.get());
+				tabData.accept(RubiesandrabiesModItems.ZORPINIUMARMOR_LEGGINGS.get());
+				tabData.accept(RubiesandrabiesModItems.ZORPINIUMARMOR_BOOTS.get());
+				tabData.accept(RubiesandrabiesModBlocks.HIS_GREATNESS.get().asItem());
+			}).withSearchBar().withTabsBefore(SPACE.getId()).build());
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
@@ -77,7 +95,6 @@ public class RubiesandrabiesModTabs {
 			tabData.accept(RubiesandrabiesModBlocks.RUBY_BLOCK.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(RubiesandrabiesModItems.SUGARCANE_PICKAXE.get());
-			tabData.accept(RubiesandrabiesModItems.ZORPINIUM_SABER.get());
 		}
 	}
 }

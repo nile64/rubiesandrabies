@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bab",
+    "aba"
+  ],
+  "key": {
+    "a": "rubiesandrabies:zorpinium_core",
+    "b": "rubiesandrabies:the_incident"
+  },
+  "result": {
+    "id": "rubiesandrabies:zorpinium_reactor",
+    "count": 1
+  }
+}

@@ -43,16 +43,20 @@
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 1.0,
-    "resistance": 10.0,
+    "hardness": 30.0,
+    "resistance": 1200.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "hasBlockItem": true,
     "maxStackSize": 64,
     "rarity": "EPIC",
-    "immuneToFire": false,
-    "creativeTabs": [],
-    "destroyTool": "Not specified",
+    "immuneToFire": true,
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:ZorpiniumOblivion"
+      }
+    ],
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": "CUSTOM:UnpurifiedZorpiniumGem"
     },
@@ -112,7 +116,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "vanillaToolTier": "NONE",
+    "vanillaToolTier": "DIAMOND",
     "isBonemealable": false,
     "sensitiveToVibration": false,
     "vibrationalEvents": [],

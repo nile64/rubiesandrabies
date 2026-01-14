@@ -72,6 +72,16 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> MOLDED_ZORPINIUM;
 	public static final DeferredItem<Item> PURIFIED_ZORPINIUM;
 	public static final DeferredItem<Item> ZORPINIUM_SABER;
+	public static final DeferredItem<Item> ZORPINIUM_ROD;
+	public static final DeferredItem<Item> IRON_PLATE;
+	public static final DeferredItem<Item> ZORPINIUM_CORE;
+	public static final DeferredItem<Item> ZORPINIUM_PICKAXE;
+	public static final DeferredItem<Item> ZORPINIUMARMOR_HELMET;
+	public static final DeferredItem<Item> ZORPINIUMARMOR_CHESTPLATE;
+	public static final DeferredItem<Item> ZORPINIUMARMOR_LEGGINGS;
+	public static final DeferredItem<Item> ZORPINIUMARMOR_BOOTS;
+	public static final DeferredItem<Item> ZORPINIUM_REACTOR;
+	public static final DeferredItem<Item> HIS_GREATNESS;
 	static {
 		BAT_WING = register("bat_wing", BatWingItem::new);
 		RUBY = register("ruby", RubyItem::new);
@@ -116,11 +126,21 @@ public class RubiesandrabiesModItems {
 		GP_0_LIQUID_BUCKET = register("gp_0_liquid_bucket", Gp0LiquidItem::new);
 		EXIT_PLANET_ITEM_TEST = register("exit_planet_item_test", ExitPlanetItemTestItem::new);
 		UNPURIFIED_ZORPINIUM_GEM = register("unpurified_zorpinium_gem", UnpurifiedZorpiniumGemItem::new);
-		ZORPINIUM_ORE = block(RubiesandrabiesModBlocks.ZORPINIUM_ORE, new Item.Properties().rarity(Rarity.EPIC));
+		ZORPINIUM_ORE = block(RubiesandrabiesModBlocks.ZORPINIUM_ORE, new Item.Properties().rarity(Rarity.EPIC).fireResistant());
 		ZORPINIUM_MOLD = register("zorpinium_mold", ZorpiniumPurifierItem::new);
 		MOLDED_ZORPINIUM = register("molded_zorpinium", MoldedZorpiniumItem::new);
 		PURIFIED_ZORPINIUM = register("purified_zorpinium", PurifiedZorpiniumItem::new);
 		ZORPINIUM_SABER = register("zorpinium_saber", ZorpiniumSaberItem::new);
+		ZORPINIUM_ROD = register("zorpinium_rod", ZorpiniumRodItem::new);
+		IRON_PLATE = register("iron_plate", IronPlateItem::new);
+		ZORPINIUM_CORE = register("zorpinium_core", ZorpiniumCoreItem::new);
+		ZORPINIUM_PICKAXE = register("zorpinium_pickaxe", ZorpiniumPickaxeItem::new);
+		ZORPINIUMARMOR_HELMET = register("zorpiniumarmor_helmet", ZorpiniumItem.Helmet::new);
+		ZORPINIUMARMOR_CHESTPLATE = register("zorpiniumarmor_chestplate", ZorpiniumItem.Chestplate::new);
+		ZORPINIUMARMOR_LEGGINGS = register("zorpiniumarmor_leggings", ZorpiniumItem.Leggings::new);
+		ZORPINIUMARMOR_BOOTS = register("zorpiniumarmor_boots", ZorpiniumItem.Boots::new);
+		ZORPINIUM_REACTOR = register("zorpinium_reactor", ZorpiniumReactorItem::new);
+		HIS_GREATNESS = block(RubiesandrabiesModBlocks.HIS_GREATNESS, new Item.Properties().rarity(Rarity.EPIC));
 	}
 
 	// Start of user code block custom items

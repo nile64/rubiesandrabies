@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "new_project291",
+    "texture": "new_project2911",
     "customModelName": "Normal",
     "guiTexture": "",
     "customProperties": {},
@@ -11,7 +11,11 @@
     "animations": [],
     "name": "Purified Zorpinium",
     "rarity": "EPIC",
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:ZorpiniumOblivion"
+      }
+    ],
     "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,

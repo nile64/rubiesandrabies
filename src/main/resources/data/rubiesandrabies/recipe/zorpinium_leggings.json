@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "a a"
+  ],
+  "key": {
+    "a": "rubiesandrabies:purified_zorpinium",
+    "b": "rubiesandrabies:zorpinium_core"
+  },
+  "result": {
+    "id": "rubiesandrabies:zorpiniumarmor_leggings",
+    "count": 1
+  }
+}

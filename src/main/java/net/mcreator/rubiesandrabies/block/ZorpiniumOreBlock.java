@@ -13,7 +13,7 @@ import net.minecraft.core.BlockPos;
 
 public class ZorpiniumOreBlock extends Block {
 	public ZorpiniumOreBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.NETHERITE_BLOCK).strength(1f, 10f));
+		super(properties.sound(SoundType.NETHERITE_BLOCK).strength(30f, 1200f));
 	}
 
 	@Override

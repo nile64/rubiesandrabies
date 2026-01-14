@@ -4,10 +4,11 @@
   "pattern": [
     "a",
     "a",
-    "a"
+    "b"
   ],
   "key": {
-    "a": "rubiesandrabies:purified_zorpinium"
+    "a": "rubiesandrabies:purified_zorpinium",
+    "b": "rubiesandrabies:zorpinium_rod"
   },
   "result": {
     "id": "rubiesandrabies:zorpinium_saber",

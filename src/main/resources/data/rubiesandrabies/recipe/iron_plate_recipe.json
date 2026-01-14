@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa"
+  ],
+  "key": {
+    "a": "minecraft:iron_ingot"
+  },
+  "result": {
+    "id": "rubiesandrabies:iron_plate",
+    "count": 1
+  }
+}
