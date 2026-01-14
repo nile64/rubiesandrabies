@@ -31,6 +31,7 @@ public class RubiesandrabiesModTabs {
 				tabData.accept(RubiesandrabiesModBlocks.BLOCK_OF_FEMGRAM.get().asItem());
 				tabData.accept(RubiesandrabiesModBlocks.RUBY_BRICKS_STAIRS.get().asItem());
 				tabData.accept(RubiesandrabiesModBlocks.RUBY_BRICKS_SLAB.get().asItem());
+				tabData.accept(RubiesandrabiesModItems.NOWIUM_ESSENCE.get());
 				tabData.accept(RubiesandrabiesModItems.NOW_SPAWN_EGG.get());
 				tabData.accept(RubiesandrabiesModBlocks.NOWIUM_BLOCK.get().asItem());
 				tabData.accept(RubiesandrabiesModItems.MEATBALL_MOOSE_SPAWN_EGG.get());
@@ -47,8 +48,14 @@ public class RubiesandrabiesModTabs {
 				tabData.accept(RubiesandrabiesModBlocks.SKYFACTORY.get().asItem());
 				tabData.accept(RubiesandrabiesModItems.THENIUMSWORD.get());
 				tabData.accept(RubiesandrabiesModItems.URANIUM.get());
+				tabData.accept(RubiesandrabiesModBlocks.THENIUM_ESSENCE_BLOCK.get().asItem());
+				tabData.accept(RubiesandrabiesModItems.THENIUM_ESSENCE.get());
 				tabData.accept(RubiesandrabiesModItems.GP_0_LIQUID_BUCKET.get());
 				tabData.accept(RubiesandrabiesModItems.ARCHFIEND_DICE.get());
+				tabData.accept(RubiesandrabiesModItems.GHAST_COW_SPAWN_EGG.get());
+				tabData.accept(RubiesandrabiesModItems.SKY_ESSENCE.get());
+				tabData.accept(RubiesandrabiesModBlocks.GREGTECH.get().asItem());
+				tabData.accept(RubiesandrabiesModItems.MODIUM_ESSENCE.get());
 			}).withSearchBar().build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> SPACE = REGISTRY.register("space",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.rubiesandrabies.space")).icon(() -> new ItemStack(RubiesandrabiesModItems.URANIUM.get())).displayItems((parameters, tabData) -> {

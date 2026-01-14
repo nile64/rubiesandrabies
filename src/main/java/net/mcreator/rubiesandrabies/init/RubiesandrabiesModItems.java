@@ -69,6 +69,10 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> GP_0_LIQUID_BUCKET;
 	public static final DeferredItem<Item> EXIT_PLANET_ITEM_TEST;
 	public static final DeferredItem<Item> ARCHFIEND_DICE;
+	public static final DeferredItem<Item> GHAST_COW_SPAWN_EGG;
+	public static final DeferredItem<Item> SKY_ESSENCE;
+	public static final DeferredItem<Item> GREGTECH;
+	public static final DeferredItem<Item> MODIUM_ESSENCE;
 	static {
 		BAT_WING = register("bat_wing", BatWingItem::new);
 		RUBY = register("ruby", RubyItem::new);
@@ -114,6 +118,10 @@ public class RubiesandrabiesModItems {
 		GP_0_LIQUID_BUCKET = register("gp_0_liquid_bucket", Gp0LiquidItem::new);
 		EXIT_PLANET_ITEM_TEST = register("exit_planet_item_test", ExitPlanetItemTestItem::new);
 		ARCHFIEND_DICE = register("archfiend_dice", ArchfiendDiceItem::new);
+		GHAST_COW_SPAWN_EGG = register("ghast_cow_spawn_egg", properties -> new SpawnEggItem(RubiesandrabiesModEntities.GHAST_COW.get(), properties));
+		SKY_ESSENCE = register("sky_essence", SkyEssenceItem::new);
+		GREGTECH = block(RubiesandrabiesModBlocks.GREGTECH);
+		MODIUM_ESSENCE = register("modium_essence", ModiumEssenceItem::new);
 	}
 
 	// Start of user code block custom items

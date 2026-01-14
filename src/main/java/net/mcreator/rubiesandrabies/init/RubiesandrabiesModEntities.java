@@ -17,11 +17,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.core.registries.Registries;
 
-import net.mcreator.rubiesandrabies.entity.RHmobEntity;
-import net.mcreator.rubiesandrabies.entity.NowEntity;
-import net.mcreator.rubiesandrabies.entity.MeatballMooseEntity;
-import net.mcreator.rubiesandrabies.entity.GorillaEntity;
-import net.mcreator.rubiesandrabies.entity.FemgramEntity;
+import net.mcreator.rubiesandrabies.entity.*;
 import net.mcreator.rubiesandrabies.RubiesandrabiesMod;
 
 @EventBusSubscriber
@@ -47,6 +43,10 @@ public class RubiesandrabiesModEntities {
 			EntityType.Builder.<RHmobEntity>of(RHmobEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).fireImmune()
 
 					.sized(0.6f, 1f));
+	public static final DeferredHolder<EntityType<?>, EntityType<GhastCowEntity>> GHAST_COW = register("ghast_cow",
+			EntityType.Builder.<GhastCowEntity>of(GhastCowEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).fireImmune()
+
+					.sized(2f, 2f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -61,6 +61,7 @@ public class RubiesandrabiesModEntities {
 		MeatballMooseEntity.init(event);
 		GorillaEntity.init(event);
 		RHmobEntity.init(event);
+		GhastCowEntity.init(event);
 	}
 
 	@SubscribeEvent
@@ -70,5 +71,6 @@ public class RubiesandrabiesModEntities {
 		event.put(MEATBALL_MOOSE.get(), MeatballMooseEntity.createAttributes().build());
 		event.put(GORILLA.get(), GorillaEntity.createAttributes().build());
 		event.put(R_HMOB.get(), RHmobEntity.createAttributes().build());
+		event.put(GHAST_COW.get(), GhastCowEntity.createAttributes().build());
 	}
 }

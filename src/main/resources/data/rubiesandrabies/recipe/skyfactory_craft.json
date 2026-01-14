@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "bdb",
+    "cba"
+  ],
+  "key": {
+    "a": "rubiesandrabies:thenium_essence",
+    "b": "rubiesandrabies:modium_essence",
+    "c": "rubiesandrabies:ruby",
+    "d": "rubiesandrabies:sky_essence"
+  },
+  "result": {
+    "id": "rubiesandrabies:skyfactory",
+    "count": 1
+  }
+}
