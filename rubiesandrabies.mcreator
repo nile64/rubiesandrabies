@@ -2596,6 +2596,9 @@
     ],
     "ITEMS:minecraft:foot_armor": [
       "~CUSTOM:Racist.boots"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fossil": [
+      "~CUSTOM:RacismPlanetBiome"
     ]
   },
   "tab_element_order": {},

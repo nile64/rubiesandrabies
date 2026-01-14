@@ -26,14 +26,14 @@
     "useCustomEffects": true,
     "hasClouds": true,
     "cloudHeight": 64,
-    "skyType": "NORMAL",
+    "skyType": "NONE",
     "airColor": {
       "value": -13369549,
       "falpha": 0.0
     },
     "sunHeightAffectsFog": false,
     "canRespawnHere": false,
-    "hasFog": true,
+    "hasFog": false,
     "ambientLight": 0.0,
     "doesWaterVaporize": true,
     "hasFixedTime": true,
