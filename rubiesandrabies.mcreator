@@ -436,32 +436,6 @@
       }
     },
     {
-      "name": "InflictRabies",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "inflict_rabies",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "damagesource",
-            "type": "damagesource"
-          },
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ],
-        "files": [
-          "src/main/java/net/mcreator/rubiesandrabies/procedures/InflictRabiesProcedure.java"
-        ]
-      }
-    },
-    {
       "name": "EvilNylium",
       "type": "block",
       "compiles": true,
@@ -2162,6 +2136,86 @@
         ]
       },
       "path": "~/Ruby trader"
+    },
+    {
+      "name": "RandomRabiesChance",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "random_rabies_chance",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/RandomRabiesChanceProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "InflictRabies",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inflict_rabies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "damagesource",
+            "type": "damagesource"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/InflictRabiesProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "OverwriteAIWithRabiesAI",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "overwrite_ai_with_rabies_ai",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/OverwriteAIWithRabiesAIProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "AddAttackDamageOnSpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "add_attack_damage_on_spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/AddAttackDamageOnSpawnProcedure.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],

@@ -35,11 +35,11 @@ public class InflictRabiesProcedure {
 	private static void execute(@Nullable Event event, LevelAccessor world, DamageSource damagesource, Entity entity) {
 		if (damagesource == null || entity == null)
 			return;
-		if (((damagesource.getEntity()) instanceof LivingEntity _livEnt1 && _livEnt1.hasEffect(RubiesandrabiesModMobEffects.RABIES) || ((damagesource.getEntity()) instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)
-				.getEnchantmentLevel(world.registryAccess().lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(ResourceKey.create(Registries.ENCHANTMENT, ResourceLocation.parse("rubiesandrabies:touch_of_rabies")))) != 0)
-				&& !(entity instanceof LivingEntity _livEnt5 && _livEnt5.hasEffect(RubiesandrabiesModMobEffects.RABIES))) {
+		if (((damagesource.getEntity()) instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)
+				.getEnchantmentLevel(world.registryAccess().lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(ResourceKey.create(Registries.ENCHANTMENT, ResourceLocation.parse("rubiesandrabies:touch_of_rabies")))) != 0
+				|| (damagesource.getEntity()) instanceof LivingEntity _livEnt4 && _livEnt4.hasEffect(RubiesandrabiesModMobEffects.RABIES)) {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(RubiesandrabiesModMobEffects.RABIES, 6000, 1));
+				_entity.addEffect(new MobEffectInstance(RubiesandrabiesModMobEffects.RABIES, 6000, 1, false, true));
 		}
 	}
 }
