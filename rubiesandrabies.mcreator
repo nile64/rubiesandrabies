@@ -121,8 +121,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/rubiesandrabies/item/RubyItem.java",
-          "src/main/resources/assets/rubiesandrabies/items/ruby.json",
-          "src/main/resources/assets/rubiesandrabies/models/item/ruby.json"
+          "src/main/resources/assets/rubiesandrabies/models/item/ruby.json",
+          "src/main/resources/assets/rubiesandrabies/items/ruby.json"
         ]
       }
     },
@@ -355,7 +355,7 @@
     {
       "name": "BlockOfFemgram",
       "type": "block",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "block_of_femgram",
       "metadata": {
@@ -464,7 +464,7 @@
     {
       "name": "EvilNylium",
       "type": "block",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "evil_nylium",
       "metadata": {
@@ -545,8 +545,8 @@
       "registry_name": "ruby_bricks_slab_recipie_stonecutting",
       "metadata": {
         "files": [
-          "src/main/resources/data/rubiesandrabies/recipe/ruby_bricks_slab_recipie_stonecutting.json",
-          "src/main/resources/data/rubiesandrabies/advancement/recipes/ruby_bricks_slab_recipie_stonecutting.json"
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/ruby_bricks_slab_recipie_stonecutting.json",
+          "src/main/resources/data/rubiesandrabies/recipe/ruby_bricks_slab_recipie_stonecutting.json"
         ]
       },
       "path": "~/idk"
@@ -769,7 +769,7 @@
     {
       "name": "Netherthing",
       "type": "block",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "netherthing",
       "metadata": {
@@ -919,8 +919,8 @@
       "registry_name": "rubytetrahexahedronslab_1",
       "metadata": {
         "files": [
-          "src/main/resources/data/rubiesandrabies/recipe/rubytetrahexahedronslab_1.json",
-          "src/main/resources/data/rubiesandrabies/advancement/recipes/rubytetrahexahedronslab_1.json"
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/rubytetrahexahedronslab_1.json",
+          "src/main/resources/data/rubiesandrabies/recipe/rubytetrahexahedronslab_1.json"
         ]
       },
       "path": "~/ruby blocks/slabs"
@@ -1093,7 +1093,7 @@
     {
       "name": "Artificialrubyblock",
       "type": "block",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "artificialrubyblock",
       "metadata": {
@@ -1164,8 +1164,8 @@
       "registry_name": "ruby_tetrahexahedron_stairs_recipe_1",
       "metadata": {
         "files": [
-          "src/main/resources/data/rubiesandrabies/advancement/recipes/ruby_tetrahexahedron_stairs_recipe_1.json",
-          "src/main/resources/data/rubiesandrabies/recipe/ruby_tetrahexahedron_stairs_recipe_1.json"
+          "src/main/resources/data/rubiesandrabies/recipe/ruby_tetrahexahedron_stairs_recipe_1.json",
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/ruby_tetrahexahedron_stairs_recipe_1.json"
         ]
       },
       "path": "~/ruby blocks/stairs"
@@ -1367,7 +1367,7 @@
     {
       "name": "NonNewtonianFluid",
       "type": "fluid",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "non_newtonian_fluid",
       "metadata": {
@@ -1463,7 +1463,7 @@
     {
       "name": "NonNewtonianFluidBlock",
       "type": "block",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "non_newtonian_fluid_block",
       "metadata": {
@@ -1709,8 +1709,8 @@
       "registry_name": "thenium_essence",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rubiesandrabies/models/item/thenium_essence.json",
           "src/main/java/net/mcreator/rubiesandrabies/item/TheniumEssenceItem.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/thenium_essence.json",
           "src/main/resources/assets/rubiesandrabies/items/thenium_essence.json"
         ]
       },
@@ -1952,9 +1952,9 @@
       "registry_name": "racism_planet",
       "metadata": {
         "files": [
+          "src/main/resources/data/rubiesandrabies/dimension/racism_planet.json",
           "src/main/resources/data/rubiesandrabies/dimension_type/racism_planet.json",
-          "src/main/java/net/mcreator/rubiesandrabies/world/dimension/RacismPlanetDimension.java",
-          "src/main/resources/data/rubiesandrabies/dimension/racism_planet.json"
+          "src/main/java/net/mcreator/rubiesandrabies/world/dimension/RacismPlanetDimension.java"
         ]
       },
       "path": "~/SpaceThingy"
@@ -2759,9 +2759,8 @@
       "~CUSTOM:TheniumEssenceBlock"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
-      "~CUSTOM:Abyssallmatter",
-      "~CUSTOM:RubyBricks",
       "~CUSTOM:NowiumBlock",
+      "~CUSTOM:RubyBricks",
       "~CUSTOM:EvilNylium",
       "~Blocks.NETHERRACK",
       "~Blocks.TUFF",
@@ -2780,6 +2779,9 @@
     "BIOMES:minecraft:has_structure/mineshaft": [
       "~CUSTOM:RacismPlanetBiome"
     ],
+    "BIOMES:minecraft:has_structure/nether_fossil": [
+      "~CUSTOM:RacismPlanetBiome"
+    ],
     "ITEMS:minecraft:head_armor": [
       "~CUSTOM:Racist.helmet"
     ],
@@ -2791,9 +2793,6 @@
     ],
     "ITEMS:minecraft:foot_armor": [
       "~CUSTOM:Racist.boots"
-    ],
-    "BIOMES:minecraft:has_structure/nether_fossil": [
-      "~CUSTOM:RacismPlanetBiome"
     ]
   },
   "tab_element_order": {},
@@ -2912,31 +2911,28 @@
     "files": [
       "src/main/java/net/mcreator/rubiesandrabies/mixin/NoiseGeneratorSettingsMixin.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModBiomes.java",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModFluidTypes.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModFluids.java",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModMenus.java",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModFluidTypes.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModScreens.java",
       "src/main/java/net/mcreator/rubiesandrabies/network/MenuStateUpdateMessage.java",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModMenus.java",
       "src/main/resources/data/neoforge/data_maps/entity_type/monster_room_mobs.json",
       "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModMobEffects.java",
-      "src/main/resources/data/minecraft/tags/point_of_interest_type/acquirable_job_site.json",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModVillagerProfessions.java",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModTrades.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModBlocks.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModBlockEntities.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModItems.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModEntityRenderers.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModEntities.java",
       "src/main/resources/assets/rubiesandrabies/sounds.json",
-      "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/java/net/mcreator/rubiesandrabies/RubiesandrabiesMod.java",
-      "src/main/resources/rubiesandrabies.mixins.json",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModTabs.java",
-      "src/main/resources/META-INF/accesstransformer.cfg",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModModels.java",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModTabs.java",
+      "src/main/resources/rubiesandrabies.mixins.json",
       "src/main/resources/pack.mcmeta",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModSounds.java"
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModSounds.java",
+      "src/main/java/net/mcreator/rubiesandrabies/RubiesandrabiesMod.java",
+      "src/main/resources/META-INF/accesstransformer.cfg"
     ]
   },
   "foldersRoot": {
