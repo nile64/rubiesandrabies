@@ -2396,6 +2396,66 @@
         ]
       },
       "path": "~/idk"
+    },
+    {
+      "name": "AbyssBiome",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abyss_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/world/features/treedecorators/AbyssBiomeTrunkDecorator.java",
+          "src/main/resources/data/rubiesandrabies/worldgen/placed_feature/abyss_biome_tree.json",
+          "src/main/resources/data/rubiesandrabies/worldgen/biome/abyss_biome.json",
+          "src/main/java/net/mcreator/rubiesandrabies/world/features/treedecorators/AbyssBiomeFruitDecorator.java",
+          "src/main/java/net/mcreator/rubiesandrabies/world/features/treedecorators/AbyssBiomeLeaveDecorator.java",
+          "src/main/resources/data/rubiesandrabies/worldgen/configured_feature/abyss_biome_tree.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "Abyssallmatter",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abyssallmatter",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/items/abyssallmatter.json",
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/abyssallmatter.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/abyssallmatter.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/abyssallmatter.json",
+          "src/main/resources/assets/rubiesandrabies/blockstates/abyssallmatter.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/AbyssallmatterBlock.java"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "TheDepositoryAbyss",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_depository_abyss",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/dimension/the_depository_abyss.json",
+          "src/main/resources/assets/rubiesandrabies/items/the_depository_abyss.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/the_depository_abyss_portal_ew.json",
+          "src/main/java/net/mcreator/rubiesandrabies/world/teleporter/TheDepositoryAbyssPortalShape.java",
+          "src/main/java/net/mcreator/rubiesandrabies/block/TheDepositoryAbyssPortalBlock.java",
+          "src/main/java/net/mcreator/rubiesandrabies/item/TheDepositoryAbyssItem.java",
+          "src/main/java/net/mcreator/rubiesandrabies/world/teleporter/TheDepositoryAbyssTeleporter.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/the_depository_abyss.json",
+          "src/main/java/net/mcreator/rubiesandrabies/world/dimension/TheDepositoryAbyssDimension.java",
+          "src/main/resources/assets/rubiesandrabies/blockstates/the_depository_abyss_portal.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/the_depository_abyss_portal_ns.json",
+          "src/main/resources/data/rubiesandrabies/dimension_type/the_depository_abyss.json"
+        ]
+      },
+      "path": "~/idk"
     }
   ],
   "variable_elements": [],
@@ -2540,6 +2600,14 @@
       ],
       "category": "hostile",
       "subtitle": ""
+    },
+    {
+      "name": "thegrandabyssambience",
+      "files": [
+        "thegrandabyss"
+      ],
+      "category": "ambient",
+      "subtitle": "?"
     }
   ],
   "tag_elements": {
@@ -2554,6 +2622,7 @@
       "~CUSTOM:NetherRacism"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Abyssallmatter",
       "~CUSTOM:Gregtech",
       "~CUSTOM:TheniumEssenceBlock",
       "~CUSTOM:Skyfactory",
@@ -2625,9 +2694,11 @@
       "~Blocks.REEDS"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:Abyssallmatter",
       "~CUSTOM:TheniumEssenceBlock"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:Abyssallmatter",
       "~CUSTOM:RubyBricks",
       "~CUSTOM:NowiumBlock",
       "~CUSTOM:EvilNylium",
@@ -2749,7 +2820,11 @@
       "item.rubiesandrabies.archfiend_dice": "Archfiend Dice",
       "item.rubiesandrabies.sky_essence": "Essence of the Sky",
       "item.rubiesandrabies.gregtech": "Greg\u0027s Tech",
-      "item.rubiesandrabies.modium_essence": "Factory Essence"
+      "item.rubiesandrabies.modium_essence": "Factory Essence",
+      "subtitles.thegrandabyssambience": "?",
+      "biome.rubiesandrabies.abyss_biome": "Abyss",
+      "item.rubiesandrabies.abyssallmatter": "Abyssallmatter",
+      "item.rubiesandrabies.the_depository_abyss": "The Depository Abyss Portal Igniter"
     }
   },
   "metadata": {

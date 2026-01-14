@@ -32,4 +32,6 @@ public class RubiesandrabiesModSounds {
 	public static final DeferredHolder<SoundEvent, SoundEvent> JOHNEVILTHETHIRD = REGISTRY.register("johnevilthethird", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("rubiesandrabies", "johnevilthethird")));
 	public static final DeferredHolder<SoundEvent, SoundEvent> AREYOUBEINGINTENTIONALLYDENSE = REGISTRY.register("areyoubeingintentionallydense",
 			() -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("rubiesandrabies", "areyoubeingintentionallydense")));
+	public static final DeferredHolder<SoundEvent, SoundEvent> THEGRANDABYSSAMBIENCE = REGISTRY.register("thegrandabyssambience",
+			() -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("rubiesandrabies", "thegrandabyssambience")));
 }

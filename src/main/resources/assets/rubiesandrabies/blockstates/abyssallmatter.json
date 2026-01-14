@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "rubiesandrabies:block/abyssallmatter"
+    },
+    "facing=east": {
+      "model": "rubiesandrabies:block/abyssallmatter",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "rubiesandrabies:block/abyssallmatter",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "rubiesandrabies:block/abyssallmatter",
+      "y": 270
+    }
+  }
+}

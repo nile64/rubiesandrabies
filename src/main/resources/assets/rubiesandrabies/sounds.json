@@ -163,5 +163,14 @@
         "stream": false
       }
     ]
+  },
+  "thegrandabyssambience": {
+    "subtitle": "subtitles.thegrandabyssambience",
+    "sounds": [
+      {
+        "name": "rubiesandrabies:thegrandabyss",
+        "stream": false
+      }
+    ]
   }
 }
