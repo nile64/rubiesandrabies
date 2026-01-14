@@ -44,6 +44,7 @@ public class RubiesandrabiesModBlocks {
 	public static final DeferredBlock<Block> GREGTECH;
 	public static final DeferredBlock<Block> ABYSSALLMATTER;
 	public static final DeferredBlock<Block> THE_DEPOSITORY_ABYSS_PORTAL;
+	public static final DeferredBlock<Block> GER;
 	static {
 		RUBY_BRICKS = register("ruby_bricks", RubyBricksBlock::new);
 		BLOCK_OF_FEMGRAM = register("block_of_femgram", BlockOfFemgramBlock::new);
@@ -73,6 +74,7 @@ public class RubiesandrabiesModBlocks {
 		GREGTECH = register("gregtech", GregtechBlock::new);
 		ABYSSALLMATTER = register("abyssallmatter", AbyssallmatterBlock::new);
 		THE_DEPOSITORY_ABYSS_PORTAL = register("the_depository_abyss_portal", TheDepositoryAbyssPortalBlock::new);
+		GER = register("ger", GerBlock::new);
 	}
 
 	// Start of user code block custom blocks

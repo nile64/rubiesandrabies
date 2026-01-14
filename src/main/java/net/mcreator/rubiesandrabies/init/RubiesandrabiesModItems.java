@@ -75,6 +75,7 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> MODIUM_ESSENCE;
 	public static final DeferredItem<Item> ABYSSALLMATTER;
 	public static final DeferredItem<Item> THE_DEPOSITORY_ABYSS;
+	public static final DeferredItem<Item> GER;
 	static {
 		BAT_WING = register("bat_wing", BatWingItem::new);
 		RUBY = register("ruby", RubyItem::new);
@@ -126,6 +127,7 @@ public class RubiesandrabiesModItems {
 		MODIUM_ESSENCE = register("modium_essence", ModiumEssenceItem::new);
 		ABYSSALLMATTER = block(RubiesandrabiesModBlocks.ABYSSALLMATTER);
 		THE_DEPOSITORY_ABYSS = register("the_depository_abyss", TheDepositoryAbyssItem::new);
+		GER = block(RubiesandrabiesModBlocks.GER);
 	}
 
 	// Start of user code block custom items

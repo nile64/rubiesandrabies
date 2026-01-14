@@ -2456,6 +2456,24 @@
         ]
       },
       "path": "~/idk"
+    },
+    {
+      "name": "Ger",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ger",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/models/item/ger.json",
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/ger.json",
+          "src/main/resources/assets/rubiesandrabies/items/ger.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/ger.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/GerBlock.java",
+          "src/main/resources/assets/rubiesandrabies/blockstates/ger.json"
+        ]
+      },
+      "path": "~/idk"
     }
   ],
   "variable_elements": [],
@@ -2824,7 +2842,8 @@
       "subtitles.thegrandabyssambience": "?",
       "biome.rubiesandrabies.abyss_biome": "Abyss",
       "item.rubiesandrabies.abyssallmatter": "Abyssallmatter",
-      "item.rubiesandrabies.the_depository_abyss": "The Depository Abyss Portal Igniter"
+      "item.rubiesandrabies.the_depository_abyss": "The Depository Abyss Portal Igniter",
+      "item.rubiesandrabies.ger": "Ger"
     }
   },
   "metadata": {
