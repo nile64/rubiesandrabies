@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "rubiesandrabies:racist"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "rubiesandrabies:racist"
+      }
+    ]
+  }
+}

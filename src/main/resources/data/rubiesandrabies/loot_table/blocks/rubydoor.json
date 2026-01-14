@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "rubiesandrabies:blocks/rubydoor",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "rubiesandrabies:rubydoor",
+          "conditions": [
+            {
+              "block": "rubiesandrabies:rubydoor",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

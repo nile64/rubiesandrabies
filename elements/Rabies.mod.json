@@ -25,11 +25,17 @@
         "operation": "ADD_VALUE"
       }
     ],
+    "onStarted": {
+      "name": "OverwriteAIWithRabiesAI"
+    },
     "onActiveTick": {
       "name": "RabiesOnEffectActiveTick"
     },
     "onExpired": {
       "name": "RabiesEffectExpires"
+    },
+    "onMobHurt": {
+      "name": "OverwriteAIWithRabiesAI"
     }
   }
 }

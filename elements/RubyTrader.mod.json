@@ -10,7 +10,7 @@
       "value": "block.anvil.break"
     },
     "hat": "None",
-    "professionTextureFile": "femgram_white.png",
-    "zombifiedProfessionTextureFile": "femgram_white.png"
+    "professionTextureFile": "rubyvillagerproffesiontexture.png",
+    "zombifiedProfessionTextureFile": "rubyvillagerproffesiontexture.png"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "bdb",
+    "cba"
+  ],
+  "key": {
+    "a": "rubiesandrabies:thenium_essence",
+    "b": "rubiesandrabies:deleted_mod_element",
+    "c": "rubiesandrabies:ruby",
+    "d": "rubiesandrabies:deleted_mod_element"
+  },
+  "result": {
+    "id": "rubiesandrabies:skyfactory",
+    "count": 1
+  }
+}

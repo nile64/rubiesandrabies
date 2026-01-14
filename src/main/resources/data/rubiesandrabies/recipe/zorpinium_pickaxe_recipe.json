@@ -7,11 +7,11 @@
     " b "
   ],
   "key": {
-    "a": "rubiesandrabies:purified_zorpinium",
-    "b": "rubiesandrabies:zorpinium_rod"
+    "a": "rubiesandrabies:deleted_mod_element",
+    "b": "rubiesandrabies:deleted_mod_element"
   },
   "result": {
-    "id": "rubiesandrabies:zorpinium_pickaxe",
+    "id": "rubiesandrabies:deleted_mod_element",
     "count": 1
   }
 }

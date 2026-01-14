@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "rubiesandrabies:purified_zorpinium"
+      "id": "rubiesandrabies:deleted_mod_element"
     },
     "title": {
       "translate": "advancements.infinite_power.title"
@@ -21,7 +21,7 @@
         "items": [
           {
             "items": [
-              "rubiesandrabies:purified_zorpinium"
+              "rubiesandrabies:deleted_mod_element"
             ],
             "count": {
               "min": 1,

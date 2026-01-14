@@ -7,11 +7,11 @@
     "aaa"
   ],
   "key": {
-    "a": "rubiesandrabies:purified_zorpinium",
+    "a": "rubiesandrabies:deleted_mod_element",
     "b": "rubiesandrabies:zorpinium_core"
   },
   "result": {
-    "id": "rubiesandrabies:zorpiniumarmor_chestplate",
+    "id": "rubiesandrabies:deleted_mod_element_chestplate",
     "count": 1
   }
 }
