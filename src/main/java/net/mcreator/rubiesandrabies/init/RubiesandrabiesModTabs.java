@@ -48,6 +48,7 @@ public class RubiesandrabiesModTabs {
 				tabData.accept(RubiesandrabiesModItems.THENIUMSWORD.get());
 				tabData.accept(RubiesandrabiesModItems.URANIUM.get());
 				tabData.accept(RubiesandrabiesModItems.GP_0_LIQUID_BUCKET.get());
+				tabData.accept(RubiesandrabiesModItems.ARCHFIEND_DICE.get());
 			}).withSearchBar().build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> SPACE = REGISTRY.register("space",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.rubiesandrabies.space")).icon(() -> new ItemStack(RubiesandrabiesModItems.URANIUM.get())).displayItems((parameters, tabData) -> {

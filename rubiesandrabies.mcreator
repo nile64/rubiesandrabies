@@ -1730,7 +1730,8 @@
           "src/main/resources/assets/rubiesandrabies/models/block/ruby_shelf.json",
           "src/main/resources/assets/rubiesandrabies/blockstates/ruby_shelf.json"
         ]
-      }
+      },
+      "path": "~/Ruby trader"
     },
     {
       "name": "Rubyshelfloot",
@@ -1742,7 +1743,8 @@
         "files": [
           "src/main/resources/data/rubiesandrabies/loot_table/blocks/ruby_shelf.json"
         ]
-      }
+      },
+      "path": "~/Ruby trader"
     },
     {
       "name": "Space",
@@ -2156,8 +2158,8 @@
       "registry_name": "ruby_shop",
       "metadata": {
         "files": [
-          "src/main/resources/data/rubiesandrabies/worldgen/template_pool/ruby_shop.json",
           "src/main/resources/data/rubiesandrabies/worldgen/structure_set/ruby_shop.json",
+          "src/main/resources/data/rubiesandrabies/worldgen/template_pool/ruby_shop.json",
           "src/main/resources/data/rubiesandrabies/worldgen/structure/ruby_shop.json"
         ]
       },
@@ -2171,22 +2173,99 @@
       "registry_name": "rubydoor",
       "metadata": {
         "files": [
+          "src/main/resources/assets/rubiesandrabies/models/block/rubydoor_top_right_open.json",
           "src/main/resources/assets/rubiesandrabies/models/item/rubydoor.json",
-          "src/main/resources/assets/rubiesandrabies/blockstates/rubydoor.json",
-          "src/main/resources/assets/rubiesandrabies/models/block/rubydoor_top_right.json",
           "src/main/resources/assets/rubiesandrabies/models/block/rubydoor_bottom_left.json",
-          "src/main/java/net/mcreator/rubiesandrabies/block/RubydoorBlock.java",
-          "src/main/resources/data/rubiesandrabies/loot_table/blocks/rubydoor.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/rubydoor_bottom_left_open.json",
+          "src/main/resources/assets/rubiesandrabies/items/rubydoor.json",
           "src/main/resources/assets/rubiesandrabies/models/block/rubydoor_bottom_right.json",
           "src/main/resources/assets/rubiesandrabies/models/block/rubydoor_top_left_open.json",
-          "src/main/resources/assets/rubiesandrabies/items/rubydoor.json",
-          "src/main/resources/assets/rubiesandrabies/models/block/rubydoor_bottom_left_open.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/RubydoorBlock.java",
+          "src/main/resources/assets/rubiesandrabies/models/block/rubydoor_top_right.json",
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/rubydoor.json",
+          "src/main/resources/assets/rubiesandrabies/blockstates/rubydoor.json",
           "src/main/resources/assets/rubiesandrabies/models/block/rubydoor_top_left.json",
-          "src/main/resources/assets/rubiesandrabies/models/block/rubydoor_bottom_right_open.json",
-          "src/main/resources/assets/rubiesandrabies/models/block/rubydoor_top_right_open.json"
+          "src/main/resources/assets/rubiesandrabies/models/block/rubydoor_bottom_right_open.json"
         ]
       },
       "path": "~/ruby blocks"
+    },
+    {
+      "name": "ArchfiendDiceRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "archfiend_dice_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/ArchfiendDiceRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ArchfiendDice",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "archfiend_dice",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/models/item/archfiend_dice.json",
+          "src/main/resources/assets/rubiesandrabies/items/archfiend_dice.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/ArchfiendDiceItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ArchfiendDiceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "archfiend_dice_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/archfiend_dice_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyShopLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_shop_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/loot_table/chests/rubyshoploot.json"
+        ]
+      },
+      "path": "~/Ruby trader"
     }
   ],
   "variable_elements": [],
@@ -2503,7 +2582,8 @@
       "gui.rubiesandrabies.space_menu.button_overworld": "Overworld",
       "item.rubiesandrabies.exit_planet_item_test": "Exit Planet Item Test",
       "entity.villager.rubiesandrabies.ruby_trader": "Ruby Trader",
-      "item.rubiesandrabies.rubydoor": "Rubydoor"
+      "item.rubiesandrabies.rubydoor": "Rubydoor",
+      "item.rubiesandrabies.archfiend_dice": "Archfiend Dice"
     }
   },
   "metadata": {
@@ -2512,29 +2592,29 @@
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModBiomes.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModFluids.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModFluidTypes.java",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModScreens.java",
       "src/main/java/net/mcreator/rubiesandrabies/network/MenuStateUpdateMessage.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModMenus.java",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModScreens.java",
       "src/main/resources/data/neoforge/data_maps/entity_type/monster_room_mobs.json",
       "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModMobEffects.java",
-      "src/main/resources/data/minecraft/tags/point_of_interest_type/acquirable_job_site.json",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModVillagerProfessions.java",
+      "src/main/resources/data/minecraft/tags/point_of_interest_type/acquirable_job_site.json",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModTrades.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModBlocks.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModBlockEntities.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModItems.java",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModEntityRenderers.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModEntities.java",
-      "src/main/resources/assets/rubiesandrabies/sounds.json",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModModels.java",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModTabs.java",
-      "src/main/resources/rubiesandrabies.mixins.json",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModEntityRenderers.java",
       "src/main/resources/pack.mcmeta",
-      "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModSounds.java",
+      "src/main/resources/rubiesandrabies.mixins.json",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModModels.java",
+      "src/main/resources/assets/rubiesandrabies/sounds.json",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModTabs.java",
       "src/main/java/net/mcreator/rubiesandrabies/RubiesandrabiesMod.java",
-      "src/main/resources/META-INF/accesstransformer.cfg"
+      "src/main/resources/META-INF/neoforge.mods.toml"
     ]
   },
   "foldersRoot": {

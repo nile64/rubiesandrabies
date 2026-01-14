@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": "minecraft:redstone_block",
+    "b": "minecraft:chorus_fruit"
+  },
+  "result": {
+    "id": "rubiesandrabies:archfiend_dice",
+    "count": 1
+  }
+}

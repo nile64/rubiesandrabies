@@ -68,6 +68,7 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> GP_0_LIQUID_BUCKET;
 	public static final DeferredItem<Item> EXIT_PLANET_ITEM_TEST;
 	public static final DeferredItem<Item> RUBYDOOR;
+	public static final DeferredItem<Item> ARCHFIEND_DICE;
 	static {
 		BAT_WING = register("bat_wing", BatWingItem::new);
 		RUBY = register("ruby", RubyItem::new);
@@ -112,6 +113,7 @@ public class RubiesandrabiesModItems {
 		GP_0_LIQUID_BUCKET = register("gp_0_liquid_bucket", Gp0LiquidItem::new);
 		EXIT_PLANET_ITEM_TEST = register("exit_planet_item_test", ExitPlanetItemTestItem::new);
 		RUBYDOOR = doubleBlock(RubiesandrabiesModBlocks.RUBYDOOR);
+		ARCHFIEND_DICE = register("archfiend_dice", ArchfiendDiceItem::new);
 	}
 
 	// Start of user code block custom items
