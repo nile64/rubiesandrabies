@@ -82,7 +82,7 @@
     "treesPerChunk": 1,
     "vanillaTreeType": "Mega spruce trees",
     "treeType": 1,
-    "minHeight": 7,
+    "minHeight": 32,
     "treeStem": {
       "value": "Blocks.OBSIDIAN"
     },
@@ -90,10 +90,10 @@
       "value": "Blocks.OBSIDIAN"
     },
     "treeVines": {
-      "value": "Blocks.OBSIDIAN"
+      "value": ""
     },
     "treeFruits": {
-      "value": "Blocks.CRYING_OBSIDIAN"
+      "value": ""
     },
     "defaultFeatures": [
       "Caves",

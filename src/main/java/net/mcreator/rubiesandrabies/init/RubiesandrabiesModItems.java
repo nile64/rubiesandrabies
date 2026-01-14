@@ -68,6 +68,10 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> GP_0_LIQUID_BUCKET;
 	public static final DeferredItem<Item> EXIT_PLANET_ITEM_TEST;
 	public static final DeferredItem<Item> RUBYDOOR;
+	public static final DeferredItem<Item> RACIST_HELMET;
+	public static final DeferredItem<Item> RACIST_CHESTPLATE;
+	public static final DeferredItem<Item> RACIST_LEGGINGS;
+	public static final DeferredItem<Item> RACIST_BOOTS;
 	static {
 		BAT_WING = register("bat_wing", BatWingItem::new);
 		RUBY = register("ruby", RubyItem::new);
@@ -112,6 +116,10 @@ public class RubiesandrabiesModItems {
 		GP_0_LIQUID_BUCKET = register("gp_0_liquid_bucket", Gp0LiquidItem::new);
 		EXIT_PLANET_ITEM_TEST = register("exit_planet_item_test", ExitPlanetItemTestItem::new);
 		RUBYDOOR = doubleBlock(RubiesandrabiesModBlocks.RUBYDOOR);
+		RACIST_HELMET = register("racist_helmet", RacistItem.Helmet::new);
+		RACIST_CHESTPLATE = register("racist_chestplate", RacistItem.Chestplate::new);
+		RACIST_LEGGINGS = register("racist_leggings", RacistItem.Leggings::new);
+		RACIST_BOOTS = register("racist_boots", RacistItem.Boots::new);
 	}
 
 	// Start of user code block custom items

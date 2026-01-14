@@ -56,6 +56,10 @@ public class RubiesandrabiesModTabs {
 				tabData.accept(RubiesandrabiesModItems.RACIST_INGOT.get());
 				tabData.accept(RubiesandrabiesModBlocks.RACIST_ORE.get().asItem());
 				tabData.accept(RubiesandrabiesModItems.EXIT_PLANET_ITEM_TEST.get());
+				tabData.accept(RubiesandrabiesModItems.RACIST_HELMET.get());
+				tabData.accept(RubiesandrabiesModItems.RACIST_CHESTPLATE.get());
+				tabData.accept(RubiesandrabiesModItems.RACIST_LEGGINGS.get());
+				tabData.accept(RubiesandrabiesModItems.RACIST_BOOTS.get());
 			}).withTabsBefore(RUBIES_RABIES_TAB.getId()).build());
 
 	@SubscribeEvent
@@ -77,6 +81,11 @@ public class RubiesandrabiesModTabs {
 			tabData.accept(RubiesandrabiesModBlocks.RUBY_BLOCK.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(RubiesandrabiesModItems.SUGARCANE_PICKAXE.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
+			tabData.accept(RubiesandrabiesModItems.RACIST_HELMET.get());
+			tabData.accept(RubiesandrabiesModItems.RACIST_CHESTPLATE.get());
+			tabData.accept(RubiesandrabiesModItems.RACIST_LEGGINGS.get());
+			tabData.accept(RubiesandrabiesModItems.RACIST_BOOTS.get());
 		}
 	}
 }
