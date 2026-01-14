@@ -26,7 +26,7 @@
     "useCustomEffects": true,
     "hasClouds": true,
     "cloudHeight": 64,
-    "skyType": "NONE",
+    "skyType": "NORMAL",
     "airColor": {
       "value": -13369549,
       "falpha": 0.0
@@ -34,10 +34,10 @@
     "sunHeightAffectsFog": false,
     "canRespawnHere": false,
     "hasFog": false,
-    "ambientLight": 0.0,
+    "ambientLight": 0.1,
     "doesWaterVaporize": true,
     "hasFixedTime": true,
-    "fixedTimeValue": 21000,
+    "fixedTimeValue": 18000,
     "coordinateScale": 0.1,
     "infiniburnTag": "minecraft:infiniburn_overworld",
     "bedWorks": false,
