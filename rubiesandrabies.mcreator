@@ -3180,6 +3180,24 @@
         ]
       },
       "path": "~/idk"
+    },
+    {
+      "name": "Damn",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "damn",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/damn.json",
+          "src/main/resources/assets/rubiesandrabies/blockstates/damn.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/damn.json",
+          "src/main/resources/assets/rubiesandrabies/items/damn.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/DamnBlock.java",
+          "src/main/resources/assets/rubiesandrabies/models/block/damn.json"
+        ]
+      },
+      "path": "~/SpaceThingy"
     }
   ],
   "variable_elements": [],
@@ -3432,6 +3450,7 @@
       "~CUSTOM:RubyShelf"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:Damn",
       "~CUSTOM:AbyssallGrass",
       "~CUSTOM:Abyssallmatter",
       "~CUSTOM:RubyBricks",
@@ -3607,7 +3626,8 @@
       "item.rubiesandrabies.leaveevil": "Leaveevil",
       "block.rubiesandrabies.abyssall_grass.description_0": "gras",
       "item.rubiesandrabies.abyssall_grass": "Abyssal Grass",
-      "item.rubiesandrabies.testicals": "Testicals"
+      "item.rubiesandrabies.testicals": "Testicals",
+      "item.rubiesandrabies.damn": "Block of Evil"
     }
   },
   "metadata": {
