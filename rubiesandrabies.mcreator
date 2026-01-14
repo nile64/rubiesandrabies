@@ -436,6 +436,32 @@
       }
     },
     {
+      "name": "InflictRabies",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inflict_rabies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "damagesource",
+            "type": "damagesource"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/InflictRabiesProcedure.java"
+        ]
+      }
+    },
+    {
       "name": "EvilNylium",
       "type": "block",
       "compiles": true,
@@ -2156,28 +2182,20 @@
       }
     },
     {
-      "name": "InflictRabies",
+      "name": "AddAttackDamageOnSpawn",
       "type": "procedure",
       "compiles": true,
-      "locked_code": false,
-      "registry_name": "inflict_rabies",
+      "locked_code": true,
+      "registry_name": "add_attack_damage_on_spawn",
       "metadata": {
         "dependencies": [
           {
-            "name": "damagesource",
-            "type": "damagesource"
-          },
-          {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ],
         "files": [
-          "src/main/java/net/mcreator/rubiesandrabies/procedures/InflictRabiesProcedure.java"
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/AddAttackDamageOnSpawnProcedure.java"
         ]
       }
     },
@@ -2200,22 +2218,29 @@
       }
     },
     {
-      "name": "AddAttackDamageOnSpawn",
-      "type": "procedure",
+      "name": "Rubydoor",
+      "type": "block",
       "compiles": true,
-      "locked_code": true,
-      "registry_name": "add_attack_damage_on_spawn",
+      "locked_code": false,
+      "registry_name": "rubydoor",
       "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ],
         "files": [
-          "src/main/java/net/mcreator/rubiesandrabies/procedures/AddAttackDamageOnSpawnProcedure.java"
+          "src/main/resources/assets/rubiesandrabies/models/block/rubydoor_top_right_open.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/rubydoor_bottom_right.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/rubydoor_top_left.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/rubydoor_top_right.json",
+          "src/main/resources/assets/rubiesandrabies/blockstates/rubydoor.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/rubydoor_bottom_right_open.json",
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/rubydoor.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/rubydoor_top_left_open.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/RubydoorBlock.java",
+          "src/main/resources/assets/rubiesandrabies/models/block/rubydoor_bottom_left_open.json",
+          "src/main/resources/assets/rubiesandrabies/items/rubydoor.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/rubydoor.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/rubydoor_bottom_left.json"
         ]
-      }
+      },
+      "path": "~/ruby blocks"
     }
   ],
   "variable_elements": [],
@@ -2433,6 +2458,12 @@
     ],
     "BIOMES:minecraft:has_structure/mineshaft": [
       "~CUSTOM:RacismPlanetBiome"
+    ],
+    "BLOCKS:minecraft:doors": [
+      "~CUSTOM:Rubydoor"
+    ],
+    "BLOCKS:minecraft:mob_interactable_doors": [
+      "~CUSTOM:Rubydoor"
     ]
   },
   "tab_element_order": {},
@@ -2525,7 +2556,8 @@
       "gui.rubiesandrabies.space_menu.button_racist_planet": "Racist Planet",
       "gui.rubiesandrabies.space_menu.button_overworld": "Overworld",
       "item.rubiesandrabies.exit_planet_item_test": "Exit Planet Item Test",
-      "entity.villager.rubiesandrabies.ruby_trader": "Ruby Trader"
+      "entity.villager.rubiesandrabies.ruby_trader": "Ruby Trader",
+      "item.rubiesandrabies.rubydoor": "Rubydoor"
     }
   },
   "metadata": {
@@ -2588,11 +2620,11 @@
         "children": []
       },
       {
-        "name": "SpaceThingy",
+        "name": "Ruby trader",
         "children": []
       },
       {
-        "name": "Ruby trader",
+        "name": "SpaceThingy",
         "children": []
       }
     ]
