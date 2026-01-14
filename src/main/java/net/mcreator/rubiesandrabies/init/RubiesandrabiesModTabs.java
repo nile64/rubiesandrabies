@@ -56,6 +56,11 @@ public class RubiesandrabiesModTabs {
 				tabData.accept(RubiesandrabiesModBlocks.GREGTECH.get().asItem());
 				tabData.accept(RubiesandrabiesModItems.SKY_ESSENCE.get());
 				tabData.accept(RubiesandrabiesModItems.MODIUM_ESSENCE.get());
+				tabData.accept(RubiesandrabiesModItems.COMPRESSED_RUBY.get());
+				tabData.accept(RubiesandrabiesModItems.COMPRESSED_COMPRESSED_RUBY.get());
+				tabData.accept(RubiesandrabiesModItems.COMPRESSED_COMPRESSED_COMPRESSED_RUBY.get());
+				tabData.accept(RubiesandrabiesModItems.COMPRESSED_COMPRESSED_COMPRESSED_COMPRESSED_RUBY.get());
+				tabData.accept(RubiesandrabiesModItems.COMPRESSED_COMPRESSED_COMPRESSED_COMPRESSED_COMPRESSED_RUBY.get());
 			}).withSearchBar().build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> SPACE = REGISTRY.register("space",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.rubiesandrabies.space")).icon(() -> new ItemStack(RubiesandrabiesModItems.URANIUM.get())).displayItems((parameters, tabData) -> {

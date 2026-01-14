@@ -80,6 +80,11 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> RACIST_CHESTPLATE;
 	public static final DeferredItem<Item> RACIST_LEGGINGS;
 	public static final DeferredItem<Item> RACIST_BOOTS;
+	public static final DeferredItem<Item> COMPRESSED_RUBY;
+	public static final DeferredItem<Item> COMPRESSED_COMPRESSED_RUBY;
+	public static final DeferredItem<Item> COMPRESSED_COMPRESSED_COMPRESSED_RUBY;
+	public static final DeferredItem<Item> COMPRESSED_COMPRESSED_COMPRESSED_COMPRESSED_RUBY;
+	public static final DeferredItem<Item> COMPRESSED_COMPRESSED_COMPRESSED_COMPRESSED_COMPRESSED_RUBY;
 	static {
 		BAT_WING = register("bat_wing", BatWingItem::new);
 		RUBY = register("ruby", RubyItem::new);
@@ -136,6 +141,11 @@ public class RubiesandrabiesModItems {
 		RACIST_CHESTPLATE = register("racist_chestplate", RacistItem.Chestplate::new);
 		RACIST_LEGGINGS = register("racist_leggings", RacistItem.Leggings::new);
 		RACIST_BOOTS = register("racist_boots", RacistItem.Boots::new);
+		COMPRESSED_RUBY = register("compressed_ruby", CompressedRubyItem::new);
+		COMPRESSED_COMPRESSED_RUBY = register("compressed_compressed_ruby", CompressedCompressedRubyItem::new);
+		COMPRESSED_COMPRESSED_COMPRESSED_RUBY = register("compressed_compressed_compressed_ruby", CompressedCompressedCompressedRubyItem::new);
+		COMPRESSED_COMPRESSED_COMPRESSED_COMPRESSED_RUBY = register("compressed_compressed_compressed_compressed_ruby", CompressedCompressedCompressedCompressedRubyItem::new);
+		COMPRESSED_COMPRESSED_COMPRESSED_COMPRESSED_COMPRESSED_RUBY = register("compressed_compressed_compressed_compressed_compressed_ruby", CompressedCompressedCompressedCompressedCompressedRubyItem::new);
 	}
 
 	// Start of user code block custom items
