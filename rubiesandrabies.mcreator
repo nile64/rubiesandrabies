@@ -2021,12 +2021,9 @@
       "registry_name": "racism_planet_biome",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/rubiesandrabies/world/features/treedecorators/RacismPlanetBiomeTrunkDecorator.java",
           "src/main/resources/data/rubiesandrabies/worldgen/biome/racism_planet_biome.json",
           "src/main/resources/data/rubiesandrabies/worldgen/placed_feature/racism_planet_biome_tree.json",
-          "src/main/resources/data/rubiesandrabies/worldgen/configured_feature/racism_planet_biome_tree.json",
-          "src/main/java/net/mcreator/rubiesandrabies/world/features/treedecorators/RacismPlanetBiomeFruitDecorator.java",
-          "src/main/java/net/mcreator/rubiesandrabies/world/features/treedecorators/RacismPlanetBiomeLeaveDecorator.java"
+          "src/main/resources/data/rubiesandrabies/worldgen/configured_feature/racism_planet_biome_tree.json"
         ]
       },
       "path": "~/SpaceThingy"
@@ -2336,16 +2333,33 @@
       "path": "~/idk"
     },
     {
-      "name": "SkyEssence",
-      "type": "item",
+      "name": "SkyfactoryCraft",
+      "type": "recipe",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "sky_essence",
+      "registry_name": "skyfactory_craft",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/rubiesandrabies/item/SkyEssenceItem.java",
-          "src/main/resources/assets/rubiesandrabies/models/item/sky_essence.json",
-          "src/main/resources/assets/rubiesandrabies/items/sky_essence.json"
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/skyfactory_craft.json",
+          "src/main/resources/data/rubiesandrabies/recipe/skyfactory_craft.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "Ger",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ger",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/models/item/ger.json",
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/ger.json",
+          "src/main/resources/assets/rubiesandrabies/items/ger.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/ger.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/GerBlock.java",
+          "src/main/resources/assets/rubiesandrabies/blockstates/ger.json"
         ]
       },
       "path": "~/idk"
@@ -2369,6 +2383,21 @@
       "path": "~/idk"
     },
     {
+      "name": "SkyEssence",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sky_essence",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/item/SkyEssenceItem.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/sky_essence.json",
+          "src/main/resources/assets/rubiesandrabies/items/sky_essence.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
       "name": "ModiumEssence",
       "type": "item",
       "compiles": true,
@@ -2379,20 +2408,6 @@
           "src/main/resources/assets/rubiesandrabies/models/item/modium_essence.json",
           "src/main/java/net/mcreator/rubiesandrabies/item/ModiumEssenceItem.java",
           "src/main/resources/assets/rubiesandrabies/items/modium_essence.json"
-        ]
-      },
-      "path": "~/idk"
-    },
-    {
-      "name": "SkyfactoryCraft",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "skyfactory_craft",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/rubiesandrabies/advancement/recipes/skyfactory_craft.json",
-          "src/main/resources/data/rubiesandrabies/recipe/skyfactory_craft.json"
         ]
       },
       "path": "~/idk"
@@ -2411,24 +2426,6 @@
           "src/main/java/net/mcreator/rubiesandrabies/world/features/treedecorators/AbyssBiomeFruitDecorator.java",
           "src/main/java/net/mcreator/rubiesandrabies/world/features/treedecorators/AbyssBiomeLeaveDecorator.java",
           "src/main/resources/data/rubiesandrabies/worldgen/configured_feature/abyss_biome_tree.json"
-        ]
-      },
-      "path": "~/idk"
-    },
-    {
-      "name": "Abyssallmatter",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "abyssallmatter",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/rubiesandrabies/items/abyssallmatter.json",
-          "src/main/resources/data/rubiesandrabies/loot_table/blocks/abyssallmatter.json",
-          "src/main/resources/assets/rubiesandrabies/models/block/abyssallmatter.json",
-          "src/main/resources/assets/rubiesandrabies/models/item/abyssallmatter.json",
-          "src/main/resources/assets/rubiesandrabies/blockstates/abyssallmatter.json",
-          "src/main/java/net/mcreator/rubiesandrabies/block/AbyssallmatterBlock.java"
         ]
       },
       "path": "~/idk"
@@ -2458,22 +2455,68 @@
       "path": "~/idk"
     },
     {
-      "name": "Ger",
+      "name": "Abyssallmatter",
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ger",
+      "registry_name": "abyssallmatter",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rubiesandrabies/models/item/ger.json",
-          "src/main/resources/data/rubiesandrabies/loot_table/blocks/ger.json",
-          "src/main/resources/assets/rubiesandrabies/items/ger.json",
-          "src/main/resources/assets/rubiesandrabies/models/block/ger.json",
-          "src/main/java/net/mcreator/rubiesandrabies/block/GerBlock.java",
-          "src/main/resources/assets/rubiesandrabies/blockstates/ger.json"
+          "src/main/resources/assets/rubiesandrabies/items/abyssallmatter.json",
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/abyssallmatter.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/abyssallmatter.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/abyssallmatter.json",
+          "src/main/resources/assets/rubiesandrabies/blockstates/abyssallmatter.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/AbyssallmatterBlock.java"
         ]
       },
       "path": "~/idk"
+    },
+    {
+      "name": "Racist",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "racist",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/item/RacistItem.java",
+          "src/main/java/net/mcreator/rubiesandrabies/client/renderer/item/RacistArmor.java",
+          "src/main/resources/assets/rubiesandrabies/items/racist_helmet.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/racist_boots.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/racist_helmet.json",
+          "src/main/resources/assets/rubiesandrabies/items/racist_chestplate.json",
+          "src/main/resources/assets/rubiesandrabies/items/racist_boots.json",
+          "src/main/resources/assets/rubiesandrabies/items/racist_leggings.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/racist_leggings.json",
+          "src/main/resources/assets/rubiesandrabies/equipment/racist.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/racist_chestplate.json"
+        ]
+      },
+      "path": "~/SpaceThingy/Content/Items"
+    },
+    {
+      "name": "RacistTickEventArmor",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "racist_tick_event_armor",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/RacistTickEventArmorProcedure.java"
+        ]
+      },
+      "path": "~/ruby blocks"
     }
   ],
   "variable_elements": [],
@@ -2594,6 +2637,14 @@
       "subtitle": ""
     },
     {
+      "name": "thegrandabyssambience",
+      "files": [
+        "thegrandabyss"
+      ],
+      "category": "ambient",
+      "subtitle": "?"
+    },
+    {
       "name": "cowambient",
       "files": [
         "cow3",
@@ -2618,14 +2669,6 @@
       ],
       "category": "hostile",
       "subtitle": ""
-    },
-    {
-      "name": "thegrandabyssambience",
-      "files": [
-        "thegrandabyss"
-      ],
-      "category": "ambient",
-      "subtitle": "?"
     }
   ],
   "tag_elements": {
@@ -2736,6 +2779,21 @@
     ],
     "BIOMES:minecraft:has_structure/mineshaft": [
       "~CUSTOM:RacismPlanetBiome"
+    ],
+    "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:Racist.helmet"
+    ],
+    "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:Racist.body"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:Racist.legs"
+    ],
+    "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:Racist.boots"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fossil": [
+      "~CUSTOM:RacismPlanetBiome"
     ]
   },
   "tab_element_order": {},
@@ -2843,7 +2901,11 @@
       "biome.rubiesandrabies.abyss_biome": "Abyss",
       "item.rubiesandrabies.abyssallmatter": "Abyssallmatter",
       "item.rubiesandrabies.the_depository_abyss": "The Depository Abyss Portal Igniter",
-      "item.rubiesandrabies.ger": "Ger"
+      "item.rubiesandrabies.ger": "Ger",
+      "item.rubiesandrabies.racist_leggings": "Racist Leggings",
+      "item.rubiesandrabies.racist_boots": "Racist Boots",
+      "item.rubiesandrabies.racist_helmet": "Racist Helmet",
+      "item.rubiesandrabies.racist_chestplate": "Racist Chestplate"
     }
   },
   "metadata": {
@@ -2911,7 +2973,25 @@
       },
       {
         "name": "SpaceThingy",
-        "children": []
+        "children": [
+          {
+            "name": "Procedures",
+            "children": []
+          },
+          {
+            "name": "Content",
+            "children": [
+              {
+                "name": "Items",
+                "children": []
+              },
+              {
+                "name": "Blocks",
+                "children": []
+              }
+            ]
+          }
+        ]
       }
     ]
   },

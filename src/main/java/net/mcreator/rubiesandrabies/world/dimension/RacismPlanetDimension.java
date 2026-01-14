@@ -30,7 +30,7 @@ public class RacismPlanetDimension {
 
 				@Override
 				public boolean isFoggyAt(int x, int y) {
-					return true;
+					return false;
 				}
 			};
 			event.register(ResourceLocation.parse("rubiesandrabies:racism_planet"), customEffect);

@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "rubiesandrabies:block/now",
-    "up": "rubiesandrabies:block/now",
-    "north": "rubiesandrabies:block/now",
-    "east": "rubiesandrabies:block/now",
-    "south": "rubiesandrabies:block/now",
-    "west": "rubiesandrabies:block/now",
-    "particle": "rubiesandrabies:block/now"
+    "down": "minecraft:block/carrots_stage3",
+    "up": "minecraft:block/carrots_stage3",
+    "north": "minecraft:block/carrots_stage3",
+    "east": "minecraft:block/carrots_stage3",
+    "south": "minecraft:block/carrots_stage3",
+    "west": "minecraft:block/carrots_stage3",
+    "particle": "minecraft:block/carrots_stage3"
   },
   "render_type": "solid"
 }

@@ -132,6 +132,15 @@
       }
     ]
   },
+  "thegrandabyssambience": {
+    "subtitle": "subtitles.thegrandabyssambience",
+    "sounds": [
+      {
+        "name": "rubiesandrabies:thegrandabyss",
+        "stream": false
+      }
+    ]
+  },
   "cowambient": {
     "sounds": [
       {
@@ -160,15 +169,6 @@
     "sounds": [
       {
         "name": "rubiesandrabies:bwahy",
-        "stream": false
-      }
-    ]
-  },
-  "thegrandabyssambience": {
-    "subtitle": "subtitles.thegrandabyssambience",
-    "sounds": [
-      {
-        "name": "rubiesandrabies:thegrandabyss",
         "stream": false
       }
     ]

@@ -53,8 +53,8 @@ public class RubiesandrabiesModTabs {
 				tabData.accept(RubiesandrabiesModItems.GP_0_LIQUID_BUCKET.get());
 				tabData.accept(RubiesandrabiesModItems.ARCHFIEND_DICE.get());
 				tabData.accept(RubiesandrabiesModItems.GHAST_COW_SPAWN_EGG.get());
-				tabData.accept(RubiesandrabiesModItems.SKY_ESSENCE.get());
 				tabData.accept(RubiesandrabiesModBlocks.GREGTECH.get().asItem());
+				tabData.accept(RubiesandrabiesModItems.SKY_ESSENCE.get());
 				tabData.accept(RubiesandrabiesModItems.MODIUM_ESSENCE.get());
 			}).withSearchBar().build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> SPACE = REGISTRY.register("space",
@@ -65,6 +65,10 @@ public class RubiesandrabiesModTabs {
 				tabData.accept(RubiesandrabiesModItems.RACIST_INGOT.get());
 				tabData.accept(RubiesandrabiesModItems.EXIT_PLANET_ITEM_TEST.get());
 				tabData.accept(RubiesandrabiesModItems.THE_DEPOSITORY_ABYSS.get());
+				tabData.accept(RubiesandrabiesModItems.RACIST_HELMET.get());
+				tabData.accept(RubiesandrabiesModItems.RACIST_CHESTPLATE.get());
+				tabData.accept(RubiesandrabiesModItems.RACIST_LEGGINGS.get());
+				tabData.accept(RubiesandrabiesModItems.RACIST_BOOTS.get());
 			}).withTabsBefore(RUBIES_RABIES_TAB.getId()).build());
 
 	@SubscribeEvent
@@ -86,6 +90,11 @@ public class RubiesandrabiesModTabs {
 			tabData.accept(RubiesandrabiesModBlocks.RUBY_BLOCK.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(RubiesandrabiesModItems.SUGARCANE_PICKAXE.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
+			tabData.accept(RubiesandrabiesModItems.RACIST_HELMET.get());
+			tabData.accept(RubiesandrabiesModItems.RACIST_CHESTPLATE.get());
+			tabData.accept(RubiesandrabiesModItems.RACIST_LEGGINGS.get());
+			tabData.accept(RubiesandrabiesModItems.RACIST_BOOTS.get());
 		}
 	}
 }
