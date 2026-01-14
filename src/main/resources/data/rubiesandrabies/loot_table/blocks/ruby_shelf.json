@@ -107,7 +107,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "rubiesandrabies:deleted_mod_element",
+          "name": "rubiesandrabies:archfiend_dice",
           "weight": 1,
           "functions": [
             {
