@@ -72,6 +72,7 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> RACIST_CHESTPLATE;
 	public static final DeferredItem<Item> RACIST_LEGGINGS;
 	public static final DeferredItem<Item> RACIST_BOOTS;
+	public static final DeferredItem<Item> ARCHFIEND_DICE;
 	static {
 		BAT_WING = register("bat_wing", BatWingItem::new);
 		RUBY = register("ruby", RubyItem::new);
@@ -120,6 +121,7 @@ public class RubiesandrabiesModItems {
 		RACIST_CHESTPLATE = register("racist_chestplate", RacistItem.Chestplate::new);
 		RACIST_LEGGINGS = register("racist_leggings", RacistItem.Leggings::new);
 		RACIST_BOOTS = register("racist_boots", RacistItem.Boots::new);
+		ARCHFIEND_DICE = register("archfiend_dice", ArchfiendDiceItem::new);
 	}
 
 	// Start of user code block custom items

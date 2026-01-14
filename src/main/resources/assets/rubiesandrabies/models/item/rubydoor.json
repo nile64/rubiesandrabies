@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "rubiesandrabies:block/ruby_door"
+    "layer0": "rubiesandrabies:block/ruby_door_bottom"
   },
-  "render_type": "solid"
+  "render_type": "translucent"
 }
