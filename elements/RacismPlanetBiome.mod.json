@@ -7,10 +7,10 @@
       "value": "Blocks.GRASS"
     },
     "undergroundBlock": {
-      "value": "CUSTOM:NowiumBlock"
+      "value": "CUSTOM:Damn"
     },
     "underwaterBlock": {
-      "value": "CUSTOM:RubyBricks"
+      "value": "CUSTOM:Damn"
     },
     "airColor": {
       "value": -16777216,

@@ -13,15 +13,6 @@
     "separation": 4,
     "restrictionBiomes": [
       {
-        "value": "CUSTOM:Racism"
-      },
-      {
-        "value": "CUSTOM:NetherRacism"
-      },
-      {
-        "value": "CUSTOM:RacismPlanetBiome"
-      },
-      {
         "value": "badlands"
       },
       {

@@ -2,7 +2,7 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "ruby_door",
+    "texture": "sex",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -23,9 +23,9 @@
     },
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": true,
+    "hasTransparency": false,
     "connectedSides": false,
-    "transparencyType": "TRANSLUCENT",
+    "transparencyType": "SOLID",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -39,26 +39,22 @@
       }
     ],
     "customProperties": [],
-    "name": "Racist Ore",
+    "name": "Block of Evil",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 3.0,
-    "resistance": 9.99999999E8,
-    "hasGravity": true,
+    "hardness": 1.0,
+    "resistance": 10.0,
+    "hasGravity": false,
     "isWaterloggable": false,
     "hasBlockItem": true,
-    "maxStackSize": 1,
-    "rarity": "EPIC",
-    "immuneToFire": true,
-    "creativeTabs": [
-      {
-        "value": "CUSTOM:Space"
-      }
-    ],
+    "maxStackSize": 64,
+    "rarity": "COMMON",
+    "immuneToFire": false,
+    "creativeTabs": [],
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "CUSTOM:RacistIngot"
+      "value": ""
     },
     "dropAmount": 1,
     "xpAmountMin": 0,
@@ -72,12 +68,12 @@
     "tickRate": 0,
     "tickRandomly": false,
     "isReplaceable": false,
-    "canProvidePower": true,
+    "canProvidePower": false,
     "emittedRedstonePower": {
       "fixedValue": 15.0
     },
-    "colorOnMap": "LICHEN_GREEN",
-    "noteBlockInstrument": "custom_head",
+    "colorOnMap": "DEFAULT",
+    "noteBlockInstrument": "harp",
     "creativePickItem": {
       "value": ""
     },
@@ -97,7 +93,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "SLIME"
+      "value": "STONE"
     },
     "breakSound": {
       "value": ""
@@ -114,7 +110,7 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 3,
+    "luminance": 0,
     "unbreakable": false,
     "vanillaToolTier": "NONE",
     "isBonemealable": false,
@@ -139,21 +135,17 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "generateFeature": true,
-    "restrictionBiomes": [
-      {
-        "value": "CUSTOM:RacismPlanetBiome"
-      }
-    ],
+    "generateFeature": false,
+    "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "TAG:stone_ore_replaceables"
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 12,
-    "frequencyOnChunk": 4,
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 128
+    "maxGenerateHeight": 64
   }
 }
