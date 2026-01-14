@@ -2,7 +2,7 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "minecraft:carrots_stage3",
+    "texture": "ruby_door",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -140,7 +140,11 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "generateFeature": true,
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:RacismPlanetBiome"
+      }
+    ],
     "blocksToReplace": [
       {
         "value": "TAG:stone_ore_replaceables"

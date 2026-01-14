@@ -14,15 +14,15 @@
         "type": "button",
         "data": {
           "name": "button_racist_planet",
-          "text": "Racist Planet",
+          "text": "Racism Planet",
           "isUndecorated": false,
           "onClick": {
             "name": "EnterRacismPlanet"
           },
           "width": 93,
           "height": 20,
-          "x": 67,
-          "y": 48,
+          "x": 165,
+          "y": 49,
           "locked": false
         }
       },
@@ -37,8 +37,18 @@
           },
           "width": 90,
           "height": 20,
-          "x": 151,
-          "y": 177,
+          "x": 167,
+          "y": 174,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "evilman.png",
+          "use1Xscale": false,
+          "x": 150,
+          "y": 54,
           "locked": false
         }
       }

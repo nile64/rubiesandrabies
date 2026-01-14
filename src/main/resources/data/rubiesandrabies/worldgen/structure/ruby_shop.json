@@ -11,9 +11,6 @@
   },
   "project_start_to_heightmap": "WORLD_SURFACE_WG",
   "biomes": [
-    "rubiesandrabies:racism",
-    "rubiesandrabies:nether_racism",
-    "rubiesandrabies:racism_planet_biome",
     "badlands",
     "bamboo_jungle",
     "basalt_deltas",

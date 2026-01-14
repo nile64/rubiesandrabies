@@ -1,5 +1,21 @@
 package net.mcreator.rubiesandrabies.client.gui;
 
+import net.neoforged.neoforge.client.network.ClientPacketDistributor;
+
+import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.player.Inventory;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.chat.Component;
+import net.minecraft.client.renderer.RenderPipelines;
+import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
+import net.minecraft.client.gui.components.Button;
+import net.minecraft.client.gui.GuiGraphics;
+
+import net.mcreator.rubiesandrabies.world.inventory.SpaceMenuMenu;
+import net.mcreator.rubiesandrabies.network.SpaceMenuButtonMessage;
+import net.mcreator.rubiesandrabies.init.RubiesandrabiesModScreens;
+
 public class SpaceMenuScreen extends AbstractContainerScreen<SpaceMenuMenu> implements RubiesandrabiesModScreens.ScreenAccessor {
 	private final Level world;
 	private final int x, y, z;
@@ -36,6 +52,7 @@ public class SpaceMenuScreen extends AbstractContainerScreen<SpaceMenuMenu> impl
 	@Override
 	protected void renderBg(GuiGraphics guiGraphics, float partialTicks, int mouseX, int mouseY) {
 		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("rubiesandrabies:textures/screens/evilman.png"), this.leftPos + 93, this.topPos + 16, 0, 0, 128, 128, 128, 128);
 	}
 
 	@Override
@@ -61,7 +78,7 @@ public class SpaceMenuScreen extends AbstractContainerScreen<SpaceMenuMenu> impl
 				ClientPacketDistributor.sendToServer(new SpaceMenuButtonMessage(0, x, y, z));
 				SpaceMenuButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
-		}).bounds(this.leftPos + 10, this.topPos + 10, 93, 20).build();
+		}).bounds(this.leftPos + 108, this.topPos + 11, 93, 20).build();
 		this.addRenderableWidget(button_racist_planet);
 		button_overworld = Button.builder(Component.translatable("gui.rubiesandrabies.space_menu.button_overworld"), e -> {
 			int x = SpaceMenuScreen.this.x;
@@ -70,7 +87,7 @@ public class SpaceMenuScreen extends AbstractContainerScreen<SpaceMenuMenu> impl
 				ClientPacketDistributor.sendToServer(new SpaceMenuButtonMessage(1, x, y, z));
 				SpaceMenuButtonMessage.handleButtonAction(entity, 1, x, y, z);
 			}
-		}).bounds(this.leftPos + 94, this.topPos + 139, 90, 20).build();
+		}).bounds(this.leftPos + 110, this.topPos + 136, 90, 20).build();
 		this.addRenderableWidget(button_overworld);
 	}
 }
