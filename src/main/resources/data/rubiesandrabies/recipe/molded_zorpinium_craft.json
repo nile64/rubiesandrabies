@@ -7,11 +7,11 @@
     "aaa"
   ],
   "key": {
-    "a": "rubiesandrabies:deleted_mod_element",
+    "a": "rubiesandrabies:unpurified_zorpinium_gem",
     "b": "rubiesandrabies:zorpinium_mold"
   },
   "result": {
-    "id": "rubiesandrabies:deleted_mod_element",
+    "id": "rubiesandrabies:molded_zorpinium",
     "count": 1
   }
 }

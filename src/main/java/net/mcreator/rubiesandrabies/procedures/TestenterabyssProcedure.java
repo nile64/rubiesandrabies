@@ -1,13 +1,27 @@
 package net.mcreator.rubiesandrabies.procedures;
 
-import net.neoforged.bus.api.Event;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.network.protocol.game.ClientboundUpdateMobEffectPacket;
+import net.minecraft.network.protocol.game.ClientboundPlayerAbilitiesPacket;
+import net.minecraft.network.protocol.game.ClientboundLevelEventPacket;
+import net.minecraft.network.protocol.game.ClientboundGameEventPacket;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.core.BlockPos;
+
+import java.util.Set;
 
 public class TestenterabyssProcedure {
 	public static void execute(Entity entity) {
 		if (entity == null)
 			return;
 		if (entity instanceof ServerPlayer _player && _player.level() instanceof ServerLevel _serverLevel) {
-			ResourceKey<Level> destinationType = ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("rubiesandrabies:deleted_mod_element"));
+			ResourceKey<Level> destinationType = ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("rubiesandrabies:the_depository_abyss"));
 			if (_player.level().dimension() == destinationType)
 				return;
 			ServerLevel nextLevel = _serverLevel.getServer().getLevel(destinationType);

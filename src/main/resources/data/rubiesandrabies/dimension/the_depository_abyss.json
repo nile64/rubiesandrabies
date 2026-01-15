@@ -6,7 +6,7 @@
       "type": "minecraft:multi_noise",
       "biomes": [
         {
-          "biome": "rubiesandrabies:deleted_mod_element",
+          "biome": "rubiesandrabies:abyss_biome",
           "parameters": {
             "temperature": 0,
             "humidity": 0,
@@ -170,7 +170,7 @@
             "if_true": {
               "type": "minecraft:biome",
               "biome_is": [
-                "rubiesandrabies:deleted_mod_element"
+                "rubiesandrabies:abyss_biome"
               ]
             },
             "then_run": {

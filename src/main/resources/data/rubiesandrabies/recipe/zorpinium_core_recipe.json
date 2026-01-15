@@ -7,11 +7,11 @@
     "aaa"
   ],
   "key": {
-    "a": "rubiesandrabies:deleted_mod_element",
-    "b": "rubiesandrabies:deleted_mod_element"
+    "a": "rubiesandrabies:iron_plate",
+    "b": "rubiesandrabies:purified_zorpinium"
   },
   "result": {
-    "id": "rubiesandrabies:deleted_mod_element",
+    "id": "rubiesandrabies:zorpinium_core",
     "count": 1
   }
 }
