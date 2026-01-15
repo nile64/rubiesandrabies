@@ -35,7 +35,7 @@ public class RubiesandrabiesModVillagerProfessions {
 	private static final Map<String, ProfessionPoiType> POI_TYPES = new HashMap<>();
 	public static final DeferredRegister<VillagerProfession> PROFESSIONS = DeferredRegister.create(Registries.VILLAGER_PROFESSION, RubiesandrabiesMod.MODID);
 	public static final DeferredHolder<VillagerProfession, VillagerProfession> RUBY_TRADER = registerProfession("ruby_trader", () -> RubiesandrabiesModBlocks.RUBY_SHELF.get(),
-			() -> BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("block.anvil.break")));
+			() -> BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("block.anvil.destroy")));
 
 	private static DeferredHolder<VillagerProfession, VillagerProfession> registerProfession(String name, Supplier<Block> block, Supplier<SoundEvent> soundEvent) {
 		POI_TYPES.put(name, new ProfessionPoiType(block, null));
