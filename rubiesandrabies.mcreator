@@ -212,8 +212,8 @@
       "registry_name": "ruby_brick_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/rubiesandrabies/advancement/recipes/ruby_brick_recipe.json",
-          "src/main/resources/data/rubiesandrabies/recipe/ruby_brick_recipe.json"
+          "src/main/resources/data/rubiesandrabies/recipe/ruby_brick_recipe.json",
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/ruby_brick_recipe.json"
         ]
       }
     },
@@ -286,9 +286,9 @@
       "registry_name": "life_is_roblox_music_disc",
       "metadata": {
         "files": [
+          "src/main/resources/assets/rubiesandrabies/items/life_is_roblox_music_disc.json",
           "src/main/java/net/mcreator/rubiesandrabies/item/LifeIsRobloxMusicDiscItem.java",
           "src/main/resources/assets/rubiesandrabies/models/item/life_is_roblox_music_disc.json",
-          "src/main/resources/assets/rubiesandrabies/items/life_is_roblox_music_disc.json",
           "src/main/resources/data/rubiesandrabies/jukebox_song/life_is_roblox_music_disc.json"
         ]
       },
@@ -1136,8 +1136,8 @@
       "registry_name": "rubytetrahexahedronbricksrecipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/rubiesandrabies/advancement/recipes/rubytetrahexahedronbricksrecipe.json",
-          "src/main/resources/data/rubiesandrabies/recipe/rubytetrahexahedronbricksrecipe.json"
+          "src/main/resources/data/rubiesandrabies/recipe/rubytetrahexahedronbricksrecipe.json",
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/rubytetrahexahedronbricksrecipe.json"
         ]
       },
       "path": "~/ruby blocks"
@@ -2153,8 +2153,8 @@
       "registry_name": "ruby_shop",
       "metadata": {
         "files": [
-          "src/main/resources/data/rubiesandrabies/worldgen/template_pool/ruby_shop.json",
           "src/main/resources/data/rubiesandrabies/worldgen/structure_set/ruby_shop.json",
+          "src/main/resources/data/rubiesandrabies/worldgen/template_pool/ruby_shop.json",
           "src/main/resources/data/rubiesandrabies/worldgen/structure/ruby_shop.json"
         ]
       },
@@ -2493,12 +2493,12 @@
       "registry_name": "abyss_biome",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/world/features/treedecorators/AbyssBiomeTrunkDecorator.java",
+          "src/main/resources/data/rubiesandrabies/worldgen/placed_feature/abyss_biome_tree.json",
           "src/main/java/net/mcreator/rubiesandrabies/world/features/treedecorators/AbyssBiomeFruitDecorator.java",
           "src/main/java/net/mcreator/rubiesandrabies/world/features/treedecorators/AbyssBiomeLeaveDecorator.java",
-          "src/main/resources/data/rubiesandrabies/worldgen/placed_feature/abyss_biome_tree.json",
-          "src/main/resources/data/rubiesandrabies/worldgen/biome/abyss_biome.json",
-          "src/main/java/net/mcreator/rubiesandrabies/world/features/treedecorators/AbyssBiomeTrunkDecorator.java",
-          "src/main/resources/data/rubiesandrabies/worldgen/configured_feature/abyss_biome_tree.json"
+          "src/main/resources/data/rubiesandrabies/worldgen/configured_feature/abyss_biome_tree.json",
+          "src/main/resources/data/rubiesandrabies/worldgen/biome/abyss_biome.json"
         ]
       },
       "path": "~/idk"
@@ -3448,11 +3448,12 @@
       "~CUSTOM:RubyShelf"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:Damn",
       "~CUSTOM:AbyssallGrass",
       "~CUSTOM:Abyssallmatter",
       "~CUSTOM:RubyBricks",
+      "~CUSTOM:NowiumBlock",
       "~CUSTOM:EvilNylium",
-      "~CUSTOM:Damn",
       "~Blocks.NETHERRACK",
       "~Blocks.TUFF",
       "~Blocks.DIRT#0",
@@ -3583,74 +3584,38 @@
       "item.rubiesandrabies.racist_leggings": "Racism Leggings",
       "item.rubiesandrabies.racist_boots": "Racism Boots",
       "item.rubiesandrabies.racist_helmet": "Racism Helmet",
-      "item.rubiesandrabies.racist_chestplate": "Racism Chestplate",
-      "item.rubiesandrabies.compressed_compressed_ruby": "Compressed Compressed Ruby",
-      "item.rubiesandrabies.zorpinium_mold": "Zorpinium Purifier",
-      "biome.rubiesandrabies.abyss_biome": "Abyss",
-      "item.rubiesandrabies.compressed_compressed_compressed_ruby": "Compressed Compressed Compressed Ruby",
-      "item.rubiesandrabies.compressed_compressed_compressed_compressed_compressed_ruby": "Compressed Compressed Compressed Compressed Compressed Ruby",
-      "item.rubiesandrabies.zorpinium_rod": "Zorpinium Rod",
-      "item.rubiesandrabies.sky_essence": "Essence of the Sky",
-      "item.rubiesandrabies.zorpinium_pickaxe": "Zorpinium Pickaxe",
-      "item.rubiesandrabies.compressed_compressed_compressed_compressed_ruby": "Compressed Compressed Compressed Compressed Ruby",
-      "item.rubiesandrabies.abyssallmatter": "Abyssallmatter",
-      "item.rubiesandrabies.purified_zorpinium": "Purified Zorpinium",
-      "item.rubiesandrabies.zorpinium_saber": "Zorpinium Saber",
-      "item.rubiesandrabies.gregtech": "Greg\u0027s Tech",
-      "item_group.rubiesandrabies.zorpinium_oblivion": "Zorpinium Oblivion",
-      "block.rubiesandrabies.abyssall_grass.description_0": "gras",
-      "item.rubiesandrabies.abyssall_grass": "Abyssal Grass",
-      "item.rubiesandrabies.molded_zorpinium": "Molded Zorpinium",
-      "item.rubiesandrabies.zorpinium_ore": "Zorpinium Ore",
-      "item.rubiesandrabies.unpurified_zorpinium_gem": "Unpurified Zorpinium Gem",
-      "advancements.infinite_power.descr": "You got access to a god-like material",
-      "advancements.infinite_power.title": "Infinite Power!",
-      "item.rubiesandrabies.compressed_ruby": "Compressed Ruby",
-      "item.rubiesandrabies.zorpinium_core": "Zorpinium Core",
-      "item.rubiesandrabies.leaveevil": "Leaveevil",
-      "item.rubiesandrabies.zorpiniumarmor_chestplate": "Zorpinium Chestplate",
-      "item.rubiesandrabies.zorpiniumarmor_helmet": "Zorpinium Helmet",
-      "item.rubiesandrabies.zorpiniumarmor_leggings": "Zorpinium Leggings",
-      "item.rubiesandrabies.zorpiniumarmor_boots": "Zorpinium Boots",
-      "item.rubiesandrabies.zorpinium_reactor": "Zorpinium Reactor",
-      "item.rubiesandrabies.damn": "Block of Evil",
-      "item.rubiesandrabies.ghast_cow_spawn_egg": "The Ghast Cow Spawn Egg",
-      "entity.rubiesandrabies.ghast_cow": "The Ghast Cow",
-      "item.rubiesandrabies.iron_plate": "Iron Plate",
-      "item.rubiesandrabies.his_greatness": "His Greatness",
-      "item.rubiesandrabies.modium_essence": "Factory Essence",
-      "item.rubiesandrabies.testicals": "Testicals"
+      "item.rubiesandrabies.racist_chestplate": "Racism Chestplate"
     }
   },
   "metadata": {
     "files": [
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModBiomes.java",
       "src/main/java/net/mcreator/rubiesandrabies/mixin/NoiseGeneratorSettingsMixin.java",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModFluidTypes.java",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModBiomes.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModFluids.java",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModScreens.java",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModFluidTypes.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModMenus.java",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModScreens.java",
       "src/main/java/net/mcreator/rubiesandrabies/network/MenuStateUpdateMessage.java",
       "src/main/resources/data/neoforge/data_maps/entity_type/monster_room_mobs.json",
       "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModMobEffects.java",
-      "src/main/resources/data/minecraft/tags/point_of_interest_type/acquirable_job_site.json",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModVillagerProfessions.java",
+      "src/main/resources/data/minecraft/tags/point_of_interest_type/acquirable_job_site.json",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModTrades.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModBlocks.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModBlockEntities.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModItems.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModEntities.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModEntityRenderers.java",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModTabs.java",
+      "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModModels.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModSounds.java",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModTabs.java",
-      "src/main/resources/META-INF/accesstransformer.cfg",
-      "src/main/java/net/mcreator/rubiesandrabies/RubiesandrabiesMod.java",
-      "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/resources/assets/rubiesandrabies/sounds.json",
       "src/main/resources/rubiesandrabies.mixins.json",
-      "src/main/resources/pack.mcmeta"
+      "src/main/java/net/mcreator/rubiesandrabies/RubiesandrabiesMod.java",
+      "src/main/resources/assets/rubiesandrabies/sounds.json"
     ]
   },
   "foldersRoot": {
