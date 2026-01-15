@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rubiesandrabies:block/bloodhound-hound",
+    "up": "rubiesandrabies:block/bloodhound-hound",
+    "north": "rubiesandrabies:block/bloodhound-hound",
+    "east": "rubiesandrabies:block/bloodhound-hound",
+    "south": "rubiesandrabies:block/bloodhound-hound",
+    "west": "rubiesandrabies:block/bloodhound-hound",
+    "particle": "rubiesandrabies:block/bloodhound-hound"
+  },
+  "render_type": "solid"
+}

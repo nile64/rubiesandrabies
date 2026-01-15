@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rubiesandrabies:block/new_project28",
+    "up": "rubiesandrabies:block/new_project28",
+    "north": "rubiesandrabies:block/new_project28",
+    "east": "rubiesandrabies:block/new_project28",
+    "south": "rubiesandrabies:block/new_project28",
+    "west": "rubiesandrabies:block/new_project28",
+    "particle": "minecraft:block/cobblestone"
+  },
+  "render_type": "solid"
+}

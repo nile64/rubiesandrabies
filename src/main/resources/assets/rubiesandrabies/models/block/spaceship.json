@@ -1,13 +1,8 @@
 {
-  "parent": "block/cube",
+  "parent": "block/crop",
   "textures": {
-    "down": "rubiesandrabies:block/spaceship",
-    "up": "rubiesandrabies:block/spaceship",
-    "north": "rubiesandrabies:block/spaceship",
-    "east": "rubiesandrabies:block/spaceship",
-    "south": "rubiesandrabies:block/spaceship",
-    "west": "rubiesandrabies:block/spaceship",
+    "crop": "rubiesandrabies:block/spaceship",
     "particle": "rubiesandrabies:block/spaceship"
   },
-  "render_type": "solid"
+  "render_type": "translucent"
 }

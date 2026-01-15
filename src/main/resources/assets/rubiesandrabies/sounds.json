@@ -131,5 +131,46 @@
         "stream": false
       }
     ]
+  },
+  "thegrandabyssambience": {
+    "subtitle": "subtitles.thegrandabyssambience",
+    "sounds": [
+      {
+        "name": "rubiesandrabies:thegrandabyss",
+        "stream": false
+      }
+    ]
+  },
+  "cowambient": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:cow3",
+        "stream": false
+      },
+      {
+        "name": "rubiesandrabies:cow2",
+        "stream": false
+      },
+      {
+        "name": "rubiesandrabies:cow1",
+        "stream": false
+      }
+    ]
+  },
+  "johnevilthethird": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:evil",
+        "stream": false
+      }
+    ]
+  },
+  "areyoubeingintentionallydense": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:bwahy",
+        "stream": false
+      }
+    ]
   }
 }

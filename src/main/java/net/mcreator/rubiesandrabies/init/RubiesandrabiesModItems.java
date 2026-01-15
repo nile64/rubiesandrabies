@@ -19,6 +19,7 @@ import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.rubiesandrabies.item.*;
+import net.mcreator.rubiesandrabies.block.AbyssallGrassBlock;
 import net.mcreator.rubiesandrabies.RubiesandrabiesMod;
 
 import java.util.function.Function;
@@ -73,6 +74,36 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> RACIST_LEGGINGS;
 	public static final DeferredItem<Item> RACIST_BOOTS;
 	public static final DeferredItem<Item> ARCHFIEND_DICE;
+	public static final DeferredItem<Item> COMPRESSED_COMPRESSED_RUBY;
+	public static final DeferredItem<Item> ZORPINIUM_MOLD;
+	public static final DeferredItem<Item> COMPRESSED_COMPRESSED_COMPRESSED_RUBY;
+	public static final DeferredItem<Item> COMPRESSED_COMPRESSED_COMPRESSED_COMPRESSED_COMPRESSED_RUBY;
+	public static final DeferredItem<Item> ZORPINIUM_ROD;
+	public static final DeferredItem<Item> SKY_ESSENCE;
+	public static final DeferredItem<Item> ZORPINIUM_PICKAXE;
+	public static final DeferredItem<Item> COMPRESSED_COMPRESSED_COMPRESSED_COMPRESSED_RUBY;
+	public static final DeferredItem<Item> ABYSSALLMATTER;
+	public static final DeferredItem<Item> PURIFIED_ZORPINIUM;
+	public static final DeferredItem<Item> ZORPINIUM_SABER;
+	public static final DeferredItem<Item> GREGTECH;
+	public static final DeferredItem<Item> ABYSSALL_GRASS;
+	public static final DeferredItem<Item> MOLDED_ZORPINIUM;
+	public static final DeferredItem<Item> ZORPINIUM_ORE;
+	public static final DeferredItem<Item> UNPURIFIED_ZORPINIUM_GEM;
+	public static final DeferredItem<Item> COMPRESSED_RUBY;
+	public static final DeferredItem<Item> ZORPINIUM_CORE;
+	public static final DeferredItem<Item> LEAVEEVIL;
+	public static final DeferredItem<Item> ZORPINIUMARMOR_HELMET;
+	public static final DeferredItem<Item> ZORPINIUMARMOR_CHESTPLATE;
+	public static final DeferredItem<Item> ZORPINIUMARMOR_LEGGINGS;
+	public static final DeferredItem<Item> ZORPINIUMARMOR_BOOTS;
+	public static final DeferredItem<Item> ZORPINIUM_REACTOR;
+	public static final DeferredItem<Item> DAMN;
+	public static final DeferredItem<Item> GHAST_COW_SPAWN_EGG;
+	public static final DeferredItem<Item> IRON_PLATE;
+	public static final DeferredItem<Item> HIS_GREATNESS;
+	public static final DeferredItem<Item> MODIUM_ESSENCE;
+	public static final DeferredItem<Item> TESTICALS;
 	static {
 		BAT_WING = register("bat_wing", BatWingItem::new);
 		RUBY = register("ruby", RubyItem::new);
@@ -122,6 +153,36 @@ public class RubiesandrabiesModItems {
 		RACIST_LEGGINGS = register("racist_leggings", RacistItem.Leggings::new);
 		RACIST_BOOTS = register("racist_boots", RacistItem.Boots::new);
 		ARCHFIEND_DICE = register("archfiend_dice", ArchfiendDiceItem::new);
+		COMPRESSED_COMPRESSED_RUBY = register("compressed_compressed_ruby", CompressedCompressedRubyItem::new);
+		ZORPINIUM_MOLD = register("zorpinium_mold", ZorpiniumPurifierItem::new);
+		COMPRESSED_COMPRESSED_COMPRESSED_RUBY = register("compressed_compressed_compressed_ruby", CompressedCompressedCompressedRubyItem::new);
+		COMPRESSED_COMPRESSED_COMPRESSED_COMPRESSED_COMPRESSED_RUBY = register("compressed_compressed_compressed_compressed_compressed_ruby", CompressedCompressedCompressedCompressedCompressedRubyItem::new);
+		ZORPINIUM_ROD = register("zorpinium_rod", ZorpiniumRodItem::new);
+		SKY_ESSENCE = register("sky_essence", SkyEssenceItem::new);
+		ZORPINIUM_PICKAXE = register("zorpinium_pickaxe", ZorpiniumPickaxeItem::new);
+		COMPRESSED_COMPRESSED_COMPRESSED_COMPRESSED_RUBY = register("compressed_compressed_compressed_compressed_ruby", CompressedCompressedCompressedCompressedRubyItem::new);
+		ABYSSALLMATTER = block(RubiesandrabiesModBlocks.ABYSSALLMATTER);
+		PURIFIED_ZORPINIUM = register("purified_zorpinium", PurifiedZorpiniumItem::new);
+		ZORPINIUM_SABER = register("zorpinium_saber", ZorpiniumSaberItem::new);
+		GREGTECH = block(RubiesandrabiesModBlocks.GREGTECH);
+		ABYSSALL_GRASS = register("abyssall_grass", AbyssallGrassBlock.Item::new);
+		MOLDED_ZORPINIUM = register("molded_zorpinium", MoldedZorpiniumItem::new);
+		ZORPINIUM_ORE = block(RubiesandrabiesModBlocks.ZORPINIUM_ORE, new Item.Properties().rarity(Rarity.EPIC).fireResistant());
+		UNPURIFIED_ZORPINIUM_GEM = register("unpurified_zorpinium_gem", UnpurifiedZorpiniumGemItem::new);
+		COMPRESSED_RUBY = register("compressed_ruby", CompressedRubyItem::new);
+		ZORPINIUM_CORE = register("zorpinium_core", ZorpiniumCoreItem::new);
+		LEAVEEVIL = register("leaveevil", LeaveevilItem::new);
+		ZORPINIUMARMOR_HELMET = register("zorpiniumarmor_helmet", ZorpiniumItem.Helmet::new);
+		ZORPINIUMARMOR_CHESTPLATE = register("zorpiniumarmor_chestplate", ZorpiniumItem.Chestplate::new);
+		ZORPINIUMARMOR_LEGGINGS = register("zorpiniumarmor_leggings", ZorpiniumItem.Leggings::new);
+		ZORPINIUMARMOR_BOOTS = register("zorpiniumarmor_boots", ZorpiniumItem.Boots::new);
+		ZORPINIUM_REACTOR = register("zorpinium_reactor", ZorpiniumReactorItem::new);
+		DAMN = block(RubiesandrabiesModBlocks.DAMN);
+		GHAST_COW_SPAWN_EGG = register("ghast_cow_spawn_egg", properties -> new SpawnEggItem(RubiesandrabiesModEntities.GHAST_COW.get(), properties));
+		IRON_PLATE = register("iron_plate", IronPlateItem::new);
+		HIS_GREATNESS = block(RubiesandrabiesModBlocks.HIS_GREATNESS, new Item.Properties().rarity(Rarity.EPIC));
+		MODIUM_ESSENCE = register("modium_essence", ModiumEssenceItem::new);
+		TESTICALS = register("testicals", TesticalsItem::new);
 	}
 
 	// Start of user code block custom items
