@@ -2760,7 +2760,7 @@
     {
       "name": "TheDepositoryAbyss",
       "type": "dimension",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "the_depository_abyss",
       "metadata": {
@@ -3182,7 +3182,7 @@
     {
       "name": "Damn",
       "type": "block",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "damn",
       "metadata": {
@@ -3623,7 +3623,8 @@
       "item.rubiesandrabies.leaveevil": "Leaveevil",
       "block.rubiesandrabies.abyssall_grass.description_0": "gras",
       "item.rubiesandrabies.abyssall_grass": "Abyssal Grass",
-      "item.rubiesandrabies.testicals": "Testicals"
+      "item.rubiesandrabies.testicals": "Testicals",
+      "item.rubiesandrabies.damn": "Block of Evil"
     }
   },
   "metadata": {
@@ -3632,9 +3633,9 @@
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModBiomes.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModFluids.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModFluidTypes.java",
+      "src/main/java/net/mcreator/rubiesandrabies/network/MenuStateUpdateMessage.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModMenus.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModScreens.java",
-      "src/main/java/net/mcreator/rubiesandrabies/network/MenuStateUpdateMessage.java",
       "src/main/resources/data/neoforge/data_maps/entity_type/monster_room_mobs.json",
       "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModMobEffects.java",
@@ -3646,15 +3647,15 @@
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModItems.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModEntities.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModEntityRenderers.java",
-      "src/main/resources/META-INF/accesstransformer.cfg",
-      "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModTabs.java",
       "src/main/resources/pack.mcmeta",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModModels.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModSounds.java",
       "src/main/resources/rubiesandrabies.mixins.json",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModModels.java",
+      "src/main/resources/assets/rubiesandrabies/sounds.json",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModTabs.java",
       "src/main/java/net/mcreator/rubiesandrabies/RubiesandrabiesMod.java",
-      "src/main/resources/assets/rubiesandrabies/sounds.json"
+      "src/main/resources/META-INF/neoforge.mods.toml"
     ]
   },
   "foldersRoot": {
