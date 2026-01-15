@@ -544,7 +544,7 @@
                         {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "rubiesandrabies:ruby_bricks"
+                            "Name": "rubiesandrabies:damn"
                           }
                         }
                       ]
@@ -562,7 +562,7 @@
                     "then_run": {
                       "type": "minecraft:block",
                       "result_state": {
-                        "Name": "rubiesandrabies:nowium_block"
+                        "Name": "rubiesandrabies:damn"
                       }
                     }
                   }

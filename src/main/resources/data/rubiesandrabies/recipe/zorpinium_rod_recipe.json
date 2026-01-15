@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "a"
+  ],
+  "key": {
+    "a": "rubiesandrabies:purified_zorpinium"
+  },
+  "result": {
+    "id": "rubiesandrabies:zorpinium_rod",
+    "count": 2
+  }
+}

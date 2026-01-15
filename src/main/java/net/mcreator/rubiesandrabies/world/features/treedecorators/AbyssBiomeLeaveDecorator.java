@@ -18,16 +18,16 @@ import net.minecraft.core.BlockPos;
 import com.mojang.serialization.MapCodec;
 
 @EventBusSubscriber
-public class RacismPlanetBiomeLeaveDecorator extends LeaveVineDecorator {
-	public static MapCodec<RacismPlanetBiomeLeaveDecorator> CODEC = MapCodec.unit(RacismPlanetBiomeLeaveDecorator::new);
+public class AbyssBiomeLeaveDecorator extends LeaveVineDecorator {
+	public static MapCodec<AbyssBiomeLeaveDecorator> CODEC = MapCodec.unit(AbyssBiomeLeaveDecorator::new);
 	public static TreeDecoratorType<?> DECORATOR_TYPE = new TreeDecoratorType<>(CODEC);
 
 	@SubscribeEvent
 	public static void registerTreeDecorator(RegisterEvent event) {
-		event.register(Registries.TREE_DECORATOR_TYPE, ResourceLocation.parse("rubiesandrabies:racism_planet_biome_tree_leave_decorator"), () -> DECORATOR_TYPE);
+		event.register(Registries.TREE_DECORATOR_TYPE, ResourceLocation.parse("rubiesandrabies:abyss_biome_tree_leave_decorator"), () -> DECORATOR_TYPE);
 	}
 
-	public RacismPlanetBiomeLeaveDecorator() {
+	public AbyssBiomeLeaveDecorator() {
 		super(0.25f);
 	}
 
@@ -67,10 +67,10 @@ public class RacismPlanetBiomeLeaveDecorator extends LeaveVineDecorator {
 	}
 
 	private static void addVine(BlockPos pos, Direction direction, TreeDecorator.Context context) {
-		context.setBlock(pos, Blocks.OBSIDIAN.defaultBlockState());
+		context.setBlock(pos, Blocks.AIR.defaultBlockState());
 		int i = 4;
 		for (BlockPos blockpos = pos.below(); context.isAir(blockpos) && i > 0; --i) {
-			context.setBlock(blockpos, oriented(Blocks.OBSIDIAN.defaultBlockState(), direction));
+			context.setBlock(blockpos, oriented(Blocks.AIR.defaultBlockState(), direction));
 			blockpos = blockpos.below();
 		}
 	}

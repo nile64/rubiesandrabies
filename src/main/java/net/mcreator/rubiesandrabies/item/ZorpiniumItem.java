@@ -1,0 +1,67 @@
+package net.mcreator.rubiesandrabies.item;
+
+import java.util.Map;
+
+public abstract class ZorpiniumItem extends Item {
+
+	public static ArmorMaterial ARMOR_MATERIAL = new ArmorMaterial(45, Map.of(ArmorType.BOOTS, 6, ArmorType.LEGGINGS, 6, ArmorType.CHESTPLATE, 8, ArmorType.HELMET, 6, ArmorType.BODY, 8), 30,
+			DeferredHolder.create(Registries.SOUND_EVENT, ResourceLocation.parse("item.armor.equip_diamond")), 4f, 0.3f, TagKey.create(Registries.ITEM, ResourceLocation.parse("rubiesandrabies:zorpiniumarmor_repair_items")),
+			ResourceKey.create(EquipmentAssets.ROOT_ID, ResourceLocation.parse("rubiesandrabies:zorpiniumarmor")));
+
+	private ZorpiniumItem(Item.Properties properties) {
+		super(properties);
+	}
+
+	public static class Helmet extends ZorpiniumItem {
+
+		public Helmet(Item.Properties properties) {
+			super(properties.fireResistant().humanoidArmor(ARMOR_MATERIAL, ArmorType.HELMET));
+		}
+
+		@Override
+		public boolean makesPiglinsNeutral(ItemStack itemstack, LivingEntity entity) {
+			return true;
+		}
+
+	}
+
+	public static class Chestplate extends ZorpiniumItem {
+
+		public Chestplate(Item.Properties properties) {
+			super(properties.fireResistant().humanoidArmor(ARMOR_MATERIAL, ArmorType.CHESTPLATE));
+		}
+
+		@Override
+		public boolean makesPiglinsNeutral(ItemStack itemstack, LivingEntity entity) {
+			return true;
+		}
+
+	}
+
+	public static class Leggings extends ZorpiniumItem {
+
+		public Leggings(Item.Properties properties) {
+			super(properties.fireResistant().humanoidArmor(ARMOR_MATERIAL, ArmorType.LEGGINGS));
+		}
+
+		@Override
+		public boolean makesPiglinsNeutral(ItemStack itemstack, LivingEntity entity) {
+			return true;
+		}
+
+	}
+
+	public static class Boots extends ZorpiniumItem {
+
+		public Boots(Item.Properties properties) {
+			super(properties.fireResistant().humanoidArmor(ARMOR_MATERIAL, ArmorType.BOOTS));
+		}
+
+		@Override
+		public boolean makesPiglinsNeutral(ItemStack itemstack, LivingEntity entity) {
+			return true;
+		}
+
+	}
+
+}

@@ -4,27 +4,35 @@ import net.neoforged.neoforge.registries.RegisterEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 
-import net.minecraft.world.level.levelgen.feature.treedecorators.TrunkVineDecorator;
 import net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecoratorType;
 import net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecorator;
+import net.minecraft.world.level.levelgen.feature.treedecorators.CocoaDecorator;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.Rotation;
+import net.minecraft.world.level.block.CocoaBlock;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.util.RandomSource;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
+import java.util.List;
+
 import com.mojang.serialization.MapCodec;
 
 @EventBusSubscriber
-public class RacismPlanetBiomeTrunkDecorator extends TrunkVineDecorator {
-	public static MapCodec<RacismPlanetBiomeTrunkDecorator> CODEC = MapCodec.unit(RacismPlanetBiomeTrunkDecorator::new);
+public class AbyssBiomeFruitDecorator extends CocoaDecorator {
+	public static MapCodec<AbyssBiomeFruitDecorator> CODEC = MapCodec.unit(AbyssBiomeFruitDecorator::new);
 	public static TreeDecoratorType<?> DECORATOR_TYPE = new TreeDecoratorType<>(CODEC);
 
 	@SubscribeEvent
 	public static void registerTreeDecorator(RegisterEvent event) {
-		event.register(Registries.TREE_DECORATOR_TYPE, ResourceLocation.parse("rubiesandrabies:racism_planet_biome_tree_trunk_decorator"), () -> DECORATOR_TYPE);
+		event.register(Registries.TREE_DECORATOR_TYPE, ResourceLocation.parse("rubiesandrabies:abyss_biome_tree_fruit_decorator"), () -> DECORATOR_TYPE);
+	}
+
+	public AbyssBiomeFruitDecorator() {
+		super(0.2f);
 	}
 
 	@Override
@@ -34,32 +42,24 @@ public class RacismPlanetBiomeTrunkDecorator extends TrunkVineDecorator {
 
 	@Override
 	public void place(TreeDecorator.Context context) {
-		context.logs().forEach(blockpos -> {
-			if (context.random().nextInt(3) > 0) {
-				BlockPos pos = blockpos.west();
-				if (context.isAir(pos)) {
-					context.setBlock(pos, oriented(Blocks.OBSIDIAN.defaultBlockState(), Direction.EAST));
-				}
+		RandomSource randomsource = context.random();
+		if (!(randomsource.nextFloat() >= 0.2F)) {
+			List<BlockPos> list = context.logs();
+			if (!list.isEmpty()) {
+				int i = list.getFirst().getY();
+				list.stream().filter(p_69980_ -> p_69980_.getY() - i <= 2).forEach(p_226026_ -> {
+					for (Direction direction : Direction.Plane.HORIZONTAL) {
+						if (randomsource.nextFloat() <= 0.25F) {
+							Direction direction1 = direction.getOpposite();
+							BlockPos blockpos = p_226026_.offset(direction1.getStepX(), 0, direction1.getStepZ());
+							if (context.isAir(blockpos)) {
+								context.setBlock(blockpos, Blocks.COCOA.defaultBlockState().setValue(CocoaBlock.AGE, randomsource.nextInt(3)).setValue(CocoaBlock.FACING, direction));
+							}
+						}
+					}
+				});
 			}
-			if (context.random().nextInt(3) > 0) {
-				BlockPos pos = blockpos.east();
-				if (context.isAir(pos)) {
-					context.setBlock(pos, oriented(Blocks.OBSIDIAN.defaultBlockState(), Direction.WEST));
-				}
-			}
-			if (context.random().nextInt(3) > 0) {
-				BlockPos pos = blockpos.north();
-				if (context.isAir(pos)) {
-					context.setBlock(pos, oriented(Blocks.OBSIDIAN.defaultBlockState(), Direction.SOUTH));
-				}
-			}
-			if (context.random().nextInt(3) > 0) {
-				BlockPos pos = blockpos.south();
-				if (context.isAir(pos)) {
-					context.setBlock(pos, oriented(Blocks.OBSIDIAN.defaultBlockState(), Direction.NORTH));
-				}
-			}
-		});
+		}
 	}
 
 	@SuppressWarnings("deprecation")

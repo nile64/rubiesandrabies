@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rubiesandrabies:block/r35u2h71glof1",
+    "up": "rubiesandrabies:block/r35u2h71glof1",
+    "north": "rubiesandrabies:block/r35u2h71glof1",
+    "east": "rubiesandrabies:block/r35u2h71glof1",
+    "south": "rubiesandrabies:block/r35u2h71glof1",
+    "west": "rubiesandrabies:block/r35u2h71glof1",
+    "particle": "rubiesandrabies:block/then"
+  },
+  "render_type": "solid"
+}
