@@ -1,6 +1,18 @@
 package net.mcreator.rubiesandrabies.block;
 
-import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
+import net.minecraft.world.level.material.PushReaction;
+import net.minecraft.world.level.material.MapColor;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.LiquidBlock;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.InsideBlockEffectApplier;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.core.BlockPos;
+
+import net.mcreator.rubiesandrabies.procedures.MakeNonNewtonianFluidSolidProcedure;
+import net.mcreator.rubiesandrabies.init.RubiesandrabiesModFluids;
 
 public class NonNewtonianFluidBlock extends LiquidBlock {
 	public NonNewtonianFluidBlock(BlockBehaviour.Properties properties) {

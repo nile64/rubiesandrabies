@@ -1,6 +1,24 @@
 package net.mcreator.rubiesandrabies.procedures;
 
+import net.neoforged.neoforge.event.level.BlockEvent;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.bus.api.Event;
+
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.sounds.SoundSource;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.core.particles.ParticleTypes;
+import net.minecraft.core.BlockPos;
+
+import javax.annotation.Nullable;
 
 @EventBusSubscriber
 public class NotorchesProcedure {
@@ -18,7 +36,7 @@ public class NotorchesProcedure {
 			return;
 		if (((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == Blocks.TORCH || (world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == Blocks.WALL_TORCH
 				|| (world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == Blocks.SOUL_TORCH || (world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == Blocks.SOUL_WALL_TORCH)
-				&& (entity.level().dimension()) == ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("rubiesandrabies:deleted_mod_element"))) {
+				&& (entity.level().dimension()) == ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("rubiesandrabies:the_depository_abyss"))) {
 			world.setBlock(BlockPos.containing(x, y, z), Blocks.AIR.defaultBlockState(), 3);
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
