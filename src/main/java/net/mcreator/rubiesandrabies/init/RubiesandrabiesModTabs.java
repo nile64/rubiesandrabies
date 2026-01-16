@@ -27,7 +27,7 @@ public class RubiesandrabiesModTabs {
 				tabData.accept(RubiesandrabiesModBlocks.RUBY_BRICKS.get().asItem());
 				tabData.accept(RubiesandrabiesModItems.THE_INCIDENT.get());
 				tabData.accept(RubiesandrabiesModItems.LIFE_IS_ROBLOX_MUSIC_DISC.get());
-				tabData.accept(RubiesandrabiesModItems.FEMGRAM_SPAWN_EGG.get());
+				tabData.accept(RubiesandrabiesModItems.FEMGRAMOLD_SPAWN_EGG.get());
 				tabData.accept(RubiesandrabiesModBlocks.BLOCK_OF_FEMGRAM.get().asItem());
 				tabData.accept(RubiesandrabiesModBlocks.RUBY_BRICKS_STAIRS.get().asItem());
 				tabData.accept(RubiesandrabiesModBlocks.RUBY_BRICKS_SLAB.get().asItem());
@@ -61,6 +61,7 @@ public class RubiesandrabiesModTabs {
 				tabData.accept(RubiesandrabiesModItems.COMPRESSED_COMPRESSED_COMPRESSED_COMPRESSED_RUBY.get());
 				tabData.accept(RubiesandrabiesModBlocks.GREGTECH.get().asItem());
 				tabData.accept(RubiesandrabiesModItems.ARCHFIEND_DICE.get());
+				tabData.accept(RubiesandrabiesModItems.FEMGRAM_SPAWN_EGG.get());
 			}).withSearchBar().build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> SPACE = REGISTRY.register("space",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.rubiesandrabies.space")).icon(() -> new ItemStack(RubiesandrabiesModItems.URANIUM.get())).displayItems((parameters, tabData) -> {
@@ -99,10 +100,11 @@ public class RubiesandrabiesModTabs {
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
-			tabData.accept(RubiesandrabiesModItems.FEMGRAM_SPAWN_EGG.get());
+			tabData.accept(RubiesandrabiesModItems.FEMGRAMOLD_SPAWN_EGG.get());
 			tabData.accept(RubiesandrabiesModItems.MEATBALL_MOOSE_SPAWN_EGG.get());
 			tabData.accept(RubiesandrabiesModItems.GORILLA_SPAWN_EGG.get());
 			tabData.accept(RubiesandrabiesModItems.R_HMOB_SPAWN_EGG.get());
+			tabData.accept(RubiesandrabiesModItems.FEMGRAM_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(RubiesandrabiesModItems.BANANA.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {

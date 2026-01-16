@@ -23,7 +23,7 @@ import net.mcreator.rubiesandrabies.RubiesandrabiesMod;
 @EventBusSubscriber
 public class RubiesandrabiesModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(Registries.ENTITY_TYPE, RubiesandrabiesMod.MODID);
-	public static final DeferredHolder<EntityType<?>, EntityType<FemgramEntity>> FEMGRAM = register("femgram",
+	public static final DeferredHolder<EntityType<?>, EntityType<FemgramEntity>> FEMGRAMOLD = register("femgramold",
 			EntityType.Builder.<FemgramEntity>of(FemgramEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).fireImmune()
 
 					.sized(0.6f, 2f));
@@ -47,6 +47,10 @@ public class RubiesandrabiesModEntities {
 			EntityType.Builder.<GhastCowEntity>of(GhastCowEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).fireImmune()
 
 					.sized(2f, 2f));
+	public static final DeferredHolder<EntityType<?>, EntityType<FemgrambossEntity>> FEMGRAM = register("femgram",
+			EntityType.Builder.<FemgrambossEntity>of(FemgrambossEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).fireImmune()
+
+					.sized(2f, 3.6f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -62,15 +66,17 @@ public class RubiesandrabiesModEntities {
 		GorillaEntity.init(event);
 		RHmobEntity.init(event);
 		GhastCowEntity.init(event);
+		FemgrambossEntity.init(event);
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
-		event.put(FEMGRAM.get(), FemgramEntity.createAttributes().build());
+		event.put(FEMGRAMOLD.get(), FemgramEntity.createAttributes().build());
 		event.put(NOW.get(), NowEntity.createAttributes().build());
 		event.put(MEATBALL_MOOSE.get(), MeatballMooseEntity.createAttributes().build());
 		event.put(GORILLA.get(), GorillaEntity.createAttributes().build());
 		event.put(R_HMOB.get(), RHmobEntity.createAttributes().build());
 		event.put(GHAST_COW.get(), GhastCowEntity.createAttributes().build());
+		event.put(FEMGRAM.get(), FemgrambossEntity.createAttributes().build());
 	}
 }
