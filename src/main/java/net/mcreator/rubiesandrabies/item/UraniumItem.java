@@ -1,8 +1,5 @@
 package net.mcreator.rubiesandrabies.item;
 
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-
 public class UraniumItem extends Item {
 	public UraniumItem(Item.Properties properties) {
 		super(properties);

@@ -1,19 +1,5 @@
 package net.mcreator.rubiesandrabies.client.renderer;
 
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.state.LivingEntityRenderState;
-import net.minecraft.client.renderer.entity.MobRenderer;
-import net.minecraft.client.renderer.entity.EntityRendererProvider;
-import net.minecraft.client.model.geom.ModelPart;
-import net.minecraft.client.animation.KeyframeAnimation;
-
-import net.mcreator.rubiesandrabies.entity.FemgrambossEntity;
-import net.mcreator.rubiesandrabies.client.model.animations.femgramupgradedrunAnimation;
-import net.mcreator.rubiesandrabies.client.model.animations.femgramupgradedpunchAnimation;
-import net.mcreator.rubiesandrabies.client.model.animations.femgramupgradedkickAnimation;
-import net.mcreator.rubiesandrabies.client.model.animations.femgramupgradedidleAnimation;
-import net.mcreator.rubiesandrabies.client.model.Modelfemgramupgraded;
-
 public class FemgrambossRenderer extends MobRenderer<FemgrambossEntity, LivingEntityRenderState, Modelfemgramupgraded> {
 	private FemgrambossEntity entity = null;
 
