@@ -1,5 +1,16 @@
 package net.mcreator.rubiesandrabies.client.renderer;
 
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.client.renderer.entity.state.LivingEntityRenderState;
+import net.minecraft.client.renderer.entity.MobRenderer;
+import net.minecraft.client.renderer.entity.EntityRendererProvider;
+import net.minecraft.client.model.geom.ModelPart;
+import net.minecraft.client.animation.KeyframeAnimation;
+
+import net.mcreator.rubiesandrabies.entity.RHmobEntity;
+import net.mcreator.rubiesandrabies.client.model.animations.ruby_horrorAnimation;
+import net.mcreator.rubiesandrabies.client.model.Modelruby_horror;
+
 public class RHmobRenderer extends MobRenderer<RHmobEntity, LivingEntityRenderState, Modelruby_horror> {
 	private RHmobEntity entity = null;
 
