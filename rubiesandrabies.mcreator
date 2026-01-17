@@ -20,8 +20,7 @@
         "files": [
           "src/main/java/net/mcreator/rubiesandrabies/procedures/RabiesEffectExpiresProcedure.java"
         ]
-      },
-      "path": "~/Rabies"
+      }
     },
     {
       "name": "RabiesDamage",
@@ -33,8 +32,7 @@
         "files": [
           "src/main/resources/data/rubiesandrabies/damage_type/rabies_damage.json"
         ]
-      },
-      "path": "~/Rabies"
+      }
     },
     {
       "name": "RabiesOnEffectActiveTick",
@@ -68,8 +66,7 @@
         "files": [
           "src/main/java/net/mcreator/rubiesandrabies/procedures/RabiesOnEffectActiveTickProcedure.java"
         ]
-      },
-      "path": "~/Rabies"
+      }
     },
     {
       "name": "Rabies",
@@ -81,8 +78,7 @@
         "files": [
           "src/main/java/net/mcreator/rubiesandrabies/potion/RabiesMobEffect.java"
         ]
-      },
-      "path": "~/Rabies"
+      }
     },
     {
       "name": "BatWingPlayerFinishesUsingItem",
@@ -100,8 +96,7 @@
         "files": [
           "src/main/java/net/mcreator/rubiesandrabies/procedures/BatWingPlayerFinishesUsingItemProcedure.java"
         ]
-      },
-      "path": "~/Rabies"
+      }
     },
     {
       "name": "BatWing",
@@ -115,8 +110,7 @@
           "src/main/resources/assets/rubiesandrabies/items/bat_wing.json",
           "src/main/java/net/mcreator/rubiesandrabies/item/BatWingItem.java"
         ]
-      },
-      "path": "~/Rabies"
+      }
     },
     {
       "name": "Ruby",
@@ -130,8 +124,7 @@
           "src/main/resources/assets/rubiesandrabies/items/ruby.json",
           "src/main/resources/assets/rubiesandrabies/models/item/ruby.json"
         ]
-      },
-      "path": "~/The Rubies"
+      }
     },
     {
       "name": "RubiesRabiesTab",
@@ -158,8 +151,7 @@
           "src/main/resources/data/rubiesandrabies/worldgen/configured_feature/racism_tree.json",
           "src/main/resources/data/rubiesandrabies/worldgen/placed_feature/racism_tree.json"
         ]
-      },
-      "path": "~/Racism"
+      }
     },
     {
       "name": "VanillaMobDrops",
@@ -193,8 +185,7 @@
         "files": [
           "src/main/java/net/mcreator/rubiesandrabies/procedures/VanillaMobDropsProcedure.java"
         ]
-      },
-      "path": "~/Rabies"
+      }
     },
     {
       "name": "RubyBricks",
@@ -211,8 +202,7 @@
           "src/main/resources/assets/rubiesandrabies/models/block/ruby_bricks.json",
           "src/main/resources/assets/rubiesandrabies/blockstates/ruby_bricks.json"
         ]
-      },
-      "path": "~/The Rubies/ruby blocks"
+      }
     },
     {
       "name": "RubyBrickRecipe",
@@ -225,8 +215,7 @@
           "src/main/resources/data/rubiesandrabies/recipe/ruby_brick_recipe.json",
           "src/main/resources/data/rubiesandrabies/advancement/recipes/ruby_brick_recipe.json"
         ]
-      },
-      "path": "~/The Rubies/Recipes"
+      }
     },
     {
       "name": "TheIncidentRightclicked",
@@ -260,8 +249,7 @@
         "files": [
           "src/main/java/net/mcreator/rubiesandrabies/procedures/TheIncidentRightclickedProcedure.java"
         ]
-      },
-      "path": "~/Chaos and tomfoolery"
+      }
     },
     {
       "name": "TheIncident",
@@ -275,8 +263,7 @@
           "src/main/resources/assets/rubiesandrabies/items/the_incident.json",
           "src/main/resources/assets/rubiesandrabies/models/item/the_incident.json"
         ]
-      },
-      "path": "~/Chaos and tomfoolery"
+      }
     },
     {
       "name": "ThreeNetheriteIngots",
@@ -289,8 +276,7 @@
           "src/main/resources/data/rubiesandrabies/recipe/three_netherite_ingots.json",
           "src/main/resources/data/rubiesandrabies/advancement/recipes/three_netherite_ingots.json"
         ]
-      },
-      "path": "~/Chaos and tomfoolery"
+      }
     },
     {
       "name": "LifeIsRobloxMusicDisc",
@@ -334,8 +320,7 @@
           "src/main/resources/assets/rubiesandrabies/models/item/femgramold_spawn_egg.json",
           "src/main/java/net/mcreator/rubiesandrabies/client/renderer/FemgramRenderer.java"
         ]
-      },
-      "path": "~/Femgram"
+      }
     },
     {
       "name": "BlockOfFemgramOnBlockRightclicked",
@@ -365,8 +350,7 @@
         "files": [
           "src/main/java/net/mcreator/rubiesandrabies/procedures/BlockOfFemgramOnBlockRightclickedProcedure.java"
         ]
-      },
-      "path": "~/Femgram"
+      }
     },
     {
       "name": "BlockOfFemgram",
@@ -383,8 +367,7 @@
           "src/main/resources/assets/rubiesandrabies/blockstates/block_of_femgram.json",
           "src/main/java/net/mcreator/rubiesandrabies/block/BlockOfFemgramBlock.java"
         ]
-      },
-      "path": "~/Femgram"
+      }
     },
     {
       "name": "RubyBricksStairs",
@@ -404,7 +387,7 @@
           "src/main/resources/assets/rubiesandrabies/models/item/ruby_bricks_stairs.json"
         ]
       },
-      "path": "~/The Rubies/stairs"
+      "path": "~/idk"
     },
     {
       "name": "RubyBricksSlab",
@@ -424,7 +407,7 @@
           "src/main/resources/assets/rubiesandrabies/items/ruby_bricks_slab.json"
         ]
       },
-      "path": "~/The Rubies/slabs"
+      "path": "~/idk"
     },
     {
       "name": "FemgramStructure",
@@ -438,8 +421,7 @@
           "src/main/resources/data/rubiesandrabies/worldgen/structure_set/femgram_structure.json",
           "src/main/resources/data/rubiesandrabies/worldgen/structure/femgram_structure.json"
         ]
-      },
-      "path": "~/Femgram"
+      }
     },
     {
       "name": "TouchOfRabies",
@@ -451,8 +433,7 @@
         "files": [
           "src/main/resources/data/rubiesandrabies/enchantment/touch_of_rabies.json"
         ]
-      },
-      "path": "~/Rabies"
+      }
     },
     {
       "name": "InflictRabies",
@@ -478,8 +459,7 @@
         "files": [
           "src/main/java/net/mcreator/rubiesandrabies/procedures/InflictRabiesProcedure.java"
         ]
-      },
-      "path": "~/Rabies"
+      }
     },
     {
       "name": "EvilNylium",
@@ -497,7 +477,7 @@
           "src/main/resources/assets/rubiesandrabies/items/evil_nylium.json"
         ]
       },
-      "path": "~/Racism"
+      "path": "~/idk"
     },
     {
       "name": "NetherRacism",
@@ -515,7 +495,7 @@
           "src/main/resources/data/rubiesandrabies/worldgen/placed_feature/nether_racism_tree.json"
         ]
       },
-      "path": "~/Racism"
+      "path": "~/idk"
     },
     {
       "name": "RubyBricksStairsRecipie",
@@ -528,7 +508,7 @@
           "src/main/resources/data/rubiesandrabies/recipe/ruby_bricks_stairs_recipie.json"
         ]
       },
-      "path": "~/The Rubies/Recipes"
+      "path": "~/idk"
     },
     {
       "name": "RubyBricksSlabCrafting",
@@ -541,7 +521,7 @@
           "src/main/resources/data/rubiesandrabies/recipe/ruby_bricks_slab_crafting.json"
         ]
       },
-      "path": "~/The Rubies/Recipes"
+      "path": "~/idk"
     },
     {
       "name": "RubyBricksStairsRecipieStonecutter",
@@ -555,7 +535,7 @@
           "src/main/resources/data/rubiesandrabies/advancement/recipes/ruby_bricks_stairs_recipie_stonecutter.json"
         ]
       },
-      "path": "~/The Rubies/Recipes"
+      "path": "~/idk"
     },
     {
       "name": "RubyBricksSlabRecipieStonecutting",
@@ -569,7 +549,7 @@
           "src/main/resources/data/rubiesandrabies/advancement/recipes/ruby_bricks_slab_recipie_stonecutting.json"
         ]
       },
-      "path": "~/The Rubies/Recipes"
+      "path": "~/idk"
     },
     {
       "name": "NowiumEssenceRightclickedOnBlock",
@@ -600,7 +580,7 @@
           "src/main/java/net/mcreator/rubiesandrabies/procedures/NowiumEssenceRightclickedOnBlockProcedure.java"
         ]
       },
-      "path": "~/Racism"
+      "path": "~/idk"
     },
     {
       "name": "NowiumEssence",
@@ -615,7 +595,7 @@
           "src/main/resources/assets/rubiesandrabies/items/nowium_essence.json"
         ]
       },
-      "path": "~/Racism"
+      "path": "~/idk"
     },
     {
       "name": "Nowium",
@@ -628,7 +608,7 @@
           "src/main/resources/data/rubiesandrabies/loot_table/entities/now.json"
         ]
       },
-      "path": "~/Racism"
+      "path": "~/idk"
     },
     {
       "name": "Now",
@@ -644,7 +624,7 @@
           "src/main/java/net/mcreator/rubiesandrabies/entity/NowEntity.java"
         ]
       },
-      "path": "~/Racism"
+      "path": "~/idk"
     },
     {
       "name": "NowiumEssencePlayerFinishesUsingItem",
@@ -675,7 +655,7 @@
           "src/main/java/net/mcreator/rubiesandrabies/procedures/NowiumEssencePlayerFinishesUsingItemProcedure.java"
         ]
       },
-      "path": "~/Racism"
+      "path": "~/idk"
     },
     {
       "name": "NowiumBlock",
@@ -693,7 +673,7 @@
           "src/main/resources/assets/rubiesandrabies/items/nowium_block.json"
         ]
       },
-      "path": "~/Racism"
+      "path": "~/idk"
     },
     {
       "name": "NowiumBlockCraft",
@@ -706,7 +686,7 @@
           "src/main/resources/data/rubiesandrabies/recipe/nowium_block_craft.json"
         ]
       },
-      "path": "~/Racism"
+      "path": "~/idk"
     },
     {
       "name": "MeatballMoose",
@@ -722,8 +702,7 @@
           "src/main/resources/assets/rubiesandrabies/items/meatball_moose_spawn_egg.json",
           "src/main/resources/data/rubiesandrabies/neoforge/biome_modifier/meatball_moose_biome_modifier.json"
         ]
-      },
-      "path": "~/Racism"
+      }
     },
     {
       "name": "Glassshattering",
@@ -754,7 +733,7 @@
           "src/main/java/net/mcreator/rubiesandrabies/procedures/GlassshatteringProcedure.java"
         ]
       },
-      "path": "~/Racism"
+      "path": "~/idk"
     },
     {
       "name": "AHHH",
@@ -834,8 +813,7 @@
           "src/main/resources/assets/rubiesandrabies/models/item/gorilla_spawn_egg.json",
           "src/main/resources/assets/rubiesandrabies/items/gorilla_spawn_egg.json"
         ]
-      },
-      "path": "~/Chaos and tomfoolery"
+      }
     },
     {
       "name": "Banana",
@@ -849,8 +827,7 @@
           "src/main/resources/assets/rubiesandrabies/items/banana.json",
           "src/main/resources/assets/rubiesandrabies/models/item/banana.json"
         ]
-      },
-      "path": "~/Chaos and tomfoolery"
+      }
     },
     {
       "name": "NowEntityIsHurt",
@@ -881,7 +858,7 @@
           "src/main/java/net/mcreator/rubiesandrabies/procedures/NowEntityIsHurtProcedure.java"
         ]
       },
-      "path": "~/Racism"
+      "path": "~/idk"
     },
     {
       "name": "RubyTetrahexahedronStairs",
@@ -901,7 +878,7 @@
           "src/main/resources/assets/rubiesandrabies/models/block/ruby_tetrahexahedron_stairs.json"
         ]
       },
-      "path": "~/The Rubies/stairs"
+      "path": "~/ruby blocks/stairs"
     },
     {
       "name": "Xrayblock",
@@ -918,8 +895,7 @@
           "src/main/resources/data/rubiesandrabies/loot_table/blocks/xrayblock.json",
           "src/main/resources/assets/rubiesandrabies/models/block/xrayblock.json"
         ]
-      },
-      "path": "~/Chaos and tomfoolery"
+      }
     },
     {
       "name": "ArtificialRubyBlockrecipie",
@@ -933,7 +909,7 @@
           "src/main/resources/data/rubiesandrabies/advancement/recipes/artificial_ruby_blockrecipie.json"
         ]
       },
-      "path": "~/The Rubies/Recipes"
+      "path": "~/ruby blocks"
     },
     {
       "name": "Rubytetrahexahedronslab1",
@@ -947,7 +923,7 @@
           "src/main/resources/data/rubiesandrabies/advancement/recipes/rubytetrahexahedronslab_1.json"
         ]
       },
-      "path": "~/The Rubies/slabs"
+      "path": "~/ruby blocks/slabs"
     },
     {
       "name": "RubyTilesRecipe",
@@ -961,7 +937,7 @@
           "src/main/resources/data/rubiesandrabies/recipe/ruby_tiles_recipe.json"
         ]
       },
-      "path": "~/The Rubies/Recipes"
+      "path": "~/ruby blocks"
     },
     {
       "name": "RubyTileStairs",
@@ -981,7 +957,7 @@
           "src/main/resources/assets/rubiesandrabies/models/item/ruby_tile_stairs.json"
         ]
       },
-      "path": "~/The Rubies/stairs"
+      "path": "~/ruby blocks/stairs"
     },
     {
       "name": "Rubytetrahexahedronbrickslab",
@@ -1001,7 +977,7 @@
           "src/main/java/net/mcreator/rubiesandrabies/block/RubytetrahexahedronbrickslabBlock.java"
         ]
       },
-      "path": "~/The Rubies/slabs"
+      "path": "~/ruby blocks/slabs"
     },
     {
       "name": "Rubytileslab1",
@@ -1015,7 +991,7 @@
           "src/main/resources/data/rubiesandrabies/recipe/rubytileslab_1.json"
         ]
       },
-      "path": "~/The Rubies/slabs"
+      "path": "~/ruby blocks/slabs"
     },
     {
       "name": "Rubytetrahexahedronstairsrecipe2",
@@ -1029,7 +1005,7 @@
           "src/main/resources/data/rubiesandrabies/recipe/rubytetrahexahedronstairsrecipe_2.json"
         ]
       },
-      "path": "~/The Rubies/stairs"
+      "path": "~/ruby blocks/stairs"
     },
     {
       "name": "Rubytetrahexahedronbricks",
@@ -1047,7 +1023,7 @@
           "src/main/resources/assets/rubiesandrabies/models/block/rubytetrahexahedronbricks.json"
         ]
       },
-      "path": "~/The Rubies/ruby blocks"
+      "path": "~/ruby blocks"
     },
     {
       "name": "Rubyblockloottable",
@@ -1060,7 +1036,7 @@
           "src/main/resources/data/rubiesandrabies/loot_table/blocks/ruby_block.json"
         ]
       },
-      "path": "~/The Rubies/ruby blocks"
+      "path": "~/ruby blocks"
     },
     {
       "name": "Rubytileslab",
@@ -1080,7 +1056,7 @@
           "src/main/resources/data/rubiesandrabies/loot_table/blocks/rubytileslab.json"
         ]
       },
-      "path": "~/The Rubies/slabs"
+      "path": "~/ruby blocks/slabs"
     },
     {
       "name": "Rubytiles",
@@ -1098,7 +1074,7 @@
           "src/main/resources/assets/rubiesandrabies/items/rubytiles.json"
         ]
       },
-      "path": "~/The Rubies/ruby blocks"
+      "path": "~/ruby blocks"
     },
     {
       "name": "RubyTilesStairs1",
@@ -1112,7 +1088,7 @@
           "src/main/resources/data/rubiesandrabies/recipe/ruby_tiles_stairs_1.json"
         ]
       },
-      "path": "~/The Rubies/stairs"
+      "path": "~/ruby blocks/stairs"
     },
     {
       "name": "Artificialrubyblock",
@@ -1130,7 +1106,7 @@
           "src/main/java/net/mcreator/rubiesandrabies/block/ArtificialrubyblockBlock.java"
         ]
       },
-      "path": "~/The Rubies/ruby blocks"
+      "path": "~/ruby blocks"
     },
     {
       "name": "RubyBlock",
@@ -1150,7 +1126,7 @@
           "src/main/resources/assets/rubiesandrabies/blockstates/ruby_block.json"
         ]
       },
-      "path": "~/The Rubies/ruby blocks"
+      "path": "~/ruby blocks"
     },
     {
       "name": "Rubytetrahexahedronbricksrecipe",
@@ -1164,7 +1140,7 @@
           "src/main/resources/data/rubiesandrabies/advancement/recipes/rubytetrahexahedronbricksrecipe.json"
         ]
       },
-      "path": "~/The Rubies/Recipes"
+      "path": "~/ruby blocks"
     },
     {
       "name": "Rubytiles2",
@@ -1178,7 +1154,7 @@
           "src/main/resources/data/rubiesandrabies/recipe/rubytiles_2.json"
         ]
       },
-      "path": "~/The Rubies/stairs"
+      "path": "~/ruby blocks/stairs"
     },
     {
       "name": "RubyTetrahexahedronStairsRecipe1",
@@ -1192,7 +1168,7 @@
           "src/main/resources/data/rubiesandrabies/recipe/ruby_tetrahexahedron_stairs_recipe_1.json"
         ]
       },
-      "path": "~/The Rubies/stairs"
+      "path": "~/ruby blocks/stairs"
     },
     {
       "name": "Rubytileslab2",
@@ -1206,7 +1182,7 @@
           "src/main/resources/data/rubiesandrabies/advancement/recipes/rubytileslab_2.json"
         ]
       },
-      "path": "~/The Rubies/slabs"
+      "path": "~/ruby blocks/slabs"
     },
     {
       "name": "Rubytetrahexahedronslab2",
@@ -1220,7 +1196,7 @@
           "src/main/resources/data/rubiesandrabies/recipe/rubytetrahexahedronslab_2.json"
         ]
       },
-      "path": "~/The Rubies/slabs"
+      "path": "~/ruby blocks/slabs"
     },
     {
       "name": "Rubyrecipe1",
@@ -1233,7 +1209,7 @@
           "src/main/resources/data/rubiesandrabies/recipe/rubyrecipe_1.json"
         ]
       },
-      "path": "~/The Rubies/Recipes"
+      "path": "~/ruby blocks"
     },
     {
       "name": "RubyBlockPlayerStartsToDestroy",
@@ -1264,7 +1240,7 @@
           "src/main/java/net/mcreator/rubiesandrabies/procedures/RubyBlockPlayerStartsToDestroyProcedure.java"
         ]
       },
-      "path": "~/The Rubies/ruby blocks"
+      "path": "~/ruby blocks"
     },
     {
       "name": "Xrayblockrecipe",
@@ -1276,8 +1252,7 @@
         "files": [
           "src/main/resources/data/rubiesandrabies/recipe/xrayblockrecipe.json"
         ]
-      },
-      "path": "~/Chaos and tomfoolery"
+      }
     },
     {
       "name": "NowiumFromBlock",
@@ -1290,7 +1265,7 @@
           "src/main/resources/data/rubiesandrabies/recipe/nowium_from_block.json"
         ]
       },
-      "path": "~/Racism"
+      "path": "~/idk"
     },
     {
       "name": "NowEntityIsHurtevil",
@@ -1329,7 +1304,7 @@
           "src/main/java/net/mcreator/rubiesandrabies/procedures/NowEntityIsHurtevilProcedure.java"
         ]
       },
-      "path": "~/Racism"
+      "path": "~/idk"
     },
     {
       "name": "MakeNonNewtonianFluidLiquid",
@@ -1359,8 +1334,7 @@
         "files": [
           "src/main/java/net/mcreator/rubiesandrabies/procedures/MakeNonNewtonianFluidLiquidProcedure.java"
         ]
-      },
-      "path": "~/Chaos and tomfoolery"
+      }
     },
     {
       "name": "TheniumFromBlock",
@@ -1373,7 +1347,7 @@
           "src/main/resources/data/rubiesandrabies/recipe/thenium_from_block.json"
         ]
       },
-      "path": "~/Racism"
+      "path": "~/idk"
     },
     {
       "name": "SkyfactoryGui",
@@ -1388,7 +1362,7 @@
           "src/main/java/net/mcreator/rubiesandrabies/network/SkyfactoryGuiButtonMessage.java"
         ]
       },
-      "path": "~/Chaos and tomfoolery/skyfactory"
+      "path": "~/skyfactory"
     },
     {
       "name": "NonNewtonianFluid",
@@ -1407,8 +1381,7 @@
           "src/main/java/net/mcreator/rubiesandrabies/block/NonNewtonianFluidBlock.java",
           "src/main/java/net/mcreator/rubiesandrabies/fluid/NonNewtonianFluidFluid.java"
         ]
-      },
-      "path": "~/Chaos and tomfoolery"
+      }
     },
     {
       "name": "Skyfactory",
@@ -1426,7 +1399,7 @@
           "src/main/resources/assets/rubiesandrabies/blockstates/skyfactory.json"
         ]
       },
-      "path": "~/Chaos and tomfoolery/skyfactory"
+      "path": "~/skyfactory"
     },
     {
       "name": "Theniumsword",
@@ -1441,7 +1414,7 @@
           "src/main/java/net/mcreator/rubiesandrabies/item/TheniumswordItem.java"
         ]
       },
-      "path": "~/Racism"
+      "path": "~/idk"
     },
     {
       "name": "SkyfactoryDirtToUranium",
@@ -1460,7 +1433,7 @@
           "src/main/java/net/mcreator/rubiesandrabies/procedures/SkyfactoryDirtToUraniumProcedure.java"
         ]
       },
-      "path": "~/Chaos and tomfoolery/skyfactory"
+      "path": "~/skyfactory"
     },
     {
       "name": "TheniumEssenceToBlock",
@@ -1473,7 +1446,7 @@
           "src/main/resources/data/rubiesandrabies/recipe/thenium_essence_to_block.json"
         ]
       },
-      "path": "~/Racism"
+      "path": "~/idk"
     },
     {
       "name": "EvilPainting",
@@ -1485,8 +1458,7 @@
         "files": [
           "src/main/resources/data/rubiesandrabies/painting_variant/evil_painting.json"
         ]
-      },
-      "path": "~/Chaos and tomfoolery"
+      }
     },
     {
       "name": "NonNewtonianFluidBlock",
@@ -1503,8 +1475,7 @@
           "src/main/java/net/mcreator/rubiesandrabies/block/NonNewtonianFluidBlockBlock.java",
           "src/main/resources/assets/rubiesandrabies/models/block/non_newtonian_fluid_block.json"
         ]
-      },
-      "path": "~/Chaos and tomfoolery"
+      }
     },
     {
       "name": "Skyfactoryrecipie",
@@ -1517,7 +1488,7 @@
           "src/main/resources/data/rubiesandrabies/recipe/skyfactoryrecipie.json"
         ]
       },
-      "path": "~/Chaos and tomfoolery/skyfactory"
+      "path": "~/skyfactory"
     },
     {
       "name": "EvilPainting2",
@@ -1529,8 +1500,7 @@
         "files": [
           "src/main/resources/data/rubiesandrabies/painting_variant/evil_painting_2.json"
         ]
-      },
-      "path": "~/Chaos and tomfoolery"
+      }
     },
     {
       "name": "Uranium",
@@ -1545,7 +1515,7 @@
           "src/main/resources/assets/rubiesandrabies/items/uranium.json"
         ]
       },
-      "path": "~/Chaos and tomfoolery/skyfactory"
+      "path": "~/skyfactory"
     },
     {
       "name": "SugarcanePickaxe",
@@ -1559,8 +1529,7 @@
           "src/main/resources/assets/rubiesandrabies/items/sugarcane_pickaxe.json",
           "src/main/resources/assets/rubiesandrabies/models/item/sugarcane_pickaxe.json"
         ]
-      },
-      "path": "~/Chaos and tomfoolery"
+      }
     },
     {
       "name": "TheniumEssenceBlock",
@@ -1578,7 +1547,7 @@
           "src/main/resources/data/rubiesandrabies/loot_table/blocks/thenium_essence_block.json"
         ]
       },
-      "path": "~/Racism"
+      "path": "~/idk"
     },
     {
       "name": "SugarcanePickaxeRecipie",
@@ -1590,8 +1559,7 @@
         "files": [
           "src/main/resources/data/rubiesandrabies/recipe/sugarcane_pickaxe_recipie.json"
         ]
-      },
-      "path": "~/Chaos and tomfoolery"
+      }
     },
     {
       "name": "TheniumEssencePlayerFinishesUsingItem",
@@ -1622,7 +1590,7 @@
           "src/main/java/net/mcreator/rubiesandrabies/procedures/TheniumEssencePlayerFinishesUsingItemProcedure.java"
         ]
       },
-      "path": "~/Racism"
+      "path": "~/idk"
     },
     {
       "name": "MakeNonNewtonianFluidSolid",
@@ -1652,8 +1620,7 @@
         "files": [
           "src/main/java/net/mcreator/rubiesandrabies/procedures/MakeNonNewtonianFluidSolidProcedure.java"
         ]
-      },
-      "path": "~/Chaos and tomfoolery"
+      }
     },
     {
       "name": "TheniumEssenceBlockOnBlockRightclicked",
@@ -1684,7 +1651,7 @@
           "src/main/java/net/mcreator/rubiesandrabies/procedures/TheniumEssenceBlockOnBlockRightclickedProcedure.java"
         ]
       },
-      "path": "~/Racism"
+      "path": "~/idk"
     },
     {
       "name": "BaneOfNowMake",
@@ -1697,7 +1664,7 @@
           "src/main/resources/data/rubiesandrabies/recipe/bane_of_now_make.json"
         ]
       },
-      "path": "~/Racism"
+      "path": "~/idk"
     },
     {
       "name": "SkyfactoryOnBlockRightclicked",
@@ -1732,7 +1699,7 @@
           "src/main/java/net/mcreator/rubiesandrabies/procedures/SkyfactoryOnBlockRightclickedProcedure.java"
         ]
       },
-      "path": "~/Chaos and tomfoolery/skyfactory"
+      "path": "~/skyfactory"
     },
     {
       "name": "TheniumEssence",
@@ -1747,7 +1714,7 @@
           "src/main/resources/assets/rubiesandrabies/items/thenium_essence.json"
         ]
       },
-      "path": "~/Racism"
+      "path": "~/idk"
     },
     {
       "name": "RubyShelf",
@@ -1763,8 +1730,7 @@
           "src/main/resources/assets/rubiesandrabies/models/block/ruby_shelf.json",
           "src/main/resources/assets/rubiesandrabies/models/item/ruby_shelf.json"
         ]
-      },
-      "path": "~/The Rubies/Other"
+      }
     },
     {
       "name": "Rubyshelfloot",
@@ -1776,8 +1742,7 @@
         "files": [
           "src/main/resources/data/rubiesandrabies/loot_table/blocks/ruby_shelf.json"
         ]
-      },
-      "path": "~/The Rubies/Other"
+      }
     },
     {
       "name": "Space",
@@ -1788,7 +1753,7 @@
       "metadata": {
         "files": []
       },
-      "path": "~/Space and Dimensions"
+      "path": "~/SpaceThingy"
     },
     {
       "name": "TheAlternateLocation",
@@ -1802,8 +1767,7 @@
           "src/main/resources/data/rubiesandrabies/dimension/the_alternate_location.json",
           "src/main/java/net/mcreator/rubiesandrabies/world/dimension/TheAlternateLocationDimension.java"
         ]
-      },
-      "path": "~/Chaos and tomfoolery"
+      }
     },
     {
       "name": "EnterPlanetTestItem",
@@ -1818,7 +1782,7 @@
           "src/main/resources/assets/rubiesandrabies/items/enter_planet_test_item.json"
         ]
       },
-      "path": "~/Space and Dimensions"
+      "path": "~/SpaceThingy"
     },
     {
       "name": "RacismPlanetBiome",
@@ -1833,7 +1797,7 @@
           "src/main/resources/data/rubiesandrabies/worldgen/configured_feature/racism_planet_biome_tree.json"
         ]
       },
-      "path": "~/Space and Dimensions"
+      "path": "~/SpaceThingy"
     },
     {
       "name": "RacismPlanetDmg",
@@ -1856,7 +1820,7 @@
           "src/main/java/net/mcreator/rubiesandrabies/procedures/RacismPlanetDmgProcedure.java"
         ]
       },
-      "path": "~/Space and Dimensions"
+      "path": "~/SpaceThingy"
     },
     {
       "name": "ExitPlanetItemTestRightclicked",
@@ -1875,7 +1839,7 @@
           "src/main/java/net/mcreator/rubiesandrabies/procedures/ExitPlanetItemTestRightclickedProcedure.java"
         ]
       },
-      "path": "~/Space and Dimensions"
+      "path": "~/SpaceThingy"
     },
     {
       "name": "Spaceship",
@@ -1893,7 +1857,7 @@
           "src/main/resources/assets/rubiesandrabies/items/spaceship.json"
         ]
       },
-      "path": "~/Space and Dimensions"
+      "path": "~/SpaceThingy"
     },
     {
       "name": "EnterRacismPlanet",
@@ -1912,7 +1876,7 @@
           "src/main/java/net/mcreator/rubiesandrabies/procedures/EnterRacismPlanetProcedure.java"
         ]
       },
-      "path": "~/Space and Dimensions"
+      "path": "~/SpaceThingy"
     },
     {
       "name": "RacistIngotPlayeraftereating",
@@ -1947,7 +1911,7 @@
           "src/main/java/net/mcreator/rubiesandrabies/procedures/RacistIngotPlayeraftereatingProcedure.java"
         ]
       },
-      "path": "~/Space and Dimensions"
+      "path": "~/SpaceThingy"
     },
     {
       "name": "RacistIngot",
@@ -1962,7 +1926,7 @@
           "src/main/resources/assets/rubiesandrabies/items/racist_ingot.json"
         ]
       },
-      "path": "~/Space and Dimensions"
+      "path": "~/SpaceThingy"
     },
     {
       "name": "RHmob",
@@ -1977,8 +1941,7 @@
           "src/main/resources/assets/rubiesandrabies/models/item/r_hmob_spawn_egg.json",
           "src/main/java/net/mcreator/rubiesandrabies/client/renderer/RHmobRenderer.java"
         ]
-      },
-      "path": "~/The Rubies/Other"
+      }
     },
     {
       "name": "RacistOre",
@@ -1999,7 +1962,7 @@
           "src/main/resources/data/rubiesandrabies/worldgen/configured_feature/racist_ore.json"
         ]
       },
-      "path": "~/Space and Dimensions"
+      "path": "~/SpaceThingy"
     },
     {
       "name": "Gp0Liquid",
@@ -2018,8 +1981,7 @@
           "src/main/resources/assets/rubiesandrabies/items/gp_0_liquid_bucket.json",
           "src/main/java/net/mcreator/rubiesandrabies/client/fluid/Gp0LiquidFluidExtension.java"
         ]
-      },
-      "path": "~/Chaos and tomfoolery"
+      }
     },
     {
       "name": "ReturnFromPlanet",
@@ -2038,7 +2000,7 @@
           "src/main/java/net/mcreator/rubiesandrabies/procedures/ReturnFromPlanetProcedure.java"
         ]
       },
-      "path": "~/Space and Dimensions"
+      "path": "~/SpaceThingy"
     },
     {
       "name": "SpaceMenu",
@@ -2053,7 +2015,7 @@
           "src/main/java/net/mcreator/rubiesandrabies/world/inventory/SpaceMenuMenu.java"
         ]
       },
-      "path": "~/Space and Dimensions"
+      "path": "~/SpaceThingy"
     },
     {
       "name": "RHmobEntityIsHurt",
@@ -2075,8 +2037,7 @@
         "files": [
           "src/main/java/net/mcreator/rubiesandrabies/procedures/RHmobEntityIsHurtProcedure.java"
         ]
-      },
-      "path": "~/The Rubies/Other"
+      }
     },
     {
       "name": "ExitPlanetItemTest",
@@ -2091,7 +2052,7 @@
           "src/main/java/net/mcreator/rubiesandrabies/item/ExitPlanetItemTestItem.java"
         ]
       },
-      "path": "~/Space and Dimensions"
+      "path": "~/SpaceThingy"
     },
     {
       "name": "EnterPlanetTestItemRightclicked",
@@ -2110,7 +2071,7 @@
           "src/main/java/net/mcreator/rubiesandrabies/procedures/EnterPlanetTestItemRightclickedProcedure.java"
         ]
       },
-      "path": "~/Space and Dimensions"
+      "path": "~/SpaceThingy"
     },
     {
       "name": "SpaceshipOnBlockRightclicked",
@@ -2145,7 +2106,7 @@
           "src/main/java/net/mcreator/rubiesandrabies/procedures/SpaceshipOnBlockRightclickedProcedure.java"
         ]
       },
-      "path": "~/Space and Dimensions"
+      "path": "~/SpaceThingy"
     },
     {
       "name": "RacismPlanet",
@@ -2160,7 +2121,7 @@
           "src/main/resources/data/rubiesandrabies/dimension/racism_planet.json"
         ]
       },
-      "path": "~/Space and Dimensions"
+      "path": "~/SpaceThingy"
     },
     {
       "name": "RubyTrader",
@@ -2171,7 +2132,7 @@
       "metadata": {
         "files": []
       },
-      "path": "~/The Rubies/Ruby trader"
+      "path": "~/Ruby trader"
     },
     {
       "name": "Rubytodirt",
@@ -2182,7 +2143,7 @@
       "metadata": {
         "files": []
       },
-      "path": "~/The Rubies/Ruby trader"
+      "path": "~/Ruby trader"
     },
     {
       "name": "RubyShop",
@@ -2197,7 +2158,7 @@
           "src/main/resources/data/rubiesandrabies/worldgen/structure_set/ruby_shop.json"
         ]
       },
-      "path": "~/The Rubies/Ruby trader"
+      "path": "~/Ruby trader"
     },
     {
       "name": "MoldedZorpinium",
@@ -2591,8 +2552,7 @@
       "registry_name": "zorpinium_oblivion",
       "metadata": {
         "files": []
-      },
-      "path": "~/Chaos and tomfoolery"
+      }
     },
     {
       "name": "ZorpSaber",
@@ -2620,7 +2580,7 @@
           "src/main/resources/assets/rubiesandrabies/models/item/compressed_compressed_ruby.json"
         ]
       },
-      "path": "~/The Rubies/Other"
+      "path": "~/rubies"
     },
     {
       "name": "Rubydoor",
@@ -2645,7 +2605,7 @@
           "src/main/resources/assets/rubiesandrabies/models/block/rubydoor_bottom_left_open.json"
         ]
       },
-      "path": "~/The Rubies/ruby blocks"
+      "path": "~/ruby blocks"
     },
     {
       "name": "CompressedCompressedCompressedCompressedRubyRecipe",
@@ -2659,7 +2619,7 @@
           "src/main/resources/data/rubiesandrabies/recipe/compressed_compressed_compressed_compressed_ruby_recipe.json"
         ]
       },
-      "path": "~/The Rubies/Recipes"
+      "path": "~/rubies"
     },
     {
       "name": "AddAttackDamageOnSpawn",
@@ -2677,8 +2637,7 @@
         "files": [
           "src/main/java/net/mcreator/rubiesandrabies/procedures/AddAttackDamageOnSpawnProcedure.java"
         ]
-      },
-      "path": "~/Rabies"
+      }
     },
     {
       "name": "AbyssBiome",
@@ -2711,7 +2670,7 @@
           "src/main/java/net/mcreator/rubiesandrabies/item/CompressedRubyItem.java"
         ]
       },
-      "path": "~/The Rubies/Other"
+      "path": "~/rubies"
     },
     {
       "name": "CompressedCompressedCompressedRuby",
@@ -2726,7 +2685,7 @@
           "src/main/resources/assets/rubiesandrabies/models/item/compressed_compressed_compressed_ruby.json"
         ]
       },
-      "path": "~/The Rubies/Other"
+      "path": "~/rubies"
     },
     {
       "name": "RandomRabiesChance",
@@ -2744,8 +2703,7 @@
         "files": [
           "src/main/java/net/mcreator/rubiesandrabies/procedures/RandomRabiesChanceProcedure.java"
         ]
-      },
-      "path": "~/Rabies"
+      }
     },
     {
       "name": "SkyfactoryCraft",
@@ -2797,8 +2755,7 @@
         "files": [
           "src/main/java/net/mcreator/rubiesandrabies/procedures/ArchfiendDiceRightclickedProcedure.java"
         ]
-      },
-      "path": "~/Chaos and tomfoolery"
+      }
     },
     {
       "name": "TheDepositoryAbyss",
@@ -2826,7 +2783,7 @@
           "src/main/resources/data/rubiesandrabies/recipe/compressed_ruby_recipe.json"
         ]
       },
-      "path": "~/The Rubies/Recipes"
+      "path": "~/rubies"
     },
     {
       "name": "CompressedCompressedRubyRecipe",
@@ -2839,7 +2796,7 @@
           "src/main/resources/data/rubiesandrabies/recipe/compressed_compressed_ruby_recipe.json"
         ]
       },
-      "path": "~/The Rubies/Recipes"
+      "path": "~/rubies"
     },
     {
       "name": "CompressedCompressedCompressedCompressedCompressedRubyRecipe",
@@ -2852,7 +2809,7 @@
           "src/main/resources/data/rubiesandrabies/recipe/compressed_compressed_compressed_compressed_compressed_ruby_recipe.json"
         ]
       },
-      "path": "~/The Rubies/Recipes"
+      "path": "~/rubies"
     },
     {
       "name": "GhastCow",
@@ -2883,7 +2840,7 @@
           "src/main/resources/assets/rubiesandrabies/items/compressed_compressed_compressed_compressed_compressed_ruby.json"
         ]
       },
-      "path": "~/The Rubies/Other"
+      "path": "~/rubies"
     },
     {
       "name": "ArchfiendDiceRecipe",
@@ -2895,8 +2852,7 @@
         "files": [
           "src/main/resources/data/rubiesandrabies/recipe/archfiend_dice_recipe.json"
         ]
-      },
-      "path": "~/Chaos and tomfoolery"
+      }
     },
     {
       "name": "Racist",
@@ -2919,7 +2875,7 @@
           "src/main/resources/assets/rubiesandrabies/models/item/racist_chestplate.json"
         ]
       },
-      "path": "~/Space and Dimensions/Content/Items"
+      "path": "~/SpaceThingy/Content/Items"
     },
     {
       "name": "SkyEssence",
@@ -2972,7 +2928,7 @@
           "src/main/java/net/mcreator/rubiesandrabies/procedures/RacistTickEventArmorProcedure.java"
         ]
       },
-      "path": "~/Space and Dimensions"
+      "path": "~/ruby blocks"
     },
     {
       "name": "CompressedCompressedCompressedRubyRecipe",
@@ -2985,7 +2941,7 @@
           "src/main/resources/data/rubiesandrabies/recipe/compressed_compressed_compressed_ruby_recipe.json"
         ]
       },
-      "path": "~/The Rubies/Recipes"
+      "path": "~/rubies"
     },
     {
       "name": "CompressedCompressedCompressedCompressedRuby",
@@ -3000,7 +2956,7 @@
           "src/main/resources/assets/rubiesandrabies/items/compressed_compressed_compressed_compressed_ruby.json"
         ]
       },
-      "path": "~/The Rubies/Other"
+      "path": "~/rubies"
     },
     {
       "name": "Abyssallmatter",
@@ -3050,8 +3006,7 @@
           "src/main/resources/assets/rubiesandrabies/items/archfiend_dice.json",
           "src/main/java/net/mcreator/rubiesandrabies/item/ArchfiendDiceItem.java"
         ]
-      },
-      "path": "~/Chaos and tomfoolery"
+      }
     },
     {
       "name": "RubyShopLoot",
@@ -3064,7 +3019,7 @@
           "src/main/resources/data/rubiesandrabies/loot_table/chests/rubyshoploot.json"
         ]
       },
-      "path": "~/The Rubies/Ruby trader"
+      "path": "~/Ruby trader"
     },
     {
       "name": "OverwriteAIWithRabiesAI",
@@ -3082,8 +3037,7 @@
         "files": [
           "src/main/java/net/mcreator/rubiesandrabies/procedures/OverwriteAIWithRabiesAIProcedure.java"
         ]
-      },
-      "path": "~/Rabies"
+      }
     },
     {
       "name": "Testenterabyss",
@@ -3241,7 +3195,7 @@
           "src/main/resources/assets/rubiesandrabies/models/block/damn.json"
         ]
       },
-      "path": "~/Space and Dimensions"
+      "path": "~/SpaceThingy"
     },
     {
       "name": "FemgrambossPlaybackConditionkick",
@@ -3261,7 +3215,7 @@
           "src/main/java/net/mcreator/rubiesandrabies/procedures/FemgrambossPlaybackConditionkickProcedure.java"
         ]
       },
-      "path": "~/Femgram"
+      "path": "~/femgram"
     },
     {
       "name": "FemgrambossOnEntityTickUpdate",
@@ -3296,7 +3250,7 @@
           "src/main/java/net/mcreator/rubiesandrabies/procedures/FemgrambossOnEntityTickUpdateProcedure.java"
         ]
       },
-      "path": "~/Femgram"
+      "path": "~/femgram"
     },
     {
       "name": "Femgramboss",
@@ -3312,7 +3266,7 @@
           "src/main/resources/assets/rubiesandrabies/models/item/femgram_spawn_egg.json"
         ]
       },
-      "path": "~/Femgram"
+      "path": "~/femgram"
     },
     {
       "name": "FemgrambossChooseAttack",
@@ -3326,7 +3280,7 @@
           "src/main/java/net/mcreator/rubiesandrabies/procedures/FemgrambossChooseAttackProcedure.java"
         ]
       },
-      "path": "~/Femgram"
+      "path": "~/femgram"
     },
     {
       "name": "FemgrambossPlaybackConditionattack",
@@ -3346,7 +3300,20 @@
           "src/main/java/net/mcreator/rubiesandrabies/procedures/FemgrambossPlaybackConditionattackProcedure.java"
         ]
       },
-      "path": "~/Femgram"
+      "path": "~/femgram"
+    },
+    {
+      "name": "Ew",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ew",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/advancement/ew.json"
+        ]
+      },
+      "path": "~/Racism"
     },
     {
       "name": "TheRacismWithin",
@@ -3386,19 +3353,6 @@
         ]
       },
       "path": "~/idk"
-    },
-    {
-      "name": "Ew",
-      "type": "achievement",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ew",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/rubiesandrabies/advancement/ew.json"
-        ]
-      },
-      "path": "~/Racism"
     }
   ],
   "variable_elements": [],
@@ -3779,10 +3733,6 @@
       "gui.rubiesandrabies.space_menu.button_overworld": "Overworld",
       "item.rubiesandrabies.exit_planet_item_test": "Exit Planet Item Test",
       "entity.villager.rubiesandrabies.ruby_trader": "Ruby Trader",
-      "subtitles.areyoubeingintentionallydense": "",
-      "subtitles.thegrandabyssambience": "?",
-      "subtitles.cowambient": "",
-      "subtitles.johnevilthethird": "",
       "item.rubiesandrabies.molded_zorpinium": "Molded Zorpinium",
       "item.rubiesandrabies.zorpinium_ore": "Zorpinium Ore",
       "item.rubiesandrabies.unpurified_zorpinium_gem": "Unpurified Zorpinium Gem",
@@ -3818,7 +3768,6 @@
       "item.rubiesandrabies.modium_essence": "Factory Essence",
       "item.rubiesandrabies.compressed_compressed_compressed_compressed_ruby": "Compressed Compressed Compressed Compressed Ruby",
       "item.rubiesandrabies.abyssallmatter": "Abyssallmatter",
-      "item.rubiesandrabies.ger": "Ger",
       "item.rubiesandrabies.gregtech": "Greg\u0027s Tech",
       "item.rubiesandrabies.archfiend_dice": "Archfiend Dice",
       "item.rubiesandrabies.leaveevil": "Leaveevil",
@@ -3826,18 +3775,10 @@
       "item.rubiesandrabies.abyssall_grass": "Abyssal Grass",
       "item.rubiesandrabies.testicals": "Testicals",
       "item.rubiesandrabies.damn": "Block of Evil",
-      "entity.rubiesandrabies.femgramold": "Femgram",
-      "item.rubiesandrabies.femgramold_spawn_egg": "Femgram Spawn Egg",
       "item.rubiesandrabies.femgram_spawn_egg": "Femgram Spawn Egg",
       "entity.rubiesandrabies.femgram": "Femgram",
-      "advancements.the_racism_within.descr": "We do not condone racism.",
-      "advancements.the_racism_within.title": "The Racism Within",
-      "advancements.all_the_racism_10.title": "All The Racism 10",
-      "advancements.all_the_racism_10.descr": "Discover Every Racism Biome.",
-      "advancements.hell.title": "Where am I?",
-      "advancements.hell.descr": "Welcome to Hell",
-      "advancements.ew.title": "Yeah!",
-      "advancements.ew.descr": "Gross."
+      "entity.rubiesandrabies.femgramold": "Femgram",
+      "item.rubiesandrabies.femgramold_spawn_egg": "Femgram Spawn Egg"
     }
   },
   "metadata": {
@@ -3875,11 +3816,7 @@
     "name": "~",
     "children": [
       {
-        "name": "MusicDiscs",
-        "children": []
-      },
-      {
-        "name": "idk",
+        "name": "Femgram",
         "children": []
       },
       {
@@ -3905,28 +3842,7 @@
         ]
       },
       {
-        "name": "ZorpiniumOblivion",
-        "children": []
-      },
-      {
-        "name": "Femgram",
-        "children": []
-      },
-      {
-        "name": "Rabies",
-        "children": []
-      },
-      {
-        "name": "Chaos and tomfoolery",
-        "children": [
-          {
-            "name": "skyfactory",
-            "children": []
-          }
-        ]
-      },
-      {
-        "name": "Racism",
+        "name": "MusicDiscs",
         "children": []
       },
       {
@@ -3957,6 +3873,31 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "idk",
+        "children": []
+      },
+      {
+        "name": "Chaos and tomfoolery",
+        "children": [
+          {
+            "name": "skyfactory",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Racism",
+        "children": []
+      },
+      {
+        "name": "ZorpiniumOblivion",
+        "children": []
+      },
+      {
+        "name": "Rabies",
+        "children": []
       }
     ]
   },
