@@ -3379,6 +3379,37 @@
         ]
       },
       "path": "~/idk"
+    },
+    {
+      "name": "Mamamia",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mamamia",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/MamamiaProcedure.java"
+        ]
+      },
+      "path": "~/idk"
     }
   ],
   "variable_elements": [],
@@ -3530,6 +3561,22 @@
         "bwahy"
       ],
       "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "yah",
+      "files": [
+        "what"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "sdpicemeatball",
+      "files": [
+        "spicymeatball"
+      ],
+      "category": "block",
       "subtitle": ""
     }
   ],
@@ -3819,7 +3866,9 @@
       "advancements.threewhat.descr": "Three WHAT?",
       "advancements.threewhat.title": "Gp0 say-",
       "advancements.ew.title": "Yeah!",
-      "advancements.ew.descr": "Gross."
+      "advancements.ew.descr": "Gross.",
+      "subtitles.yah": "",
+      "subtitles.sdpicemeatball": ""
     }
   },
   "metadata": {
