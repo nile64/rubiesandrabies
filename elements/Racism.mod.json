@@ -93,7 +93,7 @@
       "value": "Blocks.AIR"
     },
     "treeFruits": {
-      "value": "Blocks.POINTED_DRIPSTONE"
+      "value": "Blocks.AIR"
     },
     "defaultFeatures": [],
     "spawnStronghold": false,

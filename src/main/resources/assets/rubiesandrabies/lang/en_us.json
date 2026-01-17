@@ -135,5 +135,13 @@
   "entity.rubiesandrabies.femgramold": "Femgram",
   "item.rubiesandrabies.femgramold_spawn_egg": "Femgram Spawn Egg",
   "item.rubiesandrabies.femgram_spawn_egg": "Femgram Spawn Egg",
-  "entity.rubiesandrabies.femgram": "Femgram"
+  "entity.rubiesandrabies.femgram": "Femgram",
+  "advancements.the_racism_within.descr": "We do not condone racism.",
+  "advancements.the_racism_within.title": "The Racism Within",
+  "advancements.all_the_racism_10.title": "All The Racism 10",
+  "advancements.all_the_racism_10.descr": "Discover Every Racism Biome.",
+  "advancements.hell.title": "Where am I?",
+  "advancements.hell.descr": "Welcome to Hell",
+  "advancements.ew.title": "Yeah!",
+  "advancements.ew.descr": "Gross."
 }
