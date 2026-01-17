@@ -5,10 +5,11 @@
     "minecraft:grass_block",
     "minecraft:dirt",
     "minecraft:tuff",
-    "rubiesandrabies:abyssallmatter",
     "rubiesandrabies:damn",
+    "rubiesandrabies:abyssallmatter",
     "minecraft:netherrack",
     "rubiesandrabies:evil_nylium",
-    "rubiesandrabies:abyssall_grass"
+    "rubiesandrabies:abyssall_grass",
+    "rubiesandrabies:nowium_block"
   ]
 }

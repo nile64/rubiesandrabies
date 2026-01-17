@@ -61,6 +61,7 @@ public class RubiesandrabiesModTabs {
 				tabData.accept(RubiesandrabiesModItems.COMPRESSED_RUBY.get());
 				tabData.accept(RubiesandrabiesModItems.GHAST_COW_SPAWN_EGG.get());
 				tabData.accept(RubiesandrabiesModItems.MODIUM_ESSENCE.get());
+				tabData.accept(RubiesandrabiesModItems.FEMGRAM_SPAWN_EGG.get());
 			}).withSearchBar().build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> SPACE = REGISTRY.register("space",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.rubiesandrabies.space")).icon(() -> new ItemStack(RubiesandrabiesModItems.URANIUM.get())).displayItems((parameters, tabData) -> {
@@ -103,6 +104,7 @@ public class RubiesandrabiesModTabs {
 			tabData.accept(RubiesandrabiesModItems.MEATBALL_MOOSE_SPAWN_EGG.get());
 			tabData.accept(RubiesandrabiesModItems.GORILLA_SPAWN_EGG.get());
 			tabData.accept(RubiesandrabiesModItems.R_HMOB_SPAWN_EGG.get());
+			tabData.accept(RubiesandrabiesModItems.FEMGRAM_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(RubiesandrabiesModItems.BANANA.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {

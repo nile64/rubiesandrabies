@@ -20,7 +20,7 @@ public class BlockOfFemgramOnBlockRightclickedProcedure {
 			}
 		}
 		if (world instanceof ServerLevel _level) {
-			Entity entityToSpawn = RubiesandrabiesModEntities.FEMGRAM.get().spawn(_level, BlockPos.containing(x, y, z), EntitySpawnReason.MOB_SUMMONED);
+			Entity entityToSpawn = RubiesandrabiesModEntities.FEMGRAMOLD.get().spawn(_level, BlockPos.containing(x, y, z), EntitySpawnReason.MOB_SUMMONED);
 			if (entityToSpawn != null) {
 				entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
 			}

@@ -47,6 +47,10 @@ public class RubiesandrabiesModEntities {
 			EntityType.Builder.<GhastCowEntity>of(GhastCowEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).fireImmune()
 
 					.sized(2f, 2f));
+	public static final DeferredHolder<EntityType<?>, EntityType<FemgrambossEntity>> FEMGRAM = register("femgram",
+			EntityType.Builder.<FemgrambossEntity>of(FemgrambossEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).fireImmune()
+
+					.sized(2f, 3.6f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -62,6 +66,7 @@ public class RubiesandrabiesModEntities {
 		GorillaEntity.init(event);
 		RHmobEntity.init(event);
 		GhastCowEntity.init(event);
+		FemgrambossEntity.init(event);
 	}
 
 	@SubscribeEvent
@@ -72,5 +77,6 @@ public class RubiesandrabiesModEntities {
 		event.put(GORILLA.get(), GorillaEntity.createAttributes().build());
 		event.put(R_HMOB.get(), RHmobEntity.createAttributes().build());
 		event.put(GHAST_COW.get(), GhastCowEntity.createAttributes().build());
+		event.put(FEMGRAM.get(), FemgrambossEntity.createAttributes().build());
 	}
 }

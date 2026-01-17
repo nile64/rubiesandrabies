@@ -104,6 +104,7 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> HIS_GREATNESS;
 	public static final DeferredItem<Item> MODIUM_ESSENCE;
 	public static final DeferredItem<Item> TESTICALS;
+	public static final DeferredItem<Item> FEMGRAM_SPAWN_EGG;
 	static {
 		BAT_WING = register("bat_wing", BatWingItem::new);
 		RUBY = register("ruby", RubyItem::new);
@@ -183,6 +184,7 @@ public class RubiesandrabiesModItems {
 		HIS_GREATNESS = block(RubiesandrabiesModBlocks.HIS_GREATNESS, new Item.Properties().rarity(Rarity.EPIC));
 		MODIUM_ESSENCE = register("modium_essence", ModiumEssenceItem::new);
 		TESTICALS = register("testicals", TesticalsItem::new);
+		FEMGRAM_SPAWN_EGG = register("femgram_spawn_egg", properties -> new SpawnEggItem(RubiesandrabiesModEntities.FEMGRAM.get(), properties));
 	}
 
 	// Start of user code block custom items

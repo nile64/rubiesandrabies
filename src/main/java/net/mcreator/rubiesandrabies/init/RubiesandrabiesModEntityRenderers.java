@@ -20,5 +20,6 @@ public class RubiesandrabiesModEntityRenderers {
 		event.registerEntityRenderer(RubiesandrabiesModEntities.GORILLA.get(), GorillaRenderer::new);
 		event.registerEntityRenderer(RubiesandrabiesModEntities.R_HMOB.get(), RHmobRenderer::new);
 		event.registerEntityRenderer(RubiesandrabiesModEntities.GHAST_COW.get(), GhastCowRenderer::new);
+		event.registerEntityRenderer(RubiesandrabiesModEntities.FEMGRAM.get(), FemgrambossRenderer::new);
 	}
 }
