@@ -25,7 +25,7 @@
   "rewards": {
     "experience": 0,
     "loot": [
-      "rubiesandrabies:deleted_mod_element"
+      "rubiesandrabies:blocks/nothing"
     ]
   },
   "parent": "rubiesandrabies:infinite_power"
