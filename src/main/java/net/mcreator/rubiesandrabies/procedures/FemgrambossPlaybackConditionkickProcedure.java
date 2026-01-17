@@ -1,6 +1,9 @@
 package net.mcreator.rubiesandrabies.procedures;
 
-import net.neoforged.bus.api.Event;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.Entity;
+
+import net.mcreator.rubiesandrabies.entity.FemgrambossEntity;
 
 public class FemgrambossPlaybackConditionkickProcedure {
 	public static boolean execute(Entity entity) {
