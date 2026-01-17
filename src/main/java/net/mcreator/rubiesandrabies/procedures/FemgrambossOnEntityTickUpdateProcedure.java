@@ -9,6 +9,8 @@ import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.MenuProvider;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.chat.Component;
@@ -56,6 +58,7 @@ public class FemgrambossOnEntityTickUpdateProcedure {
 						}
 						if ((entity instanceof Mob _mobEnt ? (Entity) _mobEnt.getTarget() : null) instanceof Player _player)
 							_player.closeContainer();
+						entity.getPersistentData().putDouble("fgkick", (-1));
 					}
 					RubiesandrabiesMod.queueServerWork(30, () -> {
 						if (entity instanceof FemgrambossEntity _datEntSetI)
@@ -63,6 +66,19 @@ public class FemgrambossOnEntityTickUpdateProcedure {
 					});
 				}
 			}
+		}
+		entity.getPersistentData().putDouble("attackchoose", (entity.getPersistentData().getDoubleOr("attackchoose", 0) + 1));
+		if (entity.getPersistentData().getDoubleOr("attackchoose", 0) <= 100) {
+			if (entity instanceof LivingEntity _livEnt25 && _livEnt25.swinging) {
+				RubiesandrabiesMod.queueServerWork(10, () -> {
+					if ((entity instanceof Mob _mobEnt ? (Entity) _mobEnt.getTarget() : null) instanceof LivingEntity _entity && !_entity.level().isClientSide())
+						_entity.addEffect(new MobEffectInstance(MobEffects.LEVITATION, 2, 100, false, false));
+					entity.getPersistentData().putDouble("attackchoose", (-1));
+					if (entity instanceof FemgrambossEntity _datEntSetI)
+						_datEntSetI.getEntityData().set(FemgrambossEntity.DATA_punch, 2);
+				});
+			}
+			entity.getPersistentData().putDouble("attackchoose", (-1));
 		}
 	}
 }
