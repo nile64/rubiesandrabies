@@ -3329,19 +3329,6 @@
       "path": "~/idk"
     },
     {
-      "name": "Abyssenter",
-      "type": "loottable",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "abyssenter",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/rubiesandrabies/loot_table/blocks/ruby_bricks.json"
-        ]
-      },
-      "path": "~/idk"
-    },
-    {
       "name": "TheAbyss",
       "type": "achievement",
       "compiles": true,
@@ -3407,6 +3394,19 @@
         ],
         "files": [
           "src/main/java/net/mcreator/rubiesandrabies/procedures/MamamiaProcedure.java"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "Abyssenterloot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abyssenterloot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/nothing.json"
         ]
       },
       "path": "~/idk"
@@ -3851,7 +3851,7 @@
       "item.rubiesandrabies.leaveevil": "Leaveevil",
       "block.rubiesandrabies.abyssall_grass.description_0": "gras",
       "item.rubiesandrabies.abyssall_grass": "Abyssal Grass",
-      "item.rubiesandrabies.testicals": "Testicals",
+      "item.rubiesandrabies.testicals": "Test",
       "item.rubiesandrabies.damn": "Block of Evil",
       "entity.rubiesandrabies.femgramold": "Femgram",
       "item.rubiesandrabies.femgramold_spawn_egg": "Femgram Spawn Egg",
