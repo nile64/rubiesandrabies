@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "rubiesandrabies:abyssall_grass"
+    },
+    "title": {
+      "translate": "advancements.the_abyss.title"
+    },
+    "description": {
+      "translate": "advancements.the_abyss.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_abyss_0": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "rubiesandrabies:the_depository_abyss"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "loot": [
+      "rubiesandrabies:deleted_mod_element"
+    ]
+  },
+  "parent": "rubiesandrabies:infinite_power"
+}

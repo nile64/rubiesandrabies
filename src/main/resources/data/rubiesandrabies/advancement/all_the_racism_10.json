@@ -1,0 +1,71 @@
+{
+  "display": {
+    "icon": {
+      "id": "rubiesandrabies:the_incident"
+    },
+    "title": {
+      "translate": "advancements.all_the_racism_10.title"
+    },
+    "description": {
+      "translate": "advancements.all_the_racism_10.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "all_the_racism_10_0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "rubiesandrabies:racism"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "all_the_racism_10_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "rubiesandrabies:nether_racism"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "all_the_racism_10_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "rubiesandrabies:racism_planet_biome"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "rubiesandrabies:infinite_power"
+}
