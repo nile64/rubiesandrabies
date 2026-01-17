@@ -1,15 +1,6 @@
 package net.mcreator.rubiesandrabies.procedures;
 
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.server.level.ServerLevel;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.advancements.AdvancementProgress;
-import net.minecraft.advancements.AdvancementHolder;
-
-import net.mcreator.rubiesandrabies.init.RubiesandrabiesModItems;
+import net.neoforged.bus.api.Event;
 
 public class AchievmentitemItemInInventoryTickProcedure {
 	public static void execute(Entity entity) {
@@ -26,7 +17,7 @@ public class AchievmentitemItemInInventoryTickProcedure {
 			}
 		}
 		if (entity instanceof Player _player) {
-			ItemStack _stktoremove = new ItemStack(RubiesandrabiesModItems.ACHIEVMENTITEM.get());
+			ItemStack _stktoremove = new ItemStack(RubiesandrabiesModItems.DELETED_MOD_ELEMENT.get());
 			_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 		}
 	}

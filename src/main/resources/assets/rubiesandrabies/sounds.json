@@ -172,5 +172,21 @@
         "stream": false
       }
     ]
+  },
+  "yah": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:what",
+        "stream": false
+      }
+    ]
+  },
+  "sdpicemeatball": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:spicymeatball",
+        "stream": false
+      }
+    ]
   }
 }

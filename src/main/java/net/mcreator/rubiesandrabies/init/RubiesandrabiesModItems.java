@@ -31,7 +31,7 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> RUBY_BRICKS;
 	public static final DeferredItem<Item> THE_INCIDENT;
 	public static final DeferredItem<Item> LIFE_IS_ROBLOX_MUSIC_DISC;
-	public static final DeferredItem<Item> FEMGRAMOLD_SPAWN_EGG;
+	public static final DeferredItem<Item> FEMGRAM_SPAWN_EGG;
 	public static final DeferredItem<Item> BLOCK_OF_FEMGRAM;
 	public static final DeferredItem<Item> RUBY_BRICKS_STAIRS;
 	public static final DeferredItem<Item> RUBY_BRICKS_SLAB;
@@ -112,7 +112,7 @@ public class RubiesandrabiesModItems {
 		RUBY_BRICKS = block(RubiesandrabiesModBlocks.RUBY_BRICKS);
 		THE_INCIDENT = register("the_incident", TheIncidentItem::new);
 		LIFE_IS_ROBLOX_MUSIC_DISC = register("life_is_roblox_music_disc", LifeIsRobloxMusicDiscItem::new);
-		FEMGRAMOLD_SPAWN_EGG = register("femgramold_spawn_egg", properties -> new SpawnEggItem(RubiesandrabiesModEntities.FEMGRAMOLD.get(), properties));
+		FEMGRAM_SPAWN_EGG = register("femgram_spawn_egg", properties -> new SpawnEggItem(RubiesandrabiesModEntities.FEMGRAM.get(), properties));
 		BLOCK_OF_FEMGRAM = block(RubiesandrabiesModBlocks.BLOCK_OF_FEMGRAM);
 		RUBY_BRICKS_STAIRS = block(RubiesandrabiesModBlocks.RUBY_BRICKS_STAIRS);
 		RUBY_BRICKS_SLAB = block(RubiesandrabiesModBlocks.RUBY_BRICKS_SLAB);

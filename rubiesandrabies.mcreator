@@ -312,13 +312,13 @@
       "type": "livingentity",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "femgramold",
+      "registry_name": "femgram",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rubiesandrabies/models/item/femgramold_spawn_egg.json",
           "src/main/java/net/mcreator/rubiesandrabies/client/renderer/FemgramRenderer.java",
-          "src/main/java/net/mcreator/rubiesandrabies/entity/FemgramEntity.java",
-          "src/main/resources/assets/rubiesandrabies/items/femgramold_spawn_egg.json"
+          "src/main/resources/assets/rubiesandrabies/models/item/femgram_spawn_egg.json",
+          "src/main/resources/assets/rubiesandrabies/items/femgram_spawn_egg.json",
+          "src/main/java/net/mcreator/rubiesandrabies/entity/FemgramEntity.java"
         ]
       }
     },
@@ -531,8 +531,8 @@
       "registry_name": "ruby_bricks_stairs_recipie_stonecutter",
       "metadata": {
         "files": [
-          "src/main/resources/data/rubiesandrabies/advancement/recipes/ruby_bricks_stairs_recipie_stonecutter.json",
-          "src/main/resources/data/rubiesandrabies/recipe/ruby_bricks_stairs_recipie_stonecutter.json"
+          "src/main/resources/data/rubiesandrabies/recipe/ruby_bricks_stairs_recipie_stonecutter.json",
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/ruby_bricks_stairs_recipie_stonecutter.json"
         ]
       },
       "path": "~/idk"
@@ -933,8 +933,8 @@
       "registry_name": "ruby_tiles_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/rubiesandrabies/recipe/ruby_tiles_recipe.json",
-          "src/main/resources/data/rubiesandrabies/advancement/recipes/ruby_tiles_recipe.json"
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/ruby_tiles_recipe.json",
+          "src/main/resources/data/rubiesandrabies/recipe/ruby_tiles_recipe.json"
         ]
       },
       "path": "~/ruby blocks"
@@ -1084,8 +1084,8 @@
       "registry_name": "ruby_tiles_stairs_1",
       "metadata": {
         "files": [
-          "src/main/resources/data/rubiesandrabies/recipe/ruby_tiles_stairs_1.json",
-          "src/main/resources/data/rubiesandrabies/advancement/recipes/ruby_tiles_stairs_1.json"
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/ruby_tiles_stairs_1.json",
+          "src/main/resources/data/rubiesandrabies/recipe/ruby_tiles_stairs_1.json"
         ]
       },
       "path": "~/ruby blocks/stairs"
@@ -1192,8 +1192,8 @@
       "registry_name": "rubytetrahexahedronslab_2",
       "metadata": {
         "files": [
-          "src/main/resources/data/rubiesandrabies/recipe/rubytetrahexahedronslab_2.json",
-          "src/main/resources/data/rubiesandrabies/advancement/recipes/rubytetrahexahedronslab_2.json"
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/rubytetrahexahedronslab_2.json",
+          "src/main/resources/data/rubiesandrabies/recipe/rubytetrahexahedronslab_2.json"
         ]
       },
       "path": "~/ruby blocks/slabs"
@@ -3303,21 +3303,6 @@
       "path": "~/femgram"
     },
     {
-      "name": "Achievmentitem",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "achievmentitem",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/rubiesandrabies/models/item/achievmentitem.json",
-          "src/main/resources/assets/rubiesandrabies/items/achievmentitem.json",
-          "src/main/java/net/mcreator/rubiesandrabies/item/AchievmentitemItem.java"
-        ]
-      },
-      "path": "~/Ruby trader"
-    },
-    {
       "name": "BuyTheAcheivment",
       "type": "achievement",
       "compiles": true,
@@ -3348,6 +3333,130 @@
         ]
       },
       "path": "~/Ruby trader"
+    },
+    {
+      "name": "Achievmentitem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "achievmentitem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/models/item/achievmentitem.json",
+          "src/main/resources/assets/rubiesandrabies/items/achievmentitem.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/AchievmentitemItem.java"
+        ]
+      },
+      "path": "~/Ruby trader"
+    },
+    {
+      "name": "TheAbyss",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_abyss",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/advancement/the_abyss.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "Ew",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ew",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/advancement/ew.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "Threewhat",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "threewhat",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/advancement/threewhat.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "TheRacismWithin",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_racism_within",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/advancement/the_racism_within.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "Abyssenterloot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abyssenterloot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/nothing.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "AllTheRacism10",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "all_the_racism_10",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/advancement/all_the_racism_10.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "Mamamia",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mamamia",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/MamamiaProcedure.java"
+        ]
+      },
+      "path": "~/idk"
     }
   ],
   "variable_elements": [],
@@ -3500,6 +3609,22 @@
       ],
       "category": "hostile",
       "subtitle": ""
+    },
+    {
+      "name": "yah",
+      "files": [
+        "what"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "sdpicemeatball",
+      "files": [
+        "spicymeatball"
+      ],
+      "category": "block",
+      "subtitle": ""
     }
   ],
   "tag_elements": {
@@ -3600,11 +3725,12 @@
       "~CUSTOM:RubyShelf"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:Damn",
       "~CUSTOM:AbyssallGrass",
       "~CUSTOM:Abyssallmatter",
       "~CUSTOM:RubyBricks",
+      "~CUSTOM:NowiumBlock",
       "~CUSTOM:EvilNylium",
-      "~CUSTOM:Damn",
       "~Blocks.NETHERRACK",
       "~Blocks.TUFF",
       "~Blocks.DIRT#0",
@@ -3786,29 +3912,29 @@
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModBiomes.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModFluids.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModFluidTypes.java",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModScreens.java",
       "src/main/java/net/mcreator/rubiesandrabies/network/MenuStateUpdateMessage.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModMenus.java",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModScreens.java",
       "src/main/resources/data/neoforge/data_maps/entity_type/monster_room_mobs.json",
       "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModMobEffects.java",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModVillagerProfessions.java",
       "src/main/resources/data/minecraft/tags/point_of_interest_type/acquirable_job_site.json",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModVillagerProfessions.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModTrades.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModBlocks.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModBlockEntities.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModItems.java",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModEntities.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModEntityRenderers.java",
-      "src/main/resources/pack.mcmeta",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModSounds.java",
-      "src/main/resources/rubiesandrabies.mixins.json",
-      "src/main/resources/META-INF/accesstransformer.cfg",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModModels.java",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModEntities.java",
       "src/main/resources/assets/rubiesandrabies/sounds.json",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModModels.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModTabs.java",
+      "src/main/resources/rubiesandrabies.mixins.json",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModSounds.java",
       "src/main/java/net/mcreator/rubiesandrabies/RubiesandrabiesMod.java",
-      "src/main/resources/META-INF/neoforge.mods.toml"
+      "src/main/resources/META-INF/accesstransformer.cfg"
     ]
   },
   "foldersRoot": {
