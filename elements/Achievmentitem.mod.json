@@ -3,20 +3,20 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "archfienddice",
+    "texture": "screenshot_2026-01-16_201415",
     "customModelName": "Normal",
     "guiTexture": "",
     "customProperties": {},
     "states": [],
     "animations": [],
-    "name": "Archfiend Dice",
-    "rarity": "COMMON",
+    "name": "The Great Achievement",
+    "rarity": "EPIC",
     "creativeTabs": [
       {
         "value": "CUSTOM:RubiesRabiesTab"
       }
     ],
-    "stackSize": 64,
+    "stackSize": 1,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
@@ -32,9 +32,7 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": [
-        "§4Roll with caution §r"
-      ]
+      "fixedValue": []
     },
     "glowCondition": {
       "fixedValue": false
@@ -42,7 +40,7 @@
     "inventorySize": 9,
     "inventoryStackSize": 99,
     "onRightClickedInAir": {
-      "name": "ArchfiendDiceRightclicked"
+      "name": "AchievmentitemItemInInventoryTick"
     },
     "enableRanged": false,
     "shootConstantly": false,
