@@ -86,6 +86,7 @@ public class RubiesandrabiesModTabs {
 				tabData.accept(RubiesandrabiesModItems.ZORPINIUMARMOR_CHESTPLATE.get());
 				tabData.accept(RubiesandrabiesModItems.ZORPINIUMARMOR_LEGGINGS.get());
 				tabData.accept(RubiesandrabiesModItems.ZORPINIUMARMOR_BOOTS.get());
+				tabData.accept(RubiesandrabiesModItems.ZORPINIUM_REACTOR.get());
 				tabData.accept(RubiesandrabiesModItems.IRON_PLATE.get());
 				tabData.accept(RubiesandrabiesModItems.ZORPINIUM_ROD.get());
 				tabData.accept(RubiesandrabiesModBlocks.HIS_GREATNESS.get().asItem());
