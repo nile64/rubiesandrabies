@@ -106,6 +106,8 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> DAMN;
 	public static final DeferredItem<Item> FEMGRAM_SPAWN_EGG;
 	public static final DeferredItem<Item> ACHIEVMENTITEM;
+	public static final DeferredItem<Item> METAL_GEAR_SOLID;
+	public static final DeferredItem<Item> HAMMER;
 	static {
 		BAT_WING = register("bat_wing", BatWingItem::new);
 		RUBY = register("ruby", RubyItem::new);
@@ -187,6 +189,8 @@ public class RubiesandrabiesModItems {
 		DAMN = block(RubiesandrabiesModBlocks.DAMN);
 		FEMGRAM_SPAWN_EGG = register("femgram_spawn_egg", properties -> new SpawnEggItem(RubiesandrabiesModEntities.FEMGRAM.get(), properties));
 		ACHIEVMENTITEM = register("achievmentitem", AchievmentitemItem::new);
+		METAL_GEAR_SOLID = register("metal_gear_solid", MetalGearSolidItem::new);
+		HAMMER = register("hammer", HammerItem::new);
 	}
 
 	// Start of user code block custom items

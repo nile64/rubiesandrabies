@@ -63,6 +63,8 @@ public class RubiesandrabiesModTabs {
 				tabData.accept(RubiesandrabiesModItems.ARCHFIEND_DICE.get());
 				tabData.accept(RubiesandrabiesModItems.FEMGRAM_SPAWN_EGG.get());
 				tabData.accept(RubiesandrabiesModItems.ACHIEVMENTITEM.get());
+				tabData.accept(RubiesandrabiesModItems.METAL_GEAR_SOLID.get());
+				tabData.accept(RubiesandrabiesModItems.HAMMER.get());
 			}).withSearchBar().build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> SPACE = REGISTRY.register("space",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.rubiesandrabies.space")).icon(() -> new ItemStack(RubiesandrabiesModItems.URANIUM.get())).displayItems((parameters, tabData) -> {

@@ -144,5 +144,9 @@
   "advancements.ew.descr": "Gross.",
   "advancements.buy_the_acheivment.descr": "You have achieved great things.",
   "advancements.buy_the_acheivment.title": "The Great Achievement",
-  "item.rubiesandrabies.achievmentitem": "The Great Achievement"
+  "item.rubiesandrabies.achievmentitem": "The Great Achievement",
+  "painting.rubiesandrabies.the_man.title": "The Man",
+  "painting.rubiesandrabies.the_man.author": "Mr Beats",
+  "item.rubiesandrabies.metal_gear_solid": "Iron Gear",
+  "item.rubiesandrabies.hammer": "Iron Hammer"
 }

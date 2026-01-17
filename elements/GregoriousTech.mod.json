@@ -13,37 +13,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.IRON_INGOT"
+        "value": "CUSTOM:IronPlate"
       },
       {
-        "value": "Items.IRON_INGOT"
+        "value": "CUSTOM:MetalGearSolid"
       },
       {
-        "value": "Items.IRON_INGOT"
+        "value": "Items.COPPER_INGOT"
       },
       {
-        "value": ""
+        "value": "CUSTOM:MetalGearSolid"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Hammer"
       },
       {
-        "value": ""
+        "value": "CUSTOM:MetalGearSolid"
       },
       {
-        "value": ""
+        "value": "Items.COPPER_INGOT"
       },
       {
-        "value": ""
+        "value": "CUSTOM:MetalGearSolid"
       },
       {
-        "value": ""
+        "value": "CUSTOM:IronPlate"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:IronPlate"
+      "value": "CUSTOM:Gregtech"
     },
-    "name": "iron_plate_recipe",
+    "name": "gregorious_tech",
     "namespace": "mod"
   }
 }

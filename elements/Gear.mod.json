@@ -13,37 +13,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
+        "value": ""
+      },
+      {
         "value": "Items.IRON_INGOT"
       },
       {
+        "value": ""
+      },
+      {
         "value": "Items.IRON_INGOT"
       },
       {
+        "value": "CUSTOM:Hammer"
+      },
+      {
         "value": "Items.IRON_INGOT"
       },
       {
         "value": ""
       },
       {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
+        "value": "Items.IRON_INGOT"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:IronPlate"
+      "value": "CUSTOM:MetalGearSolid"
     },
-    "name": "iron_plate_recipe",
+    "name": "gear",
     "namespace": "mod"
   }
 }
