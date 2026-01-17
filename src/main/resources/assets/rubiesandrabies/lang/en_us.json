@@ -15,8 +15,6 @@
   "item.rubiesandrabies.life_is_roblox_music_disc.desc": "Gp0 - Life Is Roblox",
   "item.rubiesandrabies.life_is_roblox_music_disc": "Music Disc",
   "subtitles.racist_ambience": "the sound of racism",
-  "item.rubiesandrabies.femgram_spawn_egg": "Femgram Spawn Egg",
-  "entity.rubiesandrabies.femgram": "Femgram",
   "item.rubiesandrabies.block_of_femgram": "Block Of Femgram",
   "item.rubiesandrabies.ruby_bricks_stairs": "Ruby Bricks Stairs",
   "item.rubiesandrabies.ruby_bricks_slab": "Ruby Bricks Slab",
@@ -128,5 +126,13 @@
   "item.rubiesandrabies.racist_chestplate": "Racism Chestplate",
   "item.rubiesandrabies.his_greatness": "His Greatness",
   "item.rubiesandrabies.modium_essence": "Factory Essence",
-  "item.rubiesandrabies.testicals": "Testicals"
+  "item.rubiesandrabies.testicals": "Testicals",
+  "entity.rubiesandrabies.femgramold": "Femgram",
+  "item.rubiesandrabies.femgramold_spawn_egg": "Femgram Spawn Egg",
+  "item.rubiesandrabies.femgram_spawn_egg": "Femgram Spawn Egg",
+  "entity.rubiesandrabies.femgram": "Femgram",
+  "item.rubiesandrabies.archfiend_dice.description_0": "§4Roll with caution §r",
+  "item.rubiesandrabies.achievmentitem": "The Great Achievement",
+  "advancements.buy_the_acheivment.descr": "You have achieved great things.",
+  "advancements.buy_the_acheivment.title": "The Great Achievement"
 }

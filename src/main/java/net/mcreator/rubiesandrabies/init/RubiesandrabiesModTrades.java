@@ -20,6 +20,7 @@ public class RubiesandrabiesModTrades {
 	public static void registerTrades(VillagerTradesEvent event) {
 		if (event.getType() == ResourceKey.create(Registries.VILLAGER_PROFESSION, ResourceLocation.parse("rubiesandrabies:ruby_trader"))) {
 			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(RubiesandrabiesModItems.RUBY.get(), 5), new ItemStack(Blocks.DIRT), 10, 5, 0.05f));
+			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(RubiesandrabiesModItems.RUBY.get(), 7), new ItemStack(RubiesandrabiesModItems.ACHIEVMENTITEM.get()), 1, 5, 0.05f));
 		}
 	}
 }
