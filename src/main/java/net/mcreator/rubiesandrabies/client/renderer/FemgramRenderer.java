@@ -1,13 +1,5 @@
 package net.mcreator.rubiesandrabies.client.renderer;
 
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.state.LivingEntityRenderState;
-import net.minecraft.client.renderer.entity.MobRenderer;
-import net.minecraft.client.renderer.entity.EntityRendererProvider;
-
-import net.mcreator.rubiesandrabies.entity.FemgramEntity;
-import net.mcreator.rubiesandrabies.client.model.ModelCustomModel;
-
 public class FemgramRenderer extends MobRenderer<FemgramEntity, LivingEntityRenderState, ModelCustomModel> {
 	private FemgramEntity entity = null;
 
