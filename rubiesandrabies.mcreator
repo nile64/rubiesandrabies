@@ -3301,6 +3301,71 @@
         ]
       },
       "path": "~/femgram"
+    },
+    {
+      "name": "AllTheRacism10",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "all_the_racism_10",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/advancement/all_the_racism_10.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "TheRacismWithin",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_racism_within",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/advancement/the_racism_within.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "Abyssenter",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abyssenter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/ruby_bricks.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "TheAbyss",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_abyss",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/advancement/the_abyss.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "Threewhat",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "threewhat",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/advancement/threewhat.json"
+        ]
+      },
+      "path": "~/idk"
     }
   ],
   "variable_elements": [],
@@ -3731,7 +3796,15 @@
       "entity.rubiesandrabies.femgramold": "Femgram",
       "item.rubiesandrabies.femgramold_spawn_egg": "Femgram Spawn Egg",
       "item.rubiesandrabies.femgram_spawn_egg": "Femgram Spawn Egg",
-      "entity.rubiesandrabies.femgram": "Femgram"
+      "entity.rubiesandrabies.femgram": "Femgram",
+      "advancements.all_the_racism_10.title": "All The Racism 10",
+      "advancements.all_the_racism_10.descr": "Discover Every Racism Biome",
+      "advancements.the_racism_within.descr": "We do not condone racism.",
+      "advancements.the_racism_within.title": "The Racism Within",
+      "advancements.the_abyss.title": "The Abyss",
+      "advancements.the_abyss.descr": "Welcome to Hell",
+      "advancements.threewhat.descr": "Three WHAT?",
+      "advancements.threewhat.title": "Gp0 say-"
     }
   },
   "metadata": {
