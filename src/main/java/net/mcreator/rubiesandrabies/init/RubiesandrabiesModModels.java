@@ -8,16 +8,13 @@ import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.api.distmarker.Dist;
 
-import net.mcreator.rubiesandrabies.client.model.Modelruby_horror;
-import net.mcreator.rubiesandrabies.client.model.Modelmeatball_moose;
-import net.mcreator.rubiesandrabies.client.model.Modelgorilla;
-import net.mcreator.rubiesandrabies.client.model.ModelNow;
-import net.mcreator.rubiesandrabies.client.model.ModelCustomModel;
+import net.mcreator.rubiesandrabies.client.model.*;
 
 @EventBusSubscriber(Dist.CLIENT)
 public class RubiesandrabiesModModels {
 	@SubscribeEvent
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
+		event.registerLayerDefinition(Modelfemgramupgraded.LAYER_LOCATION, Modelfemgramupgraded::createBodyLayer);
 		event.registerLayerDefinition(ModelCustomModel.LAYER_LOCATION, ModelCustomModel::createBodyLayer);
 		event.registerLayerDefinition(Modelruby_horror.LAYER_LOCATION, Modelruby_horror::createBodyLayer);
 		event.registerLayerDefinition(Modelgorilla.LAYER_LOCATION, Modelgorilla::createBodyLayer);

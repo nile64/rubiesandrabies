@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "rubiesandrabies:deleted_mod_element"
+    },
+    "title": {
+      "translate": "advancements.buy_the_acheivment.title"
+    },
+    "description": {
+      "translate": "advancements.buy_the_acheivment.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "buy_the_acheivment_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 50
+  },
+  "parent": "minecraft:story/root"
+}
