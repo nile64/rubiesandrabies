@@ -23,10 +23,6 @@ import net.mcreator.rubiesandrabies.RubiesandrabiesMod;
 @EventBusSubscriber
 public class RubiesandrabiesModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(Registries.ENTITY_TYPE, RubiesandrabiesMod.MODID);
-	public static final DeferredHolder<EntityType<?>, EntityType<FemgramEntity>> FEMGRAM = register("femgram",
-			EntityType.Builder.<FemgramEntity>of(FemgramEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).fireImmune()
-
-					.sized(0.6f, 2f));
 	public static final DeferredHolder<EntityType<?>, EntityType<NowEntity>> NOW = register("now",
 			EntityType.Builder.<NowEntity>of(NowEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).fireImmune()
 
@@ -60,7 +56,6 @@ public class RubiesandrabiesModEntities {
 
 	@SubscribeEvent
 	public static void init(RegisterSpawnPlacementsEvent event) {
-		FemgramEntity.init(event);
 		NowEntity.init(event);
 		MeatballMooseEntity.init(event);
 		GorillaEntity.init(event);
@@ -71,7 +66,6 @@ public class RubiesandrabiesModEntities {
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
-		event.put(FEMGRAM.get(), FemgramEntity.createAttributes().build());
 		event.put(NOW.get(), NowEntity.createAttributes().build());
 		event.put(MEATBALL_MOOSE.get(), MeatballMooseEntity.createAttributes().build());
 		event.put(GORILLA.get(), GorillaEntity.createAttributes().build());

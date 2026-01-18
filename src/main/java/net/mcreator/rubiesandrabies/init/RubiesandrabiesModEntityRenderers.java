@@ -14,7 +14,6 @@ import net.mcreator.rubiesandrabies.client.renderer.*;
 public class RubiesandrabiesModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
-		event.registerEntityRenderer(RubiesandrabiesModEntities.FEMGRAM.get(), FemgramRenderer::new);
 		event.registerEntityRenderer(RubiesandrabiesModEntities.NOW.get(), NowRenderer::new);
 		event.registerEntityRenderer(RubiesandrabiesModEntities.MEATBALL_MOOSE.get(), MeatballMooseRenderer::new);
 		event.registerEntityRenderer(RubiesandrabiesModEntities.GORILLA.get(), GorillaRenderer::new);
