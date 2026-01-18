@@ -109,6 +109,7 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> DAMN;
 	public static final DeferredItem<Item> ABYSSALL_GRASS;
 	public static final DeferredItem<Item> TESTICALS;
+	public static final DeferredItem<Item> STARDUST_PICKAXE;
 	static {
 		BAT_WING = register("bat_wing", BatWingItem::new);
 		RUBY = register("ruby", RubyItem::new);
@@ -193,6 +194,7 @@ public class RubiesandrabiesModItems {
 		DAMN = block(RubiesandrabiesModBlocks.DAMN);
 		ABYSSALL_GRASS = register("abyssall_grass", AbyssallGrassBlock.Item::new);
 		TESTICALS = register("testicals", TesticalsItem::new);
+		STARDUST_PICKAXE = register("stardust_pickaxe", StardustPickaxeItem::new);
 	}
 
 	// Start of user code block custom items

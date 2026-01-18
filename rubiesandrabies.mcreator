@@ -3613,6 +3613,33 @@
         ]
       },
       "path": "~/idk"
+    },
+    {
+      "name": "DaveGawd",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dave_gawd",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/painting_variant/dave_gawd.json"
+        ]
+      }
+    },
+    {
+      "name": "StardustPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stardust_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/item/StardustPickaxeItem.java",
+          "src/main/resources/assets/rubiesandrabies/items/stardust_pickaxe.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/stardust_pickaxe.json"
+        ]
+      },
+      "path": "~/SpaceThingy"
     }
   ],
   "variable_elements": [],
@@ -3890,6 +3917,7 @@
       "~CUSTOM:Uranium"
     ],
     "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:StardustPickaxe",
       "~CUSTOM:ZorpiniumPickaxe",
       "~CUSTOM:SugarcanePickaxe"
     ],
@@ -4110,7 +4138,10 @@
       "subtitles.whbag_pitchdown": "",
       "item.rubiesandrabies.stardust_remnant": "Stardust Remnant",
       "item.rubiesandrabies.femgram_spawn_egg": "Femgram Spawn Egg",
-      "entity.rubiesandrabies.femgram": "Femgram"
+      "entity.rubiesandrabies.femgram": "Femgram",
+      "painting.rubiesandrabies.dave_gawd.author": "Sire Dick of Goonington",
+      "painting.rubiesandrabies.dave_gawd.title": "Dave Gawd",
+      "item.rubiesandrabies.stardust_pickaxe": "Stardust Pickaxe"
     }
   },
   "metadata": {

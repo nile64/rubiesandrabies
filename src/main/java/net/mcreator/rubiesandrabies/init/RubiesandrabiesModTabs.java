@@ -81,6 +81,7 @@ public class RubiesandrabiesModTabs {
 				tabData.accept(RubiesandrabiesModItems.LEAVEEVIL.get());
 				tabData.accept(RubiesandrabiesModBlocks.ABYSSALL_GRASS.get().asItem());
 				tabData.accept(RubiesandrabiesModItems.TESTICALS.get());
+				tabData.accept(RubiesandrabiesModItems.STARDUST_PICKAXE.get());
 			}).withTabsBefore(RUBIES_RABIES_TAB.getId()).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> ZORPINIUM_OBLIVION = REGISTRY.register("zorpinium_oblivion",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.rubiesandrabies.zorpinium_oblivion")).icon(() -> new ItemStack(RubiesandrabiesModBlocks.ZORPINIUM_ORE.get())).displayItems((parameters, tabData) -> {
