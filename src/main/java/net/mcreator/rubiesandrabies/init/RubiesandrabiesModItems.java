@@ -31,7 +31,7 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> RUBY_BRICKS;
 	public static final DeferredItem<Item> THE_INCIDENT;
 	public static final DeferredItem<Item> LIFE_IS_ROBLOX_MUSIC_DISC;
-	public static final DeferredItem<Item> FEMGRAMOLD_SPAWN_EGG;
+	public static final DeferredItem<Item> FEMGRAM_SPAWN_EGG;
 	public static final DeferredItem<Item> BLOCK_OF_FEMGRAM;
 	public static final DeferredItem<Item> RUBY_BRICKS_STAIRS;
 	public static final DeferredItem<Item> RUBY_BRICKS_SLAB;
@@ -98,9 +98,9 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> MODIUM_ESSENCE;
 	public static final DeferredItem<Item> COMPRESSED_COMPRESSED_COMPRESSED_COMPRESSED_RUBY;
 	public static final DeferredItem<Item> ABYSSALLMATTER;
-	public static final DeferredItem<Item> GER;
 	public static final DeferredItem<Item> GREGTECH;
 	public static final DeferredItem<Item> ARCHFIEND_DICE;
+	public static final DeferredItem<Item> STARDUST_REMNANT;
 	public static final DeferredItem<Item> HAMMER;
 	public static final DeferredItem<Item> FEMGRAM_SPAWN_EGG;
 	public static final DeferredItem<Item> METAL_GEAR_SOLID;
@@ -109,14 +109,13 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> DAMN;
 	public static final DeferredItem<Item> ABYSSALL_GRASS;
 	public static final DeferredItem<Item> TESTICALS;
-	public static final DeferredItem<Item> STARDUST_REMNANT;
 	static {
 		BAT_WING = register("bat_wing", BatWingItem::new);
 		RUBY = register("ruby", RubyItem::new);
 		RUBY_BRICKS = block(RubiesandrabiesModBlocks.RUBY_BRICKS);
 		THE_INCIDENT = register("the_incident", TheIncidentItem::new);
 		LIFE_IS_ROBLOX_MUSIC_DISC = register("life_is_roblox_music_disc", LifeIsRobloxMusicDiscItem::new);
-		FEMGRAMOLD_SPAWN_EGG = register("femgramold_spawn_egg", properties -> new SpawnEggItem(RubiesandrabiesModEntities.FEMGRAMOLD.get(), properties));
+		FEMGRAM_SPAWN_EGG = register("femgram_spawn_egg", properties -> new SpawnEggItem(RubiesandrabiesModEntities.FEMGRAM.get(), properties));
 		BLOCK_OF_FEMGRAM = block(RubiesandrabiesModBlocks.BLOCK_OF_FEMGRAM);
 		RUBY_BRICKS_STAIRS = block(RubiesandrabiesModBlocks.RUBY_BRICKS_STAIRS);
 		RUBY_BRICKS_SLAB = block(RubiesandrabiesModBlocks.RUBY_BRICKS_SLAB);
@@ -183,9 +182,9 @@ public class RubiesandrabiesModItems {
 		MODIUM_ESSENCE = register("modium_essence", ModiumEssenceItem::new);
 		COMPRESSED_COMPRESSED_COMPRESSED_COMPRESSED_RUBY = register("compressed_compressed_compressed_compressed_ruby", CompressedCompressedCompressedCompressedRubyItem::new);
 		ABYSSALLMATTER = block(RubiesandrabiesModBlocks.ABYSSALLMATTER);
-		GER = block(RubiesandrabiesModBlocks.GER);
 		GREGTECH = block(RubiesandrabiesModBlocks.GREGTECH);
 		ARCHFIEND_DICE = register("archfiend_dice", ArchfiendDiceItem::new);
+		STARDUST_REMNANT = register("stardust_remnant", StardustRemnantItem::new);
 		HAMMER = register("hammer", HammerItem::new);
 		FEMGRAM_SPAWN_EGG = register("femgram_spawn_egg", properties -> new SpawnEggItem(RubiesandrabiesModEntities.FEMGRAM.get(), properties));
 		METAL_GEAR_SOLID = register("metal_gear_solid", MetalGearSolidItem::new);
@@ -194,7 +193,6 @@ public class RubiesandrabiesModItems {
 		DAMN = block(RubiesandrabiesModBlocks.DAMN);
 		ABYSSALL_GRASS = register("abyssall_grass", AbyssallGrassBlock.Item::new);
 		TESTICALS = register("testicals", TesticalsItem::new);
-		STARDUST_REMNANT = register("stardust_remnant", StardustRemnantItem::new);
 	}
 
 	// Start of user code block custom items

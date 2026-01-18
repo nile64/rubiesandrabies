@@ -173,18 +173,10 @@
       }
     ]
   },
-  "yah": {
+  "whbag_pitchup": {
     "sounds": [
       {
-        "name": "rubiesandrabies:what",
-        "stream": false
-      }
-    ]
-  },
-  "sdpicemeatball": {
-    "sounds": [
-      {
-        "name": "rubiesandrabies:spicymeatball",
+        "name": "rubiesandrabies:voicy_watch_him_become_a_god1",
         "stream": false
       }
     ]
@@ -197,18 +189,26 @@
       }
     ]
   },
-  "whbag_pitchup": {
-    "sounds": [
-      {
-        "name": "rubiesandrabies:voicy_watch_him_become_a_god1",
-        "stream": false
-      }
-    ]
-  },
   "whbag_pitchdown": {
     "sounds": [
       {
         "name": "rubiesandrabies:voicy_watch_him_become_a_god2",
+        "stream": false
+      }
+    ]
+  },
+  "yah": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:what",
+        "stream": false
+      }
+    ]
+  },
+  "sdpicemeatball": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:spicymeatball",
         "stream": false
       }
     ]

@@ -44,7 +44,6 @@ public class RubiesandrabiesModBlocks {
 	public static final DeferredBlock<Block> HIS_GREATNESS;
 	public static final DeferredBlock<Block> RUBYDOOR;
 	public static final DeferredBlock<Block> ABYSSALLMATTER;
-	public static final DeferredBlock<Block> GER;
 	public static final DeferredBlock<Block> GREGTECH;
 	public static final DeferredBlock<Block> DAMN;
 	public static final DeferredBlock<Block> ABYSSALL_GRASS;
@@ -77,7 +76,6 @@ public class RubiesandrabiesModBlocks {
 		HIS_GREATNESS = register("his_greatness", HisGreatnessBlock::new);
 		RUBYDOOR = register("rubydoor", RubydoorBlock::new);
 		ABYSSALLMATTER = register("abyssallmatter", AbyssallmatterBlock::new);
-		GER = register("ger", GerBlock::new);
 		GREGTECH = register("gregtech", GregtechBlock::new);
 		DAMN = register("damn", DamnBlock::new);
 		ABYSSALL_GRASS = register("abyssall_grass", AbyssallGrassBlock::new);

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "rubiesandrabies:abyssall_grass"
+      "id": "rubiesandrabies:deleted_mod_element"
     },
     "title": {
       "translate": "advancements.the_abyss.title"
@@ -25,7 +25,7 @@
   "rewards": {
     "experience": 0,
     "loot": [
-      "rubiesandrabies:blocks/nothing"
+      "rubiesandrabies:deleted_mod_element"
     ]
   },
   "parent": "rubiesandrabies:infinite_power"

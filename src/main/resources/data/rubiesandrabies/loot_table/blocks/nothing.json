@@ -34,7 +34,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "rubiesandrabies:abyssall_grass",
+          "name": "rubiesandrabies:deleted_mod_element",
           "weight": 1,
           "functions": [
             {
