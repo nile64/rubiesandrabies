@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rubiesandrabies:block/sex",
+    "up": "rubiesandrabies:block/sex",
+    "north": "rubiesandrabies:block/sex",
+    "east": "rubiesandrabies:block/sex",
+    "south": "rubiesandrabies:block/sex",
+    "west": "rubiesandrabies:block/sex",
+    "particle": "rubiesandrabies:block/sex"
+  },
+  "render_type": "solid"
+}

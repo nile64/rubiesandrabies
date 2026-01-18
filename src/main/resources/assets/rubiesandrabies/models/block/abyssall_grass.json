@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rubiesandrabies:block/abysallmatter",
+    "up": "rubiesandrabies:block/abyssalgrasstop",
+    "north": "rubiesandrabies:block/abyssalgrassside",
+    "east": "rubiesandrabies:block/abyssalgrassside",
+    "south": "rubiesandrabies:block/abyssalgrassside",
+    "west": "rubiesandrabies:block/abyssalgrassside",
+    "particle": "rubiesandrabies:block/abysallmatter"
+  },
+  "render_type": "solid"
+}

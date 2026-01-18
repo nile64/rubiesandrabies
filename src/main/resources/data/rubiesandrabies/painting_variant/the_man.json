@@ -1,0 +1,11 @@
+{
+  "asset_id": "rubiesandrabies:the_man",
+  "height": 5,
+  "width": 3,
+  "title": {
+    "translate": "painting.rubiesandrabies.the_man.title"
+  },
+  "author": {
+    "translate": "painting.rubiesandrabies.the_man.author"
+  }
+}

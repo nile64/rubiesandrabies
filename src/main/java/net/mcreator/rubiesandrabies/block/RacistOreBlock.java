@@ -2,6 +2,9 @@ package net.mcreator.rubiesandrabies.block;
 
 import org.checkerframework.checker.units.qual.s;
 
+import net.minecraft.world.phys.shapes.VoxelShape;
+import net.minecraft.world.phys.shapes.Shapes;
+import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.BlockState;
@@ -28,12 +31,17 @@ public class RacistOreBlock extends FallingBlock {
 	}
 
 	public RacistOreBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.GLOW_LICHEN).sound(SoundType.SLIME_BLOCK).strength(3f, 999999999f).lightLevel(s -> 3).instrument(NoteBlockInstrument.CUSTOM_HEAD));
+		super(properties.mapColor(MapColor.GLOW_LICHEN).sound(SoundType.SLIME_BLOCK).strength(3f, 999999999f).lightLevel(s -> 3).noOcclusion().isRedstoneConductor((bs, br, bp) -> false).instrument(NoteBlockInstrument.CUSTOM_HEAD));
 	}
 
 	@Override
 	public int getLightBlock(BlockState state) {
 		return 15;
+	}
+
+	@Override
+	public VoxelShape getVisualShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		return Shapes.empty();
 	}
 
 	@Override

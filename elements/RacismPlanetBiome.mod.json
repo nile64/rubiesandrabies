@@ -7,10 +7,10 @@
       "value": "Blocks.GRASS"
     },
     "undergroundBlock": {
-      "value": "CUSTOM:NowiumBlock"
+      "value": "CUSTOM:Damn"
     },
     "underwaterBlock": {
-      "value": "CUSTOM:RubyBricks"
+      "value": "CUSTOM:Damn"
     },
     "airColor": {
       "value": -16777216,
@@ -127,7 +127,7 @@
         },
         "minGroup": 1,
         "maxGroup": 1,
-        "weight": 100,
+        "weight": 6,
         "spawnType": "monster"
       }
     ]

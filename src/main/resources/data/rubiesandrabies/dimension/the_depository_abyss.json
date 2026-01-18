@@ -199,17 +199,17 @@
                         "then_run": {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "minecraft:grass_block",
-                            "Properties": {
-                              "snowy": "false"
-                            }
+                            "Name": "rubiesandrabies:abyssall_grass"
                           }
                         }
                       },
                       {
                         "type": "minecraft:block",
                         "result_state": {
-                          "Name": "minecraft:gravel"
+                          "Name": "rubiesandrabies:abyssallmatter",
+                          "Properties": {
+                            "facing": "north"
+                          }
                         }
                       }
                     ]
@@ -227,7 +227,10 @@
                   "then_run": {
                     "type": "minecraft:block",
                     "result_state": {
-                      "Name": "minecraft:dirt"
+                      "Name": "rubiesandrabies:abyssallmatter",
+                      "Properties": {
+                        "facing": "north"
+                      }
                     }
                   }
                 }

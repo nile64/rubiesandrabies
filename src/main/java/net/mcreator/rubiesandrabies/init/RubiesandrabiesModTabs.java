@@ -27,7 +27,7 @@ public class RubiesandrabiesModTabs {
 				tabData.accept(RubiesandrabiesModBlocks.RUBY_BRICKS.get().asItem());
 				tabData.accept(RubiesandrabiesModItems.THE_INCIDENT.get());
 				tabData.accept(RubiesandrabiesModItems.LIFE_IS_ROBLOX_MUSIC_DISC.get());
-				tabData.accept(RubiesandrabiesModItems.FEMGRAM_SPAWN_EGG.get());
+				tabData.accept(RubiesandrabiesModItems.FEMGRAMOLD_SPAWN_EGG.get());
 				tabData.accept(RubiesandrabiesModBlocks.BLOCK_OF_FEMGRAM.get().asItem());
 				tabData.accept(RubiesandrabiesModBlocks.RUBY_BRICKS_STAIRS.get().asItem());
 				tabData.accept(RubiesandrabiesModBlocks.RUBY_BRICKS_SLAB.get().asItem());
@@ -61,6 +61,10 @@ public class RubiesandrabiesModTabs {
 				tabData.accept(RubiesandrabiesModItems.COMPRESSED_COMPRESSED_COMPRESSED_COMPRESSED_RUBY.get());
 				tabData.accept(RubiesandrabiesModBlocks.GREGTECH.get().asItem());
 				tabData.accept(RubiesandrabiesModItems.ARCHFIEND_DICE.get());
+				tabData.accept(RubiesandrabiesModItems.HAMMER.get());
+				tabData.accept(RubiesandrabiesModItems.FEMGRAM_SPAWN_EGG.get());
+				tabData.accept(RubiesandrabiesModItems.METAL_GEAR_SOLID.get());
+				tabData.accept(RubiesandrabiesModItems.ACHIEVMENTITEM.get());
 			}).withSearchBar().build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> SPACE = REGISTRY.register("space",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.rubiesandrabies.space")).icon(() -> new ItemStack(RubiesandrabiesModItems.URANIUM.get())).displayItems((parameters, tabData) -> {
@@ -69,11 +73,14 @@ public class RubiesandrabiesModTabs {
 				tabData.accept(RubiesandrabiesModItems.RACIST_INGOT.get());
 				tabData.accept(RubiesandrabiesModBlocks.RACIST_ORE.get().asItem());
 				tabData.accept(RubiesandrabiesModItems.EXIT_PLANET_ITEM_TEST.get());
-				tabData.accept(RubiesandrabiesModItems.THE_DEPOSITORY_ABYSS.get());
 				tabData.accept(RubiesandrabiesModItems.RACIST_HELMET.get());
 				tabData.accept(RubiesandrabiesModItems.RACIST_CHESTPLATE.get());
 				tabData.accept(RubiesandrabiesModItems.RACIST_LEGGINGS.get());
 				tabData.accept(RubiesandrabiesModItems.RACIST_BOOTS.get());
+				tabData.accept(RubiesandrabiesModItems.LEAVEEVIL.get());
+				tabData.accept(RubiesandrabiesModBlocks.ABYSSALL_GRASS.get().asItem());
+				tabData.accept(RubiesandrabiesModItems.TESTICALS.get());
+				tabData.accept(RubiesandrabiesModItems.STARDUST_REMNANT.get());
 			}).withTabsBefore(RUBIES_RABIES_TAB.getId()).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> ZORPINIUM_OBLIVION = REGISTRY.register("zorpinium_oblivion",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.rubiesandrabies.zorpinium_oblivion")).icon(() -> new ItemStack(RubiesandrabiesModBlocks.ZORPINIUM_ORE.get())).displayItems((parameters, tabData) -> {
@@ -98,10 +105,11 @@ public class RubiesandrabiesModTabs {
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
-			tabData.accept(RubiesandrabiesModItems.FEMGRAM_SPAWN_EGG.get());
+			tabData.accept(RubiesandrabiesModItems.FEMGRAMOLD_SPAWN_EGG.get());
 			tabData.accept(RubiesandrabiesModItems.MEATBALL_MOOSE_SPAWN_EGG.get());
 			tabData.accept(RubiesandrabiesModItems.GORILLA_SPAWN_EGG.get());
 			tabData.accept(RubiesandrabiesModItems.R_HMOB_SPAWN_EGG.get());
+			tabData.accept(RubiesandrabiesModItems.FEMGRAM_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(RubiesandrabiesModItems.BANANA.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {

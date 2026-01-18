@@ -312,11 +312,11 @@
       "type": "livingentity",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "femgram",
+      "registry_name": "femgramold",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rubiesandrabies/models/item/femgram_spawn_egg.json",
-          "src/main/resources/assets/rubiesandrabies/items/femgram_spawn_egg.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/femgramold_spawn_egg.json",
+          "src/main/resources/assets/rubiesandrabies/items/femgramold_spawn_egg.json",
           "src/main/java/net/mcreator/rubiesandrabies/client/renderer/FemgramRenderer.java",
           "src/main/java/net/mcreator/rubiesandrabies/entity/FemgramEntity.java"
         ]
@@ -2765,18 +2765,9 @@
       "registry_name": "the_depository_abyss",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rubiesandrabies/models/block/the_depository_abyss_portal_ew.json",
-          "src/main/java/net/mcreator/rubiesandrabies/world/teleporter/TheDepositoryAbyssPortalShape.java",
-          "src/main/java/net/mcreator/rubiesandrabies/item/TheDepositoryAbyssItem.java",
           "src/main/resources/data/rubiesandrabies/dimension_type/the_depository_abyss.json",
-          "src/main/resources/assets/rubiesandrabies/models/block/the_depository_abyss_portal_ns.json",
-          "src/main/resources/assets/rubiesandrabies/items/the_depository_abyss.json",
-          "src/main/java/net/mcreator/rubiesandrabies/block/TheDepositoryAbyssPortalBlock.java",
           "src/main/java/net/mcreator/rubiesandrabies/world/dimension/TheDepositoryAbyssDimension.java",
-          "src/main/resources/assets/rubiesandrabies/blockstates/the_depository_abyss_portal.json",
-          "src/main/java/net/mcreator/rubiesandrabies/world/teleporter/TheDepositoryAbyssTeleporter.java",
-          "src/main/resources/data/rubiesandrabies/dimension/the_depository_abyss.json",
-          "src/main/resources/assets/rubiesandrabies/models/item/the_depository_abyss.json"
+          "src/main/resources/data/rubiesandrabies/dimension/the_depository_abyss.json"
         ]
       },
       "path": "~/idk"
@@ -3065,6 +3056,581 @@
           "src/main/java/net/mcreator/rubiesandrabies/procedures/OverwriteAIWithRabiesAIProcedure.java"
         ]
       }
+    },
+    {
+      "name": "Testenterabyss",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testenterabyss",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/TestenterabyssProcedure.java"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "FemgrambossPlaybackConditionkick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femgramboss_playback_conditionkick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/FemgrambossPlaybackConditionkickProcedure.java"
+        ]
+      },
+      "path": "~/femgram"
+    },
+    {
+      "name": "AchievmentitemItemInInventoryTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "achievmentitem_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/AchievmentitemItemInInventoryTickProcedure.java"
+        ]
+      },
+      "path": "~/Ruby trader"
+    },
+    {
+      "name": "TheAbyss",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_abyss",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/advancement/the_abyss.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "Hammer",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hammer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/models/item/hammer.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/HammerItem.java",
+          "src/main/resources/assets/rubiesandrabies/items/hammer.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "Notorches",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "notorches",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/NotorchesProcedure.java"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "Femgramboss",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femgram",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/client/renderer/FemgrambossRenderer.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/femgram_spawn_egg.json",
+          "src/main/resources/assets/rubiesandrabies/items/femgram_spawn_egg.json",
+          "src/main/java/net/mcreator/rubiesandrabies/entity/FemgrambossEntity.java"
+        ]
+      },
+      "path": "~/femgram"
+    },
+    {
+      "name": "FemgrambossPlaybackConditionattack",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femgramboss_playback_conditionattack",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/FemgrambossPlaybackConditionattackProcedure.java"
+        ]
+      },
+      "path": "~/femgram"
+    },
+    {
+      "name": "Mamamia",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mamamia",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/MamamiaProcedure.java"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "Gear",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gear",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/gear.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "BuyTheAcheivment",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buy_the_acheivment",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/advancement/buy_the_acheivment.json"
+        ]
+      },
+      "path": "~/Ruby trader"
+    },
+    {
+      "name": "MetalGearSolid",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_gear_solid",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/models/item/metal_gear_solid.json",
+          "src/main/resources/assets/rubiesandrabies/items/metal_gear_solid.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/MetalGearSolidItem.java"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "FemgrambossOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femgramboss_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/FemgrambossOnEntityTickUpdateProcedure.java"
+        ]
+      },
+      "path": "~/femgram"
+    },
+    {
+      "name": "Ew",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ew",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/advancement/ew.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "Achievmentitem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "achievmentitem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/item/AchievmentitemItem.java",
+          "src/main/resources/assets/rubiesandrabies/items/achievmentitem.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/achievmentitem.json"
+        ]
+      },
+      "path": "~/Ruby trader"
+    },
+    {
+      "name": "GregoriousTech",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gregorious_tech",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/gregorious_tech.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "Leaveevil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leaveevil",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/item/LeaveevilItem.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/leaveevil.json",
+          "src/main/resources/assets/rubiesandrabies/items/leaveevil.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "Threewhat",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "threewhat",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/advancement/threewhat.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "TheRacismWithin",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_racism_within",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/advancement/the_racism_within.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "Abyssenterloot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abyssenterloot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/nothing.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "Damn",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "damn",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/models/block/damn.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/DamnBlock.java",
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/damn.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/damn.json",
+          "src/main/resources/assets/rubiesandrabies/blockstates/damn.json",
+          "src/main/resources/assets/rubiesandrabies/items/damn.json"
+        ]
+      },
+      "path": "~/SpaceThingy"
+    },
+    {
+      "name": "RacismPlanetPlayerEntersDimension",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "racism_planet_player_enters_dimension",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/RacismPlanetPlayerEntersDimensionProcedure.java"
+        ]
+      },
+      "path": "~/SpaceThingy"
+    },
+    {
+      "name": "FemgrambossPlaybackConditionjump",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femgramboss_playback_conditionjump",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/FemgrambossPlaybackConditionjumpProcedure.java"
+        ]
+      },
+      "path": "~/femgram"
+    },
+    {
+      "name": "AllTheRacism10",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "all_the_racism_10",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/advancement/all_the_racism_10.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "CurseOfEvil",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curse_of_evil",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/enchantment/curse_of_evil.json"
+        ]
+      }
+    },
+    {
+      "name": "LeaveevilRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leaveevil_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/LeaveevilRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "HammerMake",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hammer_make",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/hammer_make.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "TheMan",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_man",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/painting_variant/the_man.json"
+        ]
+      }
+    },
+    {
+      "name": "Nonightvision",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nonightvision",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/NonightvisionProcedure.java"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "AbyssallGrass",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abyssall_grass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/blockstates/abyssall_grass.json",
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/abyssall_grass.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/abyssall_grass.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/AbyssallGrassBlock.java",
+          "src/main/resources/assets/rubiesandrabies/items/abyssall_grass.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/abyssall_grass.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "Testicals",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testicals",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/models/item/testicals.json",
+          "src/main/resources/assets/rubiesandrabies/items/testicals.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/TesticalsItem.java"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "FemgrambossChooseAttack",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femgramboss_choose_attack",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/FemgrambossChooseAttackProcedure.java"
+        ]
+      },
+      "path": "~/femgram"
+    },
+    {
+      "name": "StardustRemnant",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stardust_remnant",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/items/stardust_remnant.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/StardustRemnantItem.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/stardust_remnant.json"
+        ]
+      },
+      "path": "~/SpaceThingy"
+    },
+    {
+      "name": "StardustRRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stardust_r_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/stardust_r_recipe.json",
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/stardust_r_recipe.json"
+        ]
+      },
+      "path": "~/SpaceThingy"
     }
   ],
   "variable_elements": [],
@@ -3217,6 +3783,46 @@
       ],
       "category": "hostile",
       "subtitle": ""
+    },
+    {
+      "name": "yah",
+      "files": [
+        "what"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "sdpicemeatball",
+      "files": [
+        "spicymeatball"
+      ],
+      "category": "block",
+      "subtitle": ""
+    },
+    {
+      "name": "watchhimbecomeagawd",
+      "files": [
+        "voicy_watch_him_become_a_god"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "whbag_pitchup",
+      "files": [
+        "voicy_watch_him_become_a_god1"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "whbag_pitchdown",
+      "files": [
+        "voicy_watch_him_become_a_god2"
+      ],
+      "category": "neutral",
+      "subtitle": ""
     }
   ],
   "tag_elements": {
@@ -3231,6 +3837,7 @@
       "~CUSTOM:NetherRacism"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:AbyssallGrass",
       "~CUSTOM:Gregtech",
       "~CUSTOM:Abyssallmatter",
       "~CUSTOM:HisGreatness",
@@ -3277,6 +3884,7 @@
       "~CUSTOM:TouchOfRabies"
     ],
     "ENCHANTMENTS:minecraft:treasure": [
+      "~CUSTOM:CurseOfEvil",
       "~CUSTOM:TouchOfRabies"
     ],
     "BLOCKS:minecraft:needs_diamond_tool": [
@@ -3307,6 +3915,7 @@
       "~Blocks.REEDS"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:AbyssallGrass",
       "~CUSTOM:Abyssallmatter",
       "~CUSTOM:HisGreatness",
       "~CUSTOM:TheniumEssenceBlock"
@@ -3315,10 +3924,11 @@
       "~CUSTOM:RubyShelf"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:AbyssallGrass",
       "~CUSTOM:Abyssallmatter",
       "~CUSTOM:RubyBricks",
-      "~CUSTOM:NowiumBlock",
       "~CUSTOM:EvilNylium",
+      "~CUSTOM:Damn",
       "~Blocks.NETHERRACK",
       "~Blocks.TUFF",
       "~Blocks.DIRT#0",
@@ -3351,6 +3961,9 @@
     ],
     "BIOMES:minecraft:has_structure/nether_fossil": [
       "~CUSTOM:RacismPlanetBiome"
+    ],
+    "ITEMS:minecraft:enchantable/durability": [
+      "~CUSTOM:Hammer"
     ]
   },
   "tab_element_order": {},
@@ -3372,8 +3985,6 @@
       "item.rubiesandrabies.life_is_roblox_music_disc.desc": "Gp0 - Life Is Roblox",
       "item.rubiesandrabies.life_is_roblox_music_disc": "Music Disc",
       "subtitles.racist_ambience": "the sound of racism",
-      "item.rubiesandrabies.femgram_spawn_egg": "Femgram Spawn Egg",
-      "entity.rubiesandrabies.femgram": "Femgram",
       "item.rubiesandrabies.block_of_femgram": "Block Of Femgram",
       "item.rubiesandrabies.ruby_bricks_stairs": "Ruby Bricks Stairs",
       "item.rubiesandrabies.ruby_bricks_slab": "Ruby Bricks Slab",
@@ -3432,7 +4043,7 @@
       "item.rubiesandrabies.enter_planet_test_item": "Enter Planet Test Item",
       "biome.rubiesandrabies.racism_planet_biome": "Racism Planet Biome",
       "item.rubiesandrabies.spaceship": "Spaceship",
-      "item.rubiesandrabies.racist_ingot": "Racist Ingot",
+      "item.rubiesandrabies.racist_ingot": "Ingot of Racism",
       "item.rubiesandrabies.r_hmob_spawn_egg": "RHmob Spawn Egg",
       "entity.rubiesandrabies.r_hmob": "RHmob",
       "item.rubiesandrabies.racist_ore": "Racist Ore",
@@ -3440,14 +4051,13 @@
       "fluid.rubiesandrabies.gp_0_liquid": "Gp0 Liquid",
       "item.rubiesandrabies.gp_0_liquid_bucket": "Gp0 Bucket",
       "fluid_type.rubiesandrabies.gp_0_liquid": "Gp0 Liquid",
-      "gui.rubiesandrabies.space_menu.button_racist_planet": "Racist Planet",
+      "gui.rubiesandrabies.space_menu.button_racist_planet": "Racism Planet",
       "gui.rubiesandrabies.space_menu.button_overworld": "Overworld",
       "item.rubiesandrabies.exit_planet_item_test": "Exit Planet Item Test",
       "entity.villager.rubiesandrabies.ruby_trader": "Ruby Trader",
       "subtitles.areyoubeingintentionallydense": "",
       "subtitles.thegrandabyssambience": "?",
       "subtitles.cowambient": "",
-      "item.rubiesandrabies.the_depository_abyss": "The Depository Abyss Portal Igniter",
       "subtitles.johnevilthethird": "",
       "item.rubiesandrabies.zorpinium_reactor": "Zorpinium Reactor",
       "item.rubiesandrabies.molded_zorpinium": "Molded Zorpinium",
@@ -3476,17 +4086,49 @@
       "item.rubiesandrabies.ghast_cow_spawn_egg": "The Ghast Cow Spawn Egg",
       "entity.rubiesandrabies.ghast_cow": "The Ghast Cow",
       "item.rubiesandrabies.compressed_compressed_compressed_compressed_compressed_ruby": "Compressed Compressed Compressed Compressed Compressed Ruby",
-      "item.rubiesandrabies.racist_leggings": "Racist Leggings",
-      "item.rubiesandrabies.racist_boots": "Racist Boots",
-      "item.rubiesandrabies.racist_helmet": "Racist Helmet",
-      "item.rubiesandrabies.racist_chestplate": "Racist Chestplate",
+      "item.rubiesandrabies.racist_leggings": "Racism Leggings",
+      "item.rubiesandrabies.racist_boots": "Racism Boots",
+      "item.rubiesandrabies.racist_helmet": "Racism Helmet",
+      "item.rubiesandrabies.racist_chestplate": "Racism Chestplate",
       "item.rubiesandrabies.sky_essence": "Essence of the Sky",
       "item.rubiesandrabies.modium_essence": "Factory Essence",
       "item.rubiesandrabies.compressed_compressed_compressed_compressed_ruby": "Compressed Compressed Compressed Compressed Ruby",
       "item.rubiesandrabies.abyssallmatter": "Abyssallmatter",
       "item.rubiesandrabies.ger": "Ger",
       "item.rubiesandrabies.gregtech": "Greg\u0027s Tech",
-      "item.rubiesandrabies.archfiend_dice": "Archfiend Dice"
+      "item.rubiesandrabies.archfiend_dice": "Archfiend Dice",
+      "item.rubiesandrabies.archfiend_dice.description_0": "§4Roll with caution §r",
+      "advancements.the_abyss.title": "The Abyss",
+      "advancements.the_abyss.descr": "Welcome to Hell",
+      "item.rubiesandrabies.hammer": "Iron Hammer",
+      "advancements.buy_the_acheivment.descr": "You have achieved great things.",
+      "advancements.buy_the_acheivment.title": "The Great Achievement",
+      "item.rubiesandrabies.metal_gear_solid": "Iron Gear",
+      "advancements.ew.title": "Yeah!",
+      "advancements.ew.descr": "Gross.",
+      "item.rubiesandrabies.achievmentitem": "The Great Achievement",
+      "item.rubiesandrabies.leaveevil": "Leaveevil",
+      "advancements.threewhat.descr": "Three WHAT?",
+      "advancements.threewhat.title": "Gp0 say-",
+      "advancements.the_racism_within.descr": "We do not condone racism.",
+      "advancements.the_racism_within.title": "The Racism Within",
+      "item.rubiesandrabies.damn": "Block of Evil",
+      "advancements.all_the_racism_10.title": "All The Racism 10",
+      "advancements.all_the_racism_10.descr": "Discover Every Racism Biome",
+      "enchantment.rubiesandrabies.curse_of_evil": "Curse Of Evil",
+      "painting.rubiesandrabies.the_man.title": "The Man",
+      "painting.rubiesandrabies.the_man.author": "Mr Beats",
+      "block.rubiesandrabies.abyssall_grass.description_0": "gras",
+      "item.rubiesandrabies.abyssall_grass": "Abyssal Grass",
+      "item.rubiesandrabies.testicals": "Test",
+      "entity.rubiesandrabies.femgramold": "Femgram",
+      "item.rubiesandrabies.femgramold_spawn_egg": "Femgram Spawn Egg",
+      "item.rubiesandrabies.femgram_spawn_egg": "Femgram Spawn Egg",
+      "entity.rubiesandrabies.femgram": "Femgram",
+      "subtitles.watchhimbecomeagawd": "",
+      "subtitles.whbag_pitchup": "",
+      "subtitles.whbag_pitchdown": "",
+      "item.rubiesandrabies.stardust_remnant": "Stardust Remnant"
     }
   },
   "metadata": {
@@ -3567,11 +4209,11 @@
             "name": "Content",
             "children": [
               {
-                "name": "Items",
+                "name": "Blocks",
                 "children": []
               },
               {
-                "name": "Blocks",
+                "name": "Items",
                 "children": []
               }
             ]
@@ -3580,6 +4222,10 @@
       },
       {
         "name": "ZorpiniumOblivion",
+        "children": []
+      },
+      {
+        "name": "femgram",
         "children": []
       }
     ]

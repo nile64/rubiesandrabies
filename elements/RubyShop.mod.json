@@ -9,18 +9,9 @@
         "value": "Blocks.STRUCTURE_BLOCK"
       }
     ],
-    "spacing": 70,
+    "spacing": 50,
     "separation": 4,
     "restrictionBiomes": [
-      {
-        "value": "CUSTOM:Racism"
-      },
-      {
-        "value": "CUSTOM:NetherRacism"
-      },
-      {
-        "value": "CUSTOM:RacismPlanetBiome"
-      },
       {
         "value": "badlands"
       },
@@ -217,7 +208,7 @@
         "value": "wooded_badlands_plateau"
       }
     ],
-    "terrainAdaptation": "none",
+    "terrainAdaptation": "beard_thin",
     "generationStep": "SURFACE_STRUCTURES",
     "surfaceDetectionType": "WORLD_SURFACE_WG",
     "useStartHeight": false,

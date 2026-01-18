@@ -1,8 +1,6 @@
 {
   "type": "neoforge:add_features",
-  "biomes": {
-    "type": "neoforge:any"
-  },
+  "biomes": "rubiesandrabies:racism_planet_biome",
   "features": "rubiesandrabies:racist_ore",
   "step": "underground_ores"
 }
