@@ -153,10 +153,10 @@
   "item.rubiesandrabies.testicals": "Test",
   "entity.rubiesandrabies.femgramold": "Femgram",
   "item.rubiesandrabies.femgramold_spawn_egg": "Femgram Spawn Egg",
-  "item.rubiesandrabies.femgram_spawn_egg": "Femgram Spawn Egg",
-  "entity.rubiesandrabies.femgram": "Femgram",
   "subtitles.watchhimbecomeagawd": "",
   "subtitles.whbag_pitchup": "",
   "subtitles.whbag_pitchdown": "",
-  "item.rubiesandrabies.stardust_remnant": "Stardust Remnant"
+  "item.rubiesandrabies.stardust_remnant": "Stardust Remnant",
+  "item.rubiesandrabies.femgram_spawn_egg": "Femgram Spawn Egg",
+  "entity.rubiesandrabies.femgram": "Femgram"
 }
