@@ -27,7 +27,6 @@ public class RubiesandrabiesModTabs {
 				tabData.accept(RubiesandrabiesModBlocks.RUBY_BRICKS.get().asItem());
 				tabData.accept(RubiesandrabiesModItems.THE_INCIDENT.get());
 				tabData.accept(RubiesandrabiesModItems.LIFE_IS_ROBLOX_MUSIC_DISC.get());
-				tabData.accept(RubiesandrabiesModItems.FEMGRAMOLD_SPAWN_EGG.get());
 				tabData.accept(RubiesandrabiesModBlocks.BLOCK_OF_FEMGRAM.get().asItem());
 				tabData.accept(RubiesandrabiesModBlocks.RUBY_BRICKS_STAIRS.get().asItem());
 				tabData.accept(RubiesandrabiesModBlocks.RUBY_BRICKS_SLAB.get().asItem());
@@ -65,6 +64,7 @@ public class RubiesandrabiesModTabs {
 				tabData.accept(RubiesandrabiesModItems.ACHIEVMENTITEM.get());
 				tabData.accept(RubiesandrabiesModItems.METAL_GEAR_SOLID.get());
 				tabData.accept(RubiesandrabiesModItems.HAMMER.get());
+				tabData.accept(RubiesandrabiesModItems.BLOOD_BUCKET.get());
 			}).withSearchBar().build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> SPACE = REGISTRY.register("space",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.rubiesandrabies.space")).icon(() -> new ItemStack(RubiesandrabiesModItems.URANIUM.get())).displayItems((parameters, tabData) -> {
@@ -80,6 +80,8 @@ public class RubiesandrabiesModTabs {
 				tabData.accept(RubiesandrabiesModItems.LEAVEEVIL.get());
 				tabData.accept(RubiesandrabiesModBlocks.ABYSSALL_GRASS.get().asItem());
 				tabData.accept(RubiesandrabiesModItems.TESTICALS.get());
+				tabData.accept(RubiesandrabiesModItems.STARDUST_REMNANT.get());
+				tabData.accept(RubiesandrabiesModItems.STARDUST_PICKAXE.get());
 			}).withTabsBefore(RUBIES_RABIES_TAB.getId()).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> ZORPINIUM_OBLIVION = REGISTRY.register("zorpinium_oblivion",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.rubiesandrabies.zorpinium_oblivion")).icon(() -> new ItemStack(RubiesandrabiesModBlocks.ZORPINIUM_ORE.get())).displayItems((parameters, tabData) -> {
@@ -92,6 +94,7 @@ public class RubiesandrabiesModTabs {
 				tabData.accept(RubiesandrabiesModItems.ZORPINIUMARMOR_CHESTPLATE.get());
 				tabData.accept(RubiesandrabiesModItems.ZORPINIUMARMOR_LEGGINGS.get());
 				tabData.accept(RubiesandrabiesModItems.ZORPINIUMARMOR_BOOTS.get());
+				tabData.accept(RubiesandrabiesModItems.ZORPINIUM_REACTOR.get());
 				tabData.accept(RubiesandrabiesModItems.IRON_PLATE.get());
 				tabData.accept(RubiesandrabiesModItems.ZORPINIUM_ROD.get());
 				tabData.accept(RubiesandrabiesModBlocks.HIS_GREATNESS.get().asItem());
@@ -103,7 +106,6 @@ public class RubiesandrabiesModTabs {
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
-			tabData.accept(RubiesandrabiesModItems.FEMGRAMOLD_SPAWN_EGG.get());
 			tabData.accept(RubiesandrabiesModItems.MEATBALL_MOOSE_SPAWN_EGG.get());
 			tabData.accept(RubiesandrabiesModItems.GORILLA_SPAWN_EGG.get());
 			tabData.accept(RubiesandrabiesModItems.R_HMOB_SPAWN_EGG.get());

@@ -1,0 +1,8 @@
+{
+  "_fv": 79,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"40\" y=\"40\"><field name=\"trigger\">on_sky_rendered</field><next><block type=\"render_celestial\"><field name=\"celestial\">Sun</field><value name=\"texture\"><block type=\"text\"><field name=\"TEXT\">modid:textures/block/minecraft-cow-head-1024x1024-3108380750.png</field></block></value></block></next></block></xml>",
+    "skipDependencyNullCheck": false
+  }
+}

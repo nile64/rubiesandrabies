@@ -3,17 +3,17 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "zorpiniumreactor",
+    "texture": "stardustremnanttxtr",
     "customModelName": "Normal",
     "guiTexture": "",
     "customProperties": {},
     "states": [],
     "animations": [],
-    "name": "Zorpinium Reactor",
-    "rarity": "EPIC",
+    "name": "Stardust Remnant",
+    "rarity": "UNCOMMON",
     "creativeTabs": [
       {
-        "value": "CUSTOM:ZorpiniumOblivion"
+        "value": "CUSTOM:Space"
       }
     ],
     "stackSize": 64,

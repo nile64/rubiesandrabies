@@ -3610,6 +3610,96 @@
           "src/main/java/net/mcreator/rubiesandrabies/procedures/PageOfEvilRightclickedProcedure.java"
         ]
       }
+    },
+    {
+      "name": "StardustRemnant",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stardust_remnant",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/items/stardust_remnant.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/stardust_remnant.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/StardustRemnantItem.java"
+        ]
+      },
+      "path": "~/SpaceThingy"
+    },
+    {
+      "name": "StardustRRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stardust_r_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/stardust_r_recipe.json",
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/stardust_r_recipe.json"
+        ]
+      },
+      "path": "~/SpaceThingy"
+    },
+    {
+      "name": "DaveGawd",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dave_gawd",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/painting_variant/dave_gawd.json"
+        ]
+      }
+    },
+    {
+      "name": "StardustPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stardust_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/items/stardust_pickaxe.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/StardustPickaxeItem.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/stardust_pickaxe.json"
+        ]
+      },
+      "path": "~/SpaceThingy"
+    },
+    {
+      "name": "Blood",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/models/block/blood.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/BloodItem.java",
+          "src/main/java/net/mcreator/rubiesandrabies/fluid/types/BloodFluidType.java",
+          "src/main/java/net/mcreator/rubiesandrabies/fluid/BloodFluid.java",
+          "src/main/resources/assets/rubiesandrabies/items/blood_bucket.json",
+          "src/main/resources/assets/rubiesandrabies/blockstates/blood.json",
+          "src/main/java/net/mcreator/rubiesandrabies/client/fluid/BloodFluidExtension.java",
+          "src/main/java/net/mcreator/rubiesandrabies/block/BloodBlock.java"
+        ]
+      },
+      "path": "~/bloodbath"
+    },
+    {
+      "name": "RacismPlanetPlayerEntersDimension",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "racism_planet_player_enters_dimension",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/RacismPlanetPlayerEntersDimensionProcedure.java"
+        ]
+      },
+      "path": "~/SpaceThingy"
     }
   ],
   "variable_elements": [],
@@ -3778,6 +3868,30 @@
       ],
       "category": "block",
       "subtitle": ""
+    },
+    {
+      "name": "whbag_pitchup",
+      "files": [
+        "voicy_watch_him_become_a_god1"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "watchhimbecomeagawd",
+      "files": [
+        "voicy_watch_him_become_a_god"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "whbag_pitchdown",
+      "files": [
+        "voicy_watch_him_become_a_god2"
+      ],
+      "category": "neutral",
+      "subtitle": ""
     }
   ],
   "tag_elements": {
@@ -3848,6 +3962,7 @@
       "~CUSTOM:Artificialrubyblock"
     ],
     "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:Blood",
       "~CUSTOM:Gp0Liquid",
       "~CUSTOM:NonNewtonianFluid"
     ],
@@ -3863,6 +3978,7 @@
       "~CUSTOM:Uranium"
     ],
     "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:StardustPickaxe",
       "~CUSTOM:ZorpiniumPickaxe",
       "~CUSTOM:SugarcanePickaxe"
     ],
@@ -4070,14 +4186,7 @@
       "advancements.buy_the_acheivment.descr": "You have achieved great things.",
       "advancements.buy_the_acheivment.title": "The Great Achievement",
       "item.rubiesandrabies.achievmentitem": "The Great Achievement",
-      "item.rubiesandrabies.metal_gear_solid": "Iron Gear",
-      "item.rubiesandrabies.hammer": "Iron Hammer",
-      "painting.rubiesandrabies.the_man.title": "The Man",
-      "painting.rubiesandrabies.the_man.author": "Mr Beats",
-      "enchantment.rubiesandrabies.curse_of_evil": "Curse Of Evil",
-      "item.rubiesandrabies.page_of_evil.description_0": "Pulsing with EVIL",
-      "item.rubiesandrabies.page_of_evil.description_1": "(Right Click Me)",
-      "item.rubiesandrabies.page_of_evil": "Page Of Evil"
+      "enchantment.rubiesandrabies.curse_of_evil": "Curse Of Evil"
     }
   },
   "metadata": {
@@ -4129,6 +4238,10 @@
       },
       {
         "name": "MusicDiscs",
+        "children": []
+      },
+      {
+        "name": "bloodbath",
         "children": []
       },
       {
