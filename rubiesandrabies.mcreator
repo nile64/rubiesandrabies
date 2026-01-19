@@ -3570,6 +3570,46 @@
           "src/main/resources/data/rubiesandrabies/enchantment/curse_of_evil.json"
         ]
       }
+    },
+    {
+      "name": "PageOfEvil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "page_of_evil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/models/item/page_of_evil.json",
+          "src/main/resources/assets/rubiesandrabies/items/page_of_evil.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/PageOfEvilItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PageOfEvilRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "page_of_evil_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/PageOfEvilRightclickedProcedure.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -4034,7 +4074,10 @@
       "item.rubiesandrabies.hammer": "Iron Hammer",
       "painting.rubiesandrabies.the_man.title": "The Man",
       "painting.rubiesandrabies.the_man.author": "Mr Beats",
-      "enchantment.rubiesandrabies.curse_of_evil": "Curse Of Evil"
+      "enchantment.rubiesandrabies.curse_of_evil": "Curse Of Evil",
+      "item.rubiesandrabies.page_of_evil.description_0": "Pulsing with EVIL",
+      "item.rubiesandrabies.page_of_evil.description_1": "(Right Click Me)",
+      "item.rubiesandrabies.page_of_evil": "Page Of Evil"
     }
   },
   "metadata": {

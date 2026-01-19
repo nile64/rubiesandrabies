@@ -108,6 +108,7 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> ACHIEVMENTITEM;
 	public static final DeferredItem<Item> METAL_GEAR_SOLID;
 	public static final DeferredItem<Item> HAMMER;
+	public static final DeferredItem<Item> PAGE_OF_EVIL;
 	static {
 		BAT_WING = register("bat_wing", BatWingItem::new);
 		RUBY = register("ruby", RubyItem::new);
@@ -191,6 +192,7 @@ public class RubiesandrabiesModItems {
 		ACHIEVMENTITEM = register("achievmentitem", AchievmentitemItem::new);
 		METAL_GEAR_SOLID = register("metal_gear_solid", MetalGearSolidItem::new);
 		HAMMER = register("hammer", HammerItem::new);
+		PAGE_OF_EVIL = register("page_of_evil", PageOfEvilItem::new);
 	}
 
 	// Start of user code block custom items

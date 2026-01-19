@@ -149,5 +149,8 @@
   "item.rubiesandrabies.hammer": "Iron Hammer",
   "painting.rubiesandrabies.the_man.title": "The Man",
   "painting.rubiesandrabies.the_man.author": "Mr Beats",
-  "enchantment.rubiesandrabies.curse_of_evil": "Curse Of Evil"
+  "enchantment.rubiesandrabies.curse_of_evil": "Curse Of Evil",
+  "item.rubiesandrabies.page_of_evil.description_0": "Pulsing with EVIL",
+  "item.rubiesandrabies.page_of_evil.description_1": "(Right Click Me)",
+  "item.rubiesandrabies.page_of_evil": "Page Of Evil"
 }
