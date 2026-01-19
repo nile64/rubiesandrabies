@@ -143,7 +143,11 @@
   "advancements.the_racism_within.title": "The Racism Within",
   "advancements.all_the_racism_10.title": "All The Racism 10",
   "advancements.all_the_racism_10.descr": "Discover Every Racism Biome",
+  "enchantment.rubiesandrabies.curse_of_evil": "Curse Of Evil",
   "item.rubiesandrabies.femgram_spawn_egg": "Femgram Spawn Egg",
   "entity.rubiesandrabies.femgram": "Femgram",
-  "enchantment.rubiesandrabies.curse_of_evil": "Curse Of Evil"
+  "item.rubiesandrabies.blood_bucket": "Bucket of Blood",
+  "block.rubiesandrabies.blood": "Blood",
+  "fluid.rubiesandrabies.blood": "Blood",
+  "fluid_type.rubiesandrabies.blood": "Blood"
 }

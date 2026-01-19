@@ -312,13 +312,13 @@
       "type": "livingentity",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "femgram",
+      "registry_name": "femgramold",
       "metadata": {
         "files": [
+          "src/main/resources/assets/rubiesandrabies/models/item/femgramold_spawn_egg.json",
           "src/main/java/net/mcreator/rubiesandrabies/client/renderer/FemgramRenderer.java",
-          "src/main/resources/assets/rubiesandrabies/models/item/femgram_spawn_egg.json",
-          "src/main/resources/assets/rubiesandrabies/items/femgram_spawn_egg.json",
-          "src/main/java/net/mcreator/rubiesandrabies/entity/FemgramEntity.java"
+          "src/main/java/net/mcreator/rubiesandrabies/entity/FemgramEntity.java",
+          "src/main/resources/assets/rubiesandrabies/items/femgramold_spawn_egg.json"
         ]
       }
     },
@@ -531,8 +531,8 @@
       "registry_name": "ruby_bricks_stairs_recipie_stonecutter",
       "metadata": {
         "files": [
-          "src/main/resources/data/rubiesandrabies/recipe/ruby_bricks_stairs_recipie_stonecutter.json",
-          "src/main/resources/data/rubiesandrabies/advancement/recipes/ruby_bricks_stairs_recipie_stonecutter.json"
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/ruby_bricks_stairs_recipie_stonecutter.json",
+          "src/main/resources/data/rubiesandrabies/recipe/ruby_bricks_stairs_recipie_stonecutter.json"
         ]
       },
       "path": "~/idk"
@@ -933,8 +933,8 @@
       "registry_name": "ruby_tiles_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/rubiesandrabies/advancement/recipes/ruby_tiles_recipe.json",
-          "src/main/resources/data/rubiesandrabies/recipe/ruby_tiles_recipe.json"
+          "src/main/resources/data/rubiesandrabies/recipe/ruby_tiles_recipe.json",
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/ruby_tiles_recipe.json"
         ]
       },
       "path": "~/ruby blocks"
@@ -3489,6 +3489,26 @@
         ]
       },
       "path": "~/femgram"
+    },
+    {
+      "name": "Blood",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/fluid/types/BloodFluidType.java",
+          "src/main/resources/assets/rubiesandrabies/models/block/blood.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/BloodItem.java",
+          "src/main/java/net/mcreator/rubiesandrabies/client/fluid/BloodFluidExtension.java",
+          "src/main/java/net/mcreator/rubiesandrabies/block/BloodBlock.java",
+          "src/main/resources/assets/rubiesandrabies/blockstates/blood.json",
+          "src/main/resources/assets/rubiesandrabies/items/blood_bucket.json",
+          "src/main/java/net/mcreator/rubiesandrabies/fluid/BloodFluid.java"
+        ]
+      },
+      "path": "~/bloodbath"
     }
   ],
   "variable_elements": [],
@@ -3727,6 +3747,7 @@
       "~CUSTOM:Artificialrubyblock"
     ],
     "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:Blood",
       "~CUSTOM:Gp0Liquid",
       "~CUSTOM:NonNewtonianFluid"
     ],
@@ -3758,12 +3779,11 @@
       "~CUSTOM:RubyShelf"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
-      "~CUSTOM:Damn",
       "~CUSTOM:AbyssallGrass",
       "~CUSTOM:Abyssallmatter",
       "~CUSTOM:RubyBricks",
-      "~CUSTOM:NowiumBlock",
       "~CUSTOM:EvilNylium",
+      "~CUSTOM:Damn",
       "~Blocks.NETHERRACK",
       "~Blocks.TUFF",
       "~Blocks.DIRT#0",
@@ -3945,9 +3965,13 @@
       "advancements.the_racism_within.title": "The Racism Within",
       "advancements.all_the_racism_10.title": "All The Racism 10",
       "advancements.all_the_racism_10.descr": "Discover Every Racism Biome",
+      "enchantment.rubiesandrabies.curse_of_evil": "Curse Of Evil",
       "item.rubiesandrabies.femgram_spawn_egg": "Femgram Spawn Egg",
       "entity.rubiesandrabies.femgram": "Femgram",
-      "enchantment.rubiesandrabies.curse_of_evil": "Curse Of Evil"
+      "item.rubiesandrabies.blood_bucket": "Bucket of Blood",
+      "block.rubiesandrabies.blood": "Blood",
+      "fluid.rubiesandrabies.blood": "Blood",
+      "fluid_type.rubiesandrabies.blood": "Blood"
     }
   },
   "metadata": {
@@ -3956,29 +3980,29 @@
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModBiomes.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModFluids.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModFluidTypes.java",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModScreens.java",
       "src/main/java/net/mcreator/rubiesandrabies/network/MenuStateUpdateMessage.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModMenus.java",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModScreens.java",
       "src/main/resources/data/neoforge/data_maps/entity_type/monster_room_mobs.json",
       "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModMobEffects.java",
-      "src/main/resources/data/minecraft/tags/point_of_interest_type/acquirable_job_site.json",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModVillagerProfessions.java",
+      "src/main/resources/data/minecraft/tags/point_of_interest_type/acquirable_job_site.json",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModTrades.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModBlocks.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModBlockEntities.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModItems.java",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModEntityRenderers.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModEntities.java",
-      "src/main/resources/assets/rubiesandrabies/sounds.json",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModModels.java",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModTabs.java",
-      "src/main/resources/rubiesandrabies.mixins.json",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModEntityRenderers.java",
       "src/main/resources/pack.mcmeta",
-      "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModSounds.java",
+      "src/main/resources/rubiesandrabies.mixins.json",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModModels.java",
+      "src/main/resources/assets/rubiesandrabies/sounds.json",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModTabs.java",
       "src/main/java/net/mcreator/rubiesandrabies/RubiesandrabiesMod.java",
-      "src/main/resources/META-INF/accesstransformer.cfg"
+      "src/main/resources/META-INF/neoforge.mods.toml"
     ]
   },
   "foldersRoot": {
@@ -4045,6 +4069,10 @@
       },
       {
         "name": "femgram",
+        "children": []
+      },
+      {
+        "name": "bloodbath",
         "children": []
       }
     ]

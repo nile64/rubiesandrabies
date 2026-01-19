@@ -18,6 +18,7 @@ import net.minecraft.client.renderer.ItemBlockRenderTypes;
 
 import net.mcreator.rubiesandrabies.fluid.NonNewtonianFluidFluid;
 import net.mcreator.rubiesandrabies.fluid.Gp0LiquidFluid;
+import net.mcreator.rubiesandrabies.fluid.BloodFluid;
 import net.mcreator.rubiesandrabies.RubiesandrabiesMod;
 
 public class RubiesandrabiesModFluids {
@@ -26,6 +27,8 @@ public class RubiesandrabiesModFluids {
 	public static final DeferredHolder<Fluid, FlowingFluid> FLOWING_NON_NEWTONIAN_FLUID = REGISTRY.register("flowing_non_newtonian_fluid", () -> new NonNewtonianFluidFluid.Flowing());
 	public static final DeferredHolder<Fluid, FlowingFluid> GP_0_LIQUID = REGISTRY.register("gp_0_liquid", () -> new Gp0LiquidFluid.Source());
 	public static final DeferredHolder<Fluid, FlowingFluid> FLOWING_GP_0_LIQUID = REGISTRY.register("flowing_gp_0_liquid", () -> new Gp0LiquidFluid.Flowing());
+	public static final DeferredHolder<Fluid, FlowingFluid> BLOOD = REGISTRY.register("blood", () -> new BloodFluid.Source());
+	public static final DeferredHolder<Fluid, FlowingFluid> FLOWING_BLOOD = REGISTRY.register("flowing_blood", () -> new BloodFluid.Flowing());
 
 	@EventBusSubscriber(Dist.CLIENT)
 	public static class FluidsClientSideHandler {
@@ -35,6 +38,8 @@ public class RubiesandrabiesModFluids {
 			ItemBlockRenderTypes.setRenderLayer(FLOWING_NON_NEWTONIAN_FLUID.get(), ChunkSectionLayer.TRANSLUCENT);
 			ItemBlockRenderTypes.setRenderLayer(GP_0_LIQUID.get(), ChunkSectionLayer.TRANSLUCENT);
 			ItemBlockRenderTypes.setRenderLayer(FLOWING_GP_0_LIQUID.get(), ChunkSectionLayer.TRANSLUCENT);
+			ItemBlockRenderTypes.setRenderLayer(BLOOD.get(), ChunkSectionLayer.TRANSLUCENT);
+			ItemBlockRenderTypes.setRenderLayer(FLOWING_BLOOD.get(), ChunkSectionLayer.TRANSLUCENT);
 		}
 	}
 }

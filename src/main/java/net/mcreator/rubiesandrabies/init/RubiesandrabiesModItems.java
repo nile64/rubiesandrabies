@@ -31,7 +31,7 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> RUBY_BRICKS;
 	public static final DeferredItem<Item> THE_INCIDENT;
 	public static final DeferredItem<Item> LIFE_IS_ROBLOX_MUSIC_DISC;
-	public static final DeferredItem<Item> FEMGRAM_SPAWN_EGG;
+	public static final DeferredItem<Item> FEMGRAMOLD_SPAWN_EGG;
 	public static final DeferredItem<Item> BLOCK_OF_FEMGRAM;
 	public static final DeferredItem<Item> RUBY_BRICKS_STAIRS;
 	public static final DeferredItem<Item> RUBY_BRICKS_SLAB;
@@ -106,13 +106,14 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> TESTICALS;
 	public static final DeferredItem<Item> FEMGRAM_SPAWN_EGG;
 	public static final DeferredItem<Item> ACHIEVMENTITEM;
+	public static final DeferredItem<Item> BLOOD_BUCKET;
 	static {
 		BAT_WING = register("bat_wing", BatWingItem::new);
 		RUBY = register("ruby", RubyItem::new);
 		RUBY_BRICKS = block(RubiesandrabiesModBlocks.RUBY_BRICKS);
 		THE_INCIDENT = register("the_incident", TheIncidentItem::new);
 		LIFE_IS_ROBLOX_MUSIC_DISC = register("life_is_roblox_music_disc", LifeIsRobloxMusicDiscItem::new);
-		FEMGRAM_SPAWN_EGG = register("femgram_spawn_egg", properties -> new SpawnEggItem(RubiesandrabiesModEntities.FEMGRAM.get(), properties));
+		FEMGRAMOLD_SPAWN_EGG = register("femgramold_spawn_egg", properties -> new SpawnEggItem(RubiesandrabiesModEntities.FEMGRAMOLD.get(), properties));
 		BLOCK_OF_FEMGRAM = block(RubiesandrabiesModBlocks.BLOCK_OF_FEMGRAM);
 		RUBY_BRICKS_STAIRS = block(RubiesandrabiesModBlocks.RUBY_BRICKS_STAIRS);
 		RUBY_BRICKS_SLAB = block(RubiesandrabiesModBlocks.RUBY_BRICKS_SLAB);
@@ -187,6 +188,7 @@ public class RubiesandrabiesModItems {
 		TESTICALS = register("testicals", TesticalsItem::new);
 		FEMGRAM_SPAWN_EGG = register("femgram_spawn_egg", properties -> new SpawnEggItem(RubiesandrabiesModEntities.FEMGRAM.get(), properties));
 		ACHIEVMENTITEM = register("achievmentitem", AchievmentitemItem::new);
+		BLOOD_BUCKET = register("blood_bucket", BloodItem::new);
 	}
 
 	// Start of user code block custom items
@@ -215,5 +217,6 @@ public class RubiesandrabiesModItems {
 	public static void registerCapabilities(RegisterCapabilitiesEvent event) {
 		event.registerItem(Capabilities.FluidHandler.ITEM, (stack, context) -> new FluidBucketWrapper(stack), NON_NEWTONIAN_FLUID_BUCKET.get());
 		event.registerItem(Capabilities.FluidHandler.ITEM, (stack, context) -> new FluidBucketWrapper(stack), GP_0_LIQUID_BUCKET.get());
+		event.registerItem(Capabilities.FluidHandler.ITEM, (stack, context) -> new FluidBucketWrapper(stack), BLOOD_BUCKET.get());
 	}
 }
