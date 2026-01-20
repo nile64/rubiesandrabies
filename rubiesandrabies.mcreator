@@ -3687,6 +3687,21 @@
       "path": "~/SpaceThingy"
     },
     {
+      "name": "RedScythe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "red_scythe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/models/item/red_scythe.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/RedScytheItem.java",
+          "src/main/resources/assets/rubiesandrabies/items/red_scythe.json"
+        ]
+      },
+      "path": "~/idk/wah wah wah wah"
+    },
+    {
       "name": "RedSlicer",
       "type": "tool",
       "compiles": true,
@@ -3702,19 +3717,86 @@
       "path": "~/idk/wah wah wah wah"
     },
     {
-      "name": "RedScythe",
-      "type": "tool",
+      "name": "McDonalds",
+      "type": "structure",
       "compiles": true,
-      "locked_code": true,
-      "registry_name": "red_scythe",
+      "locked_code": false,
+      "registry_name": "mc_donalds",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rubiesandrabies/models/item/red_scythe.json",
-          "src/main/java/net/mcreator/rubiesandrabies/item/RedScytheItem.java",
-          "src/main/resources/assets/rubiesandrabies/items/red_scythe.json"
+          "src/main/resources/data/rubiesandrabies/worldgen/structure/mc_donalds.json",
+          "src/main/resources/data/rubiesandrabies/worldgen/structure_set/mc_donalds.json",
+          "src/main/resources/data/rubiesandrabies/worldgen/template_pool/mc_donalds.json"
         ]
       },
-      "path": "~/idk/wah wah wah wah"
+      "path": "~/McDonalds"
+    },
+    {
+      "name": "McdonaldsKitchen",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcdonalds_kitchen",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/loot_table/chests/mcdonaldskitchen.json"
+        ]
+      },
+      "path": "~/McDonalds"
+    },
+    {
+      "name": "McDonaldsTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mc_donalds_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/loot_table/chests/mcdonaldstable.json"
+        ]
+      },
+      "path": "~/McDonalds"
+    },
+    {
+      "name": "Eat",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eat",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/advancement/eat.json"
+        ]
+      },
+      "path": "~/McDonalds"
+    },
+    {
+      "name": "BicMax",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bic_max",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/item/BicMaxItem.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/bic_max.json",
+          "src/main/resources/assets/rubiesandrabies/items/bic_max.json"
+        ]
+      },
+      "path": "~/McDonalds"
+    },
+    {
+      "name": "Bicmaxrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bicmaxrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/bicmaxrecipe.json"
+        ]
+      },
+      "path": "~/McDonalds"
     }
   ],
   "variable_elements": [],
@@ -3982,8 +4064,6 @@
       "~CUSTOM:NonNewtonianFluid"
     ],
     "ITEMS:minecraft:swords": [
-      "~CUSTOM:RedScythe",
-      "~CUSTOM:RedSlicer",
       "~CUSTOM:ZorpiniumSaber",
       "~CUSTOM:Theniumsword"
     ],
@@ -4052,9 +4132,6 @@
     ],
     "ITEMS:minecraft:enchantable/durability": [
       "~CUSTOM:Hammer"
-    ],
-    "ITEMS:rubiesandrabies:red_slicer_repair_items": [
-      "~CUSTOM:ExitPlanetItemTest"
     ]
   },
   "tab_element_order": {},
@@ -4275,6 +4352,10 @@
       },
       {
         "name": "MusicDiscs",
+        "children": []
+      },
+      {
+        "name": "McDonalds",
         "children": []
       },
       {

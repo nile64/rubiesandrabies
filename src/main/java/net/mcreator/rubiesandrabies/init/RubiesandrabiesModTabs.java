@@ -65,8 +65,9 @@ public class RubiesandrabiesModTabs {
 				tabData.accept(RubiesandrabiesModItems.METAL_GEAR_SOLID.get());
 				tabData.accept(RubiesandrabiesModItems.HAMMER.get());
 				tabData.accept(RubiesandrabiesModItems.BLOOD_BUCKET.get());
-				tabData.accept(RubiesandrabiesModItems.RED_SLICER.get());
 				tabData.accept(RubiesandrabiesModItems.RED_SCYTHE.get());
+				tabData.accept(RubiesandrabiesModItems.RED_SLICER.get());
+				tabData.accept(RubiesandrabiesModItems.BIC_MAX.get());
 			}).withSearchBar().build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> SPACE = REGISTRY.register("space",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.rubiesandrabies.space")).icon(() -> new ItemStack(RubiesandrabiesModItems.URANIUM.get())).displayItems((parameters, tabData) -> {

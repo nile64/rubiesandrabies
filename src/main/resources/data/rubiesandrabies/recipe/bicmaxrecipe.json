@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " a "
+  ],
+  "key": {
+    "a": "minecraft:bread",
+    "b": "minecraft:gold_nugget",
+    "c": "minecraft:cooked_beef"
+  },
+  "result": {
+    "id": "rubiesandrabies:bic_max",
+    "count": 1
+  }
+}
