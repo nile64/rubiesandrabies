@@ -4403,7 +4403,8 @@
       "~CUSTOM:ExitPlanetItemTest"
     ],
     "ITEMS:rubiesandrabies:sillymusic": [
-      "CUSTOM:LifeIsRobloxMusicDisc"
+      "CUSTOM:LifeIsRobloxMusicDisc",
+      "CUSTOM:AtTheSpeedOfLightDisc"
     ],
     "ENTITIES:rubiesandrabies:immunetorabies": [
       "CUSTOM:Femgramboss",

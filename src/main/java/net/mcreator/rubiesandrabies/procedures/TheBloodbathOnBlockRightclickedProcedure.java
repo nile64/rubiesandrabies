@@ -21,7 +21,8 @@ public class TheBloodbathOnBlockRightclickedProcedure {
 		if (entity == null)
 			return;
 		if (((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).is(ItemTags.create(ResourceLocation.parse("c:music_discs")))
-				|| (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).is(ItemTags.create(ResourceLocation.parse("rubiesandrabies:sillymusic")))) == true) {
+				|| (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).is(ItemTags.create(ResourceLocation.parse("rubiesandrabies:sillymusic")))) == true
+				&& ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == RubiesandrabiesModItems.AT_THE_SPEED_OF_LIGHT_DISC.get()) == false) {
 			(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).shrink(1);
 			if (entity instanceof Player _player) {
 				ItemStack _setstack = new ItemStack(RubiesandrabiesModItems.AT_THE_SPEED_OF_LIGHT_DISC.get()).copy();
