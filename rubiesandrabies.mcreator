@@ -3797,6 +3797,257 @@
         ]
       },
       "path": "~/McDonalds"
+    },
+    {
+      "name": "Glue",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glue",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/item/GlueItem.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/glue.json",
+          "src/main/resources/assets/rubiesandrabies/items/glue.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "MakeGlue",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_glue",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/MakeGlueProcedure.java"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "CrushedQuartz",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crushed_quartz",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/models/item/crushed_quartz.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/CrushedQuartzItem.java",
+          "src/main/resources/assets/rubiesandrabies/items/crushed_quartz.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "CrushedQuartsMake",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crushed_quarts_make",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/crushed_quarts_make.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "Evilblend",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evilblend",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/item/EvilblendItem.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/evilblend.json",
+          "src/main/resources/assets/rubiesandrabies/items/evilblend.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "EvilBlendRecipie",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evil_blend_recipie",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/evil_blend_recipie.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "UnfiredBath",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unfired_bath",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/unfired_bath.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/unfired_bath.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/unfired_bath.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/UnfiredBathBlock.java",
+          "src/main/resources/assets/rubiesandrabies/blockstates/unfired_bath.json",
+          "src/main/resources/assets/rubiesandrabies/items/unfired_bath.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "Makeytheunfiredbath",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "makeytheunfiredbath",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/makeytheunfiredbath.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "BathTub",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bath_tub",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/block/BathTubBlock.java",
+          "src/main/resources/assets/rubiesandrabies/models/block/bath_tub.json",
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/bath_tub.json",
+          "src/main/resources/assets/rubiesandrabies/items/bath_tub.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/bath_tub.json",
+          "src/main/resources/assets/rubiesandrabies/blockstates/bath_tub.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "BathTubMake",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bath_tub_make",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/bath_tub_make.json",
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/bath_tub_make.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "TheBloodbath",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_bloodbath",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/the_bloodbath.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/TheBloodbathBlock.java",
+          "src/main/resources/assets/rubiesandrabies/models/block/the_bloodbath.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/the_bloodbath.json",
+          "src/main/resources/assets/rubiesandrabies/items/the_bloodbath.json",
+          "src/main/resources/assets/rubiesandrabies/blockstates/the_bloodbath.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "MakeTheBloodbathGNG",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_the_bloodbath_gng",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/make_the_bloodbath_gng.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "TheBloodbathOnBlockRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_bloodbath_on_block_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/TheBloodbathOnBlockRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "AtTheSpeedOfLightDisc",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "at_the_speed_of_light_disc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/models/item/at_the_speed_of_light_disc.json",
+          "src/main/resources/assets/rubiesandrabies/items/at_the_speed_of_light_disc.json",
+          "src/main/resources/data/rubiesandrabies/jukebox_song/at_the_speed_of_light_disc.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/AtTheSpeedOfLightDiscItem.java"
+        ]
+      },
+      "path": "~/MusicDiscs"
     }
   ],
   "variable_elements": [],
@@ -3989,6 +4240,14 @@
       ],
       "category": "neutral",
       "subtitle": ""
+    },
+    {
+      "name": "atthespeedoflight",
+      "files": [
+        "at_the_speed_of_light"
+      ],
+      "category": "record",
+      "subtitle": "Dimrain47 - At the Speed of Light"
     }
   ],
   "tag_elements": {
@@ -4003,6 +4262,8 @@
       "~CUSTOM:NetherRacism"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:TheBloodbath",
+      "~CUSTOM:BathTub",
       "~CUSTOM:AbyssallGrass",
       "~CUSTOM:Gregtech",
       "~CUSTOM:Abyssallmatter",
@@ -4031,6 +4292,7 @@
       "~CUSTOM:RubyBricks"
     ],
     "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:AtTheSpeedOfLightDisc",
       "~CUSTOM:LifeIsRobloxMusicDisc"
     ],
     "BLOCKS:minecraft:stairs": [
@@ -4064,6 +4326,8 @@
       "~CUSTOM:NonNewtonianFluid"
     ],
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:RedSlicer",
+      "~CUSTOM:RedScythe",
       "~CUSTOM:ZorpiniumSaber",
       "~CUSTOM:Theniumsword"
     ],
@@ -4083,6 +4347,8 @@
       "~Blocks.REEDS"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:TheBloodbath",
+      "~CUSTOM:BathTub",
       "~CUSTOM:AbyssallGrass",
       "~CUSTOM:Abyssallmatter",
       "~CUSTOM:HisGreatness",
@@ -4132,6 +4398,21 @@
     ],
     "ITEMS:minecraft:enchantable/durability": [
       "~CUSTOM:Hammer"
+    ],
+    "ITEMS:rubiesandrabies:red_slicer_repair_items": [
+      "~CUSTOM:ExitPlanetItemTest"
+    ],
+    "ITEMS:rubiesandrabies:sillymusic": [
+      "CUSTOM:LifeIsRobloxMusicDisc"
+    ],
+    "ENTITIES:rubiesandrabies:immunetorabies": [
+      "CUSTOM:Femgramboss",
+      "CUSTOM:Now",
+      "CUSTOM:GhastCow",
+      "CUSTOM:RHmob",
+      "EntityVillager",
+      "EntityWarden",
+      "EntityIronGolem"
     ]
   },
   "tab_element_order": {},
@@ -4300,7 +4581,20 @@
       "fluid.rubiesandrabies.blood": "Blood",
       "fluid_type.rubiesandrabies.blood": "Blood",
       "item.rubiesandrabies.red_slicer": "Red Slicer",
-      "item.rubiesandrabies.red_scythe": "Red Scythe"
+      "item.rubiesandrabies.red_scythe": "Red Scythe",
+      "advancements.eat.title": "Yummy Microplastics",
+      "advancements.eat.descr": "Ate a Bic Max",
+      "item.rubiesandrabies.bic_max": "Bic Max",
+      "item.rubiesandrabies.glue": "Bottle Of Glue",
+      "item.rubiesandrabies.crushed_quartz": "Crushed Quartz",
+      "item.rubiesandrabies.evilblend": "Tumultuous Ceramic Blend",
+      "item.rubiesandrabies.unfired_bath": "Unfired Bath Tub",
+      "item.rubiesandrabies.bath_tub": "Bath Tub",
+      "block.rubiesandrabies.the_bloodbath.description_0": "Bazinga",
+      "item.rubiesandrabies.the_bloodbath": "Bloodbath",
+      "subtitles.atthespeedoflight": "Dimrain47 - At the Speed of Light",
+      "item.rubiesandrabies.at_the_speed_of_light_disc": "Music Disc",
+      "item.rubiesandrabies.at_the_speed_of_light_disc.desc": "Dimrain47 - At the Speed of Light"
     }
   },
   "metadata": {

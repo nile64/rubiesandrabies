@@ -48,6 +48,9 @@ public class RubiesandrabiesModBlocks {
 	public static final DeferredBlock<Block> ABYSSALL_GRASS;
 	public static final DeferredBlock<Block> DAMN;
 	public static final DeferredBlock<Block> BLOOD;
+	public static final DeferredBlock<Block> UNFIRED_BATH;
+	public static final DeferredBlock<Block> BATH_TUB;
+	public static final DeferredBlock<Block> THE_BLOODBATH;
 	static {
 		RUBY_BRICKS = register("ruby_bricks", RubyBricksBlock::new);
 		BLOCK_OF_FEMGRAM = register("block_of_femgram", BlockOfFemgramBlock::new);
@@ -81,6 +84,9 @@ public class RubiesandrabiesModBlocks {
 		ABYSSALL_GRASS = register("abyssall_grass", AbyssallGrassBlock::new);
 		DAMN = register("damn", DamnBlock::new);
 		BLOOD = register("blood", BloodBlock::new);
+		UNFIRED_BATH = register("unfired_bath", UnfiredBathBlock::new);
+		BATH_TUB = register("bath_tub", BathTubBlock::new);
+		THE_BLOODBATH = register("the_bloodbath", TheBloodbathBlock::new);
 	}
 
 	// Start of user code block custom blocks

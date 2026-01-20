@@ -8,7 +8,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.registries.Registries;
 
 public class RedSlicerItem extends Item {
-	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_WOODEN_TOOL, 4096, 10f, 0, 3, TagKey.create(Registries.ITEM, ResourceLocation.parse("rubiesandrabies:red_slicer_repair_items")));
+	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_WOODEN_TOOL, 4096, 10f, 0, 10, TagKey.create(Registries.ITEM, ResourceLocation.parse("rubiesandrabies:red_slicer_repair_items")));
 
 	public RedSlicerItem(Item.Properties properties) {
 		super(properties.sword(TOOL_MATERIAL, 14f, -3.2f));

@@ -1,0 +1,9 @@
+{
+  "parent": "rubiesandrabies:custom/thebloodbath",
+  "textures": {
+    "all": "rubiesandrabies:block/bloodbath",
+    "particle": "rubiesandrabies:block/bloodbath",
+    "2": "rubiesandrabies:block/bloodbath"
+  },
+  "render_type": "solid"
+}

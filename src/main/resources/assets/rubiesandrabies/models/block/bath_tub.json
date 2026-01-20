@@ -1,0 +1,9 @@
+{
+  "parent": "rubiesandrabies:custom/thefiredbath",
+  "textures": {
+    "all": "rubiesandrabies:block/wowaowa",
+    "particle": "rubiesandrabies:block/wowaowa",
+    "2": "rubiesandrabies:block/wowaowa"
+  },
+  "render_type": "solid"
+}

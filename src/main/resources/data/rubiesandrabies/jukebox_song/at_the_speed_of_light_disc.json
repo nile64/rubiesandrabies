@@ -1,0 +1,8 @@
+{
+  "comparator_output": 0,
+  "description": {
+    "translate": "item.rubiesandrabies.at_the_speed_of_light_disc.desc"
+  },
+  "length_in_seconds": 250,
+  "sound_event": "rubiesandrabies:atthespeedoflight"
+}

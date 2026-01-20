@@ -19,6 +19,7 @@ import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.rubiesandrabies.item.*;
+import net.mcreator.rubiesandrabies.block.TheBloodbathBlock;
 import net.mcreator.rubiesandrabies.block.AbyssallGrassBlock;
 import net.mcreator.rubiesandrabies.RubiesandrabiesMod;
 
@@ -114,6 +115,13 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> RED_SCYTHE;
 	public static final DeferredItem<Item> RED_SLICER;
 	public static final DeferredItem<Item> BIC_MAX;
+	public static final DeferredItem<Item> GLUE;
+	public static final DeferredItem<Item> CRUSHED_QUARTZ;
+	public static final DeferredItem<Item> EVILBLEND;
+	public static final DeferredItem<Item> UNFIRED_BATH;
+	public static final DeferredItem<Item> BATH_TUB;
+	public static final DeferredItem<Item> THE_BLOODBATH;
+	public static final DeferredItem<Item> AT_THE_SPEED_OF_LIGHT_DISC;
 	static {
 		BAT_WING = register("bat_wing", BatWingItem::new);
 		RUBY = register("ruby", RubyItem::new);
@@ -203,6 +211,13 @@ public class RubiesandrabiesModItems {
 		RED_SCYTHE = register("red_scythe", RedScytheItem::new);
 		RED_SLICER = register("red_slicer", RedSlicerItem::new);
 		BIC_MAX = register("bic_max", BicMaxItem::new);
+		GLUE = register("glue", GlueItem::new);
+		CRUSHED_QUARTZ = register("crushed_quartz", CrushedQuartzItem::new);
+		EVILBLEND = register("evilblend", EvilblendItem::new);
+		UNFIRED_BATH = block(RubiesandrabiesModBlocks.UNFIRED_BATH, new Item.Properties().stacksTo(1));
+		BATH_TUB = block(RubiesandrabiesModBlocks.BATH_TUB, new Item.Properties().stacksTo(1));
+		THE_BLOODBATH = register("the_bloodbath", properties -> new TheBloodbathBlock.Item(properties.stacksTo(1)));
+		AT_THE_SPEED_OF_LIGHT_DISC = register("at_the_speed_of_light_disc", AtTheSpeedOfLightDiscItem::new);
 	}
 
 	// Start of user code block custom items

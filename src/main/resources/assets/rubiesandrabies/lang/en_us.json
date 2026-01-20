@@ -162,5 +162,18 @@
   "fluid.rubiesandrabies.blood": "Blood",
   "fluid_type.rubiesandrabies.blood": "Blood",
   "item.rubiesandrabies.red_slicer": "Red Slicer",
-  "item.rubiesandrabies.red_scythe": "Red Scythe"
+  "item.rubiesandrabies.red_scythe": "Red Scythe",
+  "advancements.eat.title": "Yummy Microplastics",
+  "advancements.eat.descr": "Ate a Bic Max",
+  "item.rubiesandrabies.bic_max": "Bic Max",
+  "item.rubiesandrabies.glue": "Bottle Of Glue",
+  "item.rubiesandrabies.crushed_quartz": "Crushed Quartz",
+  "item.rubiesandrabies.evilblend": "Tumultuous Ceramic Blend",
+  "item.rubiesandrabies.unfired_bath": "Unfired Bath Tub",
+  "item.rubiesandrabies.bath_tub": "Bath Tub",
+  "block.rubiesandrabies.the_bloodbath.description_0": "Bazinga",
+  "item.rubiesandrabies.the_bloodbath": "Bloodbath",
+  "subtitles.atthespeedoflight": "Dimrain47 - At the Speed of Light",
+  "item.rubiesandrabies.at_the_speed_of_light_disc": "Music Disc",
+  "item.rubiesandrabies.at_the_speed_of_light_disc.desc": "Dimrain47 - At the Speed of Light"
 }

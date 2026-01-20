@@ -212,5 +212,14 @@
         "stream": false
       }
     ]
+  },
+  "atthespeedoflight": {
+    "subtitle": "subtitles.atthespeedoflight",
+    "sounds": [
+      {
+        "name": "rubiesandrabies:at_the_speed_of_light",
+        "stream": true
+      }
+    ]
   }
 }

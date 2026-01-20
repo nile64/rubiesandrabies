@@ -29,8 +29,8 @@
     "isPiglinCurrency": false,
     "stayInGridWhenCrafting": true,
     "damageOnCrafting": true,
-    "enableMeleeDamage": false,
-    "damageVsEntity": 0.0,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 6.0,
     "specialInformation": {
       "fixedValue": []
     },

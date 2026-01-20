@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "rubiesandrabies:bath_tub",
+    "rubiesandrabies:blood_bucket"
+  ],
+  "result": {
+    "id": "rubiesandrabies:the_bloodbath",
+    "count": 1
+  }
+}
