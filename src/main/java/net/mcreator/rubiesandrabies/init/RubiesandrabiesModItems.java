@@ -111,6 +111,8 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> STARDUST_REMNANT;
 	public static final DeferredItem<Item> STARDUST_PICKAXE;
 	public static final DeferredItem<Item> BLOOD_BUCKET;
+	public static final DeferredItem<Item> RED_SLICER;
+	public static final DeferredItem<Item> RED_SCYTHE;
 	static {
 		BAT_WING = register("bat_wing", BatWingItem::new);
 		RUBY = register("ruby", RubyItem::new);
@@ -197,6 +199,8 @@ public class RubiesandrabiesModItems {
 		STARDUST_REMNANT = register("stardust_remnant", StardustRemnantItem::new);
 		STARDUST_PICKAXE = register("stardust_pickaxe", StardustPickaxeItem::new);
 		BLOOD_BUCKET = register("blood_bucket", BloodItem::new);
+		RED_SLICER = register("red_slicer", RedSlicerItem::new);
+		RED_SCYTHE = register("red_scythe", RedScytheItem::new);
 	}
 
 	// Start of user code block custom items
