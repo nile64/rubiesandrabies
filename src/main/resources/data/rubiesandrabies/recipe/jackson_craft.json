@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "bcd",
+    "cda"
+  ],
+  "key": {
+    "a": "minecraft:iron_ingot",
+    "b": "minecraft:oak_planks",
+    "c": "rubiesandrabies:guitar_string",
+    "d": "minecraft:redstone"
+  },
+  "result": {
+    "id": "rubiesandrabies:jackson_king_v",
+    "count": 1
+  }
+}

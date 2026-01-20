@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "rubiesandrabies:block/question_mark_portal_ew"
+    },
+    "axis=x": {
+      "model": "rubiesandrabies:block/question_mark_portal_ns"
+    }
+  }
+}

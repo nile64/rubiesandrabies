@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "rubiesandrabies:the_incident"
+    },
+    "title": {
+      "translate": "advancements.huh.title"
+    },
+    "description": {
+      "translate": "advancements.huh.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "huh_0": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "rubiesandrabies:question_mark"
+      }
+    }
+  },
+  "parent": "rubiesandrabies:the_abyss"
+}

@@ -101,6 +101,16 @@ public class RubiesandrabiesModTabs {
 				tabData.accept(RubiesandrabiesModItems.ZORPINIUM_PICKAXE.get());
 				tabData.accept(RubiesandrabiesModItems.PURIFIED_ZORPINIUM.get());
 				tabData.accept(RubiesandrabiesModItems.ZORPINIUM_SABER.get());
+				tabData.accept(RubiesandrabiesModItems.JACKSON_KING_V.get());
+				tabData.accept(RubiesandrabiesModItems.GUITAR_STRING.get());
+				tabData.accept(RubiesandrabiesModItems.WATCHHIMBECOMEAGOD.get());
+				tabData.accept(RubiesandrabiesModItems.MANGLED_ARMOR_PIECE.get());
+				tabData.accept(RubiesandrabiesModItems.ARMOR_OF_BLUNDER_HELMET.get());
+				tabData.accept(RubiesandrabiesModItems.ARMOR_OF_BLUNDER_CHESTPLATE.get());
+				tabData.accept(RubiesandrabiesModItems.ARMOR_OF_BLUNDER_LEGGINGS.get());
+				tabData.accept(RubiesandrabiesModItems.ARMOR_OF_BLUNDER_BOOTS.get());
+				tabData.accept(RubiesandrabiesModItems.FALLEN_ONES_BROADSWORD.get());
+				tabData.accept(RubiesandrabiesModItems.QUESTION_MARK.get());
 			}).withSearchBar().withTabsBefore(SPACE.getId()).build());
 
 	@SubscribeEvent
@@ -111,6 +121,8 @@ public class RubiesandrabiesModTabs {
 			tabData.accept(RubiesandrabiesModItems.GORILLA_SPAWN_EGG.get());
 			tabData.accept(RubiesandrabiesModItems.R_HMOB_SPAWN_EGG.get());
 			tabData.accept(RubiesandrabiesModItems.FEMGRAM_SPAWN_EGG.get());
+			tabData.accept(RubiesandrabiesModItems.DAVE_MUSTAINE_SPAWN_EGG.get());
+			tabData.accept(RubiesandrabiesModItems.KNIGHT_OF_BLUNDER_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(RubiesandrabiesModItems.BANANA.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {

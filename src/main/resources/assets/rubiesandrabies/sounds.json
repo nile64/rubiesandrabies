@@ -212,5 +212,101 @@
         "stream": false
       }
     ]
+  },
+  "davescream": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:dave-mustaine-scream-made-with-voicemod",
+        "stream": false
+      }
+    ]
+  },
+  "davedeath": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:dave-mustaine-scream-made-with-voicemod1",
+        "stream": false
+      }
+    ]
+  },
+  "holywars_punishmentdue": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:holy_wars_the_punishment_due_2004_remix",
+        "stream": false
+      }
+    ]
+  },
+  "knightliving": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:knightofblunderogg",
+        "stream": false
+      }
+    ]
+  },
+  "knightdeath": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:knightdeath",
+        "stream": false
+      }
+    ]
+  },
+  "knighthit": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:knighthit",
+        "stream": false
+      }
+    ]
+  },
+  "knightarmor": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:knightarmor",
+        "stream": false
+      }
+    ]
+  },
+  "questionmark": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:questionmark",
+        "stream": false
+      }
+    ]
+  },
+  "cacophony": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:cacophony",
+        "stream": false
+      }
+    ]
+  },
+  "ambient": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:ambient",
+        "stream": false
+      }
+    ]
+  },
+  "femboyhurt": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:issac-hurt-1",
+        "stream": false
+      }
+    ]
+  },
+  "goatisscream": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:rahhh",
+        "stream": false
+      }
+    ]
   }
 }
