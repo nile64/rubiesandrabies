@@ -145,5 +145,20 @@
   "advancements.all_the_racism_10.descr": "Discover Every Racism Biome",
   "item.rubiesandrabies.femgram_spawn_egg": "Femgram Spawn Egg",
   "entity.rubiesandrabies.femgram": "Femgram",
-  "enchantment.rubiesandrabies.curse_of_evil": "Curse Of Evil"
+  "enchantment.rubiesandrabies.curse_of_evil": "Curse Of Evil",
+  "item.rubiesandrabies.blood_bucket": "Bucket of Blood",
+  "block.rubiesandrabies.blood": "Blood",
+  "fluid.rubiesandrabies.blood": "Blood",
+  "fluid_type.rubiesandrabies.blood": "Blood",
+  "item.rubiesandrabies.metal_gear_solid": "Iron Gear",
+  "item.rubiesandrabies.hammer": "Iron Hammer",
+  "item.rubiesandrabies.stardust_remnant": "Stardust Remnant",
+  "painting.rubiesandrabies.the_man.title": "The Man",
+  "painting.rubiesandrabies.the_man.author": "Mr Beats",
+  "painting.rubiesandrabies.dave_gawd.author": "Sire Dick of Goonington",
+  "painting.rubiesandrabies.dave_gawd.title": "Dave Gawd",
+  "item.rubiesandrabies.stardust_pickaxe": "Stardust Pickaxe",
+  "item.rubiesandrabies.bic_max": "Bic Max",
+  "advancements.eat.title": "Yummy Microplastics",
+  "advancements.eat.descr": "Ate a Bic Max"
 }
