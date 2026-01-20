@@ -157,5 +157,11 @@
   "item.rubiesandrabies.stardust_pickaxe": "Stardust Pickaxe",
   "item.rubiesandrabies.metal_gear_solid": "Iron Gear",
   "painting.rubiesandrabies.the_man.title": "The Man",
-  "painting.rubiesandrabies.the_man.author": "Mr Beats"
+  "painting.rubiesandrabies.the_man.author": "Mr Beats",
+  "advancements.eat.title": "Yummy Microplastics",
+  "advancements.eat.descr": "Ate a Bic Max",
+  "item.rubiesandrabies.bic_max": "Bic Max",
+  "item.rubiesandrabies.page_of_evil.description_0": "Pulsing with EVIL",
+  "item.rubiesandrabies.page_of_evil.description_1": "(Right Click Me)",
+  "item.rubiesandrabies.page_of_evil": "Page Of Evil"
 }

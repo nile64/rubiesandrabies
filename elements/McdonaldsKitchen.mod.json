@@ -95,7 +95,7 @@
             "item": {
               "value": "Items.IRON_INGOT"
             },
-            "weight": 1,
+            "weight": 2,
             "minCount": 1,
             "maxCount": 4,
             "minEnchantmentLevel": 0,
