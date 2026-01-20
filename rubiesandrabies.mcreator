@@ -3568,7 +3568,8 @@
           "src/main/resources/assets/rubiesandrabies/items/page_of_evil.json",
           "src/main/java/net/mcreator/rubiesandrabies/item/PageOfEvilItem.java"
         ]
-      }
+      },
+      "path": "~/Ruby trader"
     },
     {
       "name": "PageOfEvilRightclicked",
@@ -3583,8 +3584,16 @@
             "type": "entity"
           },
           {
-            "name": "itemstack",
-            "type": "itemstack"
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
           },
           {
             "name": "world",
@@ -3594,7 +3603,8 @@
         "files": [
           "src/main/java/net/mcreator/rubiesandrabies/procedures/PageOfEvilRightclickedProcedure.java"
         ]
-      }
+      },
+      "path": "~/Ruby trader"
     },
     {
       "name": "StardustRemnant",
@@ -4048,6 +4058,18 @@
         ]
       },
       "path": "~/MusicDiscs"
+    },
+    {
+      "name": "Pageofevilget",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pageofevilget",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/advancement/pageofevilget.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -4619,7 +4641,9 @@
       "item.rubiesandrabies.the_bloodbath": "Bloodbath",
       "subtitles.atthespeedoflight": "Dimrain47 - At the Speed of Light",
       "item.rubiesandrabies.at_the_speed_of_light_disc": "Music Disc",
-      "item.rubiesandrabies.at_the_speed_of_light_disc.desc": "Dimrain47 - At the Speed of Light"
+      "item.rubiesandrabies.at_the_speed_of_light_disc.desc": "Dimrain47 - At the Speed of Light",
+      "advancements.pageofevilget.descr": "The Death of Cows Calls You Onwards",
+      "advancements.pageofevilget.title": "The Call of Evil"
     }
   },
   "metadata": {

@@ -16,7 +16,7 @@ import java.util.function.Consumer;
 
 public class PageOfEvilItem extends Item {
 	public PageOfEvilItem(Item.Properties properties) {
-		super(properties);
+		super(properties.stacksTo(1));
 	}
 
 	@Override
@@ -29,7 +29,7 @@ public class PageOfEvilItem extends Item {
 	@Override
 	public InteractionResult use(Level world, Player entity, InteractionHand hand) {
 		InteractionResult ar = super.use(world, entity, hand);
-		PageOfEvilRightclickedProcedure.execute(world, entity, entity.getItemInHand(hand));
+		PageOfEvilRightclickedProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), entity);
 		return ar;
 	}
 }

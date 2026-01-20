@@ -64,6 +64,7 @@ public class RubiesandrabiesModTabs {
 				tabData.accept(RubiesandrabiesModItems.ACHIEVMENTITEM.get());
 				tabData.accept(RubiesandrabiesModItems.METAL_GEAR_SOLID.get());
 				tabData.accept(RubiesandrabiesModItems.HAMMER.get());
+				tabData.accept(RubiesandrabiesModItems.PAGE_OF_EVIL.get());
 				tabData.accept(RubiesandrabiesModItems.BLOOD_BUCKET.get());
 				tabData.accept(RubiesandrabiesModItems.RED_SCYTHE.get());
 				tabData.accept(RubiesandrabiesModItems.RED_SLICER.get());
