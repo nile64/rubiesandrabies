@@ -36,4 +36,8 @@ public class RubiesandrabiesModSounds {
 			() -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("rubiesandrabies", "areyoubeingintentionallydense")));
 	public static final DeferredHolder<SoundEvent, SoundEvent> YAH = REGISTRY.register("yah", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("rubiesandrabies", "yah")));
 	public static final DeferredHolder<SoundEvent, SoundEvent> SDPICEMEATBALL = REGISTRY.register("sdpicemeatball", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("rubiesandrabies", "sdpicemeatball")));
+	public static final DeferredHolder<SoundEvent, SoundEvent> WHBAG_PITCHUP = REGISTRY.register("whbag_pitchup", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("rubiesandrabies", "whbag_pitchup")));
+	public static final DeferredHolder<SoundEvent, SoundEvent> WATCHHIMBECOMEAGAWD = REGISTRY.register("watchhimbecomeagawd", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("rubiesandrabies", "watchhimbecomeagawd")));
+	public static final DeferredHolder<SoundEvent, SoundEvent> WHBAG_PITCHDOWN = REGISTRY.register("whbag_pitchdown", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("rubiesandrabies", "whbag_pitchdown")));
+	public static final DeferredHolder<SoundEvent, SoundEvent> ATTHESPEEDOFLIGHT = REGISTRY.register("atthespeedoflight", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("rubiesandrabies", "atthespeedoflight")));
 }

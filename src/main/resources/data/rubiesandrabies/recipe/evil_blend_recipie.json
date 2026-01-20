@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "rubiesandrabies:deleted_mod_element",
+    "rubiesandrabies:deleted_mod_element",
+    "minecraft:clay_ball"
+  ],
+  "result": {
+    "id": "rubiesandrabies:evilblend",
+    "count": 1
+  }
+}

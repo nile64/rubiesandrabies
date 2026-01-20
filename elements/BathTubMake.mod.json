@@ -1,0 +1,27 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:UnfiredBath"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 10.0,
+    "cookingTime": 500,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:UnfiredBath"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:BathTub"
+    },
+    "name": "bath_tub_make",
+    "namespace": "mod"
+  }
+}

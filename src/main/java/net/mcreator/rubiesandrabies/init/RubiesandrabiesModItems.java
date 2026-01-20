@@ -19,6 +19,7 @@ import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.rubiesandrabies.item.*;
+import net.mcreator.rubiesandrabies.block.TheBloodbathBlock;
 import net.mcreator.rubiesandrabies.block.AbyssallGrassBlock;
 import net.mcreator.rubiesandrabies.RubiesandrabiesMod;
 
@@ -31,7 +32,6 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> RUBY_BRICKS;
 	public static final DeferredItem<Item> THE_INCIDENT;
 	public static final DeferredItem<Item> LIFE_IS_ROBLOX_MUSIC_DISC;
-	public static final DeferredItem<Item> FEMGRAMOLD_SPAWN_EGG;
 	public static final DeferredItem<Item> BLOCK_OF_FEMGRAM;
 	public static final DeferredItem<Item> RUBY_BRICKS_STAIRS;
 	public static final DeferredItem<Item> RUBY_BRICKS_SLAB;
@@ -108,15 +108,28 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> FEMGRAM_SPAWN_EGG;
 	public static final DeferredItem<Item> METAL_GEAR_SOLID;
 	public static final DeferredItem<Item> ACHIEVMENTITEM;
-	public static final DeferredItem<Item> MOON_SURFACE;
 	public static final DeferredItem<Item> HARDENED_MOON;
+	public static final DeferredItem<Item> MOON_SURFACE;
+	public static final DeferredItem<Item> RED_SCYTHE;
+	public static final DeferredItem<Item> PAGE_OF_EVIL;
+	public static final DeferredItem<Item> RED_SLICER;
+	public static final DeferredItem<Item> BLOOD_BUCKET;
+	public static final DeferredItem<Item> EVILBLEND;
+	public static final DeferredItem<Item> STARDUST_REMNANT;
+	public static final DeferredItem<Item> BATH_TUB;
+	public static final DeferredItem<Item> STARDUST_PICKAXE;
+	public static final DeferredItem<Item> THE_BLOODBATH;
+	public static final DeferredItem<Item> CRUSHED_QUARTZ;
+	public static final DeferredItem<Item> AT_THE_SPEED_OF_LIGHT_DISC;
+	public static final DeferredItem<Item> GLUE;
+	public static final DeferredItem<Item> UNFIRED_BATH;
+	public static final DeferredItem<Item> BIC_MAX;
 	static {
 		BAT_WING = register("bat_wing", BatWingItem::new);
 		RUBY = register("ruby", RubyItem::new);
 		RUBY_BRICKS = block(RubiesandrabiesModBlocks.RUBY_BRICKS);
 		THE_INCIDENT = register("the_incident", TheIncidentItem::new);
 		LIFE_IS_ROBLOX_MUSIC_DISC = register("life_is_roblox_music_disc", LifeIsRobloxMusicDiscItem::new);
-		FEMGRAMOLD_SPAWN_EGG = register("femgramold_spawn_egg", properties -> new SpawnEggItem(RubiesandrabiesModEntities.FEMGRAMOLD.get(), properties));
 		BLOCK_OF_FEMGRAM = block(RubiesandrabiesModBlocks.BLOCK_OF_FEMGRAM);
 		RUBY_BRICKS_STAIRS = block(RubiesandrabiesModBlocks.RUBY_BRICKS_STAIRS);
 		RUBY_BRICKS_SLAB = block(RubiesandrabiesModBlocks.RUBY_BRICKS_SLAB);
@@ -193,8 +206,22 @@ public class RubiesandrabiesModItems {
 		FEMGRAM_SPAWN_EGG = register("femgram_spawn_egg", properties -> new SpawnEggItem(RubiesandrabiesModEntities.FEMGRAM.get(), properties));
 		METAL_GEAR_SOLID = register("metal_gear_solid", MetalGearSolidItem::new);
 		ACHIEVMENTITEM = register("achievmentitem", AchievmentitemItem::new);
-		MOON_SURFACE = block(RubiesandrabiesModBlocks.MOON_SURFACE);
 		HARDENED_MOON = block(RubiesandrabiesModBlocks.HARDENED_MOON);
+		MOON_SURFACE = block(RubiesandrabiesModBlocks.MOON_SURFACE);
+		RED_SCYTHE = register("red_scythe", RedScytheItem::new);
+		PAGE_OF_EVIL = register("page_of_evil", PageOfEvilItem::new);
+		RED_SLICER = register("red_slicer", RedSlicerItem::new);
+		BLOOD_BUCKET = register("blood_bucket", BloodItem::new);
+		EVILBLEND = register("evilblend", EvilblendItem::new);
+		STARDUST_REMNANT = register("stardust_remnant", StardustRemnantItem::new);
+		BATH_TUB = block(RubiesandrabiesModBlocks.BATH_TUB, new Item.Properties().stacksTo(1));
+		STARDUST_PICKAXE = register("stardust_pickaxe", StardustPickaxeItem::new);
+		THE_BLOODBATH = register("the_bloodbath", properties -> new TheBloodbathBlock.Item(properties.stacksTo(1)));
+		CRUSHED_QUARTZ = register("crushed_quartz", CrushedQuartzItem::new);
+		AT_THE_SPEED_OF_LIGHT_DISC = register("at_the_speed_of_light_disc", AtTheSpeedOfLightDiscItem::new);
+		GLUE = register("glue", GlueItem::new);
+		UNFIRED_BATH = block(RubiesandrabiesModBlocks.UNFIRED_BATH, new Item.Properties().stacksTo(1));
+		BIC_MAX = register("bic_max", BicMaxItem::new);
 	}
 
 	// Start of user code block custom items
@@ -223,5 +250,6 @@ public class RubiesandrabiesModItems {
 	public static void registerCapabilities(RegisterCapabilitiesEvent event) {
 		event.registerItem(Capabilities.FluidHandler.ITEM, (stack, context) -> new FluidBucketWrapper(stack), NON_NEWTONIAN_FLUID_BUCKET.get());
 		event.registerItem(Capabilities.FluidHandler.ITEM, (stack, context) -> new FluidBucketWrapper(stack), GP_0_LIQUID_BUCKET.get());
+		event.registerItem(Capabilities.FluidHandler.ITEM, (stack, context) -> new FluidBucketWrapper(stack), BLOOD_BUCKET.get());
 	}
 }

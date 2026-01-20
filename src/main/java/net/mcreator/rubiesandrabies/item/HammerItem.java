@@ -1,11 +1,9 @@
 package net.mcreator.rubiesandrabies.item;
 
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-
 public class HammerItem extends Item {
 	public HammerItem(Item.Properties properties) {
-		super(properties.durability(16).setNoCombineRepair());
+		super(properties.durability(16).attributes(ItemAttributeModifiers.builder().add(Attributes.ATTACK_DAMAGE, new AttributeModifier(BASE_ATTACK_DAMAGE_ID, 5, AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.MAINHAND)
+				.add(Attributes.ATTACK_SPEED, new AttributeModifier(BASE_ATTACK_SPEED_ID, -2.4, AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.MAINHAND).build()).setNoCombineRepair());
 	}
 
 	@Override
@@ -16,5 +14,10 @@ public class HammerItem extends Item {
 			return ItemStack.EMPTY;
 		}
 		return retval;
+	}
+
+	@Override
+	public void hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
+		itemstack.hurtAndBreak(1, entity, LivingEntity.getSlotForHand(entity.getUsedItemHand()));
 	}
 }

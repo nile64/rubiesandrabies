@@ -188,5 +188,38 @@
         "stream": false
       }
     ]
+  },
+  "whbag_pitchup": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:voicy_watch_him_become_a_god1",
+        "stream": false
+      }
+    ]
+  },
+  "watchhimbecomeagawd": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:voicy_watch_him_become_a_god",
+        "stream": false
+      }
+    ]
+  },
+  "whbag_pitchdown": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:voicy_watch_him_become_a_god2",
+        "stream": false
+      }
+    ]
+  },
+  "atthespeedoflight": {
+    "subtitle": "subtitles.atthespeedoflight",
+    "sounds": [
+      {
+        "name": "rubiesandrabies:at_the_speed_of_light",
+        "stream": true
+      }
+    ]
   }
 }
