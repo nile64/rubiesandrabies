@@ -1,0 +1,17 @@
+{
+  "name": "rubiesandrabies:crater_1_craterone",
+  "fallback": "rubiesandrabies:crater_1_craterone",
+  "elements": [
+    {
+      "weight": 100,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "rubiesandrabies:crater1bottom",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    }
+  ]
+}

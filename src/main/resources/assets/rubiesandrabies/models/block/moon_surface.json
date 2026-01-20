@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rubiesandrabies:block/moonsurface",
+    "up": "rubiesandrabies:block/moonsurface",
+    "north": "rubiesandrabies:block/moonsurface",
+    "east": "rubiesandrabies:block/moonsurface",
+    "south": "rubiesandrabies:block/moonsurface",
+    "west": "rubiesandrabies:block/moonsurface",
+    "particle": "rubiesandrabies:block/moonsurface"
+  },
+  "render_type": "solid"
+}
