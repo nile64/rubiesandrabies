@@ -1,12 +1,16 @@
 {
   "replace": false,
   "values": [
-    "warden",
     "iron_golem",
-    "villager",
-    "rubiesandrabies:femgram",
+    "warden",
+    "zombie",
+    "rubiesandrabies:gorilla",
+    "skeleton",
     "rubiesandrabies:now",
+    "rubiesandrabies:femgram",
+    "rubiesandrabies:dave_mustaine",
     "rubiesandrabies:r_hmob",
-    "rubiesandrabies:ghast_cow"
+    "rubiesandrabies:ghast_cow",
+    "rubiesandrabies:knight_of_blunder"
   ]
 }
