@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "def",
+    "ghi"
+  ],
+  "key": {
+    "a": "rubiesandrabies:deleted_mod_element",
+    "b": "minecraft:dark_oak_sapling",
+    "c": "rubiesandrabies:the_incident",
+    "d": "rubiesandrabies:mangled_armor_piece",
+    "e": "rubiesandrabies:zorpiniumarmor_helmet",
+    "f": "rubiesandrabies:nowium_essence",
+    "g": "rubiesandrabies:deleted_mod_element",
+    "h": "minecraft:diamond_ore",
+    "i": "rubiesandrabies:armor_of_blunder_chestplate"
+  },
+  "result": {
+    "id": "rubiesandrabies:deleted_mod_element",
+    "count": 1
+  }
+}

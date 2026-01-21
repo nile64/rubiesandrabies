@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "rubiesandrabies:mangled_armor_piece"
+  },
+  "result": {
+    "id": "rubiesandrabies:armor_of_blunder_chestplate",
+    "count": 1
+  }
+}

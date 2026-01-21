@@ -11,12 +11,8 @@
     "animations": [],
     "name": "Page Of Evil",
     "rarity": "COMMON",
-    "creativeTabs": [
-      {
-        "value": "CUSTOM:RubiesRabiesTab"
-      }
-    ],
-    "stackSize": 1,
+    "creativeTabs": [],
+    "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "rubiesandrabies:dave_shrine",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 7,
+    "separation": 6,
+    "salt": 188481612
+  }
+}
