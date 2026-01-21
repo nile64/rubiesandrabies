@@ -1,13 +1,6 @@
 package net.mcreator.rubiesandrabies.procedures;
 
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.EntitySpawnReason;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.server.level.ServerLevel;
-import net.minecraft.core.BlockPos;
-
-import net.mcreator.rubiesandrabies.init.RubiesandrabiesModEntities;
+import net.neoforged.bus.api.Event;
 
 public class JacksonKingVRightclickedProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, ItemStack itemstack) {

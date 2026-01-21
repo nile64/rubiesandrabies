@@ -213,22 +213,6 @@
       }
     ]
   },
-  "knightliving": {
-    "sounds": [
-      {
-        "name": "rubiesandrabies:knightofblunderogg",
-        "stream": false
-      }
-    ]
-  },
-  "goatisscream": {
-    "sounds": [
-      {
-        "name": "rubiesandrabies:rahhh",
-        "stream": false
-      }
-    ]
-  },
   "knightarmor": {
     "sounds": [
       {
@@ -245,18 +229,42 @@
       }
     ]
   },
-  "knighthit": {
-    "sounds": [
-      {
-        "name": "rubiesandrabies:knighthit",
-        "stream": false
-      }
-    ]
-  },
   "ambient": {
     "sounds": [
       {
         "name": "rubiesandrabies:ambient",
+        "stream": false
+      }
+    ]
+  },
+  "cacophony": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:cacophony",
+        "stream": false
+      }
+    ]
+  },
+  "knightliving": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:knightofblunderogg",
+        "stream": false
+      }
+    ]
+  },
+  "goatisscream": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:rahhh",
+        "stream": false
+      }
+    ]
+  },
+  "knighthit": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:knighthit",
         "stream": false
       }
     ]
@@ -297,14 +305,6 @@
     "sounds": [
       {
         "name": "rubiesandrabies:dave-mustaine-scream-made-with-voicemod",
-        "stream": false
-      }
-    ]
-  },
-  "cacophony": {
-    "sounds": [
-      {
-        "name": "rubiesandrabies:cacophony",
         "stream": false
       }
     ]

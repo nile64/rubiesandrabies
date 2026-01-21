@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "rubiesandrabies:bath_tub",
-    "rubiesandrabies:blood_bucket"
+    "rubiesandrabies:deleted_mod_element",
+    "rubiesandrabies:deleted_mod_element_bucket"
   ],
   "result": {
-    "id": "rubiesandrabies:the_bloodbath",
+    "id": "rubiesandrabies:deleted_mod_element",
     "count": 1
   }
 }

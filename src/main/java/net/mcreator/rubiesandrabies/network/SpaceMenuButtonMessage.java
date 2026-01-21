@@ -16,6 +16,7 @@ import net.minecraft.network.RegistryFriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.rubiesandrabies.procedures.ReturnFromPlanetProcedure;
+import net.mcreator.rubiesandrabies.procedures.MoonClickButtonProcedure;
 import net.mcreator.rubiesandrabies.procedures.EnterRacismPlanetProcedure;
 import net.mcreator.rubiesandrabies.RubiesandrabiesMod;
 
@@ -55,6 +56,10 @@ public record SpaceMenuButtonMessage(int buttonID, int x, int y, int z) implemen
 		if (buttonID == 1) {
 
 			ReturnFromPlanetProcedure.execute(entity);
+		}
+		if (buttonID == 2) {
+
+			MoonClickButtonProcedure.execute(entity);
 		}
 	}
 

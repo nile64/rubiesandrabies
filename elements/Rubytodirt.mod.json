@@ -115,6 +115,24 @@
             "maxTrades": 10,
             "xp": 5,
             "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:Ruby"
+            },
+            "countPrice1": 20,
+            "price2": {
+              "value": "Items.PAPER"
+            },
+            "countPrice2": 5,
+            "offer": {
+              "value": "CUSTOM:PageOfEvil"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 1,
+            "xp": 5,
+            "priceMultiplier": 1.0
           }
         ]
       }

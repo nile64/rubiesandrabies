@@ -47,13 +47,15 @@ public class RubiesandrabiesModBlocks {
 	public static final DeferredBlock<Block> GREGTECH;
 	public static final DeferredBlock<Block> DAMN;
 	public static final DeferredBlock<Block> ABYSSALL_GRASS;
+	public static final DeferredBlock<Block> STAGNANT_KNIGHTS_DIGNITY;
+	public static final DeferredBlock<Block> KNIGHTS_DIGNITY;
 	public static final DeferredBlock<Block> QUESTION_MARK_PORTAL;
+	public static final DeferredBlock<Block> MOON_SURFACE;
+	public static final DeferredBlock<Block> HARDENED_MOON;
 	public static final DeferredBlock<Block> BLOOD;
 	public static final DeferredBlock<Block> BATH_TUB;
 	public static final DeferredBlock<Block> THE_BLOODBATH;
 	public static final DeferredBlock<Block> UNFIRED_BATH;
-	public static final DeferredBlock<Block> KNIGHTS_DIGNITY;
-	public static final DeferredBlock<Block> STAGNANT_KNIGHTS_DIGNITY;
 	static {
 		RUBY_BRICKS = register("ruby_bricks", RubyBricksBlock::new);
 		BLOCK_OF_FEMGRAM = register("block_of_femgram", BlockOfFemgramBlock::new);
@@ -86,13 +88,15 @@ public class RubiesandrabiesModBlocks {
 		GREGTECH = register("gregtech", GregtechBlock::new);
 		DAMN = register("damn", DamnBlock::new);
 		ABYSSALL_GRASS = register("abyssall_grass", AbyssallGrassBlock::new);
+		STAGNANT_KNIGHTS_DIGNITY = register("stagnant_knights_dignity", StagnantKnightsDignityBlock::new);
+		KNIGHTS_DIGNITY = register("knights_dignity", KnightsDignityBlock::new);
 		QUESTION_MARK_PORTAL = register("question_mark_portal", QuestionMarkPortalBlock::new);
+		MOON_SURFACE = register("moon_surface", MoonSurfaceBlock::new);
+		HARDENED_MOON = register("hardened_moon", HardenedMoonBlock::new);
 		BLOOD = register("blood", BloodBlock::new);
 		BATH_TUB = register("bath_tub", BathTubBlock::new);
 		THE_BLOODBATH = register("the_bloodbath", TheBloodbathBlock::new);
 		UNFIRED_BATH = register("unfired_bath", UnfiredBathBlock::new);
-		KNIGHTS_DIGNITY = register("knights_dignity", KnightsDignityBlock::new);
-		STAGNANT_KNIGHTS_DIGNITY = register("stagnant_knights_dignity", StagnantKnightsDignityBlock::new);
 	}
 
 	// Start of user code block custom blocks
