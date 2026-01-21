@@ -29,7 +29,7 @@ public class PageOfEvilItem extends Item {
 	@Override
 	public InteractionResult use(Level world, Player entity, InteractionHand hand) {
 		InteractionResult ar = super.use(world, entity, hand);
-		PageOfEvilRightclickedProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), entity);
+		PageOfEvilRightclickedProcedure.execute(world, entity, entity.getItemInHand(hand));
 		return ar;
 	}
 }
