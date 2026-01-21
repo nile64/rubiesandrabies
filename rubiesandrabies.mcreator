@@ -5020,6 +5020,8 @@
       "~CUSTOM:NonNewtonianFluid"
     ],
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:RedSlicer",
+      "~CUSTOM:RedScythe",
       "~CUSTOM:FallenOnesBroadsword",
       "~CUSTOM:ZorpiniumSaber",
       "~CUSTOM:Theniumsword"
@@ -5121,6 +5123,12 @@
     "ITEMS:rubiesandrabies:sillymusic": [
       "CUSTOM:LifeIsRobloxMusicDisc",
       "CUSTOM:AtTheSpeedOfLightDisc"
+    ],
+    "ITEMS:rubiesandrabies:red_slicer_repair_items": [
+      "~CUSTOM:ExitPlanetItemTest"
+    ],
+    "ITEMS:rubiesandrabies:red_scythe_repair_items": [
+      "~CUSTOM:Ruby"
     ]
   },
   "tab_element_order": {},
@@ -5329,7 +5337,9 @@
       "item.rubiesandrabies.fallen_ones_broadsword": "Fallen One\u0027s Broadsword",
       "item.rubiesandrabies.watchhimbecomeagod": "Watch Him Become a God",
       "item.rubiesandrabies.watchhimbecomeagod.desc": "Dave Musraine Originals - Watch Him Become a God",
-      "item.rubiesandrabies.question_mark": "???"
+      "item.rubiesandrabies.question_mark": "???",
+      "item.rubiesandrabies.red_scythe": "Red Scythe",
+      "item.rubiesandrabies.red_slicer": "Red Slicer"
     }
   },
   "metadata": {
