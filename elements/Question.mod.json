@@ -1,0 +1,49 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:FallenOnesBroadsword"
+      },
+      {
+        "value": "Blocks.SAPLING#5"
+      },
+      {
+        "value": "CUSTOM:TheIncident"
+      },
+      {
+        "value": "CUSTOM:MangledArmorPiece"
+      },
+      {
+        "value": "CUSTOM:Zorpinium.helmet"
+      },
+      {
+        "value": "CUSTOM:NowiumEssence"
+      },
+      {
+        "value": "CUSTOM:JacksonKingV"
+      },
+      {
+        "value": "Blocks.DIAMOND_ORE"
+      },
+      {
+        "value": "CUSTOM:ArmorOfBlunder.body"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:QuestionMark"
+    },
+    "name": "question",
+    "namespace": "mod"
+  }
+}

@@ -16,7 +16,7 @@ import java.util.function.Consumer;
 
 public class PageOfEvilItem extends Item {
 	public PageOfEvilItem(Item.Properties properties) {
-		super(properties.stacksTo(1));
+		super(properties);
 	}
 
 	@Override
