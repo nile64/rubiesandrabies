@@ -65,7 +65,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "rubiesandrabies:deleted_mod_element",
+          "name": "rubiesandrabies:bic_max",
           "weight": 1,
           "functions": [
             {
@@ -87,20 +87,6 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_ingot",
-          "weight": 2,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 4
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:iron_nugget",
           "weight": 1,
           "functions": [
@@ -108,7 +94,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 5,
-                "max": 9
+                "max": 18
               }
             }
           ]
@@ -122,7 +108,26 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 5,
-                "max": 9
+                "max": 18
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 8
               }
             }
           ]

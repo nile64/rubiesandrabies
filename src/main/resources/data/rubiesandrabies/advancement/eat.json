@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "rubiesandrabies:deleted_mod_element"
+      "id": "rubiesandrabies:bic_max"
     },
     "title": {
       "translate": "advancements.eat.title"
@@ -20,7 +20,7 @@
       "conditions": {
         "item": {
           "items": [
-            "rubiesandrabies:deleted_mod_element"
+            "rubiesandrabies:bic_max"
           ]
         }
       }

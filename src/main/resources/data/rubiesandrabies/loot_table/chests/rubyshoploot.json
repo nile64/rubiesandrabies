@@ -64,6 +64,25 @@
           ]
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:obsidian",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 10,
+                "max": 12
+              }
+            }
+          ]
+        }
+      ]
     }
   ],
   "random_sequence": "rubiesandrabies:chests/rubyshoploot"

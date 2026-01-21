@@ -2,8 +2,8 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "rubiesandrabies:deleted_mod_element",
-    "rubiesandrabies:deleted_mod_element",
+    "rubiesandrabies:crushed_quartz",
+    "rubiesandrabies:glue",
     "minecraft:clay_ball"
   ],
   "result": {
