@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "rubiesandrabies:bic_max"
+    },
+    "title": {
+      "translate": "advancements.eat.title"
+    },
+    "description": {
+      "translate": "advancements.eat.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "eat_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "rubiesandrabies:bic_max"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 36
+  },
+  "parent": "rubiesandrabies:buy_the_acheivment"
+}

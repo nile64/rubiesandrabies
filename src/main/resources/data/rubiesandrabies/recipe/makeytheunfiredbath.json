@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "a a",
+    "aaa"
+  ],
+  "key": {
+    "a": "rubiesandrabies:evilblend"
+  },
+  "result": {
+    "id": "rubiesandrabies:unfired_bath",
+    "count": 1
+  }
+}

@@ -4,7 +4,7 @@
   },
   "supported_items": [
     "rubiesandrabies:theniumsword",
-    "minecraft:book"
+    "minecraft:enchanted_book"
   ],
   "weight": 1,
   "max_level": 1,

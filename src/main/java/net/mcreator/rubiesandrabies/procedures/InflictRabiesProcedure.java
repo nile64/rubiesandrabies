@@ -11,6 +11,7 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.damagesource.DamageSource;
+import net.minecraft.tags.TagKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.core.registries.Registries;
@@ -35,9 +36,11 @@ public class InflictRabiesProcedure {
 	private static void execute(@Nullable Event event, LevelAccessor world, DamageSource damagesource, Entity entity) {
 		if (damagesource == null || entity == null)
 			return;
-		if (((damagesource.getEntity()) instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)
+		if ((((damagesource.getEntity()) instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)
 				.getEnchantmentLevel(world.registryAccess().lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(ResourceKey.create(Registries.ENCHANTMENT, ResourceLocation.parse("rubiesandrabies:touch_of_rabies")))) != 0
-				|| (damagesource.getEntity()) instanceof LivingEntity _livEnt4 && _livEnt4.hasEffect(RubiesandrabiesModMobEffects.RABIES)) {
+				|| (damagesource.getEntity()) instanceof LivingEntity _livEnt4 && _livEnt4.hasEffect(RubiesandrabiesModMobEffects.RABIES))
+				&& entity.getType().is(TagKey.create(Registries.ENTITY_TYPE, ResourceLocation.parse("rubiesandrabies:immunetorabies"))) == false
+				&& (entity instanceof LivingEntity _livEnt6 && _livEnt6.hasEffect(RubiesandrabiesModMobEffects.RABIES)) == false) {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(RubiesandrabiesModMobEffects.RABIES, 6000, 1, false, true));
 		}

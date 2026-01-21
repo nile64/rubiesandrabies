@@ -1,0 +1,9 @@
+{
+  "parent": "rubiesandrabies:custom/thebath",
+  "textures": {
+    "all": "rubiesandrabies:block/zebath",
+    "particle": "rubiesandrabies:block/zebath",
+    "0": "rubiesandrabies:block/letexture"
+  },
+  "render_type": "solid"
+}

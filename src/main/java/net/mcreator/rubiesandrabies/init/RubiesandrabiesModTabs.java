@@ -27,7 +27,6 @@ public class RubiesandrabiesModTabs {
 				tabData.accept(RubiesandrabiesModBlocks.RUBY_BRICKS.get().asItem());
 				tabData.accept(RubiesandrabiesModItems.THE_INCIDENT.get());
 				tabData.accept(RubiesandrabiesModItems.LIFE_IS_ROBLOX_MUSIC_DISC.get());
-				tabData.accept(RubiesandrabiesModItems.FEMGRAMOLD_SPAWN_EGG.get());
 				tabData.accept(RubiesandrabiesModBlocks.BLOCK_OF_FEMGRAM.get().asItem());
 				tabData.accept(RubiesandrabiesModBlocks.RUBY_BRICKS_STAIRS.get().asItem());
 				tabData.accept(RubiesandrabiesModBlocks.RUBY_BRICKS_SLAB.get().asItem());
@@ -65,6 +64,17 @@ public class RubiesandrabiesModTabs {
 				tabData.accept(RubiesandrabiesModItems.FEMGRAM_SPAWN_EGG.get());
 				tabData.accept(RubiesandrabiesModItems.METAL_GEAR_SOLID.get());
 				tabData.accept(RubiesandrabiesModItems.ACHIEVMENTITEM.get());
+				tabData.accept(RubiesandrabiesModItems.RED_SCYTHE.get());
+				tabData.accept(RubiesandrabiesModItems.RED_SLICER.get());
+				tabData.accept(RubiesandrabiesModItems.BLOOD_BUCKET.get());
+				tabData.accept(RubiesandrabiesModItems.EVILBLEND.get());
+				tabData.accept(RubiesandrabiesModBlocks.BATH_TUB.get().asItem());
+				tabData.accept(RubiesandrabiesModBlocks.THE_BLOODBATH.get().asItem());
+				tabData.accept(RubiesandrabiesModItems.CRUSHED_QUARTZ.get());
+				tabData.accept(RubiesandrabiesModItems.AT_THE_SPEED_OF_LIGHT_DISC.get());
+				tabData.accept(RubiesandrabiesModItems.GLUE.get());
+				tabData.accept(RubiesandrabiesModBlocks.UNFIRED_BATH.get().asItem());
+				tabData.accept(RubiesandrabiesModItems.BIC_MAX.get());
 			}).withSearchBar().build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> SPACE = REGISTRY.register("space",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.rubiesandrabies.space")).icon(() -> new ItemStack(RubiesandrabiesModItems.URANIUM.get())).displayItems((parameters, tabData) -> {
@@ -101,22 +111,22 @@ public class RubiesandrabiesModTabs {
 				tabData.accept(RubiesandrabiesModItems.ZORPINIUM_PICKAXE.get());
 				tabData.accept(RubiesandrabiesModItems.PURIFIED_ZORPINIUM.get());
 				tabData.accept(RubiesandrabiesModItems.ZORPINIUM_SABER.get());
-				tabData.accept(RubiesandrabiesModItems.JACKSON_KING_V.get());
 				tabData.accept(RubiesandrabiesModItems.GUITAR_STRING.get());
-				tabData.accept(RubiesandrabiesModItems.WATCHHIMBECOMEAGOD.get());
+				tabData.accept(RubiesandrabiesModItems.JACKSON_KING_V.get());
 				tabData.accept(RubiesandrabiesModItems.MANGLED_ARMOR_PIECE.get());
+				tabData.accept(RubiesandrabiesModItems.FALLEN_ONES_BROADSWORD.get());
+				tabData.accept(RubiesandrabiesModItems.WATCHHIMBECOMEAGOD.get());
 				tabData.accept(RubiesandrabiesModItems.ARMOR_OF_BLUNDER_HELMET.get());
 				tabData.accept(RubiesandrabiesModItems.ARMOR_OF_BLUNDER_CHESTPLATE.get());
 				tabData.accept(RubiesandrabiesModItems.ARMOR_OF_BLUNDER_LEGGINGS.get());
 				tabData.accept(RubiesandrabiesModItems.ARMOR_OF_BLUNDER_BOOTS.get());
-				tabData.accept(RubiesandrabiesModItems.FALLEN_ONES_BROADSWORD.get());
 				tabData.accept(RubiesandrabiesModItems.QUESTION_MARK.get());
+				tabData.accept(RubiesandrabiesModBlocks.KNIGHTS_DIGNITY.get().asItem());
 			}).withSearchBar().withTabsBefore(SPACE.getId()).build());
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
-			tabData.accept(RubiesandrabiesModItems.FEMGRAMOLD_SPAWN_EGG.get());
 			tabData.accept(RubiesandrabiesModItems.MEATBALL_MOOSE_SPAWN_EGG.get());
 			tabData.accept(RubiesandrabiesModItems.GORILLA_SPAWN_EGG.get());
 			tabData.accept(RubiesandrabiesModItems.R_HMOB_SPAWN_EGG.get());

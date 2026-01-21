@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "rubiesandrabies:blocks/stagnant_knights_dignity",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "rubiesandrabies:stagnant_knights_dignity"
+        }
+      ]
+    }
+  ]
+}

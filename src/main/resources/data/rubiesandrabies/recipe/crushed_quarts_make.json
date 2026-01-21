@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "rubiesandrabies:hammer",
+    "minecraft:quartz"
+  ],
+  "result": {
+    "id": "rubiesandrabies:crushed_quartz",
+    "count": 1
+  }
+}

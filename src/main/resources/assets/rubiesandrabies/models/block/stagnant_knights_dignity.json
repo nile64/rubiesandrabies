@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "rubiesandrabies:block/knightsdignityoff",
+    "particle": "rubiesandrabies:block/knightsdignityoff"
+  },
+  "render_type": "solid"
+}

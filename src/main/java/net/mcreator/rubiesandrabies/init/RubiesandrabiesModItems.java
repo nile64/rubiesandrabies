@@ -19,6 +19,7 @@ import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.rubiesandrabies.item.*;
+import net.mcreator.rubiesandrabies.block.TheBloodbathBlock;
 import net.mcreator.rubiesandrabies.block.AbyssallGrassBlock;
 import net.mcreator.rubiesandrabies.RubiesandrabiesMod;
 
@@ -31,7 +32,6 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> RUBY_BRICKS;
 	public static final DeferredItem<Item> THE_INCIDENT;
 	public static final DeferredItem<Item> LIFE_IS_ROBLOX_MUSIC_DISC;
-	public static final DeferredItem<Item> FEMGRAMOLD_SPAWN_EGG;
 	public static final DeferredItem<Item> BLOCK_OF_FEMGRAM;
 	public static final DeferredItem<Item> RUBY_BRICKS_STAIRS;
 	public static final DeferredItem<Item> RUBY_BRICKS_SLAB;
@@ -110,25 +110,38 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> ABYSSALL_GRASS;
 	public static final DeferredItem<Item> TESTICALS;
 	public static final DeferredItem<Item> STARDUST_PICKAXE;
+	public static final DeferredItem<Item> GUITAR_STRING;
 	public static final DeferredItem<Item> DAVE_MUSTAINE_SPAWN_EGG;
 	public static final DeferredItem<Item> JACKSON_KING_V;
-	public static final DeferredItem<Item> GUITAR_STRING;
-	public static final DeferredItem<Item> WATCHHIMBECOMEAGOD;
-	public static final DeferredItem<Item> KNIGHT_OF_BLUNDER_SPAWN_EGG;
 	public static final DeferredItem<Item> MANGLED_ARMOR_PIECE;
+	public static final DeferredItem<Item> FALLEN_ONES_BROADSWORD;
+	public static final DeferredItem<Item> WATCHHIMBECOMEAGOD;
 	public static final DeferredItem<Item> ARMOR_OF_BLUNDER_HELMET;
 	public static final DeferredItem<Item> ARMOR_OF_BLUNDER_CHESTPLATE;
 	public static final DeferredItem<Item> ARMOR_OF_BLUNDER_LEGGINGS;
 	public static final DeferredItem<Item> ARMOR_OF_BLUNDER_BOOTS;
-	public static final DeferredItem<Item> FALLEN_ONES_BROADSWORD;
+	public static final DeferredItem<Item> KNIGHT_OF_BLUNDER_SPAWN_EGG;
 	public static final DeferredItem<Item> QUESTION_MARK;
+	public static final DeferredItem<Item> RED_SCYTHE;
+	public static final DeferredItem<Item> PAGE_OF_EVIL;
+	public static final DeferredItem<Item> RED_SLICER;
+	public static final DeferredItem<Item> BLOOD_BUCKET;
+	public static final DeferredItem<Item> EVILBLEND;
+	public static final DeferredItem<Item> BATH_TUB;
+	public static final DeferredItem<Item> THE_BLOODBATH;
+	public static final DeferredItem<Item> CRUSHED_QUARTZ;
+	public static final DeferredItem<Item> AT_THE_SPEED_OF_LIGHT_DISC;
+	public static final DeferredItem<Item> GLUE;
+	public static final DeferredItem<Item> UNFIRED_BATH;
+	public static final DeferredItem<Item> BIC_MAX;
+	public static final DeferredItem<Item> KNIGHTS_DIGNITY;
+	public static final DeferredItem<Item> STAGNANT_KNIGHTS_DIGNITY;
 	static {
 		BAT_WING = register("bat_wing", BatWingItem::new);
 		RUBY = register("ruby", RubyItem::new);
 		RUBY_BRICKS = block(RubiesandrabiesModBlocks.RUBY_BRICKS);
 		THE_INCIDENT = register("the_incident", TheIncidentItem::new);
 		LIFE_IS_ROBLOX_MUSIC_DISC = register("life_is_roblox_music_disc", LifeIsRobloxMusicDiscItem::new);
-		FEMGRAMOLD_SPAWN_EGG = register("femgramold_spawn_egg", properties -> new SpawnEggItem(RubiesandrabiesModEntities.FEMGRAMOLD.get(), properties));
 		BLOCK_OF_FEMGRAM = block(RubiesandrabiesModBlocks.BLOCK_OF_FEMGRAM);
 		RUBY_BRICKS_STAIRS = block(RubiesandrabiesModBlocks.RUBY_BRICKS_STAIRS);
 		RUBY_BRICKS_SLAB = block(RubiesandrabiesModBlocks.RUBY_BRICKS_SLAB);
@@ -207,18 +220,32 @@ public class RubiesandrabiesModItems {
 		ABYSSALL_GRASS = register("abyssall_grass", AbyssallGrassBlock.Item::new);
 		TESTICALS = register("testicals", TesticalsItem::new);
 		STARDUST_PICKAXE = register("stardust_pickaxe", StardustPickaxeItem::new);
+		GUITAR_STRING = register("guitar_string", GuitarStringItem::new);
 		DAVE_MUSTAINE_SPAWN_EGG = register("dave_mustaine_spawn_egg", properties -> new SpawnEggItem(RubiesandrabiesModEntities.DAVE_MUSTAINE.get(), properties));
 		JACKSON_KING_V = register("jackson_king_v", JacksonKingVItem::new);
-		GUITAR_STRING = register("guitar_string", GuitarStringItem::new);
-		WATCHHIMBECOMEAGOD = register("watchhimbecomeagod", HolyWarsThePunishmentDueItem::new);
-		KNIGHT_OF_BLUNDER_SPAWN_EGG = register("knight_of_blunder_spawn_egg", properties -> new SpawnEggItem(RubiesandrabiesModEntities.KNIGHT_OF_BLUNDER.get(), properties));
 		MANGLED_ARMOR_PIECE = register("mangled_armor_piece", MangledArmorPieceItem::new);
+		FALLEN_ONES_BROADSWORD = register("fallen_ones_broadsword", FallenOnesBroadswordItem::new);
+		WATCHHIMBECOMEAGOD = register("watchhimbecomeagod", HolyWarsThePunishmentDueItem::new);
 		ARMOR_OF_BLUNDER_HELMET = register("armor_of_blunder_helmet", ArmorOfBlunderItem.Helmet::new);
 		ARMOR_OF_BLUNDER_CHESTPLATE = register("armor_of_blunder_chestplate", ArmorOfBlunderItem.Chestplate::new);
 		ARMOR_OF_BLUNDER_LEGGINGS = register("armor_of_blunder_leggings", ArmorOfBlunderItem.Leggings::new);
 		ARMOR_OF_BLUNDER_BOOTS = register("armor_of_blunder_boots", ArmorOfBlunderItem.Boots::new);
-		FALLEN_ONES_BROADSWORD = register("fallen_ones_broadsword", FallenOnesBroadswordItem::new);
+		KNIGHT_OF_BLUNDER_SPAWN_EGG = register("knight_of_blunder_spawn_egg", properties -> new SpawnEggItem(RubiesandrabiesModEntities.KNIGHT_OF_BLUNDER.get(), properties));
 		QUESTION_MARK = register("question_mark", QuestionMarkItem::new);
+		RED_SCYTHE = register("red_scythe", RedScytheItem::new);
+		PAGE_OF_EVIL = register("page_of_evil", PageOfEvilItem::new);
+		RED_SLICER = register("red_slicer", RedSlicerItem::new);
+		BLOOD_BUCKET = register("blood_bucket", BloodItem::new);
+		EVILBLEND = register("evilblend", EvilblendItem::new);
+		BATH_TUB = block(RubiesandrabiesModBlocks.BATH_TUB, new Item.Properties().stacksTo(1));
+		THE_BLOODBATH = register("the_bloodbath", properties -> new TheBloodbathBlock.Item(properties.stacksTo(1)));
+		CRUSHED_QUARTZ = register("crushed_quartz", CrushedQuartzItem::new);
+		AT_THE_SPEED_OF_LIGHT_DISC = register("at_the_speed_of_light_disc", AtTheSpeedOfLightDiscItem::new);
+		GLUE = register("glue", GlueItem::new);
+		UNFIRED_BATH = block(RubiesandrabiesModBlocks.UNFIRED_BATH, new Item.Properties().stacksTo(1));
+		BIC_MAX = register("bic_max", BicMaxItem::new);
+		KNIGHTS_DIGNITY = block(RubiesandrabiesModBlocks.KNIGHTS_DIGNITY, new Item.Properties().rarity(Rarity.EPIC).fireResistant());
+		STAGNANT_KNIGHTS_DIGNITY = block(RubiesandrabiesModBlocks.STAGNANT_KNIGHTS_DIGNITY);
 	}
 
 	// Start of user code block custom items
@@ -247,5 +274,6 @@ public class RubiesandrabiesModItems {
 	public static void registerCapabilities(RegisterCapabilitiesEvent event) {
 		event.registerItem(Capabilities.FluidHandler.ITEM, (stack, context) -> new FluidBucketWrapper(stack), NON_NEWTONIAN_FLUID_BUCKET.get());
 		event.registerItem(Capabilities.FluidHandler.ITEM, (stack, context) -> new FluidBucketWrapper(stack), GP_0_LIQUID_BUCKET.get());
+		event.registerItem(Capabilities.FluidHandler.ITEM, (stack, context) -> new FluidBucketWrapper(stack), BLOOD_BUCKET.get());
 	}
 }

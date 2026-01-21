@@ -213,30 +213,6 @@
       }
     ]
   },
-  "davescream": {
-    "sounds": [
-      {
-        "name": "rubiesandrabies:dave-mustaine-scream-made-with-voicemod",
-        "stream": false
-      }
-    ]
-  },
-  "davedeath": {
-    "sounds": [
-      {
-        "name": "rubiesandrabies:dave-mustaine-scream-made-with-voicemod1",
-        "stream": false
-      }
-    ]
-  },
-  "holywars_punishmentdue": {
-    "sounds": [
-      {
-        "name": "rubiesandrabies:holy_wars_the_punishment_due_2004_remix",
-        "stream": false
-      }
-    ]
-  },
   "knightliving": {
     "sounds": [
       {
@@ -245,18 +221,10 @@
       }
     ]
   },
-  "knightdeath": {
+  "goatisscream": {
     "sounds": [
       {
-        "name": "rubiesandrabies:knightdeath",
-        "stream": false
-      }
-    ]
-  },
-  "knighthit": {
-    "sounds": [
-      {
-        "name": "rubiesandrabies:knighthit",
+        "name": "rubiesandrabies:rahhh",
         "stream": false
       }
     ]
@@ -269,18 +237,18 @@
       }
     ]
   },
-  "questionmark": {
+  "femboyhurt": {
     "sounds": [
       {
-        "name": "rubiesandrabies:questionmark",
+        "name": "rubiesandrabies:issac-hurt-1",
         "stream": false
       }
     ]
   },
-  "cacophony": {
+  "knighthit": {
     "sounds": [
       {
-        "name": "rubiesandrabies:cacophony",
+        "name": "rubiesandrabies:knighthit",
         "stream": false
       }
     ]
@@ -293,19 +261,60 @@
       }
     ]
   },
-  "femboyhurt": {
+  "holywars_punishmentdue": {
     "sounds": [
       {
-        "name": "rubiesandrabies:issac-hurt-1",
+        "name": "rubiesandrabies:holy_wars_the_punishment_due_2004_remix",
         "stream": false
       }
     ]
   },
-  "goatisscream": {
+  "questionmark": {
     "sounds": [
       {
-        "name": "rubiesandrabies:rahhh",
+        "name": "rubiesandrabies:questionmark",
         "stream": false
+      }
+    ]
+  },
+  "knightdeath": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:knightdeath",
+        "stream": false
+      }
+    ]
+  },
+  "davedeath": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:dave-mustaine-scream-made-with-voicemod1",
+        "stream": false
+      }
+    ]
+  },
+  "davescream": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:dave-mustaine-scream-made-with-voicemod",
+        "stream": false
+      }
+    ]
+  },
+  "cacophony": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:cacophony",
+        "stream": false
+      }
+    ]
+  },
+  "atthespeedoflight": {
+    "subtitle": "subtitles.atthespeedoflight",
+    "sounds": [
+      {
+        "name": "rubiesandrabies:at_the_speed_of_light",
+        "stream": true
       }
     ]
   }

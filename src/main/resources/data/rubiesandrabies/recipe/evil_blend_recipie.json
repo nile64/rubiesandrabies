@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "rubiesandrabies:crushed_quartz",
+    "rubiesandrabies:glue",
+    "minecraft:clay_ball"
+  ],
+  "result": {
+    "id": "rubiesandrabies:evilblend",
+    "count": 1
+  }
+}

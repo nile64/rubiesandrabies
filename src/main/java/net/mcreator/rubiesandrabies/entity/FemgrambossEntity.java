@@ -47,6 +47,7 @@ public class FemgrambossEntity extends Monster {
 		super(type, world);
 		xpReward = 200;
 		setNoAi(false);
+		setPersistenceRequired();
 	}
 
 	@Override
@@ -69,6 +70,11 @@ public class FemgrambossEntity extends Monster {
 		this.goalSelector.addGoal(3, new RandomStrollGoal(this, 0.8));
 		this.goalSelector.addGoal(4, new RandomLookAroundGoal(this));
 		this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, Player.class, false, false));
+	}
+
+	@Override
+	public boolean removeWhenFarAway(double distanceToClosestPlayer) {
+		return false;
 	}
 
 	@Override
