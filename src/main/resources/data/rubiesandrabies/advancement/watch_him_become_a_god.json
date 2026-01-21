@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "rubiesandrabies:deleted_mod_element"
+      "id": "rubiesandrabies:jackson_king_v"
     },
     "title": {
       "translate": "advancements.watch_him_become_a_god.title"
@@ -21,7 +21,7 @@
         "items": [
           {
             "items": [
-              "rubiesandrabies:deleted_mod_element"
+              "rubiesandrabies:jackson_king_v"
             ],
             "count": {
               "min": 1,

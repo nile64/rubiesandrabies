@@ -9,20 +9,20 @@
         "value": "Blocks.STRUCTURE_BLOCK"
       }
     ],
-    "spacing": 5,
-    "separation": 2,
+    "spacing": 10,
+    "separation": 4,
     "restrictionBiomes": [
       {
-        "value": "#minecraft:is_overworld"
+        "value": "CUSTOM:Moon"
       }
     ],
     "terrainAdaptation": "none",
-    "generationStep": "SURFACE_STRUCTURES",
+    "generationStep": "UNDERGROUND_STRUCTURES",
     "surfaceDetectionType": "WORLD_SURFACE_WG",
-    "useStartHeight": false,
+    "useStartHeight": true,
     "startHeightProviderType": "UNIFORM",
-    "startHeightMin": 0,
-    "startHeightMax": 128,
+    "startHeightMin": 10,
+    "startHeightMax": 32,
     "size": 1,
     "maxDistanceFromCenter": 64,
     "jigsawPools": []
