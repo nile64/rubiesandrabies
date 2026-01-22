@@ -39,7 +39,7 @@
               "value": "CUSTOM:Achievmentitem"
             },
             "countOffer": 1,
-            "level": 1,
+            "level": 4,
             "maxTrades": 1,
             "xp": 5,
             "priceMultiplier": 0.05
@@ -75,7 +75,7 @@
               "value": "Items.QUARTZ"
             },
             "countOffer": 64,
-            "level": 1,
+            "level": 2,
             "maxTrades": 10,
             "xp": 5,
             "priceMultiplier": 0.05
@@ -111,7 +111,7 @@
               "value": "Items.DIAMOND_PICKAXE"
             },
             "countOffer": 1,
-            "level": 1,
+            "level": 3,
             "maxTrades": 10,
             "xp": 5,
             "priceMultiplier": 0.05
@@ -129,7 +129,7 @@
               "value": "CUSTOM:PageOfEvil"
             },
             "countOffer": 1,
-            "level": 1,
+            "level": 3,
             "maxTrades": 1,
             "xp": 5,
             "priceMultiplier": 1.0

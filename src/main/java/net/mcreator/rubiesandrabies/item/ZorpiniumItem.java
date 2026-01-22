@@ -16,7 +16,7 @@ import net.minecraft.core.registries.Registries;
 import java.util.Map;
 
 public abstract class ZorpiniumItem extends Item {
-	public static ArmorMaterial ARMOR_MATERIAL = new ArmorMaterial(45, Map.of(ArmorType.BOOTS, 6, ArmorType.LEGGINGS, 6, ArmorType.CHESTPLATE, 8, ArmorType.HELMET, 6, ArmorType.BODY, 8), 30,
+	public static ArmorMaterial ARMOR_MATERIAL = new ArmorMaterial(80, Map.of(ArmorType.BOOTS, 9, ArmorType.LEGGINGS, 9, ArmorType.CHESTPLATE, 14, ArmorType.HELMET, 9, ArmorType.BODY, 14), 30,
 			DeferredHolder.create(Registries.SOUND_EVENT, ResourceLocation.parse("item.armor.equip_diamond")), 4f, 0.3f, TagKey.create(Registries.ITEM, ResourceLocation.parse("rubiesandrabies:zorpiniumarmor_repair_items")),
 			ResourceKey.create(EquipmentAssets.ROOT_ID, ResourceLocation.parse("rubiesandrabies:zorpiniumarmor")));
 

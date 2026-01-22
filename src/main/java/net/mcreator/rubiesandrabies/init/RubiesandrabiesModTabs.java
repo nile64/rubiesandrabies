@@ -75,6 +75,7 @@ public class RubiesandrabiesModTabs {
 				tabData.accept(RubiesandrabiesModItems.GLUE.get());
 				tabData.accept(RubiesandrabiesModBlocks.UNFIRED_BATH.get().asItem());
 				tabData.accept(RubiesandrabiesModItems.BIC_MAX.get());
+				tabData.accept(RubiesandrabiesModBlocks.EVIL_MACHINE.get().asItem());
 			}).withSearchBar().build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> SPACE = REGISTRY.register("space",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.rubiesandrabies.space")).icon(() -> new ItemStack(RubiesandrabiesModItems.URANIUM.get())).displayItems((parameters, tabData) -> {
@@ -124,10 +125,17 @@ public class RubiesandrabiesModTabs {
 				tabData.accept(RubiesandrabiesModItems.FALLEN_ONES_BROADSWORD.get());
 				tabData.accept(RubiesandrabiesModItems.WATCHHIMBECOMEAGOD.get());
 				tabData.accept(RubiesandrabiesModItems.QUESTION_MARK.get());
-				tabData.accept(RubiesandrabiesModItems.LIGHTNING_IN_A_BOTTLE.get());
 				tabData.accept(RubiesandrabiesModBlocks.THUNDEROUS_DIGNITY.get().asItem());
 				tabData.accept(RubiesandrabiesModItems.THUNDEROUS_ESSENCE.get());
 				tabData.accept(RubiesandrabiesModItems.KNIGHT_OF_THUNDER_SPAWN_EGG.get());
+				tabData.accept(RubiesandrabiesModItems.LIGHTNING_IN_A_BOTTLE.get());
+				tabData.accept(RubiesandrabiesModItems.THUNDER_INFUSED_INGOT.get());
+				tabData.accept(RubiesandrabiesModItems.THUNDER_HELMET.get());
+				tabData.accept(RubiesandrabiesModItems.THUNDER_CHESTPLATE.get());
+				tabData.accept(RubiesandrabiesModItems.THUNDER_LEGGINGS.get());
+				tabData.accept(RubiesandrabiesModItems.THUNDER_BOOTS.get());
+				tabData.accept(RubiesandrabiesModItems.THUNDER_BLADE.get());
+				tabData.accept(RubiesandrabiesModBlocks.SOLIDIFIED_THUNDEROUS_ESSENCE.get().asItem());
 			}).withSearchBar().withTabsBefore(SPACE.getId()).build());
 
 	@SubscribeEvent

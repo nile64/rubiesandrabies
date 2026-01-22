@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": "rubiesandrabies:thunder_infused_ingot",
+    "b": "rubiesandrabies:fallen_ones_broadsword"
+  },
+  "result": {
+    "id": "rubiesandrabies:thunder_blade",
+    "count": 1
+  }
+}

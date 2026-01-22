@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "rubiesandrabies:thunder_infused_ingot"
+  },
+  "result": {
+    "id": "rubiesandrabies:thunder_chestplate",
+    "count": 1
+  }
+}

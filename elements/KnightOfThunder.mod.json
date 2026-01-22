@@ -76,7 +76,7 @@
     "armorBaseValue": 15.0,
     "trackingRange": 64,
     "followRange": 16,
-    "health": 700,
+    "health": 850,
     "xpAmount": 0,
     "waterMob": false,
     "breatheUnderwater": {
@@ -115,7 +115,7 @@
       "value": "entity.lightning.thunder"
     },
     "deathSound": {
-      "value": "CUSTOM:thunderdeath"
+      "value": "CUSTOM:knightdeath"
     },
     "stepSound": {
       "value": ""

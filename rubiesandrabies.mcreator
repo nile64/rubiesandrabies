@@ -4645,35 +4645,6 @@
       "path": "~/idk"
     },
     {
-      "name": "LightningInABottle",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lightning_in_a_bottle",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/rubiesandrabies/item/LightningInABottleItem.java",
-          "src/main/resources/assets/rubiesandrabies/items/lightning_in_a_bottle.json",
-          "src/main/resources/assets/rubiesandrabies/models/item/lightning_in_a_bottle.json"
-        ]
-      },
-      "path": "~/ZorpiniumOblivion"
-    },
-    {
-      "name": "LighntingBottle",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lighnting_bottle",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/rubiesandrabies/advancement/recipes/lighnting_bottle.json",
-          "src/main/resources/data/rubiesandrabies/recipe/lighnting_bottle.json"
-        ]
-      },
-      "path": "~/ZorpiniumOblivion"
-    },
-    {
       "name": "ThunderousDignity",
       "type": "block",
       "compiles": true,
@@ -4692,20 +4663,6 @@
       "path": "~/ZorpiniumOblivion"
     },
     {
-      "name": "Thundignity",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "thundignity",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/rubiesandrabies/advancement/recipes/thundignity.json",
-          "src/main/resources/data/rubiesandrabies/recipe/thundignity.json"
-        ]
-      },
-      "path": "~/ZorpiniumOblivion"
-    },
-    {
       "name": "ThunderousEssence",
       "type": "item",
       "compiles": true,
@@ -4716,22 +4673,6 @@
           "src/main/resources/assets/rubiesandrabies/items/thunderous_essence.json",
           "src/main/resources/assets/rubiesandrabies/models/item/thunderous_essence.json",
           "src/main/java/net/mcreator/rubiesandrabies/item/ThunderousEssenceItem.java"
-        ]
-      },
-      "path": "~/ZorpiniumOblivion"
-    },
-    {
-      "name": "KnightOfThunder",
-      "type": "livingentity",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "knight_of_thunder",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/rubiesandrabies/entity/KnightOfThunderEntity.java",
-          "src/main/java/net/mcreator/rubiesandrabies/client/renderer/KnightOfThunderRenderer.java",
-          "src/main/resources/assets/rubiesandrabies/models/item/knight_of_thunder_spawn_egg.json",
-          "src/main/resources/assets/rubiesandrabies/items/knight_of_thunder_spawn_egg.json"
         ]
       },
       "path": "~/ZorpiniumOblivion"
@@ -4768,6 +4709,34 @@
       "path": "~/ZorpiniumOblivion"
     },
     {
+      "name": "LighntingBottle",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lighnting_bottle",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/lighnting_bottle.json",
+          "src/main/resources/data/rubiesandrabies/recipe/lighnting_bottle.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "Thundignity",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thundignity",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/thundignity.json",
+          "src/main/resources/data/rubiesandrabies/recipe/thundignity.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
       "name": "Knight",
       "type": "loottable",
       "compiles": true,
@@ -4776,6 +4745,37 @@
       "metadata": {
         "files": [
           "src/main/resources/data/rubiesandrabies/loot_table/entities/knight_of_thunder.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "KnightOfThunder",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knight_of_thunder",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/entity/KnightOfThunderEntity.java",
+          "src/main/java/net/mcreator/rubiesandrabies/client/renderer/KnightOfThunderRenderer.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/knight_of_thunder_spawn_egg.json",
+          "src/main/resources/assets/rubiesandrabies/items/knight_of_thunder_spawn_egg.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "LightningInABottle",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightning_in_a_bottle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/item/LightningInABottleItem.java",
+          "src/main/resources/assets/rubiesandrabies/items/lightning_in_a_bottle.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/lightning_in_a_bottle.json"
         ]
       },
       "path": "~/ZorpiniumOblivion"
@@ -4807,6 +4807,195 @@
         ],
         "files": [
           "src/main/java/net/mcreator/rubiesandrabies/procedures/KnightOfThunderOnInitialEntitySpawnProcedure.java"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "EvilMachine",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evil_machine",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/models/item/evil_machine.json",
+          "src/main/resources/assets/rubiesandrabies/blockstates/evil_machine.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/evil_machine.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/entity/EvilMachineBlockEntity.java",
+          "src/main/resources/assets/rubiesandrabies/items/evil_machine.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/EvilMachineBlock.java",
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/evil_machine.json"
+        ]
+      },
+      "path": "~/gp0 folder"
+    },
+    {
+      "name": "ThunderInfusedIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thunder_infused_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/models/item/thunder_infused_ingot.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/ThunderInfusedIngotItem.java",
+          "src/main/resources/assets/rubiesandrabies/items/thunder_infused_ingot.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "ThunderIngot",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thunder_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/thunder_ingot.json",
+          "src/main/resources/data/rubiesandrabies/recipe/thunder_ingot.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "Thunder",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thunder",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/models/item/thunder_helmet.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/thunder_leggings.json",
+          "src/main/resources/assets/rubiesandrabies/items/thunder_helmet.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/thunder_boots.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/ThunderItem.java",
+          "src/main/resources/assets/rubiesandrabies/items/thunder_boots.json",
+          "src/main/resources/assets/rubiesandrabies/items/thunder_leggings.json",
+          "src/main/java/net/mcreator/rubiesandrabies/client/renderer/item/ThunderArmor.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/thunder_chestplate.json",
+          "src/main/resources/assets/rubiesandrabies/items/thunder_chestplate.json",
+          "src/main/resources/assets/rubiesandrabies/equipment/thunder.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "ThunderBlade",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thunder_blade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/items/thunder_blade.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/thunder_blade_gui.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/ThunderBladeItem.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/thunder_blade.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "Swordtn",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swordtn",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/swordtn.json",
+          "src/main/resources/data/rubiesandrabies/recipe/swordtn.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "Thunderhelmet",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thunderhelmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/thunderhelmet.json",
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/thunderhelmet.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "Thunderchestplate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thunderchestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/thunderchestplate.json",
+          "src/main/resources/data/rubiesandrabies/recipe/thunderchestplate.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "Thunderleggings",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thunderleggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/thunderleggings.json",
+          "src/main/resources/data/rubiesandrabies/recipe/thunderleggings.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "Thunderboots",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thunderboots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/thunderboots.json",
+          "src/main/resources/data/rubiesandrabies/recipe/thunderboots.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "EmulsifiedThunderEssence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solidified_thunderous_essence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/items/solidified_thunderous_essence.json",
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/solidified_thunderous_essence.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/solidified_thunderous_essence.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/EmulsifiedThunderEssenceBlock.java",
+          "src/main/resources/assets/rubiesandrabies/blockstates/solidified_thunderous_essence.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/solidified_thunderous_essence.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "Solidthunder",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solidthunder",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/solidthunder.json",
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/solidthunder.json"
         ]
       },
       "path": "~/ZorpiniumOblivion"
@@ -5201,6 +5390,7 @@
       "~CUSTOM:NonNewtonianFluid"
     ],
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:ThunderBlade",
       "~CUSTOM:FallenOnesBroadsword",
       "~CUSTOM:ZorpiniumSaber",
       "~CUSTOM:Theniumsword"
@@ -5249,21 +5439,25 @@
       "~CUSTOM:RacismPlanetBiome"
     ],
     "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:Thunder.helmet",
       "~CUSTOM:ArmorOfBlunder.helmet",
       "~CUSTOM:Racist.helmet",
       "~CUSTOM:Zorpinium.helmet"
     ],
     "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:Thunder.body",
       "~CUSTOM:ArmorOfBlunder.body",
       "~CUSTOM:Racist.body",
       "~CUSTOM:Zorpinium.body"
     ],
     "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:Thunder.legs",
       "~CUSTOM:ArmorOfBlunder.legs",
       "~CUSTOM:Racist.legs",
       "~CUSTOM:Zorpinium.legs"
     ],
     "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:Thunder.boots",
       "~CUSTOM:ArmorOfBlunder.boots",
       "~CUSTOM:Racist.boots",
       "~CUSTOM:Zorpinium.boots"
@@ -5285,6 +5479,9 @@
     ],
     "ITEMS:rubiesandrabies:fallen_ones_broadsword_repair_items": [
       "~CUSTOM:MangledArmorPiece"
+    ],
+    "ITEMS:rubiesandrabies:thunder_blade_repair_items": [
+      "~CUSTOM:ThunderInfusedIngot"
     ]
   },
   "tab_element_order": {},
@@ -5380,7 +5577,6 @@
       "item.rubiesandrabies.molded_zorpinium": "Molded Zorpinium",
       "item.rubiesandrabies.zorpinium_ore": "Zorpinium Ore",
       "item.rubiesandrabies.unpurified_zorpinium_gem": "Unpurified Zorpinium Gem",
-      "item.rubiesandrabies.zorpinium_mold": "Zorpinium Purifier",
       "advancements.infinite_power.descr": "You got access to a god-like material",
       "advancements.infinite_power.title": "Infinite Power!",
       "item.rubiesandrabies.zorpinium_core": "Zorpinium Core",
@@ -5513,7 +5709,16 @@
       "subtitles.thunderlive": "",
       "subtitles.thunderdeath": "",
       "item.rubiesandrabies.knight_of_thunder_spawn_egg": "Knight Of Thunder Spawn Egg",
-      "entity.rubiesandrabies.knight_of_thunder": "Knight Of Thunder"
+      "entity.rubiesandrabies.knight_of_thunder": "Knight Of Thunder",
+      "item.rubiesandrabies.thunder_infused_ingot": "Thunder Infused Ingot",
+      "item.rubiesandrabies.thunder_chestplate": "Thunder Chestplate",
+      "item.rubiesandrabies.thunder_helmet": "Thunder Helmet",
+      "item.rubiesandrabies.thunder_leggings": "Thunder Leggings",
+      "item.rubiesandrabies.thunder_boots": "Thunder Boots",
+      "item.rubiesandrabies.evil_machine": "Evil Machine",
+      "item.rubiesandrabies.thunder_blade": "Thunder Blade",
+      "item.rubiesandrabies.solidified_thunderous_essence": "Solidified Thunderous Essence",
+      "item.rubiesandrabies.zorpinium_mold": "Zorpinium Mold"
     }
   },
   "metadata": {
@@ -5620,6 +5825,10 @@
       },
       {
         "name": "ZorpiniumOblivion",
+        "children": []
+      },
+      {
+        "name": "gp0 folder",
         "children": []
       },
       {

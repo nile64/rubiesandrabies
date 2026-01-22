@@ -89,7 +89,6 @@
   "item.rubiesandrabies.molded_zorpinium": "Molded Zorpinium",
   "item.rubiesandrabies.zorpinium_ore": "Zorpinium Ore",
   "item.rubiesandrabies.unpurified_zorpinium_gem": "Unpurified Zorpinium Gem",
-  "item.rubiesandrabies.zorpinium_mold": "Zorpinium Purifier",
   "advancements.infinite_power.descr": "You got access to a god-like material",
   "advancements.infinite_power.title": "Infinite Power!",
   "item.rubiesandrabies.zorpinium_core": "Zorpinium Core",
@@ -222,5 +221,14 @@
   "subtitles.thunderlive": "",
   "subtitles.thunderdeath": "",
   "item.rubiesandrabies.knight_of_thunder_spawn_egg": "Knight Of Thunder Spawn Egg",
-  "entity.rubiesandrabies.knight_of_thunder": "Knight Of Thunder"
+  "entity.rubiesandrabies.knight_of_thunder": "Knight Of Thunder",
+  "item.rubiesandrabies.thunder_infused_ingot": "Thunder Infused Ingot",
+  "item.rubiesandrabies.thunder_chestplate": "Thunder Chestplate",
+  "item.rubiesandrabies.thunder_helmet": "Thunder Helmet",
+  "item.rubiesandrabies.thunder_leggings": "Thunder Leggings",
+  "item.rubiesandrabies.thunder_boots": "Thunder Boots",
+  "item.rubiesandrabies.evil_machine": "Evil Machine",
+  "item.rubiesandrabies.thunder_blade": "Thunder Blade",
+  "item.rubiesandrabies.solidified_thunderous_essence": "Solidified Thunderous Essence",
+  "item.rubiesandrabies.zorpinium_mold": "Zorpinium Mold"
 }

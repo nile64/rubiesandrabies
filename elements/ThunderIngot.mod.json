@@ -1,0 +1,56 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:ThunderousEssence"
+      },
+      {
+        "value": "CUSTOM:MangledArmorPiece"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:MangledArmorPiece"
+      },
+      {
+        "value": "CUSTOM:MangledArmorPiece"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ThunderousEssence"
+      },
+      {
+        "value": "CUSTOM:ThunderousEssence"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ThunderInfusedIngot"
+    },
+    "name": "thunder_ingot",
+    "namespace": "mod"
+  }
+}

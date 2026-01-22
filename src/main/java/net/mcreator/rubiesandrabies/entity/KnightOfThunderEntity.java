@@ -81,7 +81,7 @@ public class KnightOfThunderEntity extends Monster {
 
 	@Override
 	public SoundEvent getDeathSound() {
-		return BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("rubiesandrabies:thunderdeath"));
+		return BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("rubiesandrabies:knightdeath"));
 	}
 
 	@Override
@@ -124,7 +124,7 @@ public class KnightOfThunderEntity extends Monster {
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
 		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.3);
-		builder = builder.add(Attributes.MAX_HEALTH, 700);
+		builder = builder.add(Attributes.MAX_HEALTH, 850);
 		builder = builder.add(Attributes.ARMOR, 15);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 10);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
