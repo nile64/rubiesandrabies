@@ -75,6 +75,7 @@ public class RubiesandrabiesModTabs {
 				tabData.accept(RubiesandrabiesModItems.GLUE.get());
 				tabData.accept(RubiesandrabiesModBlocks.UNFIRED_BATH.get().asItem());
 				tabData.accept(RubiesandrabiesModItems.BIC_MAX.get());
+				tabData.accept(RubiesandrabiesModBlocks.EVIL_MACHINE.get().asItem());
 			}).withSearchBar().build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> SPACE = REGISTRY.register("space",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.rubiesandrabies.space")).icon(() -> new ItemStack(RubiesandrabiesModItems.URANIUM.get())).displayItems((parameters, tabData) -> {

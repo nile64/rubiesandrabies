@@ -138,6 +138,7 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> FALLEN_ONES_BROADSWORD;
 	public static final DeferredItem<Item> WATCHHIMBECOMEAGOD;
 	public static final DeferredItem<Item> QUESTION_MARK;
+	public static final DeferredItem<Item> EVIL_MACHINE;
 	static {
 		BAT_WING = register("bat_wing", BatWingItem::new);
 		RUBY = register("ruby", RubyItem::new);
@@ -250,6 +251,7 @@ public class RubiesandrabiesModItems {
 		FALLEN_ONES_BROADSWORD = register("fallen_ones_broadsword", FallenOnesBroadswordItem::new);
 		WATCHHIMBECOMEAGOD = register("watchhimbecomeagod", HolyWarsThePunishmentDueItem::new);
 		QUESTION_MARK = register("question_mark", QuestionMarkItem::new);
+		EVIL_MACHINE = block(RubiesandrabiesModBlocks.EVIL_MACHINE);
 	}
 
 	// Start of user code block custom items
