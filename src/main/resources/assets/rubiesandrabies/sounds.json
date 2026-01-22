@@ -317,5 +317,21 @@
         "stream": true
       }
     ]
+  },
+  "thunderlive": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:thunderlive",
+        "stream": false
+      }
+    ]
+  },
+  "thunderdeath": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:thunderdeath",
+        "stream": false
+      }
+    ]
   }
 }

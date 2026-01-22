@@ -55,6 +55,8 @@ public class RubiesandrabiesModEntities {
 			EntityType.Builder.<DaveMustaineEntity>of(DaveMustaineEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.ridingOffset(-0.6f).sized(0.6f, 1.8f));
+	public static final DeferredHolder<EntityType<?>, EntityType<KnightOfThunderEntity>> KNIGHT_OF_THUNDER = register("knight_of_thunder",
+			EntityType.Builder.<KnightOfThunderEntity>of(KnightOfThunderEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).fireImmune().ridingOffset(-0.6f).sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -72,6 +74,7 @@ public class RubiesandrabiesModEntities {
 		FemgrambossEntity.init(event);
 		KnightOfBlunderEntity.init(event);
 		DaveMustaineEntity.init(event);
+		KnightOfThunderEntity.init(event);
 	}
 
 	@SubscribeEvent
@@ -84,5 +87,6 @@ public class RubiesandrabiesModEntities {
 		event.put(FEMGRAM.get(), FemgrambossEntity.createAttributes().build());
 		event.put(KNIGHT_OF_BLUNDER.get(), KnightOfBlunderEntity.createAttributes().build());
 		event.put(DAVE_MUSTAINE.get(), DaveMustaineEntity.createAttributes().build());
+		event.put(KNIGHT_OF_THUNDER.get(), KnightOfThunderEntity.createAttributes().build());
 	}
 }

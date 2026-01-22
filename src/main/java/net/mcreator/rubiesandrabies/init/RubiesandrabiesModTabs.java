@@ -124,6 +124,10 @@ public class RubiesandrabiesModTabs {
 				tabData.accept(RubiesandrabiesModItems.FALLEN_ONES_BROADSWORD.get());
 				tabData.accept(RubiesandrabiesModItems.WATCHHIMBECOMEAGOD.get());
 				tabData.accept(RubiesandrabiesModItems.QUESTION_MARK.get());
+				tabData.accept(RubiesandrabiesModItems.LIGHTNING_IN_A_BOTTLE.get());
+				tabData.accept(RubiesandrabiesModBlocks.THUNDEROUS_DIGNITY.get().asItem());
+				tabData.accept(RubiesandrabiesModItems.THUNDEROUS_ESSENCE.get());
+				tabData.accept(RubiesandrabiesModItems.KNIGHT_OF_THUNDER_SPAWN_EGG.get());
 			}).withSearchBar().withTabsBefore(SPACE.getId()).build());
 
 	@SubscribeEvent
@@ -135,6 +139,7 @@ public class RubiesandrabiesModTabs {
 			tabData.accept(RubiesandrabiesModItems.FEMGRAM_SPAWN_EGG.get());
 			tabData.accept(RubiesandrabiesModItems.KNIGHT_OF_BLUNDER_SPAWN_EGG.get());
 			tabData.accept(RubiesandrabiesModItems.DAVE_MUSTAINE_SPAWN_EGG.get());
+			tabData.accept(RubiesandrabiesModItems.KNIGHT_OF_THUNDER_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(RubiesandrabiesModItems.BANANA.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {

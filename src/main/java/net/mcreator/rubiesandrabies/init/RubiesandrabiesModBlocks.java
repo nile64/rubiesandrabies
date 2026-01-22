@@ -56,6 +56,7 @@ public class RubiesandrabiesModBlocks {
 	public static final DeferredBlock<Block> BATH_TUB;
 	public static final DeferredBlock<Block> THE_BLOODBATH;
 	public static final DeferredBlock<Block> UNFIRED_BATH;
+	public static final DeferredBlock<Block> THUNDEROUS_DIGNITY;
 	static {
 		RUBY_BRICKS = register("ruby_bricks", RubyBricksBlock::new);
 		BLOCK_OF_FEMGRAM = register("block_of_femgram", BlockOfFemgramBlock::new);
@@ -97,6 +98,7 @@ public class RubiesandrabiesModBlocks {
 		BATH_TUB = register("bath_tub", BathTubBlock::new);
 		THE_BLOODBATH = register("the_bloodbath", TheBloodbathBlock::new);
 		UNFIRED_BATH = register("unfired_bath", UnfiredBathBlock::new);
+		THUNDEROUS_DIGNITY = register("thunderous_dignity", ThunderousDignityBlock::new);
 	}
 
 	// Start of user code block custom blocks

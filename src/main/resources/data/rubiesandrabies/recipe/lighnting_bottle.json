@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:glass_bottle",
+    "rubiesandrabies:purified_zorpinium",
+    "rubiesandrabies:mangled_armor_piece"
+  ],
+  "result": {
+    "id": "rubiesandrabies:lightning_in_a_bottle",
+    "count": 1
+  }
+}

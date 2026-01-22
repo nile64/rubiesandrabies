@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "rubiesandrabies:stagnant_knights_dignity",
+    "rubiesandrabies:lightning_in_a_bottle"
+  ],
+  "result": {
+    "id": "rubiesandrabies:thunderous_dignity",
+    "count": 1
+  }
+}

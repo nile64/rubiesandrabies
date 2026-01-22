@@ -138,6 +138,10 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> GLUE;
 	public static final DeferredItem<Item> UNFIRED_BATH;
 	public static final DeferredItem<Item> BIC_MAX;
+	public static final DeferredItem<Item> LIGHTNING_IN_A_BOTTLE;
+	public static final DeferredItem<Item> THUNDEROUS_DIGNITY;
+	public static final DeferredItem<Item> THUNDEROUS_ESSENCE;
+	public static final DeferredItem<Item> KNIGHT_OF_THUNDER_SPAWN_EGG;
 	static {
 		BAT_WING = register("bat_wing", BatWingItem::new);
 		RUBY = register("ruby", RubyItem::new);
@@ -250,6 +254,10 @@ public class RubiesandrabiesModItems {
 		GLUE = register("glue", GlueItem::new);
 		UNFIRED_BATH = block(RubiesandrabiesModBlocks.UNFIRED_BATH, new Item.Properties().stacksTo(1));
 		BIC_MAX = register("bic_max", BicMaxItem::new);
+		LIGHTNING_IN_A_BOTTLE = register("lightning_in_a_bottle", LightningInABottleItem::new);
+		THUNDEROUS_DIGNITY = block(RubiesandrabiesModBlocks.THUNDEROUS_DIGNITY);
+		THUNDEROUS_ESSENCE = register("thunderous_essence", ThunderousEssenceItem::new);
+		KNIGHT_OF_THUNDER_SPAWN_EGG = register("knight_of_thunder_spawn_egg", properties -> new SpawnEggItem(RubiesandrabiesModEntities.KNIGHT_OF_THUNDER.get(), properties));
 	}
 
 	// Start of user code block custom items

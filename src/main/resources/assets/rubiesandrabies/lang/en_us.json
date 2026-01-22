@@ -209,5 +209,18 @@
   "advancements.eat.descr": "Ate a Bic Max",
   "item.rubiesandrabies.bic_max": "Bic Max",
   "item.rubiesandrabies.knights_dignity": "Knights Dignity",
-  "item.rubiesandrabies.stagnant_knights_dignity": "Stagnant Knights Dignity"
+  "item.rubiesandrabies.stagnant_knights_dignity": "Stagnant Knights Dignity",
+  "gui.rubiesandrabies.space_menu.button_moon": "Moon",
+  "biome.rubiesandrabies.moon": "Moon",
+  "item.rubiesandrabies.moon_surface": "Moon Surface",
+  "item.rubiesandrabies.hardened_moon": "Hardened Moon",
+  "advancements.pageofevilget.descr": "The Death of Cows Calls You Onwards",
+  "advancements.pageofevilget.title": "The Call of Evil",
+  "item.rubiesandrabies.lightning_in_a_bottle": "Lightning In A Bottle",
+  "item.rubiesandrabies.thunderous_dignity": "Thunderous Dignity",
+  "item.rubiesandrabies.thunderous_essence": "Thunderous Essence",
+  "subtitles.thunderlive": "",
+  "subtitles.thunderdeath": "",
+  "item.rubiesandrabies.knight_of_thunder_spawn_egg": "Knight Of Thunder Spawn Egg",
+  "entity.rubiesandrabies.knight_of_thunder": "Knight Of Thunder"
 }
