@@ -53,7 +53,7 @@ public class SpaceMenuScreen extends AbstractContainerScreen<SpaceMenuMenu> impl
 	@Override
 	protected void renderBg(GuiGraphics guiGraphics, float partialTicks, int mouseX, int mouseY) {
 		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
-		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("rubiesandrabies:textures/screens/evilman.png"), this.leftPos + 19, this.topPos + 33, 0, 0, 64, 64, 64, 64);
+		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("rubiesandrabies:textures/screens/evilman.png"), this.leftPos + 122, this.topPos + 51, 0, 0, 64, 64, 64, 64);
 	}
 
 	@Override
