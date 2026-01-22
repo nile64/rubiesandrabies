@@ -173,6 +173,22 @@
       }
     ]
   },
+  "yah": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:what",
+        "stream": false
+      }
+    ]
+  },
+  "sdpicemeatball": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:spicymeatball",
+        "stream": false
+      }
+    ]
+  },
   "whbag_pitchup": {
     "sounds": [
       {
@@ -197,18 +213,27 @@
       }
     ]
   },
-  "yah": {
+  "atthespeedoflight": {
+    "subtitle": "subtitles.atthespeedoflight",
     "sounds": [
       {
-        "name": "rubiesandrabies:what",
+        "name": "rubiesandrabies:at_the_speed_of_light",
+        "stream": true
+      }
+    ]
+  },
+  "knightliving": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:knightofblunderogg",
         "stream": false
       }
     ]
   },
-  "sdpicemeatball": {
+  "goatisscream": {
     "sounds": [
       {
-        "name": "rubiesandrabies:spicymeatball",
+        "name": "rubiesandrabies:rahhh",
         "stream": false
       }
     ]
@@ -233,30 +258,6 @@
     "sounds": [
       {
         "name": "rubiesandrabies:ambient",
-        "stream": false
-      }
-    ]
-  },
-  "cacophony": {
-    "sounds": [
-      {
-        "name": "rubiesandrabies:cacophony",
-        "stream": false
-      }
-    ]
-  },
-  "knightliving": {
-    "sounds": [
-      {
-        "name": "rubiesandrabies:knightofblunderogg",
-        "stream": false
-      }
-    ]
-  },
-  "goatisscream": {
-    "sounds": [
-      {
-        "name": "rubiesandrabies:rahhh",
         "stream": false
       }
     ]
@@ -301,20 +302,19 @@
       }
     ]
   },
+  "cacophony": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:cacophony",
+        "stream": false
+      }
+    ]
+  },
   "davescream": {
     "sounds": [
       {
         "name": "rubiesandrabies:dave-mustaine-scream-made-with-voicemod",
         "stream": false
-      }
-    ]
-  },
-  "atthespeedoflight": {
-    "subtitle": "subtitles.atthespeedoflight",
-    "sounds": [
-      {
-        "name": "rubiesandrabies:at_the_speed_of_light",
-        "stream": true
       }
     ]
   },

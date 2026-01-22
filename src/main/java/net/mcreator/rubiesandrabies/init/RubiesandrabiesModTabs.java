@@ -88,13 +88,13 @@ public class RubiesandrabiesModTabs {
 				tabData.accept(RubiesandrabiesModItems.RACIST_CHESTPLATE.get());
 				tabData.accept(RubiesandrabiesModItems.RACIST_LEGGINGS.get());
 				tabData.accept(RubiesandrabiesModItems.RACIST_BOOTS.get());
-				tabData.accept(RubiesandrabiesModItems.STARDUST_REMNANT.get());
 				tabData.accept(RubiesandrabiesModItems.LEAVEEVIL.get());
 				tabData.accept(RubiesandrabiesModBlocks.ABYSSALL_GRASS.get().asItem());
 				tabData.accept(RubiesandrabiesModItems.TESTICALS.get());
-				tabData.accept(RubiesandrabiesModItems.STARDUST_PICKAXE.get());
-				tabData.accept(RubiesandrabiesModBlocks.MOON_SURFACE.get().asItem());
 				tabData.accept(RubiesandrabiesModBlocks.HARDENED_MOON.get().asItem());
+				tabData.accept(RubiesandrabiesModBlocks.MOON_SURFACE.get().asItem());
+				tabData.accept(RubiesandrabiesModItems.STARDUST_REMNANT.get());
+				tabData.accept(RubiesandrabiesModItems.STARDUST_PICKAXE.get());
 			}).withTabsBefore(RUBIES_RABIES_TAB.getId()).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> ZORPINIUM_OBLIVION = REGISTRY.register("zorpinium_oblivion",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.rubiesandrabies.zorpinium_oblivion")).icon(() -> new ItemStack(RubiesandrabiesModBlocks.ZORPINIUM_ORE.get())).displayItems((parameters, tabData) -> {
@@ -115,27 +115,27 @@ public class RubiesandrabiesModTabs {
 				tabData.accept(RubiesandrabiesModItems.PURIFIED_ZORPINIUM.get());
 				tabData.accept(RubiesandrabiesModItems.ZORPINIUM_SABER.get());
 				tabData.accept(RubiesandrabiesModItems.MANGLED_ARMOR_PIECE.get());
-				tabData.accept(RubiesandrabiesModItems.GUITAR_STRING.get());
-				tabData.accept(RubiesandrabiesModItems.JACKSON_KING_V.get());
 				tabData.accept(RubiesandrabiesModItems.ARMOR_OF_BLUNDER_HELMET.get());
 				tabData.accept(RubiesandrabiesModItems.ARMOR_OF_BLUNDER_CHESTPLATE.get());
 				tabData.accept(RubiesandrabiesModItems.ARMOR_OF_BLUNDER_LEGGINGS.get());
 				tabData.accept(RubiesandrabiesModItems.ARMOR_OF_BLUNDER_BOOTS.get());
+				tabData.accept(RubiesandrabiesModItems.GUITAR_STRING.get());
 				tabData.accept(RubiesandrabiesModBlocks.KNIGHTS_DIGNITY.get().asItem());
+				tabData.accept(RubiesandrabiesModItems.JACKSON_KING_V.get());
 				tabData.accept(RubiesandrabiesModItems.FALLEN_ONES_BROADSWORD.get());
 				tabData.accept(RubiesandrabiesModItems.WATCHHIMBECOMEAGOD.get());
 				tabData.accept(RubiesandrabiesModItems.QUESTION_MARK.get());
-				tabData.accept(RubiesandrabiesModBlocks.THUNDEROUS_DIGNITY.get().asItem());
 				tabData.accept(RubiesandrabiesModItems.THUNDEROUS_ESSENCE.get());
-				tabData.accept(RubiesandrabiesModItems.KNIGHT_OF_THUNDER_SPAWN_EGG.get());
-				tabData.accept(RubiesandrabiesModItems.LIGHTNING_IN_A_BOTTLE.get());
-				tabData.accept(RubiesandrabiesModItems.THUNDER_INFUSED_INGOT.get());
 				tabData.accept(RubiesandrabiesModItems.THUNDER_HELMET.get());
 				tabData.accept(RubiesandrabiesModItems.THUNDER_CHESTPLATE.get());
 				tabData.accept(RubiesandrabiesModItems.THUNDER_LEGGINGS.get());
 				tabData.accept(RubiesandrabiesModItems.THUNDER_BOOTS.get());
 				tabData.accept(RubiesandrabiesModItems.THUNDER_BLADE.get());
+				tabData.accept(RubiesandrabiesModItems.LIGHTNING_IN_A_BOTTLE.get());
 				tabData.accept(RubiesandrabiesModBlocks.SOLIDIFIED_THUNDEROUS_ESSENCE.get().asItem());
+				tabData.accept(RubiesandrabiesModBlocks.THUNDEROUS_DIGNITY.get().asItem());
+				tabData.accept(RubiesandrabiesModItems.THUNDER_INFUSED_INGOT.get());
+				tabData.accept(RubiesandrabiesModItems.KNIGHT_OF_THUNDER_SPAWN_EGG.get());
 			}).withSearchBar().withTabsBefore(SPACE.getId()).build());
 
 	@SubscribeEvent
