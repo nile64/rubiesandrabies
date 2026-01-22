@@ -56,6 +56,7 @@ public class RubiesandrabiesModBlocks {
 	public static final DeferredBlock<Block> STAGNANT_KNIGHTS_DIGNITY;
 	public static final DeferredBlock<Block> KNIGHTS_DIGNITY;
 	public static final DeferredBlock<Block> QUESTION_MARK_PORTAL;
+	public static final DeferredBlock<Block> EVIL_MACHINE;
 	static {
 		RUBY_BRICKS = register("ruby_bricks", RubyBricksBlock::new);
 		BLOCK_OF_FEMGRAM = register("block_of_femgram", BlockOfFemgramBlock::new);
@@ -97,6 +98,7 @@ public class RubiesandrabiesModBlocks {
 		STAGNANT_KNIGHTS_DIGNITY = register("stagnant_knights_dignity", StagnantKnightsDignityBlock::new);
 		KNIGHTS_DIGNITY = register("knights_dignity", KnightsDignityBlock::new);
 		QUESTION_MARK_PORTAL = register("question_mark_portal", QuestionMarkPortalBlock::new);
+		EVIL_MACHINE = register("evil_machine", EvilMachineBlock::new);
 	}
 
 	// Start of user code block custom blocks
