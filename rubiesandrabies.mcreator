@@ -5033,7 +5033,7 @@
     {
       "name": "QuestionMark",
       "type": "dimension",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "question_mark",
       "metadata": {
