@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rubiesandrabies:block/hardenedmoon",
+    "up": "rubiesandrabies:block/hardenedmoon",
+    "north": "rubiesandrabies:block/hardenedmoon",
+    "east": "rubiesandrabies:block/hardenedmoon",
+    "south": "rubiesandrabies:block/hardenedmoon",
+    "west": "rubiesandrabies:block/hardenedmoon",
+    "particle": "rubiesandrabies:block/hardenedmoon"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "rubiesandrabies:knights_quarters",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 10,
+    "separation": 4,
+    "salt": 2044234125
+  }
+}

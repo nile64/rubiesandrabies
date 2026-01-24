@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": "rubiesandrabies:deleted_mod_element",
+    "b": "rubiesandrabies:deleted_mod_element"
+  },
+  "result": {
+    "id": "rubiesandrabies:deleted_mod_element",
+    "count": 1
+  }
+}

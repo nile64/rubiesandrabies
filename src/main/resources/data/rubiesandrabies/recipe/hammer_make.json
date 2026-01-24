@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    " c ",
+    " c "
+  ],
+  "key": {
+    "a": "minecraft:iron_ingot",
+    "b": "minecraft:rabbit_hide",
+    "c": "minecraft:stick"
+  },
+  "result": {
+    "id": "rubiesandrabies:hammer",
+    "count": 1
+  }
+}

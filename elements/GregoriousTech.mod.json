@@ -1,0 +1,49 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:IronPlate"
+      },
+      {
+        "value": "CUSTOM:MetalGearSolid"
+      },
+      {
+        "value": "Items.COPPER_INGOT"
+      },
+      {
+        "value": "CUSTOM:MetalGearSolid"
+      },
+      {
+        "value": "CUSTOM:Hammer"
+      },
+      {
+        "value": "CUSTOM:MetalGearSolid"
+      },
+      {
+        "value": "Items.COPPER_INGOT"
+      },
+      {
+        "value": "CUSTOM:MetalGearSolid"
+      },
+      {
+        "value": "CUSTOM:IronPlate"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Gregtech"
+    },
+    "name": "gregorious_tech",
+    "namespace": "mod"
+  }
+}

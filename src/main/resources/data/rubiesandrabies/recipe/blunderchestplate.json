@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "rubiesandrabies:mangled_armor_piece"
+  },
+  "result": {
+    "id": "rubiesandrabies:deleted_mod_element_chestplate",
+    "count": 1
+  }
+}

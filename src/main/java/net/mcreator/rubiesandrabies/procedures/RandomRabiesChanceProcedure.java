@@ -11,6 +11,9 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.util.RandomSource;
 import net.minecraft.util.Mth;
+import net.minecraft.tags.TagKey;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.core.registries.Registries;
 
 import net.mcreator.rubiesandrabies.init.RubiesandrabiesModMobEffects;
 
@@ -30,7 +33,7 @@ public class RandomRabiesChanceProcedure {
 	private static void execute(@Nullable Event event, Entity entity) {
 		if (entity == null)
 			return;
-		if (!(entity instanceof LivingEntity _livEnt0 && _livEnt0.isBaby()) && !(entity instanceof Player)) {
+		if (!(entity instanceof LivingEntity _livEnt0 && _livEnt0.isBaby()) && !(entity instanceof Player) && entity.getType().is(TagKey.create(Registries.ENTITY_TYPE, ResourceLocation.parse("rubiesandrabies:immunetorabies"))) == false) {
 			if (Mth.nextInt(RandomSource.create(), 1, 100) == 1) {
 				if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 					_entity.addEffect(new MobEffectInstance(RubiesandrabiesModMobEffects.RABIES, 6000, 1, false, true));

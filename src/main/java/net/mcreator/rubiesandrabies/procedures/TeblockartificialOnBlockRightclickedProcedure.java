@@ -1,16 +1,6 @@
 package net.mcreator.rubiesandrabies.procedures;
 
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.level.Level;
-import net.minecraft.world.entity.EntitySpawnReason;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.sounds.SoundSource;
-import net.minecraft.server.level.ServerLevel;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.core.BlockPos;
-
-import net.mcreator.rubiesandrabies.init.RubiesandrabiesModEntities;
+import net.neoforged.bus.api.Event;
 
 public class TeblockartificialOnBlockRightclickedProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {

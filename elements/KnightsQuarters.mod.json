@@ -1,0 +1,30 @@
+{
+  "_fv": 79,
+  "_type": "structure",
+  "definition": {
+    "structure": "the_knights_quarters",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 10,
+    "separation": 4,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Moon"
+      }
+    ],
+    "terrainAdaptation": "none",
+    "generationStep": "UNDERGROUND_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": true,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 10,
+    "startHeightMax": 32,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
+  }
+}

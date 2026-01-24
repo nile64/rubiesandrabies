@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "rubiesandrabies:armor_of_blunder"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "rubiesandrabies:armor_of_blunder"
+      }
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:ThunderInfusedIngot"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ThunderInfusedIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ThunderInfusedIngot"
+      },
+      {
+        "value": "CUSTOM:ThunderInfusedIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ThunderInfusedIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Thunder.boots"
+    },
+    "name": "thunderboots",
+    "namespace": "mod"
+  }
+}

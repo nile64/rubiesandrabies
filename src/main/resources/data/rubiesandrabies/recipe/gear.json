@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": "minecraft:iron_ingot",
+    "b": "rubiesandrabies:hammer"
+  },
+  "result": {
+    "id": "rubiesandrabies:deleted_mod_element",
+    "count": 1
+  }
+}

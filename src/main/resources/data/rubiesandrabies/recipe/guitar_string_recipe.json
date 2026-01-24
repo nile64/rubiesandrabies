@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    "bb"
+  ],
+  "key": {
+    "a": "minecraft:string",
+    "b": "minecraft:iron_nugget"
+  },
+  "result": {
+    "id": "rubiesandrabies:deleted_mod_element",
+    "count": 1
+  }
+}

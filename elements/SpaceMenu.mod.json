@@ -21,8 +21,8 @@
           },
           "width": 93,
           "height": 20,
-          "x": 165,
-          "y": 49,
+          "x": 65,
+          "y": 47,
           "locked": false
         }
       },
@@ -46,9 +46,25 @@
         "type": "image",
         "data": {
           "image": "evilman.png",
-          "use1Xscale": false,
-          "x": 150,
-          "y": 54,
+          "use1Xscale": true,
+          "x": 179,
+          "y": 89,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_moon",
+          "text": "Moon",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "MoonClickButton"
+          },
+          "width": 72,
+          "height": 20,
+          "x": 175,
+          "y": 46,
           "locked": false
         }
       }

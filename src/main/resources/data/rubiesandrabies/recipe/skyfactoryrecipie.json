@@ -4,14 +4,15 @@
   "pattern": [
     "aaa",
     "bcd",
-    "eee"
+    "efe"
   ],
   "key": {
     "a": "minecraft:iron_ingot",
     "b": "#minecraft:leaves",
     "c": "#minecraft:logs",
     "d": "minecraft:diamond",
-    "e": "minecraft:smooth_stone"
+    "e": "minecraft:smooth_stone",
+    "f": "minecraft:bedrock"
   },
   "result": {
     "id": "rubiesandrabies:skyfactory",

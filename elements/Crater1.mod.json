@@ -1,0 +1,43 @@
+{
+  "_fv": 79,
+  "_type": "structure",
+  "definition": {
+    "structure": "crater1top",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 7,
+    "separation": 4,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Moon"
+      }
+    ],
+    "terrainAdaptation": "beard_box",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": false,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 0,
+    "startHeightMax": 128,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": [
+      {
+        "poolName": "craterone",
+        "fallbackPool": "rubiesandrabies:crater_1_craterone",
+        "poolParts": [
+          {
+            "weight": 100,
+            "structure": "crater1bottom",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -308,21 +308,6 @@
       "path": "~/MusicDiscs"
     },
     {
-      "name": "Femgram",
-      "type": "livingentity",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "femgramold",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/rubiesandrabies/models/item/femgramold_spawn_egg.json",
-          "src/main/resources/assets/rubiesandrabies/items/femgramold_spawn_egg.json",
-          "src/main/java/net/mcreator/rubiesandrabies/entity/FemgramEntity.java",
-          "src/main/java/net/mcreator/rubiesandrabies/client/renderer/FemgramRenderer.java"
-        ]
-      }
-    },
-    {
       "name": "BlockOfFemgramOnBlockRightclicked",
       "type": "procedure",
       "compiles": true,
@@ -3479,22 +3464,6 @@
       "path": "~/idk"
     },
     {
-      "name": "Trollentity",
-      "type": "livingentity",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "trollentity",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/rubiesandrabies/entity/TrollentityEntity.java",
-          "src/main/resources/assets/rubiesandrabies/items/trollentity_spawn_egg.json",
-          "src/main/resources/assets/rubiesandrabies/models/item/trollentity_spawn_egg.json",
-          "src/main/java/net/mcreator/rubiesandrabies/client/renderer/TrollentityRenderer.java"
-        ]
-      },
-      "path": "~/poqqers madness"
-    },
-    {
       "name": "Teblock",
       "type": "block",
       "compiles": true,
@@ -3560,21 +3529,6 @@
       "path": "~/poqqers madness"
     },
     {
-      "name": "FeATRUEREE",
-      "type": "feature",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fe_atrueree",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/rubiesandrabies/neoforge/biome_modifier/fe_atrueree_biome_modifier.json",
-          "src/main/resources/data/rubiesandrabies/worldgen/placed_feature/fe_atrueree.json",
-          "src/main/resources/data/rubiesandrabies/worldgen/configured_feature/fe_atrueree.json"
-        ]
-      },
-      "path": "~/poqqers madness"
-    },
-    {
       "name": "NaturalTEdrops",
       "type": "loottable",
       "compiles": true,
@@ -3599,6 +3553,37 @@
           "src/main/resources/assets/rubiesandrabies/items/trollentityartificial_spawn_egg.json",
           "src/main/java/net/mcreator/rubiesandrabies/entity/TrollentityartificialEntity.java",
           "src/main/java/net/mcreator/rubiesandrabies/client/renderer/TrollentityartificialRenderer.java"
+        ]
+      },
+      "path": "~/poqqers madness"
+    },
+    {
+      "name": "FeATRUEREE",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fe_atrueree",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/neoforge/biome_modifier/fe_atrueree_biome_modifier.json",
+          "src/main/resources/data/rubiesandrabies/worldgen/placed_feature/fe_atrueree.json",
+          "src/main/resources/data/rubiesandrabies/worldgen/configured_feature/fe_atrueree.json"
+        ]
+      },
+      "path": "~/poqqers madness"
+    },
+    {
+      "name": "Trollentity",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trollentity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/entity/TrollentityEntity.java",
+          "src/main/resources/assets/rubiesandrabies/items/trollentity_spawn_egg.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/trollentity_spawn_egg.json",
+          "src/main/java/net/mcreator/rubiesandrabies/client/renderer/TrollentityRenderer.java"
         ]
       },
       "path": "~/poqqers madness"
@@ -3633,6 +3618,1545 @@
         ]
       },
       "path": "~/poqqers madness"
+    },
+    {
+      "name": "Hammer",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hammer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/item/HammerItem.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/hammer.json",
+          "src/main/resources/assets/rubiesandrabies/items/hammer.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "GuitarStringRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guitar_string_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/guitar_string_recipe.json",
+          "src/main/resources/data/rubiesandrabies/recipe/guitar_string_recipe.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "KnightsDignityOnBlockRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knights_dignity_on_block_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/KnightsDignityOnBlockRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "Moon",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/worldgen/biome/moon.json"
+        ]
+      }
+    },
+    {
+      "name": "RedScythe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "red_scythe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/models/item/red_scythe.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/RedScytheItem.java",
+          "src/main/resources/assets/rubiesandrabies/items/red_scythe.json"
+        ]
+      },
+      "path": "~/idk/wah wah wah wah"
+    },
+    {
+      "name": "RedSlicer",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "red_slicer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/item/RedSlicerItem.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/red_slicer.json",
+          "src/main/resources/assets/rubiesandrabies/items/red_slicer.json"
+        ]
+      },
+      "path": "~/idk/wah wah wah wah"
+    },
+    {
+      "name": "MangledArmorPiece",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mangled_armor_piece",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/item/MangledArmorPieceItem.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/mangled_armor_piece.json",
+          "src/main/resources/assets/rubiesandrabies/items/mangled_armor_piece.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "EvilMachine",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evil_machine",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/block/entity/EvilMachineBlockEntity.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/evil_machine.json",
+          "src/main/resources/assets/rubiesandrabies/blockstates/evil_machine.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/evil_machine.json",
+          "src/main/resources/assets/rubiesandrabies/items/evil_machine.json",
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/evil_machine.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/EvilMachineBlock.java"
+        ]
+      },
+      "path": "~/gp0 folder"
+    },
+    {
+      "name": "MakeTheBloodbathGNG",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_the_bloodbath_gng",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/make_the_bloodbath_gng.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "Thunderchestplate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thunderchestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/thunderchestplate.json",
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/thunderchestplate.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "Gear",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gear",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/gear.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "Blood",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/items/blood_bucket.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/blood.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/BloodItem.java",
+          "src/main/java/net/mcreator/rubiesandrabies/fluid/BloodFluid.java",
+          "src/main/java/net/mcreator/rubiesandrabies/client/fluid/BloodFluidExtension.java",
+          "src/main/resources/assets/rubiesandrabies/blockstates/blood.json",
+          "src/main/java/net/mcreator/rubiesandrabies/fluid/types/BloodFluidType.java",
+          "src/main/java/net/mcreator/rubiesandrabies/block/BloodBlock.java"
+        ]
+      },
+      "path": "~/bloodbath"
+    },
+    {
+      "name": "DaveShrine",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dave_shrine",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/worldgen/structure/dave_shrine.json",
+          "src/main/resources/data/rubiesandrabies/worldgen/template_pool/dave_shrine.json",
+          "src/main/resources/data/rubiesandrabies/worldgen/structure_set/dave_shrine.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "Blunderleggings",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blunderleggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/blunderleggings.json",
+          "src/main/resources/data/rubiesandrabies/recipe/blunderleggings.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "Evilblend",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evilblend",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/models/item/evilblend.json",
+          "src/main/resources/assets/rubiesandrabies/items/evilblend.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/EvilblendItem.java"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "ThunderousDignity",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thunderous_dignity",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/models/item/thunderous_dignity.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/thunderous_dignity.json",
+          "src/main/resources/assets/rubiesandrabies/items/thunderous_dignity.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/ThunderousDignityBlock.java",
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/thunderous_dignity.json",
+          "src/main/resources/assets/rubiesandrabies/blockstates/thunderous_dignity.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "Swordtn",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swordtn",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/swordtn.json",
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/swordtn.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "GregoriousTech",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gregorious_tech",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/gregorious_tech.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "Knight",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knight",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/loot_table/entities/knight_of_thunder.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "Makeytheunfiredbath",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "makeytheunfiredbath",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/makeytheunfiredbath.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "KnightOfThunder",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knight_of_thunder",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/client/renderer/KnightOfThunderRenderer.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/knight_of_thunder_spawn_egg.json",
+          "src/main/resources/assets/rubiesandrabies/items/knight_of_thunder_spawn_egg.json",
+          "src/main/java/net/mcreator/rubiesandrabies/entity/KnightOfThunderEntity.java"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "BathTub",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bath_tub",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/blockstates/bath_tub.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/bath_tub.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/bath_tub.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/BathTubBlock.java",
+          "src/main/resources/assets/rubiesandrabies/items/bath_tub.json",
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/bath_tub.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "TheBloodbathOnBlockRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_bloodbath_on_block_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/TheBloodbathOnBlockRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "MoonSurface",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_surface",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/items/moon_surface.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/MoonSurfaceBlock.java",
+          "src/main/resources/assets/rubiesandrabies/blockstates/moon_surface.json",
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/moon_surface.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/moon_surface.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/moon_surface.json"
+        ]
+      }
+    },
+    {
+      "name": "PageOfEvilRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "page_of_evil_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/PageOfEvilRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/Ruby trader"
+    },
+    {
+      "name": "RacismPlanetPlayerEntersDimension",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "racism_planet_player_enters_dimension",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/RacismPlanetPlayerEntersDimensionProcedure.java"
+        ]
+      },
+      "path": "~/SpaceThingy"
+    },
+    {
+      "name": "TheBloodbath",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_bloodbath",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/items/the_bloodbath.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/TheBloodbathBlock.java",
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/the_bloodbath.json",
+          "src/main/resources/assets/rubiesandrabies/blockstates/the_bloodbath.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/the_bloodbath.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/the_bloodbath.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "Thunderhelmet",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thunderhelmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/thunderhelmet.json",
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/thunderhelmet.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "Thunderleggings",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thunderleggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/thunderleggings.json",
+          "src/main/resources/data/rubiesandrabies/recipe/thunderleggings.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "GuitarString",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guitar_string",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/items/guitar_string.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/guitar_string.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/GuitarStringItem.java"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "StardustRRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stardust_r_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/stardust_r_recipe.json",
+          "src/main/resources/data/rubiesandrabies/recipe/stardust_r_recipe.json"
+        ]
+      },
+      "path": "~/SpaceThingy"
+    },
+    {
+      "name": "JacksonKingV",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jackson_king_v",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/item/JacksonKingVItem.java",
+          "src/main/resources/assets/rubiesandrabies/items/jackson_king_v.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/jackson_king_v.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "Blunderchestplate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blunderchestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/blunderchestplate.json",
+          "src/main/resources/data/rubiesandrabies/recipe/blunderchestplate.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "HammerMake",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hammer_make",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/hammer_make.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "MoonClickButton",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_click_button",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/MoonClickButtonProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Crater1",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crater_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/worldgen/structure_set/crater_1.json",
+          "src/main/resources/data/rubiesandrabies/worldgen/structure/crater_1.json",
+          "src/main/resources/data/rubiesandrabies/worldgen/template_pool/crater_1_craterone.json",
+          "src/main/resources/data/rubiesandrabies/worldgen/template_pool/crater_1.json"
+        ]
+      }
+    },
+    {
+      "name": "JacksonCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jackson_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/jackson_craft.json",
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/jackson_craft.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "LighntingBottle",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lighnting_bottle",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/lighnting_bottle.json",
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/lighnting_bottle.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "Eat",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eat",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/advancement/eat.json"
+        ]
+      },
+      "path": "~/McDonalds"
+    },
+    {
+      "name": "Craftknght",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftknght",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/craftknght.json",
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/craftknght.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "Blunderhelmet",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blunderhelmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/blunderhelmet.json",
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/blunderhelmet.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "Knightdrops",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knightdrops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/loot_table/entities/knight_of_blunder.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "Bicmaxrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bicmaxrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/bicmaxrecipe.json"
+        ]
+      },
+      "path": "~/McDonalds"
+    },
+    {
+      "name": "ThunderousEssence",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thunderous_essence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/models/item/thunderous_essence.json",
+          "src/main/resources/assets/rubiesandrabies/items/thunderous_essence.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/ThunderousEssenceItem.java"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "TheMoon",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_moon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/dimension_type/the_moon.json",
+          "src/main/resources/data/rubiesandrabies/dimension/the_moon.json",
+          "src/main/java/net/mcreator/rubiesandrabies/world/dimension/TheMoonDimension.java"
+        ]
+      }
+    },
+    {
+      "name": "PageOfEvil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "page_of_evil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/items/page_of_evil.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/page_of_evil.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/PageOfEvilItem.java"
+        ]
+      },
+      "path": "~/Ruby trader"
+    },
+    {
+      "name": "McDonaldsTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mc_donalds_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/loot_table/chests/mcdonaldstable.json"
+        ]
+      },
+      "path": "~/McDonalds"
+    },
+    {
+      "name": "EmulsifiedThunderEssence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solidified_thunderous_essence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/models/item/solidified_thunderous_essence.json",
+          "src/main/resources/assets/rubiesandrabies/items/solidified_thunderous_essence.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/EmulsifiedThunderEssenceBlock.java",
+          "src/main/resources/assets/rubiesandrabies/blockstates/solidified_thunderous_essence.json",
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/solidified_thunderous_essence.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/solidified_thunderous_essence.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "Solidthunder",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solidthunder",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/solidthunder.json",
+          "src/main/resources/data/rubiesandrabies/recipe/solidthunder.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "MetalGearSolid",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_gear_solid",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/models/item/metal_gear_solid.json",
+          "src/main/resources/assets/rubiesandrabies/items/metal_gear_solid.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/MetalGearSolidItem.java"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "McDonalds",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mc_donalds",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/worldgen/template_pool/mc_donalds.json",
+          "src/main/resources/data/rubiesandrabies/worldgen/structure_set/mc_donalds.json",
+          "src/main/resources/data/rubiesandrabies/worldgen/structure/mc_donalds.json"
+        ]
+      },
+      "path": "~/McDonalds"
+    },
+    {
+      "name": "StardustRemnant",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stardust_remnant",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/models/item/stardust_remnant.json",
+          "src/main/resources/assets/rubiesandrabies/items/stardust_remnant.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/StardustRemnantItem.java"
+        ]
+      },
+      "path": "~/SpaceThingy"
+    },
+    {
+      "name": "ArmorOfBlunder",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armor_of_blunder",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/items/armor_of_blunder_chestplate.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/armor_of_blunder_boots.json",
+          "src/main/resources/assets/rubiesandrabies/items/armor_of_blunder_helmet.json",
+          "src/main/resources/assets/rubiesandrabies/items/armor_of_blunder_leggings.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/armor_of_blunder_leggings.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/ArmorOfBlunderItem.java",
+          "src/main/resources/assets/rubiesandrabies/equipment/armor_of_blunder.json",
+          "src/main/resources/assets/rubiesandrabies/items/armor_of_blunder_boots.json",
+          "src/main/java/net/mcreator/rubiesandrabies/client/renderer/item/ArmorOfBlunderArmor.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/armor_of_blunder_helmet.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/armor_of_blunder_chestplate.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "ThunderousDignityOnBlockRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thunderous_dignity_on_block_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/ThunderousDignityOnBlockRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "ThunderIngot",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thunder_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/thunder_ingot.json",
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/thunder_ingot.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "KnightOfBlunder",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knight_of_blunder",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/items/knight_of_blunder_spawn_egg.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/knight_of_blunder_spawn_egg.json",
+          "src/main/java/net/mcreator/rubiesandrabies/entity/KnightOfBlunderEntity.java",
+          "src/main/java/net/mcreator/rubiesandrabies/client/renderer/KnightOfBlunderRenderer.java"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "StagnantKnightsDignity",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stagnant_knights_dignity",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/stagnant_knights_dignity.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/StagnantKnightsDignityBlock.java",
+          "src/main/resources/assets/rubiesandrabies/blockstates/stagnant_knights_dignity.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/stagnant_knights_dignity.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/stagnant_knights_dignity.json",
+          "src/main/resources/assets/rubiesandrabies/items/stagnant_knights_dignity.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "Thundignity",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thundignity",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/thundignity.json",
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/thundignity.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "EvilBlendRecipie",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evil_blend_recipie",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/evil_blend_recipie.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "Huh",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "huh",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/advancement/huh.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "Question",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "question",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/question.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "DaveMustaineGod",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dave_mustaine_god",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/painting_variant/dave_mustaine_god.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "StardustPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stardust_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/models/item/stardust_pickaxe.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/StardustPickaxeItem.java",
+          "src/main/resources/assets/rubiesandrabies/items/stardust_pickaxe.json"
+        ]
+      },
+      "path": "~/SpaceThingy"
+    },
+    {
+      "name": "MakeGlue",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_glue",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/MakeGlueProcedure.java"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "QuestionableBiome",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "questionable_biome",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/worldgen/biome/questionable_biome.json",
+          "src/main/resources/data/rubiesandrabies/worldgen/configured_feature/questionable_biome_tree.json",
+          "src/main/resources/data/rubiesandrabies/worldgen/placed_feature/questionable_biome_tree.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "Thunder",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thunder",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/models/item/thunder_chestplate.json",
+          "src/main/resources/assets/rubiesandrabies/equipment/thunder.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/thunder_helmet.json",
+          "src/main/resources/assets/rubiesandrabies/items/thunder_boots.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/thunder_boots.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/ThunderItem.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/thunder_leggings.json",
+          "src/main/java/net/mcreator/rubiesandrabies/client/renderer/item/ThunderArmor.java",
+          "src/main/resources/assets/rubiesandrabies/items/thunder_leggings.json",
+          "src/main/resources/assets/rubiesandrabies/items/thunder_helmet.json",
+          "src/main/resources/assets/rubiesandrabies/items/thunder_chestplate.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "HardenedMoon",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardened_moon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/models/block/hardened_moon.json",
+          "src/main/resources/assets/rubiesandrabies/items/hardened_moon.json",
+          "src/main/resources/assets/rubiesandrabies/blockstates/hardened_moon.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/HardenedMoonBlock.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/hardened_moon.json",
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/hardened_moon.json"
+        ]
+      }
+    },
+    {
+      "name": "McdonaldsKitchen",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcdonalds_kitchen",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/loot_table/chests/mcdonaldskitchen.json"
+        ]
+      },
+      "path": "~/McDonalds"
+    },
+    {
+      "name": "CrushedQuartz",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crushed_quartz",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/item/CrushedQuartzItem.java",
+          "src/main/resources/assets/rubiesandrabies/items/crushed_quartz.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/crushed_quartz.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "DaveMustaine",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dave_mustaine",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/items/dave_mustaine_spawn_egg.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/dave_mustaine_spawn_egg.json",
+          "src/main/java/net/mcreator/rubiesandrabies/client/renderer/DaveMustaineRenderer.java",
+          "src/main/java/net/mcreator/rubiesandrabies/entity/DaveMustaineEntity.java"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "WatchHimBecomeAGod",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "watch_him_become_a_god",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/advancement/watch_him_become_a_god.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "KnightsDignity",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knights_dignity",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/blockstates/knights_dignity.json",
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/knights_dignity.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/knights_dignity.json",
+          "src/main/resources/assets/rubiesandrabies/items/knights_dignity.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/KnightsDignityBlock.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/knights_dignity.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "FallenOnesRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fallen_ones_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/fallen_ones_recipe.json",
+          "src/main/resources/data/rubiesandrabies/recipe/fallen_ones_recipe.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "ThunderBlade",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thunder_blade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/items/thunder_blade.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/thunder_blade.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/ThunderBladeItem.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/thunder_blade_gui.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "Thunderboots",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thunderboots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/thunderboots.json",
+          "src/main/resources/data/rubiesandrabies/recipe/thunderboots.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "FallenOnesBroadsword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fallen_ones_broadsword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/items/fallen_ones_broadsword.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/FallenOnesBroadswordItem.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/fallen_ones_broadsword.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "LightningInABottle",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightning_in_a_bottle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/item/LightningInABottleItem.java",
+          "src/main/resources/assets/rubiesandrabies/items/lightning_in_a_bottle.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/lightning_in_a_bottle.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "KnightOfThunderOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knight_of_thunder_on_initial_entity_spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/KnightOfThunderOnInitialEntitySpawnProcedure.java"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "HolyWarsThePunishmentDue",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "watchhimbecomeagod",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/items/watchhimbecomeagod.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/watchhimbecomeagod.json",
+          "src/main/resources/data/rubiesandrabies/jukebox_song/watchhimbecomeagod.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/HolyWarsThePunishmentDueItem.java"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "AtTheSpeedOfLightDisc",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "at_the_speed_of_light_disc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/models/item/at_the_speed_of_light_disc.json",
+          "src/main/resources/assets/rubiesandrabies/items/at_the_speed_of_light_disc.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/AtTheSpeedOfLightDiscItem.java",
+          "src/main/resources/data/rubiesandrabies/jukebox_song/at_the_speed_of_light_disc.json"
+        ]
+      },
+      "path": "~/MusicDiscs"
+    },
+    {
+      "name": "JacksonKingVRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jackson_king_v_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/JacksonKingVRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "Pageofevilget",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pageofevilget",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/advancement/pageofevilget.json"
+        ]
+      }
+    },
+    {
+      "name": "CurseOfEvil",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curse_of_evil",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/enchantment/curse_of_evil.json"
+        ]
+      }
+    },
+    {
+      "name": "Glue",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glue",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/item/GlueItem.java",
+          "src/main/resources/assets/rubiesandrabies/models/item/glue.json",
+          "src/main/resources/assets/rubiesandrabies/items/glue.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "TheMan",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_man",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/painting_variant/the_man.json"
+        ]
+      }
+    },
+    {
+      "name": "UnfiredBath",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unfired_bath",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/items/unfired_bath.json",
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/unfired_bath.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/unfired_bath.json",
+          "src/main/resources/assets/rubiesandrabies/blockstates/unfired_bath.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/unfired_bath.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/UnfiredBathBlock.java"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "QuestionMark",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "question_mark",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/blockstates/question_mark_portal.json",
+          "src/main/java/net/mcreator/rubiesandrabies/world/teleporter/QuestionMarkPortalShape.java",
+          "src/main/java/net/mcreator/rubiesandrabies/world/teleporter/QuestionMarkTeleporter.java",
+          "src/main/java/net/mcreator/rubiesandrabies/item/QuestionMarkItem.java",
+          "src/main/resources/data/rubiesandrabies/dimension_type/question_mark.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/question_mark_portal_ew.json",
+          "src/main/java/net/mcreator/rubiesandrabies/world/dimension/QuestionMarkDimension.java",
+          "src/main/java/net/mcreator/rubiesandrabies/block/QuestionMarkPortalBlock.java",
+          "src/main/resources/assets/rubiesandrabies/models/block/question_mark_portal_ns.json",
+          "src/main/resources/data/rubiesandrabies/dimension/question_mark.json",
+          "src/main/resources/assets/rubiesandrabies/items/question_mark.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/question_mark.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "ThunderInfusedIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thunder_infused_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/models/item/thunder_infused_ingot.json",
+          "src/main/resources/assets/rubiesandrabies/items/thunder_infused_ingot.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/ThunderInfusedIngotItem.java"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "KnightsQuarters",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knights_quarters",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/worldgen/template_pool/knights_quarters.json",
+          "src/main/resources/data/rubiesandrabies/worldgen/structure/knights_quarters.json",
+          "src/main/resources/data/rubiesandrabies/worldgen/structure_set/knights_quarters.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
+    },
+    {
+      "name": "CrushedQuartsMake",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crushed_quarts_make",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/crushed_quarts_make.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "BicMax",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bic_max",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/items/bic_max.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/bic_max.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/BicMaxItem.java"
+        ]
+      },
+      "path": "~/McDonalds"
+    },
+    {
+      "name": "TheMoonPlayerEntersDimension",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_moon_player_enters_dimension",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/TheMoonPlayerEntersDimensionProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "BathTubMake",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bath_tub_make",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/bath_tub_make.json",
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/bath_tub_make.json"
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "Blunderboots",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blunderboots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/advancement/recipes/blunderboots.json",
+          "src/main/resources/data/rubiesandrabies/recipe/blunderboots.json"
+        ]
+      },
+      "path": "~/ZorpiniumOblivion"
     }
   ],
   "variable_elements": [],
@@ -3801,6 +5325,150 @@
       ],
       "category": "block",
       "subtitle": ""
+    },
+    {
+      "name": "knightarmor",
+      "files": [
+        "knightarmor"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "femboyhurt",
+      "files": [
+        "issac-hurt-1"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "watchhimbecomeagawd",
+      "files": [
+        "voicy_watch_him_become_a_god"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "atthespeedoflight",
+      "files": [
+        "at_the_speed_of_light"
+      ],
+      "category": "record",
+      "subtitle": "Dimrain47 - At the Speed of Light"
+    },
+    {
+      "name": "ambient",
+      "files": [
+        "ambient"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "cacophony",
+      "files": [
+        "cacophony"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "whbag_pitchup",
+      "files": [
+        "voicy_watch_him_become_a_god1"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "thunderlive",
+      "files": [
+        "thunderlive"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "knightliving",
+      "files": [
+        "knightofblunderogg"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "goatisscream",
+      "files": [
+        "rahhh"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "thunderdeath",
+      "files": [
+        "thunderdeath"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "whbag_pitchdown",
+      "files": [
+        "voicy_watch_him_become_a_god2"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "knighthit",
+      "files": [
+        "knighthit"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "holywars_punishmentdue",
+      "files": [
+        "holy_wars_the_punishment_due_2004_remix"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "questionmark",
+      "files": [
+        "questionmark"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "knightdeath",
+      "files": [
+        "knightdeath"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "davedeath",
+      "files": [
+        "dave-mustaine-scream-made-with-voicemod1"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "davescream",
+      "files": [
+        "dave-mustaine-scream-made-with-voicemod"
+      ],
+      "category": "neutral",
+      "subtitle": ""
     }
   ],
   "tag_elements": {
@@ -3815,6 +5483,8 @@
       "~CUSTOM:NetherRacism"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:TheBloodbath",
+      "~CUSTOM:BathTub",
       "~CUSTOM:AbyssallGrass",
       "~CUSTOM:Gregtech",
       "~CUSTOM:Abyssallmatter",
@@ -3843,6 +5513,8 @@
       "~CUSTOM:RubyBricks"
     ],
     "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:AtTheSpeedOfLightDisc",
+      "~CUSTOM:HolyWarsThePunishmentDue",
       "~CUSTOM:LifeIsRobloxMusicDisc"
     ],
     "BLOCKS:minecraft:stairs": [
@@ -3862,6 +5534,7 @@
       "~CUSTOM:TouchOfRabies"
     ],
     "ENCHANTMENTS:minecraft:treasure": [
+      "~CUSTOM:CurseOfEvil",
       "~CUSTOM:TouchOfRabies"
     ],
     "BLOCKS:minecraft:needs_diamond_tool": [
@@ -3870,10 +5543,13 @@
       "~CUSTOM:Artificialrubyblock"
     ],
     "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:Blood",
       "~CUSTOM:Gp0Liquid",
       "~CUSTOM:NonNewtonianFluid"
     ],
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:FallenOnesBroadsword",
+      "~CUSTOM:ThunderBlade",
       "~CUSTOM:ZorpiniumSaber",
       "~CUSTOM:Theniumsword"
     ],
@@ -3885,6 +5561,7 @@
       "~CUSTOM:Uranium"
     ],
     "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:StardustPickaxe",
       "~CUSTOM:ZorpiniumPickaxe",
       "~CUSTOM:SugarcanePickaxe"
     ],
@@ -3892,6 +5569,8 @@
       "~Blocks.REEDS"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:TheBloodbath",
+      "~CUSTOM:BathTub",
       "~CUSTOM:AbyssallGrass",
       "~CUSTOM:Abyssallmatter",
       "~CUSTOM:HisGreatness",
@@ -3901,6 +5580,7 @@
       "~CUSTOM:RubyShelf"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.BEDROCK",
       "~CUSTOM:AbyssallGrass",
       "~CUSTOM:Abyssallmatter",
       "~CUSTOM:RubyBricks",
@@ -3915,18 +5595,26 @@
       "~CUSTOM:RacismPlanetBiome"
     ],
     "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:Thunder.helmet",
+      "~CUSTOM:ArmorOfBlunder.helmet",
       "~CUSTOM:Racist.helmet",
       "~CUSTOM:Zorpinium.helmet"
     ],
     "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:Thunder.body",
+      "~CUSTOM:ArmorOfBlunder.body",
       "~CUSTOM:Racist.body",
       "~CUSTOM:Zorpinium.body"
     ],
     "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:Thunder.legs",
+      "~CUSTOM:ArmorOfBlunder.legs",
       "~CUSTOM:Racist.legs",
       "~CUSTOM:Zorpinium.legs"
     ],
     "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:Thunder.boots",
+      "~CUSTOM:ArmorOfBlunder.boots",
       "~CUSTOM:Racist.boots",
       "~CUSTOM:Zorpinium.boots"
     ],
@@ -3938,6 +5626,18 @@
     ],
     "BIOMES:minecraft:has_structure/nether_fossil": [
       "~CUSTOM:RacismPlanetBiome"
+    ],
+    "ITEMS:minecraft:enchantable/durability": [
+      "~CUSTOM:Hammer"
+    ],
+    "ITEMS:rubiesandrabies:armor_of_blunder_repair_items": [
+      "~CUSTOM:MangledArmorPiece"
+    ],
+    "ITEMS:rubiesandrabies:thunder_blade_repair_items": [
+      "~CUSTOM:ThunderInfusedIngot"
+    ],
+    "ITEMS:rubiesandrabies:fallen_ones_broadsword_repair_items": [
+      "~CUSTOM:MangledArmorPiece"
     ]
   },
   "tab_element_order": {},
@@ -4089,11 +5789,24 @@
       "advancements.buy_the_acheivment.descr": "You have achieved great things.",
       "advancements.buy_the_acheivment.title": "The Great Achievement",
       "item.rubiesandrabies.achievmentitem": "The Great Achievement",
-      "item.rubiesandrabies.trollentity_spawn_egg": "Trollentity Spawn Egg",
-      "entity.rubiesandrabies.trollentity": "Trollentity",
-      "item.rubiesandrabies.teblock": "Teblock",
-      "item.rubiesandrabies.trollentityartificial_spawn_egg": "Trollentityartificial Spawn Egg",
-      "entity.rubiesandrabies.trollentityartificial": "Trollentityartificial"
+      "subtitles.davescream": "",
+      "subtitles.thunderlive": "",
+      "subtitles.davedeath": "",
+      "subtitles.questionmark": "",
+      "subtitles.knightarmor": "",
+      "subtitles.ambient": "",
+      "item.rubiesandrabies.red_scythe": "Red Scythe",
+      "gui.rubiesandrabies.space_menu.button_moon": "Moon",
+      "subtitles.knightdeath": "",
+      "subtitles.knighthit": "",
+      "subtitles.cacophony": "",
+      "item.rubiesandrabies.red_slicer": "Red Slicer",
+      "subtitles.knightliving": "",
+      "subtitles.femboyhurt": "",
+      "subtitles.goatisscream": "",
+      "subtitles.holywars_punishmentdue": "",
+      "subtitles.atthespeedoflight": "Dimrain47 - At the Speed of Light",
+      "subtitles.thunderdeath": ""
     }
   },
   "metadata": {
@@ -4131,6 +5844,18 @@
     "name": "~",
     "children": [
       {
+        "name": "skyfactory",
+        "children": []
+      },
+      {
+        "name": "rubies",
+        "children": []
+      },
+      {
+        "name": "ZorpiniumOblivion",
+        "children": []
+      },
+      {
         "name": "ruby blocks",
         "children": [
           {
@@ -4148,19 +5873,24 @@
         "children": []
       },
       {
-        "name": "skyfactory",
+        "name": "McDonalds",
+        "children": []
+      },
+      {
+        "name": "bloodbath",
         "children": []
       },
       {
         "name": "idk",
-        "children": []
+        "children": [
+          {
+            "name": "wah wah wah wah",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Ruby trader",
-        "children": []
-      },
-      {
-        "name": "rubies",
         "children": []
       },
       {
@@ -4186,15 +5916,15 @@
         ]
       },
       {
-        "name": "ZorpiniumOblivion",
+        "name": "poqqers madness",
+        "children": []
+      },
+      {
+        "name": "gp0 folder",
         "children": []
       },
       {
         "name": "femgram",
-        "children": []
-      },
-      {
-        "name": "poqqers madness",
         "children": []
       }
     ]

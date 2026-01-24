@@ -1,0 +1,56 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:ThunderInfusedIngot"
+      },
+      {
+        "value": "CUSTOM:FallenOnesBroadsword"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ThunderInfusedIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ThunderInfusedIngot"
+      },
+      {
+        "value": "CUSTOM:FallenOnesBroadsword"
+      },
+      {
+        "value": "CUSTOM:ThunderInfusedIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ThunderInfusedIngot"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ThunderBlade"
+    },
+    "name": "swordtn",
+    "namespace": "mod"
+  }
+}

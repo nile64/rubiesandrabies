@@ -23,6 +23,7 @@ public class SpaceMenuScreen extends AbstractContainerScreen<SpaceMenuMenu> impl
 	private boolean menuStateUpdateActive = false;
 	private Button button_racist_planet;
 	private Button button_overworld;
+	private Button button_moon;
 
 	public SpaceMenuScreen(SpaceMenuMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -52,7 +53,7 @@ public class SpaceMenuScreen extends AbstractContainerScreen<SpaceMenuMenu> impl
 	@Override
 	protected void renderBg(GuiGraphics guiGraphics, float partialTicks, int mouseX, int mouseY) {
 		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
-		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("rubiesandrabies:textures/screens/evilman.png"), this.leftPos + 93, this.topPos + 16, 0, 0, 128, 128, 128, 128);
+		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("rubiesandrabies:textures/screens/evilman.png"), this.leftPos + 122, this.topPos + 51, 0, 0, 64, 64, 64, 64);
 	}
 
 	@Override
@@ -78,7 +79,7 @@ public class SpaceMenuScreen extends AbstractContainerScreen<SpaceMenuMenu> impl
 				ClientPacketDistributor.sendToServer(new SpaceMenuButtonMessage(0, x, y, z));
 				SpaceMenuButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
-		}).bounds(this.leftPos + 108, this.topPos + 11, 93, 20).build();
+		}).bounds(this.leftPos + 8, this.topPos + 9, 93, 20).build();
 		this.addRenderableWidget(button_racist_planet);
 		button_overworld = Button.builder(Component.translatable("gui.rubiesandrabies.space_menu.button_overworld"), e -> {
 			int x = SpaceMenuScreen.this.x;
@@ -89,5 +90,14 @@ public class SpaceMenuScreen extends AbstractContainerScreen<SpaceMenuMenu> impl
 			}
 		}).bounds(this.leftPos + 110, this.topPos + 136, 90, 20).build();
 		this.addRenderableWidget(button_overworld);
+		button_moon = Button.builder(Component.translatable("gui.rubiesandrabies.space_menu.button_moon"), e -> {
+			int x = SpaceMenuScreen.this.x;
+			int y = SpaceMenuScreen.this.y;
+			if (true) {
+				ClientPacketDistributor.sendToServer(new SpaceMenuButtonMessage(2, x, y, z));
+				SpaceMenuButtonMessage.handleButtonAction(entity, 2, x, y, z);
+			}
+		}).bounds(this.leftPos + 118, this.topPos + 8, 72, 20).build();
+		this.addRenderableWidget(button_moon);
 	}
 }

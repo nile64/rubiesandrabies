@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "rubiesandrabies:block/the_bloodbath"
+    },
+    "facing=east": {
+      "model": "rubiesandrabies:block/the_bloodbath",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "rubiesandrabies:block/the_bloodbath",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "rubiesandrabies:block/the_bloodbath",
+      "y": 270
+    }
+  }
+}

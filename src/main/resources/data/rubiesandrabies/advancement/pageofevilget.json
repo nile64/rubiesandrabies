@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "rubiesandrabies:page_of_evil"
+    },
+    "title": {
+      "translate": "advancements.pageofevilget.title"
+    },
+    "description": {
+      "translate": "advancements.pageofevilget.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "pageofevilget_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "rubiesandrabies:the_racism_within"
+}

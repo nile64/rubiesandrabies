@@ -188,5 +188,150 @@
         "stream": false
       }
     ]
+  },
+  "knightarmor": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:knightarmor",
+        "stream": false
+      }
+    ]
+  },
+  "femboyhurt": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:issac-hurt-1",
+        "stream": false
+      }
+    ]
+  },
+  "watchhimbecomeagawd": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:voicy_watch_him_become_a_god",
+        "stream": false
+      }
+    ]
+  },
+  "atthespeedoflight": {
+    "subtitle": "subtitles.atthespeedoflight",
+    "sounds": [
+      {
+        "name": "rubiesandrabies:at_the_speed_of_light",
+        "stream": true
+      }
+    ]
+  },
+  "ambient": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:ambient",
+        "stream": false
+      }
+    ]
+  },
+  "cacophony": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:cacophony",
+        "stream": false
+      }
+    ]
+  },
+  "whbag_pitchup": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:voicy_watch_him_become_a_god1",
+        "stream": false
+      }
+    ]
+  },
+  "thunderlive": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:thunderlive",
+        "stream": false
+      }
+    ]
+  },
+  "knightliving": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:knightofblunderogg",
+        "stream": false
+      }
+    ]
+  },
+  "goatisscream": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:rahhh",
+        "stream": false
+      }
+    ]
+  },
+  "thunderdeath": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:thunderdeath",
+        "stream": false
+      }
+    ]
+  },
+  "whbag_pitchdown": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:voicy_watch_him_become_a_god2",
+        "stream": false
+      }
+    ]
+  },
+  "knighthit": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:knighthit",
+        "stream": false
+      }
+    ]
+  },
+  "holywars_punishmentdue": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:holy_wars_the_punishment_due_2004_remix",
+        "stream": false
+      }
+    ]
+  },
+  "questionmark": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:questionmark",
+        "stream": false
+      }
+    ]
+  },
+  "knightdeath": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:knightdeath",
+        "stream": false
+      }
+    ]
+  },
+  "davedeath": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:dave-mustaine-scream-made-with-voicemod1",
+        "stream": false
+      }
+    ]
+  },
+  "davescream": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:dave-mustaine-scream-made-with-voicemod",
+        "stream": false
+      }
+    ]
   }
 }
