@@ -1,5 +1,16 @@
 package net.mcreator.rubiesandrabies.client.renderer;
 
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.client.renderer.entity.state.LivingEntityRenderState;
+import net.minecraft.client.renderer.entity.MobRenderer;
+import net.minecraft.client.renderer.entity.EntityRendererProvider;
+import net.minecraft.client.model.geom.ModelPart;
+import net.minecraft.client.animation.KeyframeAnimation;
+
+import net.mcreator.rubiesandrabies.entity.TrollentityartificialEntity;
+import net.mcreator.rubiesandrabies.client.model.animations.trollentityattackingAnimation;
+import net.mcreator.rubiesandrabies.client.model.Modeltrollentity;
+
 public class TrollentityartificialRenderer extends MobRenderer<TrollentityartificialEntity, LivingEntityRenderState, Modeltrollentity> {
 	private TrollentityartificialEntity entity = null;
 

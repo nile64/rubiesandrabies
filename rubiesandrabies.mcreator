@@ -5808,7 +5808,11 @@
       "subtitles.atthespeedoflight": "Dimrain47 - At the Speed of Light",
       "subtitles.thunderdeath": "",
       "painting.rubiesandrabies.the_man.title": "The Man",
-      "painting.rubiesandrabies.the_man.author": "Mr Beats"
+      "painting.rubiesandrabies.the_man.author": "Mr Beats",
+      "item.rubiesandrabies.trollentityartificial_spawn_egg": "Trollentityartificial Spawn Egg",
+      "entity.rubiesandrabies.trollentityartificial": "Trollentityartificial",
+      "item.rubiesandrabies.trollentity_spawn_egg": "Trollentity Spawn Egg",
+      "entity.rubiesandrabies.trollentity": "Trollentity"
     }
   },
   "metadata": {
