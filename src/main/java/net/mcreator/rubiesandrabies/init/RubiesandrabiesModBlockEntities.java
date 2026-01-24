@@ -16,6 +16,7 @@ import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.core.registries.BuiltInRegistries;
 
+import net.mcreator.rubiesandrabies.block.entity.TeblockBlockEntity;
 import net.mcreator.rubiesandrabies.block.entity.NetherthingBlockEntity;
 import net.mcreator.rubiesandrabies.RubiesandrabiesMod;
 
@@ -23,6 +24,7 @@ import net.mcreator.rubiesandrabies.RubiesandrabiesMod;
 public class RubiesandrabiesModBlockEntities {
 	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(BuiltInRegistries.BLOCK_ENTITY_TYPE, RubiesandrabiesMod.MODID);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<NetherthingBlockEntity>> NETHERTHING = register("netherthing", RubiesandrabiesModBlocks.NETHERTHING, NetherthingBlockEntity::new);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<TeblockBlockEntity>> TEBLOCK = register("teblock", RubiesandrabiesModBlocks.TEBLOCK, TeblockBlockEntity::new);
 
 	// Start of user code block custom block entities
 	// End of user code block custom block entities
@@ -33,5 +35,6 @@ public class RubiesandrabiesModBlockEntities {
 	@SubscribeEvent
 	public static void registerCapabilities(RegisterCapabilitiesEvent event) {
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, NETHERTHING.get(), SidedInvWrapper::new);
+		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, TEBLOCK.get(), SidedInvWrapper::new);
 	}
 }

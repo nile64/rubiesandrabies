@@ -1,0 +1,136 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 8,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:chest",
+            "Properties": {
+              "facing": "north",
+              "type": "single",
+              "waterlogged": "false"
+            }
+          }
+        },
+        "state": {
+          "Name": "rubiesandrabies:teblock"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:sculk_catalyst",
+            "Properties": {
+              "bloom": "false"
+            }
+          }
+        },
+        "state": {
+          "Name": "rubiesandrabies:teblock"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:rail",
+            "Properties": {
+              "shape": "north_south",
+              "waterlogged": "false"
+            }
+          }
+        },
+        "state": {
+          "Name": "rubiesandrabies:teblock"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:bookshelf"
+          }
+        },
+        "state": {
+          "Name": "rubiesandrabies:teblock"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:decorated_pot",
+            "Properties": {
+              "cracked": "false",
+              "facing": "north",
+              "waterlogged": "false"
+            }
+          }
+        },
+        "state": {
+          "Name": "rubiesandrabies:teblock"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:pink_carpet"
+          }
+        },
+        "state": {
+          "Name": "rubiesandrabies:teblock"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:lime_carpet"
+          }
+        },
+        "state": {
+          "Name": "rubiesandrabies:teblock"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:light_blue_carpet"
+          }
+        },
+        "state": {
+          "Name": "rubiesandrabies:teblock"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:gold_block"
+          }
+        },
+        "state": {
+          "Name": "rubiesandrabies:teblock"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:gilded_blackstone"
+          }
+        },
+        "state": {
+          "Name": "rubiesandrabies:teblock"
+        }
+      }
+    ]
+  }
+}

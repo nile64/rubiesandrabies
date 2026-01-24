@@ -3477,6 +3477,162 @@
         ]
       },
       "path": "~/idk"
+    },
+    {
+      "name": "Trollentity",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trollentity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/entity/TrollentityEntity.java",
+          "src/main/resources/assets/rubiesandrabies/items/trollentity_spawn_egg.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/trollentity_spawn_egg.json",
+          "src/main/java/net/mcreator/rubiesandrabies/client/renderer/TrollentityRenderer.java"
+        ]
+      },
+      "path": "~/poqqers madness"
+    },
+    {
+      "name": "Teblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/worldgen/placed_feature/teblock.json",
+          "src/main/resources/assets/rubiesandrabies/blockstates/teblock.json",
+          "src/main/resources/data/rubiesandrabies/worldgen/configured_feature/teblock.json",
+          "src/main/resources/assets/rubiesandrabies/models/item/teblock.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/entity/TeblockBlockEntity.java",
+          "src/main/resources/assets/rubiesandrabies/items/teblock.json",
+          "src/main/resources/data/rubiesandrabies/loot_table/blocks/teblock.json",
+          "src/main/resources/assets/rubiesandrabies/models/block/teblock.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/TeblockBlock.java",
+          "src/main/resources/data/rubiesandrabies/neoforge/biome_modifier/teblock_biome_modifier.json"
+        ]
+      },
+      "path": "~/poqqers madness"
+    },
+    {
+      "name": "TeblockOnBlockRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teblock_on_block_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/TeblockOnBlockRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Trollblock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trollblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/recipe/trollblock.json"
+        ]
+      },
+      "path": "~/poqqers madness"
+    },
+    {
+      "name": "FeATRUEREE",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fe_atrueree",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/neoforge/biome_modifier/fe_atrueree_biome_modifier.json",
+          "src/main/resources/data/rubiesandrabies/worldgen/placed_feature/fe_atrueree.json",
+          "src/main/resources/data/rubiesandrabies/worldgen/configured_feature/fe_atrueree.json"
+        ]
+      },
+      "path": "~/poqqers madness"
+    },
+    {
+      "name": "NaturalTEdrops",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "natural_t_edrops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/loot_table/entities/trollentity.json"
+        ]
+      },
+      "path": "~/poqqers madness"
+    },
+    {
+      "name": "Trollentityartificial",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trollentityartificial",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubiesandrabies/models/item/trollentityartificial_spawn_egg.json",
+          "src/main/resources/assets/rubiesandrabies/items/trollentityartificial_spawn_egg.json",
+          "src/main/java/net/mcreator/rubiesandrabies/entity/TrollentityartificialEntity.java",
+          "src/main/java/net/mcreator/rubiesandrabies/client/renderer/TrollentityartificialRenderer.java"
+        ]
+      },
+      "path": "~/poqqers madness"
+    },
+    {
+      "name": "TeblockartificialOnBlockRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teblockartificial_on_block_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/TeblockartificialOnBlockRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/poqqers madness"
     }
   ],
   "variable_elements": [],
@@ -3932,7 +4088,12 @@
       "advancements.ew.descr": "Gross.",
       "advancements.buy_the_acheivment.descr": "You have achieved great things.",
       "advancements.buy_the_acheivment.title": "The Great Achievement",
-      "item.rubiesandrabies.achievmentitem": "The Great Achievement"
+      "item.rubiesandrabies.achievmentitem": "The Great Achievement",
+      "item.rubiesandrabies.trollentity_spawn_egg": "Trollentity Spawn Egg",
+      "entity.rubiesandrabies.trollentity": "Trollentity",
+      "item.rubiesandrabies.teblock": "Teblock",
+      "item.rubiesandrabies.trollentityartificial_spawn_egg": "Trollentityartificial Spawn Egg",
+      "entity.rubiesandrabies.trollentityartificial": "Trollentityartificial"
     }
   },
   "metadata": {
@@ -4030,6 +4191,10 @@
       },
       {
         "name": "femgram",
+        "children": []
+      },
+      {
+        "name": "poqqers madness",
         "children": []
       }
     ]

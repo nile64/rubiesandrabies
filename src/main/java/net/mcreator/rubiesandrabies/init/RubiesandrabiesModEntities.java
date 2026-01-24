@@ -51,6 +51,14 @@ public class RubiesandrabiesModEntities {
 			EntityType.Builder.<FemgrambossEntity>of(FemgrambossEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).fireImmune()
 
 					.sized(2f, 3.6f));
+	public static final DeferredHolder<EntityType<?>, EntityType<TrollentityEntity>> TROLLENTITY = register("trollentity",
+			EntityType.Builder.<TrollentityEntity>of(TrollentityEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+					.sized(1f, 1.1f));
+	public static final DeferredHolder<EntityType<?>, EntityType<TrollentityartificialEntity>> TROLLENTITYARTIFICIAL = register("trollentityartificial",
+			EntityType.Builder.<TrollentityartificialEntity>of(TrollentityartificialEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+					.sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -67,6 +75,8 @@ public class RubiesandrabiesModEntities {
 		RHmobEntity.init(event);
 		GhastCowEntity.init(event);
 		FemgrambossEntity.init(event);
+		TrollentityEntity.init(event);
+		TrollentityartificialEntity.init(event);
 	}
 
 	@SubscribeEvent
@@ -78,5 +88,7 @@ public class RubiesandrabiesModEntities {
 		event.put(R_HMOB.get(), RHmobEntity.createAttributes().build());
 		event.put(GHAST_COW.get(), GhastCowEntity.createAttributes().build());
 		event.put(FEMGRAM.get(), FemgrambossEntity.createAttributes().build());
+		event.put(TROLLENTITY.get(), TrollentityEntity.createAttributes().build());
+		event.put(TROLLENTITYARTIFICIAL.get(), TrollentityartificialEntity.createAttributes().build());
 	}
 }

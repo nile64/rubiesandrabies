@@ -144,5 +144,10 @@
   "advancements.ew.descr": "Gross.",
   "advancements.buy_the_acheivment.descr": "You have achieved great things.",
   "advancements.buy_the_acheivment.title": "The Great Achievement",
-  "item.rubiesandrabies.achievmentitem": "The Great Achievement"
+  "item.rubiesandrabies.achievmentitem": "The Great Achievement",
+  "item.rubiesandrabies.trollentity_spawn_egg": "Trollentity Spawn Egg",
+  "entity.rubiesandrabies.trollentity": "Trollentity",
+  "item.rubiesandrabies.teblock": "Teblock",
+  "item.rubiesandrabies.trollentityartificial_spawn_egg": "Trollentityartificial Spawn Egg",
+  "entity.rubiesandrabies.trollentityartificial": "Trollentityartificial"
 }

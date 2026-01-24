@@ -18,7 +18,9 @@ public class RubiesandrabiesModModels {
 		event.registerLayerDefinition(ModelCustomModel.LAYER_LOCATION, ModelCustomModel::createBodyLayer);
 		event.registerLayerDefinition(Modelruby_horror.LAYER_LOCATION, Modelruby_horror::createBodyLayer);
 		event.registerLayerDefinition(Modelgorilla.LAYER_LOCATION, Modelgorilla::createBodyLayer);
+		event.registerLayerDefinition(Modeltrollentity.LAYER_LOCATION, Modeltrollentity::createBodyLayer);
 		event.registerLayerDefinition(ModelNow.LAYER_LOCATION, ModelNow::createBodyLayer);
+		event.registerLayerDefinition(Modeltrollentityattacking.LAYER_LOCATION, Modeltrollentityattacking::createBodyLayer);
 		event.registerLayerDefinition(Modelmeatball_moose.LAYER_LOCATION, Modelmeatball_moose::createBodyLayer);
 	}
 }
