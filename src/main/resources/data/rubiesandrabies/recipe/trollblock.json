@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": "#minecraft:planks",
+    "b": "minecraft:redstone_torch"
+  },
+  "result": {
+    "id": "rubiesandrabies:teblock",
+    "count": 1
+  }
+}

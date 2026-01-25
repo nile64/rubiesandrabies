@@ -150,6 +150,9 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> THUNDEROUS_DIGNITY;
 	public static final DeferredItem<Item> THUNDER_INFUSED_INGOT;
 	public static final DeferredItem<Item> KNIGHT_OF_THUNDER_SPAWN_EGG;
+	public static final DeferredItem<Item> TEBLOCK;
+	public static final DeferredItem<Item> TROLLENTITYARTIFICIAL_SPAWN_EGG;
+	public static final DeferredItem<Item> TROLLENTITY_SPAWN_EGG;
 	static {
 		BAT_WING = register("bat_wing", BatWingItem::new);
 		RUBY = register("ruby", RubyItem::new);
@@ -274,6 +277,9 @@ public class RubiesandrabiesModItems {
 		THUNDEROUS_DIGNITY = block(RubiesandrabiesModBlocks.THUNDEROUS_DIGNITY);
 		THUNDER_INFUSED_INGOT = register("thunder_infused_ingot", ThunderInfusedIngotItem::new);
 		KNIGHT_OF_THUNDER_SPAWN_EGG = register("knight_of_thunder_spawn_egg", properties -> new SpawnEggItem(RubiesandrabiesModEntities.KNIGHT_OF_THUNDER.get(), properties));
+		TEBLOCK = block(RubiesandrabiesModBlocks.TEBLOCK);
+		TROLLENTITYARTIFICIAL_SPAWN_EGG = register("trollentityartificial_spawn_egg", properties -> new SpawnEggItem(RubiesandrabiesModEntities.TROLLENTITYARTIFICIAL.get(), properties));
+		TROLLENTITY_SPAWN_EGG = register("trollentity_spawn_egg", properties -> new SpawnEggItem(RubiesandrabiesModEntities.TROLLENTITY.get(), properties));
 	}
 
 	// Start of user code block custom items

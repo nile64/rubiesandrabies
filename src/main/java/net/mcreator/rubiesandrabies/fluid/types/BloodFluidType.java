@@ -1,10 +1,5 @@
 package net.mcreator.rubiesandrabies.fluid.types;
 
-import net.neoforged.neoforge.fluids.FluidType;
-import net.neoforged.neoforge.common.SoundActions;
-
-import net.minecraft.sounds.SoundEvents;
-
 public class BloodFluidType extends FluidType {
 	public BloodFluidType() {
 		super(FluidType.Properties.create().fallDistanceModifier(0F).canExtinguish(true).supportsBoating(true).canHydrate(true).motionScale(0.007D).sound(SoundActions.BUCKET_FILL, SoundEvents.BUCKET_FILL)

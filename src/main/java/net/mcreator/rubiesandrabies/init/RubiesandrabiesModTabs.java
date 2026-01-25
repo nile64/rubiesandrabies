@@ -148,6 +148,8 @@ public class RubiesandrabiesModTabs {
 			tabData.accept(RubiesandrabiesModItems.KNIGHT_OF_BLUNDER_SPAWN_EGG.get());
 			tabData.accept(RubiesandrabiesModItems.DAVE_MUSTAINE_SPAWN_EGG.get());
 			tabData.accept(RubiesandrabiesModItems.KNIGHT_OF_THUNDER_SPAWN_EGG.get());
+			tabData.accept(RubiesandrabiesModItems.TROLLENTITYARTIFICIAL_SPAWN_EGG.get());
+			tabData.accept(RubiesandrabiesModItems.TROLLENTITY_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(RubiesandrabiesModItems.BANANA.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
