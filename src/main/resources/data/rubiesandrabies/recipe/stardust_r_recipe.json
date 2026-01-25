@@ -2,7 +2,7 @@
   "type": "minecraft:stonecutting",
   "ingredient": "minecraft:nether_star",
   "result": {
-    "id": "rubiesandrabies:deleted_mod_element",
+    "id": "rubiesandrabies:stardust_remnant",
     "count": 4
   }
 }
