@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:ThunderousEssence"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ThunderousEssence"
+      },
+      {
+        "value": "CUSTOM:MoonSurface"
+      },
+      {
+        "value": "CUSTOM:ThunderousEssence"
+      },
+      {
+        "value": "CUSTOM:MoonSurface"
+      },
+      {
+        "value": "CUSTOM:ThunderousEssence"
+      },
+      {
+        "value": "CUSTOM:MoonSurface"
+      },
+      {
+        "value": "CUSTOM:ThunderousEssence"
+      },
+      {
+        "value": "CUSTOM:MoonSurface"
+      },
+      {
+        "value": "CUSTOM:ThunderousEssence"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:EmulsifiedThunderEssence"
+    },
+    "name": "solidthunder",
+    "namespace": "mod"
+  }
+}

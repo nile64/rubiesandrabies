@@ -1,25 +1,10 @@
 package net.mcreator.rubiesandrabies.world.features.treedecorators;
 
-import net.neoforged.neoforge.registries.RegisterEvent;
-import net.neoforged.fml.common.EventBusSubscriber;
-import net.neoforged.bus.api.SubscribeEvent;
-
-import net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecoratorType;
-import net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecorator;
-import net.minecraft.world.level.levelgen.feature.treedecorators.LeaveVineDecorator;
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.Rotation;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.core.registries.Registries;
-import net.minecraft.core.Direction;
-import net.minecraft.core.BlockPos;
-
-import com.mojang.serialization.MapCodec;
-
 @EventBusSubscriber
 public class NetherRacismLeaveDecorator extends LeaveVineDecorator {
+
 	public static MapCodec<NetherRacismLeaveDecorator> CODEC = MapCodec.unit(NetherRacismLeaveDecorator::new);
+
 	public static TreeDecoratorType<?> DECORATOR_TYPE = new TreeDecoratorType<>(CODEC);
 
 	@SubscribeEvent
@@ -45,18 +30,21 @@ public class NetherRacismLeaveDecorator extends LeaveVineDecorator {
 					addVine(pos, Direction.WEST, context);
 				}
 			}
+
 			if (context.random().nextFloat() < 0.25f) {
 				BlockPos pos = blockpos.east();
 				if (context.isAir(pos)) {
 					addVine(pos, Direction.EAST, context);
 				}
 			}
+
 			if (context.random().nextFloat() < 0.25f) {
 				BlockPos pos = blockpos.north();
 				if (context.isAir(pos)) {
 					addVine(pos, Direction.NORTH, context);
 				}
 			}
+
 			if (context.random().nextFloat() < 0.25f) {
 				BlockPos pos = blockpos.south();
 				if (context.isAir(pos)) {
@@ -84,4 +72,5 @@ public class NetherRacismLeaveDecorator extends LeaveVineDecorator {
 			default -> blockstate;
 		};
 	}
+
 }

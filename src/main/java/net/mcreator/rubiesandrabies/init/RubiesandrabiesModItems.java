@@ -139,6 +139,20 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> WATCHHIMBECOMEAGOD;
 	public static final DeferredItem<Item> QUESTION_MARK;
 	public static final DeferredItem<Item> EVIL_MACHINE;
+	public static final DeferredItem<Item> THUNDEROUS_ESSENCE;
+	public static final DeferredItem<Item> SOLIDIFIED_THUNDEROUS_ESSENCE;
+	public static final DeferredItem<Item> THUNDEROUS_DIGNITY;
+	public static final DeferredItem<Item> KNIGHT_OF_THUNDER_SPAWN_EGG;
+	public static final DeferredItem<Item> TROLLENTITY_SPAWN_EGG;
+	public static final DeferredItem<Item> TEBLOCK;
+	public static final DeferredItem<Item> THUNDER_HELMET;
+	public static final DeferredItem<Item> THUNDER_CHESTPLATE;
+	public static final DeferredItem<Item> THUNDER_LEGGINGS;
+	public static final DeferredItem<Item> THUNDER_BOOTS;
+	public static final DeferredItem<Item> TROLLENTITYARTIFICIAL_SPAWN_EGG;
+	public static final DeferredItem<Item> THUNDER_BLADE;
+	public static final DeferredItem<Item> LIGHTNING_IN_A_BOTTLE;
+	public static final DeferredItem<Item> THUNDER_INFUSED_INGOT;
 	static {
 		BAT_WING = register("bat_wing", BatWingItem::new);
 		RUBY = register("ruby", RubyItem::new);
@@ -252,6 +266,20 @@ public class RubiesandrabiesModItems {
 		WATCHHIMBECOMEAGOD = register("watchhimbecomeagod", HolyWarsThePunishmentDueItem::new);
 		QUESTION_MARK = register("question_mark", QuestionMarkItem::new);
 		EVIL_MACHINE = block(RubiesandrabiesModBlocks.EVIL_MACHINE);
+		THUNDEROUS_ESSENCE = register("thunderous_essence", ThunderousEssenceItem::new);
+		SOLIDIFIED_THUNDEROUS_ESSENCE = block(RubiesandrabiesModBlocks.SOLIDIFIED_THUNDEROUS_ESSENCE, new Item.Properties().rarity(Rarity.RARE));
+		THUNDEROUS_DIGNITY = block(RubiesandrabiesModBlocks.THUNDEROUS_DIGNITY);
+		KNIGHT_OF_THUNDER_SPAWN_EGG = register("knight_of_thunder_spawn_egg", properties -> new SpawnEggItem(RubiesandrabiesModEntities.KNIGHT_OF_THUNDER.get(), properties));
+		TROLLENTITY_SPAWN_EGG = register("trollentity_spawn_egg", properties -> new SpawnEggItem(RubiesandrabiesModEntities.TROLLENTITY.get(), properties));
+		TEBLOCK = block(RubiesandrabiesModBlocks.TEBLOCK);
+		THUNDER_HELMET = register("thunder_helmet", ThunderItem.Helmet::new);
+		THUNDER_CHESTPLATE = register("thunder_chestplate", ThunderItem.Chestplate::new);
+		THUNDER_LEGGINGS = register("thunder_leggings", ThunderItem.Leggings::new);
+		THUNDER_BOOTS = register("thunder_boots", ThunderItem.Boots::new);
+		TROLLENTITYARTIFICIAL_SPAWN_EGG = register("trollentityartificial_spawn_egg", properties -> new SpawnEggItem(RubiesandrabiesModEntities.TROLLENTITYARTIFICIAL.get(), properties));
+		THUNDER_BLADE = register("thunder_blade", ThunderBladeItem::new);
+		LIGHTNING_IN_A_BOTTLE = register("lightning_in_a_bottle", LightningInABottleItem::new);
+		THUNDER_INFUSED_INGOT = register("thunder_infused_ingot", ThunderInfusedIngotItem::new);
 	}
 
 	// Start of user code block custom items

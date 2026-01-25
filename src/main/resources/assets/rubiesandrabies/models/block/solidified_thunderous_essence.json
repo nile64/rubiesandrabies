@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "rubiesandrabies:block/emulsifiedthunderessence",
+    "particle": "rubiesandrabies:block/emulsifiedthunderessence"
+  },
+  "render_type": "solid"
+}

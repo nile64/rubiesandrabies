@@ -1,0 +1,9 @@
+{
+  "feature": "rubiesandrabies:fe_atrueree",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 1
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "rubiesandrabies:thunder"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "rubiesandrabies:thunder"
+      }
+    ]
+  }
+}

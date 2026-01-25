@@ -1,12 +1,6 @@
 package net.mcreator.rubiesandrabies.block;
 
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.FallingBlock;
-import net.minecraft.world.level.BlockGetter;
-import net.minecraft.core.BlockPos;
-
-import com.mojang.serialization.MapCodec;
+import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
 
 public class MoonSurfaceBlock extends FallingBlock {
 	public static final MapCodec<MoonSurfaceBlock> CODEC = simpleCodec(MoonSurfaceBlock::new);

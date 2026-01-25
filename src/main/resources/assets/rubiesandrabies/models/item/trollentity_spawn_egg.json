@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "rubiesandrabies:item/trollentity_spawn_egg_generated"
+  }
+}
