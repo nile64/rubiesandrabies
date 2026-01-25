@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "rubiesandrabies:block/teblock"
+    },
+    "facing=east": {
+      "model": "rubiesandrabies:block/teblock",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "rubiesandrabies:block/teblock",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "rubiesandrabies:block/teblock",
+      "y": 270
+    }
+  }
+}

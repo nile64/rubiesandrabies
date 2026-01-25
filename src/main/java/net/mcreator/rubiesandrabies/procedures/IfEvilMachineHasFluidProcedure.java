@@ -1,0 +1,21 @@
+package net.mcreator.rubiesandrabies.procedures;
+
+import net.neoforged.bus.api.Event;
+
+public class IfEvilMachineHasFluidProcedure {
+	public static boolean execute(LevelAccessor world, double x, double y, double z) {
+		if (getFluidTankLevel(world, BlockPos.containing(x, y, z), 1, null) >= 1) {
+			return true;
+		}
+		return false;
+	}
+
+	private static int getFluidTankLevel(LevelAccessor level, BlockPos pos, int tank, Direction direction) {
+		if (level instanceof ILevelExtension levelExtension) {
+			IFluidHandler fluidHandler = levelExtension.getCapability(Capabilities.FluidHandler.BLOCK, pos, direction);
+			if (fluidHandler != null)
+				return fluidHandler.getFluidInTank(tank).getAmount();
+		}
+		return 0;
+	}
+}
