@@ -1,21 +1,5 @@
 package net.mcreator.rubiesandrabies.fluid;
 
-import org.apache.logging.log4j.core.util.Source;
-
-import net.neoforged.neoforge.fluids.BaseFlowingFluid;
-
-import net.minecraft.world.level.material.FluidState;
-import net.minecraft.world.level.material.Fluid;
-import net.minecraft.world.level.block.state.StateDefinition;
-import net.minecraft.world.level.block.LiquidBlock;
-import net.minecraft.core.particles.ParticleTypes;
-import net.minecraft.core.particles.ParticleOptions;
-
-import net.mcreator.rubiesandrabies.init.RubiesandrabiesModItems;
-import net.mcreator.rubiesandrabies.init.RubiesandrabiesModFluids;
-import net.mcreator.rubiesandrabies.init.RubiesandrabiesModFluidTypes;
-import net.mcreator.rubiesandrabies.init.RubiesandrabiesModBlocks;
-
 public abstract class Gp0LiquidFluid extends BaseFlowingFluid {
 	public static final BaseFlowingFluid.Properties PROPERTIES = new BaseFlowingFluid.Properties(() -> RubiesandrabiesModFluidTypes.GP_0_LIQUID_TYPE.get(), () -> RubiesandrabiesModFluids.GP_0_LIQUID.get(),
 			() -> RubiesandrabiesModFluids.FLOWING_GP_0_LIQUID.get()).explosionResistance(100f).tickRate(1).slopeFindDistance(1).bucket(() -> RubiesandrabiesModItems.GP_0_LIQUID_BUCKET.get())
