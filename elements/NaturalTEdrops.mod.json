@@ -6,7 +6,7 @@
     "pools": [
       {
         "minrolls": 0,
-        "maxrolls": 1,
+        "maxrolls": 2,
         "minbonusrolls": 1,
         "maxbonusrolls": 1,
         "hasbonusrolls": false,
@@ -24,12 +24,26 @@
             "affectedByFortune": false,
             "explosionDecay": false,
             "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.GOLDEN_APPLE#1"
+            },
+            "weight": 1,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
           }
         ]
       },
       {
-        "minrolls": 0,
-        "maxrolls": 5,
+        "minrolls": 3,
+        "maxrolls": 14,
         "minbonusrolls": 1,
         "maxbonusrolls": 1,
         "hasbonusrolls": false,
@@ -47,20 +61,11 @@
             "affectedByFortune": false,
             "explosionDecay": false,
             "silkTouchMode": 0
-          }
-        ]
-      },
-      {
-        "minrolls": 0,
-        "maxrolls": 4,
-        "minbonusrolls": 1,
-        "maxbonusrolls": 1,
-        "hasbonusrolls": false,
-        "entries": [
+          },
           {
             "type": "item",
             "item": {
-              "value": "Items.STRING"
+              "value": "Items.BONE"
             },
             "weight": 10,
             "minCount": 1,
@@ -70,22 +75,13 @@
             "affectedByFortune": false,
             "explosionDecay": false,
             "silkTouchMode": 0
-          }
-        ]
-      },
-      {
-        "minrolls": 1,
-        "maxrolls": 5,
-        "minbonusrolls": 1,
-        "maxbonusrolls": 1,
-        "hasbonusrolls": false,
-        "entries": [
+          },
           {
             "type": "item",
             "item": {
-              "value": "Items.BONE"
+              "value": "Items.STRING"
             },
-            "weight": 50,
+            "weight": 10,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -139,16 +135,7 @@
             "affectedByFortune": false,
             "explosionDecay": false,
             "silkTouchMode": 0
-          }
-        ]
-      },
-      {
-        "minrolls": 0,
-        "maxrolls": 1,
-        "minbonusrolls": 1,
-        "maxbonusrolls": 1,
-        "hasbonusrolls": false,
-        "entries": [
+          },
           {
             "type": "item",
             "item": {
@@ -162,45 +149,13 @@
             "affectedByFortune": false,
             "explosionDecay": false,
             "silkTouchMode": 0
-          }
-        ]
-      },
-      {
-        "minrolls": 0,
-        "maxrolls": 1,
-        "minbonusrolls": 1,
-        "maxbonusrolls": 1,
-        "hasbonusrolls": false,
-        "entries": [
+          },
           {
             "type": "item",
             "item": {
-              "value": "Items.GOLDEN_APPLE#0"
+              "value": "Items.RECORD_WARD"
             },
-            "weight": 10,
-            "minCount": 1,
-            "maxCount": 1,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 0,
-            "affectedByFortune": false,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          }
-        ]
-      },
-      {
-        "minrolls": 0,
-        "maxrolls": 1,
-        "minbonusrolls": 1,
-        "maxbonusrolls": 1,
-        "hasbonusrolls": false,
-        "entries": [
-          {
-            "type": "item",
-            "item": {
-              "value": "Items.GOLDEN_APPLE#1"
-            },
-            "weight": 1,
+            "weight": 18,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -231,20 +186,11 @@
             "affectedByFortune": false,
             "explosionDecay": false,
             "silkTouchMode": 0
-          }
-        ]
-      },
-      {
-        "minrolls": 0,
-        "maxrolls": 8,
-        "minbonusrolls": 1,
-        "maxbonusrolls": 1,
-        "hasbonusrolls": false,
-        "entries": [
+          },
           {
             "type": "item",
             "item": {
-              "value": "Items.IRON_NUGGET"
+              "value": "Items.IRON_INGOT"
             },
             "weight": 15,
             "minCount": 1,
