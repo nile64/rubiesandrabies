@@ -47,16 +47,6 @@ public class RubiesandrabiesModEntities {
 			EntityType.Builder.<FemgrambossEntity>of(FemgrambossEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).fireImmune()
 
 					.sized(2f, 3.6f));
-	public static final DeferredHolder<EntityType<?>, EntityType<TrollentityartificialEntity>> TROLLENTITYARTIFICIAL = register("trollentityartificial",
-			EntityType.Builder.<TrollentityartificialEntity>of(TrollentityartificialEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
-
-					.sized(0.6f, 1.8f));
-	public static final DeferredHolder<EntityType<?>, EntityType<TrollentityEntity>> TROLLENTITY = register("trollentity",
-			EntityType.Builder.<TrollentityEntity>of(TrollentityEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
-
-					.sized(1f, 1.1f));
-	public static final DeferredHolder<EntityType<?>, EntityType<KnightOfThunderEntity>> KNIGHT_OF_THUNDER = register("knight_of_thunder",
-			EntityType.Builder.<KnightOfThunderEntity>of(KnightOfThunderEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).fireImmune().ridingOffset(-0.6f).sized(0.6f, 1.8f));
 	public static final DeferredHolder<EntityType<?>, EntityType<KnightOfBlunderEntity>> KNIGHT_OF_BLUNDER = register("knight_of_blunder",
 			EntityType.Builder.<KnightOfBlunderEntity>of(KnightOfBlunderEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
@@ -65,6 +55,16 @@ public class RubiesandrabiesModEntities {
 			EntityType.Builder.<DaveMustaineEntity>of(DaveMustaineEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.ridingOffset(-0.6f).sized(0.6f, 1.8f));
+	public static final DeferredHolder<EntityType<?>, EntityType<KnightOfThunderEntity>> KNIGHT_OF_THUNDER = register("knight_of_thunder",
+			EntityType.Builder.<KnightOfThunderEntity>of(KnightOfThunderEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).fireImmune().ridingOffset(-0.6f).sized(0.6f, 1.8f));
+	public static final DeferredHolder<EntityType<?>, EntityType<TrollentityartificialEntity>> TROLLENTITYARTIFICIAL = register("trollentityartificial",
+			EntityType.Builder.<TrollentityartificialEntity>of(TrollentityartificialEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+					.sized(0.6f, 1.8f));
+	public static final DeferredHolder<EntityType<?>, EntityType<TrollentityEntity>> TROLLENTITY = register("trollentity",
+			EntityType.Builder.<TrollentityEntity>of(TrollentityEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+					.sized(1f, 1.1f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -80,11 +80,11 @@ public class RubiesandrabiesModEntities {
 		RHmobEntity.init(event);
 		GhastCowEntity.init(event);
 		FemgrambossEntity.init(event);
-		TrollentityartificialEntity.init(event);
-		TrollentityEntity.init(event);
-		KnightOfThunderEntity.init(event);
 		KnightOfBlunderEntity.init(event);
 		DaveMustaineEntity.init(event);
+		KnightOfThunderEntity.init(event);
+		TrollentityartificialEntity.init(event);
+		TrollentityEntity.init(event);
 	}
 
 	@SubscribeEvent
@@ -95,10 +95,10 @@ public class RubiesandrabiesModEntities {
 		event.put(R_HMOB.get(), RHmobEntity.createAttributes().build());
 		event.put(GHAST_COW.get(), GhastCowEntity.createAttributes().build());
 		event.put(FEMGRAM.get(), FemgrambossEntity.createAttributes().build());
-		event.put(TROLLENTITYARTIFICIAL.get(), TrollentityartificialEntity.createAttributes().build());
-		event.put(TROLLENTITY.get(), TrollentityEntity.createAttributes().build());
-		event.put(KNIGHT_OF_THUNDER.get(), KnightOfThunderEntity.createAttributes().build());
 		event.put(KNIGHT_OF_BLUNDER.get(), KnightOfBlunderEntity.createAttributes().build());
 		event.put(DAVE_MUSTAINE.get(), DaveMustaineEntity.createAttributes().build());
+		event.put(KNIGHT_OF_THUNDER.get(), KnightOfThunderEntity.createAttributes().build());
+		event.put(TROLLENTITYARTIFICIAL.get(), TrollentityartificialEntity.createAttributes().build());
+		event.put(TROLLENTITY.get(), TrollentityEntity.createAttributes().build());
 	}
 }

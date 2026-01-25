@@ -189,18 +189,10 @@
       }
     ]
   },
-  "knightarmor": {
+  "whbag_pitchup": {
     "sounds": [
       {
-        "name": "rubiesandrabies:knightarmor",
-        "stream": false
-      }
-    ]
-  },
-  "femboyhurt": {
-    "sounds": [
-      {
-        "name": "rubiesandrabies:issac-hurt-1",
+        "name": "rubiesandrabies:voicy_watch_him_become_a_god1",
         "stream": false
       }
     ]
@@ -213,44 +205,20 @@
       }
     ]
   },
+  "whbag_pitchdown": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:voicy_watch_him_become_a_god2",
+        "stream": false
+      }
+    ]
+  },
   "atthespeedoflight": {
     "subtitle": "subtitles.atthespeedoflight",
     "sounds": [
       {
         "name": "rubiesandrabies:at_the_speed_of_light",
         "stream": true
-      }
-    ]
-  },
-  "ambient": {
-    "sounds": [
-      {
-        "name": "rubiesandrabies:ambient",
-        "stream": false
-      }
-    ]
-  },
-  "cacophony": {
-    "sounds": [
-      {
-        "name": "rubiesandrabies:cacophony",
-        "stream": false
-      }
-    ]
-  },
-  "whbag_pitchup": {
-    "sounds": [
-      {
-        "name": "rubiesandrabies:voicy_watch_him_become_a_god1",
-        "stream": false
-      }
-    ]
-  },
-  "thunderlive": {
-    "sounds": [
-      {
-        "name": "rubiesandrabies:thunderlive",
-        "stream": false
       }
     ]
   },
@@ -270,18 +238,26 @@
       }
     ]
   },
-  "thunderdeath": {
+  "knightarmor": {
     "sounds": [
       {
-        "name": "rubiesandrabies:thunderdeath",
+        "name": "rubiesandrabies:knightarmor",
         "stream": false
       }
     ]
   },
-  "whbag_pitchdown": {
+  "femboyhurt": {
     "sounds": [
       {
-        "name": "rubiesandrabies:voicy_watch_him_become_a_god2",
+        "name": "rubiesandrabies:issac-hurt-1",
+        "stream": false
+      }
+    ]
+  },
+  "ambient": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:ambient",
         "stream": false
       }
     ]
@@ -326,10 +302,34 @@
       }
     ]
   },
+  "cacophony": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:cacophony",
+        "stream": false
+      }
+    ]
+  },
   "davescream": {
     "sounds": [
       {
         "name": "rubiesandrabies:dave-mustaine-scream-made-with-voicemod",
+        "stream": false
+      }
+    ]
+  },
+  "thunderlive": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:thunderlive",
+        "stream": false
+      }
+    ]
+  },
+  "thunderdeath": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:thunderdeath",
         "stream": false
       }
     ]
