@@ -3558,21 +3558,6 @@
       "path": "~/poqqers madness"
     },
     {
-      "name": "FeATRUEREE",
-      "type": "feature",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fe_atrueree",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/rubiesandrabies/neoforge/biome_modifier/fe_atrueree_biome_modifier.json",
-          "src/main/resources/data/rubiesandrabies/worldgen/placed_feature/fe_atrueree.json",
-          "src/main/resources/data/rubiesandrabies/worldgen/configured_feature/fe_atrueree.json"
-        ]
-      },
-      "path": "~/poqqers madness"
-    },
-    {
       "name": "Trollentity",
       "type": "livingentity",
       "compiles": true,
