@@ -66,7 +66,7 @@ public class KnightOfThunderEntity extends Monster {
 
 	protected void dropCustomDeathLoot(ServerLevel serverLevel, DamageSource source, boolean recentlyHitIn) {
 		super.dropCustomDeathLoot(serverLevel, source, recentlyHitIn);
-		this.spawnAtLocation(serverLevel, new ItemStack(RubiesandrabiesModItems.DELETED_MOD_ELEMENT.get()));
+		this.spawnAtLocation(serverLevel, new ItemStack(RubiesandrabiesModItems.THUNDEROUS_ESSENCE.get()));
 	}
 
 	@Override
@@ -91,6 +91,13 @@ public class KnightOfThunderEntity extends Monster {
 		if (damagesource.is(DamageTypes.LIGHTNING_BOLT))
 			return false;
 		return super.hurtServer(level, damagesource, amount);
+	}
+
+	@Override
+	public SpawnGroupData finalizeSpawn(ServerLevelAccessor world, DifficultyInstance difficulty, EntitySpawnReason reason, @Nullable SpawnGroupData livingdata) {
+		SpawnGroupData retval = super.finalizeSpawn(world, difficulty, reason, livingdata);
+		KnightOfThunderOnInitialEntitySpawnProcedure.execute(world, this.getX(), this.getY(), this.getZ());
+		return retval;
 	}
 
 	@Override

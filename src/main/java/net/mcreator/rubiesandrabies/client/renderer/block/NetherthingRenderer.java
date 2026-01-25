@@ -1,11 +1,34 @@
 package net.mcreator.rubiesandrabies.client.renderer.block;
 
+import net.neoforged.neoforge.client.event.EntityRenderersEvent;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.api.distmarker.Dist;
+
+import net.minecraft.world.phys.Vec3;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.core.Direction;
+import net.minecraft.client.renderer.entity.state.LivingEntityRenderState;
+import net.minecraft.client.renderer.blockentity.BlockEntityRendererProvider;
+import net.minecraft.client.renderer.blockentity.BlockEntityRenderer;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.MultiBufferSource;
+import net.minecraft.client.model.geom.ModelPart;
+
+import net.mcreator.rubiesandrabies.init.RubiesandrabiesModBlockEntities;
+import net.mcreator.rubiesandrabies.client.model.ModelNow;
+import net.mcreator.rubiesandrabies.block.entity.NetherthingBlockEntity;
+import net.mcreator.rubiesandrabies.block.NetherthingBlock;
+
+import com.mojang.math.Axis;
+import com.mojang.blaze3d.vertex.VertexConsumer;
+import com.mojang.blaze3d.vertex.PoseStack;
+
 @EventBusSubscriber(Dist.CLIENT)
 public class NetherthingRenderer implements BlockEntityRenderer<NetherthingBlockEntity> {
-
 	private final CustomHierarchicalModel model;
 	private final ResourceLocation texture;
-
 	private final LivingEntityRenderState renderState;
 
 	NetherthingRenderer(BlockEntityRendererProvider.Context context) {
@@ -47,7 +70,6 @@ public class NetherthingRenderer implements BlockEntityRenderer<NetherthingBlock
 	}
 
 	private static final class CustomHierarchicalModel extends ModelNow {
-
 		public CustomHierarchicalModel(ModelPart root) {
 			super(root);
 		}
@@ -56,7 +78,5 @@ public class NetherthingRenderer implements BlockEntityRenderer<NetherthingBlock
 			this.root().getAllParts().forEach(ModelPart::resetPose);
 			super.setupAnim(state);
 		}
-
 	}
-
 }
