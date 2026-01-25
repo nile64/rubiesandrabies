@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "rubiesandrabies:red_slicer",
+  "base": "rubiesandrabies:page_of_evil",
+  "addition": "rubiesandrabies:archfiend_dice",
+  "result": {
+    "id": "rubiesandrabies:red_scythe"
+  }
+}
