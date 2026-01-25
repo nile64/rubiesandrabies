@@ -46,7 +46,7 @@ public class KnightOfThunderEntity extends Monster {
 
 	protected void dropCustomDeathLoot(ServerLevel serverLevel, DamageSource source, boolean recentlyHitIn) {
 		super.dropCustomDeathLoot(serverLevel, source, recentlyHitIn);
-		this.spawnAtLocation(serverLevel, new ItemStack(RubiesandrabiesModItems.DELETED_MOD_ELEMENT.get()));
+		this.spawnAtLocation(serverLevel, new ItemStack(RubiesandrabiesModItems.THUNDEROUS_ESSENCE.get()));
 	}
 
 	@Override

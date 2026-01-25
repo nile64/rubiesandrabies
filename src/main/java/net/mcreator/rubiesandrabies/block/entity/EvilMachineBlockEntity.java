@@ -54,7 +54,7 @@ public class EvilMachineBlockEntity extends RandomizableContainerBlockEntity imp
 
 	@Override
 	public AbstractContainerMenu createMenu(int id, Inventory inventory) {
-		return ChestMenu.threeRows(id, inventory);
+		return new EvilMachineGUIMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(this.worldPosition));
 	}
 
 	@Override
@@ -92,8 +92,8 @@ public class EvilMachineBlockEntity extends RandomizableContainerBlockEntity imp
 		return true;
 	}
 
-	private final FluidTank fluidTank = new FluidTank(8000, fs -> {
-		if (fs.getFluid() == RubiesandrabiesModFluids.GP_0_LIQUID.get())
+	private final FluidTank fluidTank = new FluidTank(1000, fs -> {
+		if (fs.getFluid() == Fluids.WATER)
 			return true;
 		return false;
 	}) {
