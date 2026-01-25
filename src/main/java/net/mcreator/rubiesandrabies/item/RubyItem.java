@@ -1,5 +1,13 @@
 package net.mcreator.rubiesandrabies.item;
 
+import net.minecraft.world.item.component.TooltipDisplay;
+import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.network.chat.Component;
+
+import java.util.function.Consumer;
+
 public class RubyItem extends Item {
 	public RubyItem(Item.Properties properties) {
 		super(properties);
