@@ -65,6 +65,10 @@ public class RubiesandrabiesModEntities {
 			EntityType.Builder.<TrollentityEntity>of(TrollentityEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(1f, 1.1f));
+	public static final DeferredHolder<EntityType<?>, EntityType<TheTravellerEntity>> THE_TRAVELLER = register("the_traveller",
+			EntityType.Builder.<TheTravellerEntity>of(TheTravellerEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+					.sized(1.4f, 10f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -85,6 +89,7 @@ public class RubiesandrabiesModEntities {
 		KnightOfThunderEntity.init(event);
 		TrollentityartificialEntity.init(event);
 		TrollentityEntity.init(event);
+		TheTravellerEntity.init(event);
 	}
 
 	@SubscribeEvent
@@ -100,5 +105,6 @@ public class RubiesandrabiesModEntities {
 		event.put(KNIGHT_OF_THUNDER.get(), KnightOfThunderEntity.createAttributes().build());
 		event.put(TROLLENTITYARTIFICIAL.get(), TrollentityartificialEntity.createAttributes().build());
 		event.put(TROLLENTITY.get(), TrollentityEntity.createAttributes().build());
+		event.put(THE_TRAVELLER.get(), TheTravellerEntity.createAttributes().build());
 	}
 }

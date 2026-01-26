@@ -60,6 +60,8 @@ public class RubiesandrabiesModBlocks {
 	public static final DeferredBlock<Block> SOLIDIFIED_THUNDEROUS_ESSENCE;
 	public static final DeferredBlock<Block> THUNDEROUS_DIGNITY;
 	public static final DeferredBlock<Block> TEBLOCK;
+	public static final DeferredBlock<Block> CHIPPED_BLOCK;
+	public static final DeferredBlock<Block> THE_TRAVEL_DIMENSION_PORTAL;
 	static {
 		RUBY_BRICKS = register("ruby_bricks", RubyBricksBlock::new);
 		BLOCK_OF_FEMGRAM = register("block_of_femgram", BlockOfFemgramBlock::new);
@@ -105,6 +107,8 @@ public class RubiesandrabiesModBlocks {
 		SOLIDIFIED_THUNDEROUS_ESSENCE = register("solidified_thunderous_essence", EmulsifiedThunderEssenceBlock::new);
 		THUNDEROUS_DIGNITY = register("thunderous_dignity", ThunderousDignityBlock::new);
 		TEBLOCK = register("teblock", TeblockBlock::new);
+		CHIPPED_BLOCK = register("chipped_block", ChippedBlockBlock::new);
+		THE_TRAVEL_DIMENSION_PORTAL = register("the_travel_dimension_portal", TheTravelDimensionPortalBlock::new);
 	}
 
 	// Start of user code block custom blocks

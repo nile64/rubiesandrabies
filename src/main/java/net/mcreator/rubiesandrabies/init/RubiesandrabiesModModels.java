@@ -21,6 +21,7 @@ public class RubiesandrabiesModModels {
 		event.registerLayerDefinition(Modelmeatball_moose.LAYER_LOCATION, Modelmeatball_moose::createBodyLayer);
 		event.registerLayerDefinition(Modelfemgramupgraded.LAYER_LOCATION, Modelfemgramupgraded::createBodyLayer);
 		event.registerLayerDefinition(ModelCustomModel.LAYER_LOCATION, ModelCustomModel::createBodyLayer);
+		event.registerLayerDefinition(Modelthe_traveller.LAYER_LOCATION, Modelthe_traveller::createBodyLayer);
 		event.registerLayerDefinition(Modeltrollentity.LAYER_LOCATION, Modeltrollentity::createBodyLayer);
 	}
 }

@@ -153,6 +153,9 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> TEBLOCK;
 	public static final DeferredItem<Item> TROLLENTITYARTIFICIAL_SPAWN_EGG;
 	public static final DeferredItem<Item> TROLLENTITY_SPAWN_EGG;
+	public static final DeferredItem<Item> CHIPPED_BLOCK;
+	public static final DeferredItem<Item> THE_TRAVEL_DIMENSION;
+	public static final DeferredItem<Item> THE_TRAVELLER_SPAWN_EGG;
 	static {
 		BAT_WING = register("bat_wing", BatWingItem::new);
 		RUBY = register("ruby", RubyItem::new);
@@ -280,6 +283,9 @@ public class RubiesandrabiesModItems {
 		TEBLOCK = block(RubiesandrabiesModBlocks.TEBLOCK);
 		TROLLENTITYARTIFICIAL_SPAWN_EGG = register("trollentityartificial_spawn_egg", properties -> new SpawnEggItem(RubiesandrabiesModEntities.TROLLENTITYARTIFICIAL.get(), properties));
 		TROLLENTITY_SPAWN_EGG = register("trollentity_spawn_egg", properties -> new SpawnEggItem(RubiesandrabiesModEntities.TROLLENTITY.get(), properties));
+		CHIPPED_BLOCK = block(RubiesandrabiesModBlocks.CHIPPED_BLOCK);
+		THE_TRAVEL_DIMENSION = register("the_travel_dimension", TheTravelDimensionItem::new);
+		THE_TRAVELLER_SPAWN_EGG = register("the_traveller_spawn_egg", properties -> new SpawnEggItem(RubiesandrabiesModEntities.THE_TRAVELLER.get(), properties));
 	}
 
 	// Start of user code block custom items

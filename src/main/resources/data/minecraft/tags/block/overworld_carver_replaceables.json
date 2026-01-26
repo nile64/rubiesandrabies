@@ -1,17 +1,19 @@
 {
   "replace": false,
   "values": [
-    "rubiesandrabies:ruby_bricks",
     "minecraft:grass_block",
     "minecraft:dirt",
+    "rubiesandrabies:moon_surface",
+    "rubiesandrabies:abyssall_grass",
+    "minecraft:dead_horn_coral_block",
+    "minecraft:bedrock",
+    "rubiesandrabies:ruby_bricks",
     "minecraft:tuff",
     "rubiesandrabies:abyssallmatter",
     "rubiesandrabies:damn",
     "minecraft:netherrack",
-    "rubiesandrabies:moon_surface",
+    "minecraft:air",
     "rubiesandrabies:evil_nylium",
-    "rubiesandrabies:abyssall_grass",
-    "rubiesandrabies:hardened_moon",
-    "minecraft:bedrock"
+    "rubiesandrabies:hardened_moon"
   ]
 }

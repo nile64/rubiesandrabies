@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "rubiesandrabies:the_travel_biome",
+  "features": "rubiesandrabies:gp_0_lake",
+  "step": "lakes"
+}

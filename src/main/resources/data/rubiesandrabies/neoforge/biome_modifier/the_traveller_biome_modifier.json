@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "rubiesandrabies:the_travel_biome",
+  "spawners": {
+    "type": "rubiesandrabies:the_traveller",
+    "weight": 4,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

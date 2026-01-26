@@ -236,5 +236,10 @@
   "entity.rubiesandrabies.trollentityartificial": "Trollentityartificial",
   "item.rubiesandrabies.trollentity_spawn_egg": "Trollentity Spawn Egg",
   "entity.rubiesandrabies.trollentity": "Trollentity",
-  "gui.rubiesandrabies.evil_machine_gui.label_gp0_fluid": "Gp0 Fluid"
+  "gui.rubiesandrabies.evil_machine_gui.label_gp0_fluid": "Gp0 Fluid",
+  "biome.rubiesandrabies.the_travel_biome": "The Travel Biome",
+  "item.rubiesandrabies.chipped_block": "Chipped GD Block",
+  "item.rubiesandrabies.the_travel_dimension": "a very bright idea",
+  "item.rubiesandrabies.the_traveller_spawn_egg": "The Traveller Spawn Egg",
+  "entity.rubiesandrabies.the_traveller": "The Traveller"
 }

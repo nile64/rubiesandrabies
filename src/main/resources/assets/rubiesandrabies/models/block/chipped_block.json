@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "rubiesandrabies:block/chippedblock01",
+    "particle": "rubiesandrabies:block/0byk6343koba1-701515427"
+  },
+  "render_type": "translucent"
+}
