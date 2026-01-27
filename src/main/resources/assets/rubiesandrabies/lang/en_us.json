@@ -241,5 +241,7 @@
   "item.rubiesandrabies.chipped_block": "Chipped GD Block",
   "item.rubiesandrabies.the_travel_dimension": "a very bright idea",
   "item.rubiesandrabies.the_traveller_spawn_egg": "The Traveller Spawn Egg",
-  "entity.rubiesandrabies.the_traveller": "The Traveller"
+  "entity.rubiesandrabies.the_traveller": "The Traveller",
+  "advancements.a_world_of_rubies.title": "A World Of Rubies",
+  "advancements.a_world_of_rubies.descr": "discover the rubies"
 }

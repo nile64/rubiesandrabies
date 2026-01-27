@@ -1,31 +1,32 @@
 {
   "display": {
+    "background": "rubiesandrabies:screens/untitlfgfdged",
     "icon": {
-      "id": "rubiesandrabies:jackson_king_v"
+      "id": "rubiesandrabies:ruby"
     },
     "title": {
-      "translate": "advancements.watch_him_become_a_god.title"
+      "translate": "advancements.a_world_of_rubies.title"
     },
     "description": {
-      "translate": "advancements.watch_him_become_a_god.descr"
+      "translate": "advancements.a_world_of_rubies.descr"
     },
     "frame": "goal",
     "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
+    "announce_to_chat": false,
+    "hidden": true
   },
   "criteria": {
-    "watch_him_become_a_god_0": {
+    "a_world_of_rubies_0": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "rubiesandrabies:jackson_king_v"
+              "minecraft:dirt"
             ],
             "count": {
               "min": 1,
-              "max": 1
+              "max": 64
             }
           }
         ]
@@ -33,7 +34,6 @@
     }
   },
   "rewards": {
-    "experience": 10
-  },
-  "parent": "rubiesandrabies:infinite_power"
+    "experience": 100
+  }
 }

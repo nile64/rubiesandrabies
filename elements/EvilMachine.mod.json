@@ -144,6 +144,9 @@
         "value": "WATER"
       }
     ],
+    "onRightClicked": {
+      "name": "EvilMachineOnBlockRightclicked"
+    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

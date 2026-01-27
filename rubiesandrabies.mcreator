@@ -4931,10 +4931,6 @@
             "type": "entity"
           },
           {
-            "name": "itemstack",
-            "type": "itemstack"
-          },
-          {
             "name": "x",
             "type": "number"
           },
@@ -5081,6 +5077,18 @@
         ]
       },
       "path": "~/NilesStuff"
+    },
+    {
+      "name": "AWorldOfRubies",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_world_of_rubies",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubiesandrabies/advancement/a_world_of_rubies.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -5815,7 +5823,9 @@
       "item.rubiesandrabies.chipped_block": "Chipped GD Block",
       "item.rubiesandrabies.the_travel_dimension": "a very bright idea",
       "item.rubiesandrabies.the_traveller_spawn_egg": "The Traveller Spawn Egg",
-      "entity.rubiesandrabies.the_traveller": "The Traveller"
+      "entity.rubiesandrabies.the_traveller": "The Traveller",
+      "advancements.a_world_of_rubies.title": "A World Of Rubies",
+      "advancements.a_world_of_rubies.descr": "discover the rubies"
     }
   },
   "metadata": {

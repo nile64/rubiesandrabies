@@ -22,11 +22,11 @@ import net.mcreator.rubiesandrabies.init.RubiesandrabiesModItems;
 import io.netty.buffer.Unpooled;
 
 public class EvilMachineOnBlockRightclickedProcedure {
-	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity, ItemStack itemstack) {
+	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
 		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == RubiesandrabiesModItems.GP_0_LIQUID_BUCKET.get()) {
-			itemstack.shrink(1);
+			(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).shrink(1);
 			if (entity instanceof Player _player) {
 				ItemStack _setstack = new ItemStack(Items.BUCKET).copy();
 				_setstack.setCount(1);
