@@ -160,7 +160,6 @@ public class RubiesandrabiesModItems {
 	public static final DeferredItem<Item> HUMAN_GENERATOR;
 	public static final DeferredItem<Item> KOOL_AID;
 	public static final DeferredItem<Item> HOG_RIDER_SPAWN_EGG;
-	public static final DeferredItem<Item> DIMENSION_OF_PEACE;
 	static {
 		BAT_WING = register("bat_wing", BatWingItem::new);
 		RUBY = register("ruby", RubyItem::new);
@@ -295,7 +294,6 @@ public class RubiesandrabiesModItems {
 		HUMAN_GENERATOR = block(RubiesandrabiesModBlocks.HUMAN_GENERATOR, new Item.Properties().stacksTo(1).rarity(Rarity.EPIC));
 		KOOL_AID = register("kool_aid", KoolAidItem::new);
 		HOG_RIDER_SPAWN_EGG = register("hog_rider_spawn_egg", properties -> new SpawnEggItem(RubiesandrabiesModEntities.HOG_RIDER.get(), properties));
-		DIMENSION_OF_PEACE = register("dimension_of_peace", DimensionOfPeaceItem::new);
 	}
 
 	// Start of user code block custom items

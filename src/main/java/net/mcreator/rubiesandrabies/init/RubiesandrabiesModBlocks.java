@@ -63,7 +63,6 @@ public class RubiesandrabiesModBlocks {
 	public static final DeferredBlock<Block> CHIPPED_BLOCK;
 	public static final DeferredBlock<Block> THE_TRAVEL_DIMENSION_PORTAL;
 	public static final DeferredBlock<Block> HUMAN_GENERATOR;
-	public static final DeferredBlock<Block> DIMENSION_OF_PEACE_PORTAL;
 	static {
 		RUBY_BRICKS = register("ruby_bricks", RubyBricksBlock::new);
 		BLOCK_OF_FEMGRAM = register("block_of_femgram", BlockOfFemgramBlock::new);
@@ -112,7 +111,6 @@ public class RubiesandrabiesModBlocks {
 		CHIPPED_BLOCK = register("chipped_block", ChippedBlockBlock::new);
 		THE_TRAVEL_DIMENSION_PORTAL = register("the_travel_dimension_portal", TheTravelDimensionPortalBlock::new);
 		HUMAN_GENERATOR = register("human_generator", HumanGeneratorBlock::new);
-		DIMENSION_OF_PEACE_PORTAL = register("dimension_of_peace_portal", DimensionOfPeacePortalBlock::new);
 	}
 
 	// Start of user code block custom blocks

@@ -4346,7 +4346,7 @@
     {
       "name": "QuestionMark",
       "type": "dimension",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "question_mark",
       "metadata": {
@@ -5014,7 +5014,7 @@
     {
       "name": "TheTravelDimension",
       "type": "dimension",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "the_travel_dimension",
       "metadata": {
@@ -5247,19 +5247,6 @@
       "path": "~/DeezyStuff"
     },
     {
-      "name": "Windland",
-      "type": "biome",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "windland",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/rubiesandrabies/worldgen/biome/windland.json"
-        ]
-      },
-      "path": "~/DeezyStuff"
-    },
-    {
       "name": "HumanGenerator",
       "type": "block",
       "compiles": true,
@@ -5293,21 +5280,6 @@
       "path": "~/DeezyStuff"
     },
     {
-      "name": "LocalCamp",
-      "type": "structure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "local_camp",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/rubiesandrabies/worldgen/structure_set/local_camp.json",
-          "src/main/resources/data/rubiesandrabies/worldgen/structure/local_camp.json",
-          "src/main/resources/data/rubiesandrabies/worldgen/template_pool/local_camp.json"
-        ]
-      },
-      "path": "~/DeezyStuff"
-    },
-    {
       "name": "HogRider",
       "type": "livingentity",
       "compiles": true,
@@ -5324,30 +5296,6 @@
       "path": "~/DeezyStuff"
     },
     {
-      "name": "DimensionOfPeace",
-      "type": "dimension",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dimension_of_peace",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/rubiesandrabies/items/dimension_of_peace.json",
-          "src/main/java/net/mcreator/rubiesandrabies/world/teleporter/DimensionOfPeacePortalShape.java",
-          "src/main/java/net/mcreator/rubiesandrabies/block/DimensionOfPeacePortalBlock.java",
-          "src/main/resources/data/rubiesandrabies/dimension/dimension_of_peace.json",
-          "src/main/resources/assets/rubiesandrabies/models/item/dimension_of_peace.json",
-          "src/main/resources/assets/rubiesandrabies/blockstates/dimension_of_peace_portal.json",
-          "src/main/resources/data/rubiesandrabies/dimension_type/dimension_of_peace.json",
-          "src/main/java/net/mcreator/rubiesandrabies/world/teleporter/DimensionOfPeaceTeleporter.java",
-          "src/main/java/net/mcreator/rubiesandrabies/item/DimensionOfPeaceItem.java",
-          "src/main/resources/assets/rubiesandrabies/models/block/dimension_of_peace_portal_ns.json",
-          "src/main/java/net/mcreator/rubiesandrabies/world/dimension/DimensionOfPeaceDimension.java",
-          "src/main/resources/assets/rubiesandrabies/models/block/dimension_of_peace_portal_ew.json"
-        ]
-      },
-      "path": "~/DeezyStuff"
-    },
-    {
       "name": "HumanGeneratorRecipe",
       "type": "recipe",
       "compiles": true,
@@ -5356,20 +5304,6 @@
       "metadata": {
         "files": [
           "src/main/resources/data/rubiesandrabies/recipe/human_generator_recipe.json"
-        ]
-      },
-      "path": "~/DeezyStuff"
-    },
-    {
-      "name": "DimensionOfPeacePlayerEntersDimension",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dimension_of_peace_player_enters_dimension",
-      "metadata": {
-        "dependencies": [],
-        "files": [
-          "src/main/java/net/mcreator/rubiesandrabies/procedures/DimensionOfPeacePlayerEntersDimensionProcedure.java"
         ]
       },
       "path": "~/DeezyStuff"
@@ -5814,7 +5748,6 @@
       "~CUSTOM:RubyShelf"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
-      "~Blocks.QUARTZ_BLOCK#0",
       "~Blocks.DEAD_HORN_CORAL_BLOCK",
       "~Blocks.AIR",
       "~Blocks.BEDROCK",
@@ -6132,29 +6065,29 @@
       "src/main/java/net/mcreator/rubiesandrabies/mixin/NoiseGeneratorSettingsMixin.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModFluidTypes.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModFluids.java",
+      "src/main/java/net/mcreator/rubiesandrabies/network/MenuStateUpdateMessage.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModScreens.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModMenus.java",
-      "src/main/java/net/mcreator/rubiesandrabies/network/MenuStateUpdateMessage.java",
       "src/main/resources/data/neoforge/data_maps/entity_type/monster_room_mobs.json",
       "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModMobEffects.java",
-      "src/main/resources/data/minecraft/tags/point_of_interest_type/acquirable_job_site.json",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModVillagerProfessions.java",
+      "src/main/resources/data/minecraft/tags/point_of_interest_type/acquirable_job_site.json",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModTrades.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModBlocks.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModBlockEntities.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModItems.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModEntities.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModEntityRenderers.java",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModModels.java",
+      "src/main/resources/rubiesandrabies.mixins.json",
+      "src/main/java/net/mcreator/rubiesandrabies/RubiesandrabiesMod.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModSounds.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModModels.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesandrabiesModTabs.java",
       "src/main/resources/META-INF/accesstransformer.cfg",
-      "src/main/java/net/mcreator/rubiesandrabies/RubiesandrabiesMod.java",
-      "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/resources/assets/rubiesandrabies/sounds.json",
-      "src/main/resources/rubiesandrabies.mixins.json",
-      "src/main/resources/pack.mcmeta"
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/assets/rubiesandrabies/sounds.json"
     ]
   },
   "foldersRoot": {

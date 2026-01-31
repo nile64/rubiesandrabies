@@ -171,7 +171,6 @@ public class RubiesandrabiesModTabs {
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(RubiesandrabiesModItems.SUGARCANE_PICKAXE.get());
 			tabData.accept(RubiesandrabiesModItems.THE_TRAVEL_DIMENSION.get());
-			tabData.accept(RubiesandrabiesModItems.DIMENSION_OF_PEACE.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(RubiesandrabiesModItems.RACIST_HELMET.get());
 			tabData.accept(RubiesandrabiesModItems.RACIST_CHESTPLATE.get());
