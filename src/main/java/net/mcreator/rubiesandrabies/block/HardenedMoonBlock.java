@@ -1,8 +1,6 @@
 package net.mcreator.rubiesandrabies.block;
 
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
 
 public class HardenedMoonBlock extends Block {
 	public HardenedMoonBlock(BlockBehaviour.Properties properties) {

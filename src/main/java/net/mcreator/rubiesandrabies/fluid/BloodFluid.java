@@ -1,19 +1,5 @@
 package net.mcreator.rubiesandrabies.fluid;
 
-import org.apache.logging.log4j.core.util.Source;
-
-import net.neoforged.neoforge.fluids.BaseFlowingFluid;
-
-import net.minecraft.world.level.material.FluidState;
-import net.minecraft.world.level.material.Fluid;
-import net.minecraft.world.level.block.state.StateDefinition;
-import net.minecraft.world.level.block.LiquidBlock;
-
-import net.mcreator.rubiesandrabies.init.RubiesandrabiesModItems;
-import net.mcreator.rubiesandrabies.init.RubiesandrabiesModFluids;
-import net.mcreator.rubiesandrabies.init.RubiesandrabiesModFluidTypes;
-import net.mcreator.rubiesandrabies.init.RubiesandrabiesModBlocks;
-
 public abstract class BloodFluid extends BaseFlowingFluid {
 	public static final BaseFlowingFluid.Properties PROPERTIES = new BaseFlowingFluid.Properties(() -> RubiesandrabiesModFluidTypes.BLOOD_TYPE.get(), () -> RubiesandrabiesModFluids.BLOOD.get(), () -> RubiesandrabiesModFluids.FLOWING_BLOOD.get())
 			.explosionResistance(100f).tickRate(25).bucket(() -> RubiesandrabiesModItems.BLOOD_BUCKET.get()).block(() -> (LiquidBlock) RubiesandrabiesModBlocks.BLOOD.get());

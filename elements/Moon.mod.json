@@ -12,6 +12,10 @@
     "underwaterBlock": {
       "value": "CUSTOM:HardenedMoon"
     },
+    "fogColor": {
+      "value": -16777216,
+      "falpha": 0.0
+    },
     "ambientSound": {
       "value": "music.under_water"
     },
@@ -44,8 +48,8 @@
       "max": 0.5
     },
     "genContinentalness": {
-      "min": 0.0,
-      "max": 1.0
+      "min": 1.9999,
+      "max": 2.0
     },
     "genErosion": {
       "min": -2.0,

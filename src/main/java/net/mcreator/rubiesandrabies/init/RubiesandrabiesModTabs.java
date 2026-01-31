@@ -78,8 +78,8 @@ public class RubiesandrabiesModTabs {
 				tabData.accept(RubiesandrabiesModBlocks.EVIL_MACHINE.get().asItem());
 				tabData.accept(RubiesandrabiesModItems.THE_TRAVEL_DIMENSION.get());
 				tabData.accept(RubiesandrabiesModItems.KFC_BUCKET.get());
-				tabData.accept(RubiesandrabiesModItems.KOOL_AID.get());
 				tabData.accept(RubiesandrabiesModBlocks.HUMAN_GENERATOR.get().asItem());
+				tabData.accept(RubiesandrabiesModItems.KOOL_AID.get());
 			}).withSearchBar().build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> SPACE = REGISTRY.register("space",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.rubiesandrabies.space")).icon(() -> new ItemStack(RubiesandrabiesModItems.URANIUM.get())).displayItems((parameters, tabData) -> {
