@@ -1,0 +1,51 @@
+{
+  "_fv": 79,
+  "_type": "structure",
+  "definition": {
+    "structure": "kfcstructure",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 50,
+    "separation": 20,
+    "restrictionBiomes": [
+      {
+        "value": "plains"
+      },
+      {
+        "value": "savanna"
+      },
+      {
+        "value": "beaches"
+      },
+      {
+        "value": "desert"
+      },
+      {
+        "value": "jungle"
+      },
+      {
+        "value": "birch_forest"
+      },
+      {
+        "value": "badlands"
+      },
+      {
+        "value": "roofed_forest"
+      }
+    ],
+    "terrainAdaptation": "beard_box",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": false,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 0,
+    "startHeightMax": 128,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
+  }
+}

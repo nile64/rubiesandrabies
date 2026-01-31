@@ -77,6 +77,9 @@ public class RubiesandrabiesModTabs {
 				tabData.accept(RubiesandrabiesModItems.BIC_MAX.get());
 				tabData.accept(RubiesandrabiesModBlocks.EVIL_MACHINE.get().asItem());
 				tabData.accept(RubiesandrabiesModItems.THE_TRAVEL_DIMENSION.get());
+				tabData.accept(RubiesandrabiesModItems.KFC_BUCKET.get());
+				tabData.accept(RubiesandrabiesModItems.KOOL_AID.get());
+				tabData.accept(RubiesandrabiesModBlocks.HUMAN_GENERATOR.get().asItem());
 			}).withSearchBar().build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> SPACE = REGISTRY.register("space",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.rubiesandrabies.space")).icon(() -> new ItemStack(RubiesandrabiesModItems.URANIUM.get())).displayItems((parameters, tabData) -> {
@@ -152,8 +155,11 @@ public class RubiesandrabiesModTabs {
 			tabData.accept(RubiesandrabiesModItems.TROLLENTITYARTIFICIAL_SPAWN_EGG.get());
 			tabData.accept(RubiesandrabiesModItems.TROLLENTITY_SPAWN_EGG.get());
 			tabData.accept(RubiesandrabiesModItems.THE_TRAVELLER_SPAWN_EGG.get());
+			tabData.accept(RubiesandrabiesModItems.HOG_RIDER_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(RubiesandrabiesModItems.BANANA.get());
+			tabData.accept(RubiesandrabiesModItems.KFC_BUCKET.get());
+			tabData.accept(RubiesandrabiesModItems.KOOL_AID.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(RubiesandrabiesModBlocks.RUBY_TETRAHEXAHEDRON_STAIRS.get().asItem());
 			tabData.accept(RubiesandrabiesModBlocks.RUBY_TILE_STAIRS.get().asItem());
@@ -165,11 +171,14 @@ public class RubiesandrabiesModTabs {
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(RubiesandrabiesModItems.SUGARCANE_PICKAXE.get());
 			tabData.accept(RubiesandrabiesModItems.THE_TRAVEL_DIMENSION.get());
+			tabData.accept(RubiesandrabiesModItems.DIMENSION_OF_PEACE.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(RubiesandrabiesModItems.RACIST_HELMET.get());
 			tabData.accept(RubiesandrabiesModItems.RACIST_CHESTPLATE.get());
 			tabData.accept(RubiesandrabiesModItems.RACIST_LEGGINGS.get());
 			tabData.accept(RubiesandrabiesModItems.RACIST_BOOTS.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
+			tabData.accept(RubiesandrabiesModBlocks.HUMAN_GENERATOR.get().asItem());
 		}
 	}
 }

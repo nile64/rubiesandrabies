@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "rubiesandrabies:kfc_bucket"
+    },
+    "title": {
+      "translate": "advancements.finger_lickin.title"
+    },
+    "description": {
+      "translate": "advancements.finger_lickin.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "finger_lickin_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "rubiesandrabies:infinite_power"
+}

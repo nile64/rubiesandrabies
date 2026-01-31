@@ -243,5 +243,19 @@
   "item.rubiesandrabies.the_traveller_spawn_egg": "The Traveller Spawn Egg",
   "entity.rubiesandrabies.the_traveller": "The Traveller",
   "advancements.a_world_of_rubies.title": "A World Of Rubies",
-  "advancements.a_world_of_rubies.descr": "discover the rubies"
+  "advancements.a_world_of_rubies.descr": "discover the rubies",
+  "item.rubiesandrabies.kfc_bucket": "KFC Bucket",
+  "item.rubiesandrabies.kool_aid": "Kool Aid",
+  "gui.rubiesandrabies.human_menu.label_human_generator": "Human Generator",
+  "item.rubiesandrabies.human_generator": "Human Generator",
+  "entity.rubiesandrabies.hog_rider": "Hog Rider",
+  "item.rubiesandrabies.hog_rider_spawn_egg": "Hog Rider Spawn Egg",
+  "gui.rubiesandrabies.human_menu.button_generate": "GENERATE",
+  "advancements.finger_lickin.descr": "They LOVEE KFC",
+  "advancements.finger_lickin.title": "Finger Lickin\u0027!",
+  "biome.rubiesandrabies.place_holder_deezy": "w",
+  "item.rubiesandrabies.dimension_of_peace": "Dimension Of Peace Portal Igniter",
+  "subtitles.windland_ambience": "",
+  "biome.rubiesandrabies.windland": "Windland",
+  "subtitles.windland": ""
 }

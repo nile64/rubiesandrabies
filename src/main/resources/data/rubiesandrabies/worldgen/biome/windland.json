@@ -1,0 +1,58 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.3,
+  "downfall": 0,
+  "effects": {
+    "ambient_sound": "rubiesandrabies:windland_ambience",
+    "music": [
+      {
+        "weight": 1,
+        "data": {
+          "sound": "rubiesandrabies:windland",
+          "min_delay": 12000,
+          "max_delay": 24000,
+          "replace_current_music": true
+        }
+      }
+    ],
+    "particle": {
+      "options": {
+        "type": "cloud"
+      },
+      "probability": 0.01
+    },
+    "foliage_color": -13421773,
+    "grass_color": -10066330,
+    "sky_color": -3355444,
+    "fog_color": -10066330,
+    "water_color": -6710785,
+    "water_fog_color": -3355393
+  },
+  "spawners": {
+    "monster": [],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": [],
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ]
+}

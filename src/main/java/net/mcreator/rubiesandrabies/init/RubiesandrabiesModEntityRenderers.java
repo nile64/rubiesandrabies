@@ -26,5 +26,6 @@ public class RubiesandrabiesModEntityRenderers {
 		event.registerEntityRenderer(RubiesandrabiesModEntities.TROLLENTITYARTIFICIAL.get(), TrollentityartificialRenderer::new);
 		event.registerEntityRenderer(RubiesandrabiesModEntities.TROLLENTITY.get(), TrollentityRenderer::new);
 		event.registerEntityRenderer(RubiesandrabiesModEntities.THE_TRAVELLER.get(), TheTravellerRenderer::new);
+		event.registerEntityRenderer(RubiesandrabiesModEntities.HOG_RIDER.get(), HogRiderRenderer::new);
 	}
 }

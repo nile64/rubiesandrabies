@@ -10,6 +10,7 @@ import net.neoforged.api.distmarker.Dist;
 
 import net.mcreator.rubiesandrabies.client.gui.SpaceMenuScreen;
 import net.mcreator.rubiesandrabies.client.gui.SkyfactoryGuiScreen;
+import net.mcreator.rubiesandrabies.client.gui.HumanMenuScreen;
 import net.mcreator.rubiesandrabies.client.gui.EvilMachineGUIScreen;
 
 @EventBusSubscriber(Dist.CLIENT)
@@ -19,6 +20,7 @@ public class RubiesandrabiesModScreens {
 		event.register(RubiesandrabiesModMenus.SKYFACTORY_GUI.get(), SkyfactoryGuiScreen::new);
 		event.register(RubiesandrabiesModMenus.SPACE_MENU.get(), SpaceMenuScreen::new);
 		event.register(RubiesandrabiesModMenus.EVIL_MACHINE_GUI.get(), EvilMachineGUIScreen::new);
+		event.register(RubiesandrabiesModMenus.HUMAN_MENU.get(), HumanMenuScreen::new);
 	}
 
 	public interface ScreenAccessor {

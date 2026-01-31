@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:feather",
+    "minecraft:cooked_chicken",
+    "minecraft:bucket"
+  ],
+  "result": {
+    "id": "rubiesandrabies:kfc_bucket",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "rubiesandrabies:block/dimension_of_peace_portal_ew"
+    },
+    "axis=x": {
+      "model": "rubiesandrabies:block/dimension_of_peace_portal_ns"
+    }
+  }
+}

@@ -333,5 +333,21 @@
         "stream": false
       }
     ]
+  },
+  "windland": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:windland",
+        "stream": true
+      }
+    ]
+  },
+  "windland_ambience": {
+    "sounds": [
+      {
+        "name": "rubiesandrabies:windland_ambience",
+        "stream": false
+      }
+    ]
   }
 }

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rubiesandrabies:block/human_gen_rest",
+    "up": "rubiesandrabies:block/human_gen_top",
+    "north": "rubiesandrabies:block/human_gen_rest",
+    "east": "rubiesandrabies:block/human_gen_rest",
+    "south": "rubiesandrabies:block/human_gen_rest",
+    "west": "rubiesandrabies:block/human_gen_rest",
+    "particle": "rubiesandrabies:block/human_gen_rest"
+  },
+  "render_type": "solid"
+}
