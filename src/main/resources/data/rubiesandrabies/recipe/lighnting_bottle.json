@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:glass_bottle",
+    "rubiesandrabies:mangled_armor_piece"
+  ],
+  "result": {
+    "id": "rubiesandrabies:lightning_in_a_bottle",
+    "count": 1
+  }
+}

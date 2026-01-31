@@ -53,4 +53,6 @@ public class RubiesandrabiesModSounds {
 	public static final DeferredHolder<SoundEvent, SoundEvent> DAVEDEATH = REGISTRY.register("davedeath", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("rubiesandrabies", "davedeath")));
 	public static final DeferredHolder<SoundEvent, SoundEvent> CACOPHONY = REGISTRY.register("cacophony", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("rubiesandrabies", "cacophony")));
 	public static final DeferredHolder<SoundEvent, SoundEvent> DAVESCREAM = REGISTRY.register("davescream", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("rubiesandrabies", "davescream")));
+	public static final DeferredHolder<SoundEvent, SoundEvent> THUNDERLIVE = REGISTRY.register("thunderlive", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("rubiesandrabies", "thunderlive")));
+	public static final DeferredHolder<SoundEvent, SoundEvent> THUNDERDEATH = REGISTRY.register("thunderdeath", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("rubiesandrabies", "thunderdeath")));
 }

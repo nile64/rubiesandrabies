@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:torch",
+    "minecraft:glowstone",
+    "rubiesandrabies:zorpinium_rod",
+    "minecraft:torch"
+  ],
+  "result": {
+    "id": "rubiesandrabies:the_travel_dimension",
+    "count": 1
+  }
+}

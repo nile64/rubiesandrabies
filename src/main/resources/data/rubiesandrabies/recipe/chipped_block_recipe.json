@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": "minecraft:stone_pressure_plate",
+    "b": "minecraft:deepslate"
+  },
+  "result": {
+    "id": "rubiesandrabies:deleted_mod_element",
+    "count": 4
+  }
+}

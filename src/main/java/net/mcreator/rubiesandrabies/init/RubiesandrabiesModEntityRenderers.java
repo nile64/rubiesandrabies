@@ -22,5 +22,9 @@ public class RubiesandrabiesModEntityRenderers {
 		event.registerEntityRenderer(RubiesandrabiesModEntities.FEMGRAM.get(), FemgrambossRenderer::new);
 		event.registerEntityRenderer(RubiesandrabiesModEntities.KNIGHT_OF_BLUNDER.get(), KnightOfBlunderRenderer::new);
 		event.registerEntityRenderer(RubiesandrabiesModEntities.DAVE_MUSTAINE.get(), DaveMustaineRenderer::new);
+		event.registerEntityRenderer(RubiesandrabiesModEntities.KNIGHT_OF_THUNDER.get(), KnightOfThunderRenderer::new);
+		event.registerEntityRenderer(RubiesandrabiesModEntities.TROLLENTITY.get(), TrollentityRenderer::new);
+		event.registerEntityRenderer(RubiesandrabiesModEntities.TROLLENTITYARTIFICIAL.get(), TrollentityartificialRenderer::new);
+		event.registerEntityRenderer(RubiesandrabiesModEntities.THE_TRAVELLER.get(), TheTravellerRenderer::new);
 	}
 }

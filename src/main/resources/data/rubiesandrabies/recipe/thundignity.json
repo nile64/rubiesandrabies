@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "rubiesandrabies:stagnant_knights_dignity",
+    "rubiesandrabies:deleted_mod_element"
+  ],
+  "result": {
+    "id": "rubiesandrabies:thunderous_dignity",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "rubiesandrabies:deleted_mod_element",
+  "spawners": {
+    "type": "rubiesandrabies:the_traveller",
+    "weight": 4,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

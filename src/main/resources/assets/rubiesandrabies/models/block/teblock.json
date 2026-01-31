@@ -1,0 +1,11 @@
+{
+  "parent": "rubiesandrabies:custom/teblock",
+  "textures": {
+    "all": "minecraft:block/barrel_side",
+    "particle": "minecraft:block/barrel_side",
+    "1": "rubiesandrabies:block/teblock",
+    "3": "rubiesandrabies:block/teblockknob",
+    "missing": "rubiesandrabies:block/"
+  },
+  "render_type": "translucent"
+}

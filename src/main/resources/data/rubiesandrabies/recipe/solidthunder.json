@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bab",
+    "aba"
+  ],
+  "key": {
+    "a": "rubiesandrabies:thunderous_essence",
+    "b": "rubiesandrabies:moon_surface"
+  },
+  "result": {
+    "id": "rubiesandrabies:solidified_thunderous_essence",
+    "count": 1
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "_fv": 79,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:TheTravelBiome"
+      }
+    ],
+    "worldGenType": "End like gen",
+    "mainFillerBlock": {
+      "value": "Blocks.DEAD_HORN_CORAL_BLOCK"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:NonNewtonianFluid"
+    },
+    "seaLevel": 16,
+    "generateOreVeins": true,
+    "generateAquifers": true,
+    "horizontalNoiseSize": 1,
+    "verticalNoiseSize": 4,
+    "defaultEffects": "overworld",
+    "useCustomEffects": true,
+    "hasClouds": false,
+    "cloudHeight": 192,
+    "skyType": "END",
+    "sunHeightAffectsFog": false,
+    "canRespawnHere": false,
+    "hasFog": true,
+    "ambientLight": 0.060000000000000005,
+    "doesWaterVaporize": false,
+    "hasFixedTime": false,
+    "fixedTimeValue": 0,
+    "coordinateScale": 1000.0,
+    "infiniburnTag": "minecraft:infiniburn_travel",
+    "bedWorks": false,
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "piglinSafe": false,
+    "hasRaids": false,
+    "minMonsterSpawnLightLimit": 0,
+    "maxMonsterSpawnLightLimit": 7,
+    "monsterSpawnBlockLightLimit": 0,
+    "portalFrame": {
+      "value": "CUSTOM:ChippedBlock"
+    },
+    "portalParticles": {
+      "value": "PORTAL"
+    },
+    "portalLuminance": 15,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "enableIgniter": true,
+    "igniterName": "a very bright idea",
+    "igniterRarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      },
+      {
+        "value": "CUSTOM:RubiesRabiesTab"
+      }
+    ],
+    "texture": "minecraft:light_15",
+    "portalTexture": "travdimportal",
+    "enablePortal": true
+  }
+}

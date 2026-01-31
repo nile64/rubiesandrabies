@@ -1,0 +1,100 @@
+{
+  "_fv": 79,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "tnarmor_head",
+    "enableBody": true,
+    "textureBody": "tnarmor_body",
+    "enableLeggings": true,
+    "textureLeggings": "tnarmor_leggings",
+    "enableBoots": true,
+    "textureBoots": "tnarmor_boots",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:ZorpiniumOblivion"
+      }
+    ],
+    "armorTextureFile": "tnarmor",
+    "helmetName": "Thunder Helmet",
+    "bodyName": "Thunder Chestplate",
+    "leggingsName": "Thunder Leggings",
+    "bootsName": "Thunder Boots",
+    "helmetSpecialInformation": {
+      "fixedValue": []
+    },
+    "bodySpecialInformation": {
+      "fixedValue": []
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": []
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": []
+    },
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": true,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": true,
+    "helmetGlowCondition": {
+      "fixedValue": false
+    },
+    "bodyGlowCondition": {
+      "fixedValue": false
+    },
+    "leggingsGlowCondition": {
+      "fixedValue": false
+    },
+    "bootsGlowCondition": {
+      "fixedValue": false
+    },
+    "helmetPiglinNeutral": {
+      "fixedValue": true
+    },
+    "bodyPiglinNeutral": {
+      "fixedValue": true
+    },
+    "leggingsPiglinNeutral": {
+      "fixedValue": true
+    },
+    "bootsPiglinNeutral": {
+      "fixedValue": true
+    },
+    "maxDamage": 70,
+    "damageValueHelmet": 7,
+    "damageValueBody": 11,
+    "damageValueLeggings": 9,
+    "damageValueBoots": 6,
+    "enchantability": 9,
+    "toughness": 20.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": "CUSTOM:thunderlive"
+    },
+    "repairItems": []
+  }
+}

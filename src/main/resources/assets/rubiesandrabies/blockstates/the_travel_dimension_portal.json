@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "rubiesandrabies:block/the_travel_dimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "rubiesandrabies:block/the_travel_dimension_portal_ns"
+    }
+  }
+}

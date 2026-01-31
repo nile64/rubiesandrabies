@@ -1,0 +1,48 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.5,
+  "downfall": 0,
+  "effects": {
+    "additions_sound": {
+      "sound": "rubiesandrabies:yah",
+      "tick_chance": 0.0111
+    },
+    "particle": {
+      "options": {
+        "type": "dragon_breath"
+      },
+      "probability": 0.05
+    },
+    "foliage_color": -16777216,
+    "grass_color": -16777216,
+    "sky_color": -16777216,
+    "fog_color": -16777216,
+    "water_color": -1,
+    "water_fog_color": -16777216
+  },
+  "spawners": {
+    "monster": [],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": [],
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ]
+}

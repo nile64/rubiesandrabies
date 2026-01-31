@@ -1,0 +1,39 @@
+{
+  "display": {
+    "background": "rubiesandrabies:screens/untitlfgfdged",
+    "icon": {
+      "id": "rubiesandrabies:ruby"
+    },
+    "title": {
+      "translate": "advancements.a_world_of_rubies.title"
+    },
+    "description": {
+      "translate": "advancements.a_world_of_rubies.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "a_world_of_rubies_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dirt"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

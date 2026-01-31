@@ -1,0 +1,11 @@
+{
+  "parent": "rubiesandrabies:custom/evil_machine",
+  "textures": {
+    "all": "rubiesandrabies:block/texture1",
+    "particle": "rubiesandrabies:block/texture1",
+    "0": "rubiesandrabies:block/texture1",
+    "1": "rubiesandrabies:block/texture2",
+    "2": "rubiesandrabies:block/texture3"
+  },
+  "render_type": "solid"
+}
