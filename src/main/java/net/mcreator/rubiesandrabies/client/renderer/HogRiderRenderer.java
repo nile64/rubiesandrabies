@@ -1,5 +1,15 @@
 package net.mcreator.rubiesandrabies.client.renderer;
 
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.client.renderer.entity.state.HumanoidRenderState;
+import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
+import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
+import net.minecraft.client.renderer.entity.EntityRendererProvider;
+import net.minecraft.client.model.geom.ModelLayers;
+import net.minecraft.client.model.HumanoidModel;
+
+import net.mcreator.rubiesandrabies.entity.HogRiderEntity;
+
 public class HogRiderRenderer extends HumanoidMobRenderer<HogRiderEntity, HumanoidRenderState, HumanoidModel<HumanoidRenderState>> {
 	private HogRiderEntity entity = null;
 

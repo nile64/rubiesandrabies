@@ -240,5 +240,22 @@
   "item.rubiesandrabies.trollentityartificial_spawn_egg": "Trollentityartificial Spawn Egg",
   "entity.rubiesandrabies.trollentityartificial": "Trollentityartificial",
   "item.rubiesandrabies.lightning_in_a_bottle": "Lightning In A Bottle",
-  "item.rubiesandrabies.thunder_infused_ingot": "Thunder Infused Ingot"
+  "item.rubiesandrabies.thunder_infused_ingot": "Thunder Infused Ingot",
+  "advancements.a_worldof_rabies.title": "A World of Rabies",
+  "advancements.a_worldof_rabies.descr": "Suffer the Rabies",
+  "item.rubiesandrabies.thunder_blade": "Thunder Blade",
+  "gui.rubiesandrabies.evil_machine_gui.label_gp0_fluid": "Gp0 Fluid",
+  "biome.rubiesandrabies.the_travel_biome": "The Travel Biome",
+  "advancements.a_world_of_rubies.title": "A World Of Rubies",
+  "advancements.a_world_of_rubies.descr": "discover the rubies",
+  "gui.rubiesandrabies.human_menu.button_generate": "GENERATE",
+  "gui.rubiesandrabies.human_menu.label_human_generator": "Human Generator",
+  "advancements.finger_lickin.descr": "They LOVEE KFC",
+  "advancements.finger_lickin.title": "Finger Lickin\u0027!",
+  "biome.rubiesandrabies.place_holder_deezy": "w",
+  "item.rubiesandrabies.kfc_bucket": "KFC Bucket",
+  "item.rubiesandrabies.human_generator": "Human Generator",
+  "item.rubiesandrabies.kool_aid": "Kool Aid",
+  "entity.rubiesandrabies.hog_rider": "Hog Rider",
+  "item.rubiesandrabies.hog_rider_spawn_egg": "Hog Rider Spawn Egg"
 }

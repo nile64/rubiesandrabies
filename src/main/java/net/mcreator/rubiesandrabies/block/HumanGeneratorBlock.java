@@ -1,6 +1,21 @@
 package net.mcreator.rubiesandrabies.block;
 
-import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
+import net.neoforged.neoforge.common.util.DeferredSoundType;
+
+import net.minecraft.world.phys.BlockHitResult;
+import net.minecraft.world.level.material.PushReaction;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.InteractionResult;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.core.Direction;
+import net.minecraft.core.BlockPos;
+
+import net.mcreator.rubiesandrabies.procedures.HumanGeneratorOnBlockRightclickedProcedure;
 
 public class HumanGeneratorBlock extends Block {
 	public HumanGeneratorBlock(BlockBehaviour.Properties properties) {

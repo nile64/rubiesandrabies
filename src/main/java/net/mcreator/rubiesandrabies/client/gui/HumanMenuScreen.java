@@ -1,5 +1,21 @@
 package net.mcreator.rubiesandrabies.client.gui;
 
+import net.neoforged.neoforge.client.network.ClientPacketDistributor;
+
+import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.player.Inventory;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.chat.Component;
+import net.minecraft.client.renderer.RenderPipelines;
+import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
+import net.minecraft.client.gui.components.Button;
+import net.minecraft.client.gui.GuiGraphics;
+
+import net.mcreator.rubiesandrabies.world.inventory.HumanMenuMenu;
+import net.mcreator.rubiesandrabies.network.HumanMenuButtonMessage;
+import net.mcreator.rubiesandrabies.init.RubiesandrabiesModScreens;
+
 public class HumanMenuScreen extends AbstractContainerScreen<HumanMenuMenu> implements RubiesandrabiesModScreens.ScreenAccessor {
 	private final Level world;
 	private final int x, y, z;
@@ -58,6 +74,12 @@ public class HumanMenuScreen extends AbstractContainerScreen<HumanMenuMenu> impl
 	public void init() {
 		super.init();
 		button_generate = Button.builder(Component.translatable("gui.rubiesandrabies.human_menu.button_generate"), e -> {
+			int x = HumanMenuScreen.this.x;
+			int y = HumanMenuScreen.this.y;
+			if (true) {
+				ClientPacketDistributor.sendToServer(new HumanMenuButtonMessage(0, x, y, z));
+				HumanMenuButtonMessage.handleButtonAction(entity, 0, x, y, z);
+			}
 		}).bounds(this.leftPos + 56, this.topPos + 56, 67, 20).build();
 		this.addRenderableWidget(button_generate);
 	}
